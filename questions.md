@@ -9,7 +9,10 @@
 - Quelle place pour Romain Gache : parts, apport (le développement contre
   des parts ?), rémunération ?
 - Quel statut pour Gaëlle : associée, gérante, salariée ?
-- Quel lien avec l'agence de Lilian : partenaire, apporteur, sous-traitant ?
+- Quel lien avec Com'2, l'agence de Lilian : partenaire, apporteur
+  d'affaires dans les deux sens, sous-traitant ? Où passe la frontière entre
+  la prospection des prescripteurs (secrétariat) et l'acquisition par les
+  réseaux (Com'2) ?
 
 ## Offre
 

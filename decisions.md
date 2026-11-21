@@ -31,3 +31,7 @@ Une ligne par décision : la date, ce qui est décidé, pourquoi.
   fait tout, piloté par Gaëlle au début. Raison : répondre à la fois aux
   artisans qui veulent garder l'administratif en famille et à ceux qui
   veulent tout déléguer.
+- **21/11/2026** : le projet se monte avec Romain Gache. Lilian (agence
+  Com'2) n'en est pas associé ; la nouvelle société ne fait pas concurrence
+  à Com'2 (réseaux sociaux, site internet), sauf si c'est vraiment gênant
+  pour le secrétariat, à voir alors. Raison : Roland a des parts dans Com'2.
