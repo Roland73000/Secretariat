@@ -130,3 +130,19 @@ de BTP Performance et la nouvelle société.
   accord pour un nom proche. À régler dans les statuts ou par un accord.
 - **INPI** : la recherche « Citadel* » en classes 35, 9 et 42 est la
   première à faire.
+
+## Premiers résultats INPI (21/11/2026, base data.inpi.fr)
+
+Recherche approchante sur la base des marques (France, Union européenne,
+internationales désignant la France). Premier tri seulement, à faire
+confirmer par un conseil en propriété industrielle.
+
+- **Faîtière** : 3 marques seulement, toutes pour des vins (classe 33),
+  dont une en 35 pour un événement (« journées festi'faîtières »). **Voie
+  très dégagée** pour un service de gestion (classes 35, 9, 42).
+- **Citadel / Citadelle et variantes (Citadela…)** : 299 marques, dont
+  plusieurs en classes 35 et 42 (par exemple CITADEL EDGE, en 9, 35, 37 et
+  42 ; Cit'Loisirs CITADELLE ARRAS, en 35). **Terrain encombré** : risque
+  d'opposition pour toute variante proche.
+- Les autres noms : le site a limité le nombre de recherches (vérification
+  anti-robot revenue). À reprendre plus lentement.
