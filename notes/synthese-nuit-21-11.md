@@ -151,9 +151,17 @@ propriété industrielle) :
 | **Archère** | archere.fr libre | proche de plusieurs marques « Archer » en logiciels et services | risque moyen |
 | **Armature** | larmature.fr libre | beaucoup de marques du béton armé, dont en services | risque moyen à fort |
 
-Les noms à plusieurs mots (Tiré au Cordeau, L'Aide de Camp, La Poutre
-Maîtresse…) n'ont pas encore été passés à l'INPI : le site limite le nombre
-de recherches. Le détail est dans `notes/noms-evocateurs.md`.
+Noms à plusieurs mots, passés ensuite (recherche de l'expression exacte) :
+
+| Nom | INPI | Avis |
+| --- | --- | --- |
+| **Tiré au Cordeau** | aucune marque trouvée | dégagé (tireaucordeau.fr et .com libres) |
+| **La Poutre Maîtresse** | aucune marque trouvée | dégagé (lapoutremaitresse.fr libre) |
+| **Libre d'Œuvre** | aucune marque trouvée | dégagé (libredoeuvre.fr et .com libres) |
+| **L'Aide de Camp** | **une marque « AIDE DE CAMP » enregistrée en classe 35** | bloqué, à écarter |
+
+Une recherche sur l'expression exacte peut manquer des marques proches :
+c'est un premier tri. Le détail est dans `notes/noms-evocateurs.md`.
 
 ## 5. Ce que j'attends de toi
 
@@ -167,7 +175,8 @@ de recherches. Le détail est dans `notes/noms-evocateurs.md`.
    « Qui fait l'administratif aujourd'hui ? » et « Combien d'heures par
    semaine ? ». C'est une modification du CRM, donc à faire depuis le
    projet CRM et non d'ici.
-5. **Le nom** : Faîtière et Bastidelle sont en tête. Tu veux que je creuse
-   dans ces directions, ou que je passe les noms à plusieurs mots à l'INPI ?
+5. **Le nom** : en un mot féminin, Faîtière et Bastidelle sont en tête ;
+   en plusieurs mots, Tiré au Cordeau, La Poutre Maîtresse et Libre d'Œuvre
+   sont dégagés. Lesquels gardes-tu pour la short-list ?
 6. **Le brief de Romain** : je le rédige sur la visite de chantier et le
    tableau de bord ?

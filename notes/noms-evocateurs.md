@@ -146,3 +146,10 @@ confirmer par un conseil en propriété industrielle.
   d'opposition pour toute variante proche.
 - Les autres noms : le site a limité le nombre de recherches (vérification
   anti-robot revenue). À reprendre plus lentement.
+- Suite (même nuit, plus lentement) : **Archère** proche de plusieurs
+  marques « Archer » en 9, 35 et 42 (risque moyen) ; **Armature** : 68
+  marques en 9, 35 ou 42, surtout du béton armé (risque moyen à fort) ;
+  **Bastidelle** : 2 marques de vin expirées (dégagé) ; **Tiré au
+  Cordeau**, **La Poutre Maîtresse**, **Libre d'Œuvre** : aucune marque
+  trouvée sur l'expression exacte ; **L'Aide de Camp** : marque enregistrée
+  en classe 35, à écarter.
