@@ -34,7 +34,7 @@ accent et « Gaëlle » avec « lle ».
 | `decisions.md` | les décisions prises, datées, avec leur raison |
 | `questions.md` | les questions ouvertes, à trancher |
 | `notes/` | une note par thème (offre, cible, prix, secrétaires, juridique…) |
-| Miro | la carte visuelle du projet (lien à noter ici une fois créée) |
+| Miro | la carte visuelle du projet (tableau « Projet Secrétariat BTP : vision », https://miro.com/app/board/uXjVELM5zVs=/) |
 
 ## Le CRM de BTP Performance : lecture seule
 
