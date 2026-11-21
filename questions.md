@@ -32,7 +32,10 @@
 
 - Quel prix, et sous quelle forme (forfait mensuel, à l'heure, à la tâche) ?
 - Combien d'artisans une secrétaire peut-elle suivre ?
-- Secrétaires salariées ou indépendantes ?
+- Secrétaires salariées ou indépendantes ? Recrutées en priorité parmi les
+  conjointes d'artisans : comment, sans discrimination à l'embauche ?
+- Une secrétaire du réseau peut-elle suivre un concurrent de l'entreprise de
+  son conjoint ?
 
 ## Juridique
 

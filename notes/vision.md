@@ -64,6 +64,32 @@ Ce que l'artisan garde (**A**) et ce que le service pilote (**S**).
 - **Formule « tout compris »** : le service fait tout, piloté par Gaëlle au
   début, avec des embauches au fil des clients.
 
+## Un axe stratégique : les femmes des dirigeants du BTP
+
+Dit par Roland le 21/11/2026 : il y a une vraie stratégie à faire entrer
+les femmes des dirigeants du BTP dans les entreprises du BTP. Elles sont
+présentes à deux endroits du projet :
+1. **Comme clientes**, dans la formule « bras droit » : elles prennent en main
+   l'administratif de l'entreprise de leur conjoint, avec l'outil, une
+   formation et un suivi.
+2. **Comme secrétaires du service**, dans la formule « tout compris » : elles
+   connaissent déjà le bâtiment, son vocabulaire et ses contraintes, et
+   peuvent travailler à distance, à temps choisi, pour d'autres artisans.
+
+Le parcours possible : formée en « bras droit », puis secrétaire du réseau
+pour d'autres entreprises. Gaëlle en est le premier exemple.
+
+Remarques de Claude :
+- C'est un rempart solide face à l'IA : une communauté humaine qui connaît le
+  métier ne se copie pas.
+- **Recrutement** : en France, on ne peut pas réserver une offre d'emploi aux
+  femmes. On peut cibler le profil « conjoint ou conjointe d'artisan » et
+  communiquer vers elles, mais sans exclure un homme qui postulerait.
+- **Confidentialité** : une secrétaire qui travaille aussi pour l'entreprise
+  de son conjoint ne doit pas suivre un concurrent direct de celui-ci.
+- **Statut** : salariée de la nouvelle société, indépendante, ou cumul avec
+  un statut dans l'entreprise du conjoint : à voir en séance juridique.
+
 ## Ce qui n'est pas dans le projet
 
 - **Pas de CRM** : ni BTP Performance ni la nouvelle société n'en proposent.
