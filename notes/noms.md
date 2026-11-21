@@ -22,6 +22,32 @@ site demande une vérification anti-robot que Roland doit passer lui-même).
 | Le Bureau du Chantier | bureauduchantier.fr | libre | simple et clair, sans jeu de mots |
 | Chantizen | chantizen.fr | libre | nom inventé, chantier + zen ; facile à protéger, moins parlant |
 
+## Pouvoir déposer la marque (remarque de Roland, 21/11/2026)
+
+Le dépôt de BTP Performance a été difficile parce que le nom décrit le
+service. En droit des marques, un nom est refusé s'il est **descriptif** du
+service ; il est accepté s'il est **évocateur**, **arbitraire** (un mot
+courant sans rapport direct avec le service, comme Apple pour des
+ordinateurs) ou **inventé**. Plus le nom est parlant, plus il est fragile.
+
+| Niveau | Noms | Dépôt |
+| --- | --- | --- |
+| Descriptif | Bras Droit BTP, Intendance BTP, Mains Libres BTP, Le Bureau du Chantier | difficile, à écarter |
+| Limite | Ma Base Arrière | possible, mais faible |
+| Évocateur ou arbitraire | Libre d'Œuvre, Quartier-Maître, La Seconde Ligne, L'Angle Droit | bon compromis |
+| Inventé | Chantizen, Liberœuvre, Aplombo, Chantelio, Œuvria | le plus solide, moins parlant |
+
+Quartier-Maître est déposable : le mot existe, mais il ne décrit pas un
+service de secrétariat. Le risque réel, ce sont les marques déjà déposées,
+à vérifier à l'INPI.
+
+La méthode recommandée : **un nom distinctif + une phrase qui explique**,
+par exemple « Libre d'Œuvre, le bureau des artisans du bâtiment ». On
+dépose le nom ; la phrase dit le service.
+
+Noms inventés ajoutés, .fr libre le 21/11/2026 : liberoeuvre.fr (et .com),
+aplombo.fr, chantelio.fr, oeuvria.fr, quartima.fr, secondia.fr.
+
 ## Écartés (.fr déjà pris)
 
 basearriere, lintendance, lintendant, angledroit, lequerre, brasdroit,
