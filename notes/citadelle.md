@@ -19,8 +19,7 @@ conversations du projet CRM-Roland (lecture seule). À compléter par Roland.
   sont faites par **Louis**, qui travaille pour Romain. Roland transmet les
   demandes dans la messagerie de la plateforme.
 - BTP Performance et Citadelle appartiennent à la société de Roland,
-  **Option est Solution** (orthographe à confirmer : « Option », sans S, et
-  « est » comme le verbe). La nouvelle société sera, elle, une société à
+  **Option & Solution**. La nouvelle société sera, elle, une société à
   part, avec son propre nom.
 - Un module de **planification des chantiers** est en projet (cahier des
   charges dicté par Roland le 19/11/2026). Roland y voyait déjà des
@@ -40,5 +39,5 @@ besoin (chantiers, heures, trésorerie). D'où une question de fond : l'outil
 du secrétariat est-il une nouvelle appli, un prolongement de Citadelle, ou
 les deux reliés par API ? Comme c'est la même équipe (Romain et Louis) des
 deux côtés, le branchement entre les deux est facilité, mais la question de
-qui possède quoi (Option est Solution ou la nouvelle société) reste à
+qui possède quoi (Option & Solution ou la nouvelle société) reste à
 poser.
