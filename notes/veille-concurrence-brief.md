@@ -29,6 +29,8 @@ le reste est piloté pour lui », pour :
   CAPEB, FFB).
 - Outils de prospection et de prise de rendez-vous en ligne pour artisans.
 - Assistants IA pour artisans (dictée, devis par IA, agents).
+- Aide au recrutement pour les entreprises du BTP (plateformes d'emploi
+  spécialisées, cabinets, offres des fédérations, apprentissage).
 
 **À l'étranger**
 - « Virtual assistant for contractors », « back office for contractors »,

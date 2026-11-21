@@ -90,6 +90,19 @@ Remarques de Claude :
 - **Statut** : salariée de la nouvelle société, indépendante, ou cumul avec
   un statut dans l'entreprise du conjoint : à voir en séance juridique.
 
+## Idée à creuser : aider l'artisan à recruter
+
+Dit par Roland le 21/11/2026 : recruter des salariés est un vrai problème
+dans le BTP. Pistes de Claude, rien n'est décidé :
+- rédiger et diffuser les annonces (France Travail, Indeed, réseaux) ;
+- trier les candidatures et faire un premier appel de qualification ;
+- organiser les entretiens dans l'agenda de l'artisan ;
+- faire l'administratif de l'embauche : déclaration préalable, mutuelle,
+  médecine du travail, contrat ;
+- apprentis : contrat, aides de l'État, lien avec le CFA.
+À vérifier : les règles de l'activité de placement, et la frontière avec
+les agences d'intérim et les cabinets de recrutement.
+
 ## Ce qui n'est pas dans le projet
 
 - **Pas de CRM** : ni BTP Performance ni la nouvelle société n'en proposent.
