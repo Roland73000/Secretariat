@@ -14,7 +14,11 @@
 ## Offre
 
 - Que fait-on à la main au lancement, que développe-t-on ensuite ?
+- L'outil du secrétariat : une nouvelle appli (Romain), un prolongement de
+  Citadelle (Louis), ou les deux reliés par API ? Voir `notes/citadelle.md`.
 - Qualification des prospects avant le rendez-vous : qui, comment ?
+- Appels entrants (le client qui appelle l'artisan) : un humain décroche
+  toujours, ou l'IA peut prendre un message en dehors des heures ?
 - Quels logiciels de devis viser d'abord (Obat, Costructor…) ?
 - La formule « bras droit » : qui la vend, la nouvelle société ou BTP
   Performance ?

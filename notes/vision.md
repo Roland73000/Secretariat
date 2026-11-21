@@ -41,8 +41,9 @@ Ce que l'artisan garde (**A**) et ce que le service pilote (**S**).
    mesures et les photos. Le service l'aide à structurer ce rendez-vous et la
    collecte d'informations.
 4. **Devis** (A, aidé) : c'est l'artisan qui le fait et le valide, dans son
-   propre logiciel (Obat, Costructor, autre : orthographes à vérifier). Les
-   informations collectées doivent y arriver toutes seules.
+   propre logiciel (Costructor, Obat, Interfast, Vertuoza, Sage, EBP). Le
+   service peut en préparer un brouillon à distance. Les informations
+   collectées doivent y arriver toutes seules, par les API de ces logiciels.
 5. **Rendez-vous de présentation du devis** (S organise, A présente).
 6. **Relances jusqu'à la signature** (S).
 7. **Commandes de matériaux** (S, automatisées si possible).
@@ -103,12 +104,9 @@ l'aise avec l'informatique.
    suivre ses paiements : il faut un mandat clair, et une assurance
    responsabilité civile professionnelle.
 
-## Orientations à confirmer par Roland
+## Orientations validées le 21/11/2026
 
-Elles passeront dans `decisions.md` une fois tranchées.
-
-- Le BTP d'abord, et seulement le BTP.
-- Pas de CRM : on se branche sur ceux des artisans.
-- L'artisan fait et valide toujours ses devis.
-- Les appels restent humains, pas d'IA vocale pour l'instant.
-- Deux formules : « bras droit » et « tout compris ».
+Toutes les cinq sont dans `decisions.md` : le BTP uniquement ; pas de
+logiciel de devis et de factures, on se branche par API ; l'artisan valide
+toujours le devis, le service peut en préparer un brouillon ; appels
+sortants humains, dictée vocale pour l'artisan ; deux formules.

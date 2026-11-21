@@ -1,0 +1,36 @@
+# Citadelle
+
+Ce qu'on sait de Citadelle, retrouvé le 21/11/2026 dans les mémoires et les
+conversations du projet CRM-Roland (lecture seule). À compléter par Roland.
+
+## Ce que c'est
+
+- **Le logiciel de gestion des membres de BTP Performance**, dans la
+  plateforme app.btpperformance.fr (la V2 de la plateforme), sur ordinateur
+  et en application téléphone.
+- Les membres y saisissent les données de leur entreprise ; des coachings
+  portent sur son utilisation (« Thème : Citadelle »), et l'intégration des
+  nouveaux membres passe par des rendez-vous « Intégration Citadelle ».
+- On y trouve notamment : un tableau de bord, les charges de l'entreprise,
+  la trésorerie, les dossiers de chantier, le pointage des heures par jour et
+  par personne, les heures prévues et le « point de perte » (le seuil à
+  partir duquel un chantier ne rapporte plus).
+- Les modifications sont faites par **Louis** ; Roland lui transmet les
+  demandes dans la messagerie de la plateforme.
+- Un module de **planification des chantiers** est en projet (cahier des
+  charges dicté par Roland le 19/11/2026). Roland y voyait déjà des
+  automatisations possibles « avec l'entreprise de secrétariat », par
+  exemple la relance des sous-traitants.
+
+## À ne pas confondre
+
+L'« écosystème CITADELLE » (La Caserne, Le Bivouac, Le Poste de Commandement)
+a été inventé par Claude et n'a jamais été validé par Roland : on ne
+l'emploie pas. « Citadelle » désigne seulement le logiciel.
+
+## Pourquoi c'est important pour le secrétariat
+
+Citadelle contient déjà une grande partie des chiffres dont le service a
+besoin (chantiers, heures, trésorerie). D'où une question de fond : l'outil
+du secrétariat est-il une nouvelle appli (Romain), un prolongement de
+Citadelle, ou les deux reliés par API ?
