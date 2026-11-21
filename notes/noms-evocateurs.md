@@ -72,3 +72,34 @@ Main Forte, Le Fourrier, L'Ordonnance, Aide de Camp (sans « L' »), État-Major
 Le Major, Le Pilier, La Mêlée, Le Navigateur, La Sentinelle, La Garnison,
 L'Avant-Garde, L'Écuyer, Le Compagnon, L'Échafaudage, Le Jalon, Le Faîtage,
 La Truelle, La Fondation, Le Niveau, L'Assise.
+
+## 5. Un seul mot, féminin, qui se suffit à lui-même (comme Citadelle)
+
+Demande de Roland (21/11/2026) : un mot unique, féminin, évocateur seul, qu'on
+peut employer comme nom (« Citadelle ») ou comme mot (« une citadelle »),
+avec l'idée de ce qui protège un système. citadelle.fr est pris.
+
+Presque tous les mots courants sont pris en .fr. Deux pistes :
+
+**Le mot seul, .fr libre** (vérifié le 21/11/2026)
+
+| Nom | .fr | Sociétés homonymes | L'idée |
+| --- | --- | --- | --- |
+| **Faîtière** | faitiere.fr libre | 47, surtout des SCI et de l'immobilier | la tuile faîtière couronne et protège le toit ; et une « organisation faîtière » chapeaute et coordonne tout. Double sens BTP et pilotage |
+| **Archère** | archere.fr libre | 63, surtout des SCI | l'ouverture dans le mur de la forteresse, d'où l'on veille ; et l'archère qui vise juste |
+| **Voussure** | voussure.fr libre | à vérifier | la courbe de la voûte qui porte la charge ; joli, peu connu |
+| **Caponnière** | caponniere.fr libre | à vérifier | l'abri qui défend le fossé d'une forteresse ; trop obscur |
+| **Escarpe** | escarpe.fr libre | 285 | le talus d'une fortification ; mais aussi un vieux mot pour « voyou » : à écarter |
+
+**Le mot avec « la » ou « l' » dans le domaine** (la marque reste le mot seul)
+
+| Nom | .fr | L'idée |
+| --- | --- | --- |
+| **Armature** | larmature.fr libre | l'acier invisible dans le béton, qui fait tenir tout l'ouvrage : exactement le rôle du service |
+| **Forteresse** | laforteresse.fr libre | la cousine de Citadelle ; 435 sociétés homonymes, marque faible |
+| **Gouvernante** | lagouvernante.fr libre | celle qui tient la maison ; image un peu datée |
+| **Charpente** | lacharpente.fr libre | ce qui structure ; beaucoup de charpentiers portent ce nom : risqué |
+| **Solive**, **Poutrelle** | lasolive.fr, lapoutrelle.fr libres | pièces porteuses ; moins parlants |
+
+À écarter : **Citadela** (citadela.fr libre), trop proche de Citadelle,
+source de confusion entre les deux sociétés.
