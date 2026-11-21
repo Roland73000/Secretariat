@@ -103,3 +103,30 @@ Presque tous les mots courants sont pris en .fr. Deux pistes :
 
 À écarter : **Citadela** (citadela.fr libre), trop proche de Citadelle,
 source de confusion entre les deux sociétés.
+
+## 6. Un nom qui rappelle Citadelle
+
+Roland (21/11/2026) : « Citadelle » n'est pas déposé, c'est un nom interne
+à BTP Performance (le logiciel). citadelle.fr et **citadella.fr sont pris**.
+Un nom qui rappelle Citadelle créerait un lien de famille entre le logiciel
+de BTP Performance et la nouvelle société.
+
+| Nom | .fr | .com | Sociétés homonymes | Avis |
+| --- | --- | --- | --- | --- |
+| **Citadela** | libre | pris | aucune | le plus proche ; une seule lettre de moins que Citadella |
+| **Citadelia** | libre | pris | 2 (assurance, conseil) | sonne doux et féminin, garde « Citadel » en entier |
+| **Bastidelle** | libre | libre | 3, hors BTP | bastide (la maison fortifiée du Sud) + la terminaison de Citadelle ; féminin, rare |
+| **Citelle** | libre | pris | 78, dont un bureau d'études | trop courant |
+| **Vigelle** | libre | pris | 40 | vigie + elle ; moins clair |
+| **Citadelle Pro / Citadelle BTP** | libres | libres | 6 895 « Citadelle » | une marque faible, car « Citadelle » est très répandu (il existe notamment un gin Citadelle) |
+
+À mesurer avant de choisir :
+- **Confusion ou synergie ?** Un nom proche de Citadelle fait passer le
+  message « c'est la même famille ». Bien si on veut vendre le service
+  d'abord aux membres de BTP Performance ; gênant si la nouvelle société doit
+  vivre seule, avec d'autres associés que Option & Solution.
+- **Qui possède la marque ?** Si Citadelle devient un jour une marque
+  déposée par Option & Solution, la nouvelle société aura besoin de son
+  accord pour un nom proche. À régler dans les statuts ou par un accord.
+- **INPI** : la recherche « Citadel* » en classes 35, 9 et 42 est la
+  première à faire.
