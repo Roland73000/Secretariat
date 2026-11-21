@@ -1,0 +1,74 @@
+# Noms évocateurs : la grande liste
+
+21/11/2026. Roland a choisi la piste des **noms évocateurs** (déposables
+tout en restant parlants), avec le BTP en priorité, puis l'univers
+militaire (en écho à Citadelle), et d'autres registres.
+
+Vérifications faites le 21/11/2026 :
+- **.fr** : registre officiel de l'Afnic. « libre » = personne ne l'a.
+- **Sociétés** : registre national des entreprises (recherche-entreprises
+  de l'État), pour repérer une société homonyme, surtout dans le BTP ou les
+  services administratifs.
+- **INPI : pas encore fait** (case anti-robot que Roland doit cocher).
+
+Interdits rappelés : jamais « Le Poste de Commandement », « La Caserne »,
+« Le Bivouac » (l'écosystème inventé, refusé par Roland).
+
+## 1. Registre BTP (prioritaire)
+
+| Nom | .fr | Sociétés homonymes | L'idée |
+| --- | --- | --- | --- |
+| **Tiré au Cordeau** | tireaucordeau.fr libre | aucune | « tiré au cordeau » : parfaitement rangé, net, droit. Ce que devient l'administratif |
+| **La Poutre Maîtresse** | lapoutremaitresse.fr libre | aucune | la pièce qui porte toute la maison ; clin d'œil aux femmes de dirigeants qui portent l'entreprise |
+| **La Contremaîtresse** | lacontremaitresse.fr libre | aucune | la contremaîtresse qui organise tout ; au féminin, en écho à la stratégie des conjointes |
+| **Maîtresse d'Œuvre** | maitressedoeuvre.fr libre | aucune | la maîtrise d'œuvre de l'administratif. Attention au double sens de « maîtresse » |
+| **Libre d'Œuvre** | libredoeuvre.fr libre | aucune exacte | jeu de mots sur maître d'œuvre et main d'œuvre : on libère l'artisan |
+| **L'Étai** | letai.fr libre | à vérifier | l'étai soutient le chantier pendant qu'on construit |
+| **Le Contrefort** | lecontrefort.fr libre | plusieurs « Contrefort » (immobilier) | il soutient le mur de l'extérieur, comme le service |
+| **L'Arc-Boutant** | larcboutant.fr libre | 3, hors BTP | le soutien extérieur qui permet aux cathédrales de tenir debout |
+| **Le Chaînage** | lechainage.fr libre | aucune | ce qui relie et rigidifie toute la structure |
+| **Hors d'Eau** | horsdeau.fr libre | **plusieurs entreprises du BTP** | l'étape où le chantier est à l'abri ; risqué |
+| **La Cheville Ouvrière** | chevilleouvriere.fr libre | **une menuiserie** | la personne sans qui rien ne tourne ; risqué |
+| **L'Angle Droit** | langledroit.fr libre | **151 sociétés, dont du BTP** | l'équerre et le bras droit ; risqué |
+| **Le Linteau** | lelinteau.fr libre | à vérifier | il porte tout ce qui est au-dessus de l'ouverture |
+| **Le Gabarit** | legabarit.fr libre | à vérifier | le modèle qui fait que tout est fait pareil, bien |
+| **Le Calepinage** | lecalepinage.fr libre | à vérifier | le plan de pose où chaque élément est à sa place ; mot de métier |
+
+## 2. Registre militaire (en écho à Citadelle)
+
+| Nom | .fr | Sociétés homonymes | L'idée |
+| --- | --- | --- | --- |
+| **L'Aide de Camp** | laidedecamp.fr libre | une société d'électronique | l'aide de camp est le bras droit du général : il s'occupe de tout pour qu'il commande |
+| **Le Vaguemestre** | levaguemestre.fr libre | **une société de services administratifs** | le vaguemestre gère le courrier du régiment ; drôle, mais risqué |
+| **Quartier-Maître** | quartiermaitre.fr libre | 135, dont un promoteur immobilier | il gère l'intendance pour que la troupe se batte |
+| **L'Estafette** | lestafette.fr libre | à vérifier | le messager qui fait circuler les ordres ; trop lié à l'utilitaire Renault |
+| **Le Planton** | leplanton.fr libre | à vérifier | toujours là, toujours de garde ; image un peu passive |
+| **L'Adjudant** | ladjudant.fr libre | à vérifier | il fait tourner la vie de la caserne, avec poigne ; drôle, un peu dur |
+| **État-Major BTP** | etatmajorbtp.fr libre | « État-Major » existe hors BTP | l'état-major prépare et planifie, le chef décide ; « BTP » rend le nom plus faible |
+| **Ma Lieutenante** | malieutenante.fr libre | « La Lieutenante » existe (immobilier) | « lieutenant » veut dire « celui qui tient lieu » : celle qui tient la place du patron au bureau |
+| **QG Chantier** | qgchantier.fr libre | à vérifier | le quartier général du chantier |
+
+## 3. Registre rugby (la seconde ligne)
+
+| Nom | .fr | Sociétés homonymes | L'idée |
+| --- | --- | --- | --- |
+| **La Seconde Ligne** | lasecondeligne.fr libre | 6, dont un cabinet d'architecture | elle pousse la mêlée sans porter le ballon |
+| **Demi de Mêlée** | demidemelee.fr libre | 4, hors BTP | il distribue le jeu pour que les autres marquent |
+
+## 4. Autres registres (la marine, le soutien)
+
+| Nom | .fr | Sociétés homonymes | L'idée |
+| --- | --- | --- | --- |
+| **Le Maître d'Équipage** | lemaitredequipage.fr libre | à vérifier | il fait tourner le navire pour le capitaine |
+| **Le Timonier** | letimonier.fr libre | à vérifier | il tient la barre, le cap est donné par le capitaine |
+| **Bras de Levier** | brasdelevier.fr libre | une association de formation | le bras qui démultiplie la force |
+
+## Déjà pris en .fr (écartés)
+
+Cordeau, Le Cordeau, D'Aplomb, L'Aplomb, Le Liant, Clé de Voûte, Pierre
+Angulaire, Le Bastion, Le Rempart, La Vigie, Le Levier, En Tandem, L'Ossature,
+L'Établi, Le Mortier, Le Fil d'Ariane, L'Intendante, La Régie, L'Équipière,
+Main Forte, Le Fourrier, L'Ordonnance, Aide de Camp (sans « L' »), État-Major,
+Le Major, Le Pilier, La Mêlée, Le Navigateur, La Sentinelle, La Garnison,
+L'Avant-Garde, L'Écuyer, Le Compagnon, L'Échafaudage, Le Jalon, Le Faîtage,
+La Truelle, La Fondation, Le Niveau, L'Assise.
