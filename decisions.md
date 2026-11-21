@@ -35,3 +35,6 @@ Une ligne par décision : la date, ce qui est décidé, pourquoi.
   Com'2) n'en est pas associé ; la nouvelle société ne fait pas concurrence
   à Com'2 (réseaux sociaux, site internet), sauf si c'est vraiment gênant
   pour le secrétariat, à voir alors. Raison : Roland a des parts dans Com'2.
+- **21/11/2026** : l'équipe du projet, c'est Roland, Romain Gache et Gaëlle,
+  personne d'autre. Louis (qui travaille pour Romain) n'en fait pas partie ;
+  Com'2 sera un partenaire externe une fois la société lancée.

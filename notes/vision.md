@@ -25,9 +25,11 @@ le métier technique du dirigeant d'une entreprise du bâtiment.
 | --- | --- |
 | Roland | porteur du projet, connaît le BTP (BTP Performance) |
 | Romain Gache | coassocié, en confiance avec Roland ; a développé Citadelle avec Roland (BTP Performance V2) ; développera le logiciel et les applis (PC, Mac, iOS, Android). Impatient de démarrer |
-| Louis | développeur, travaille pour Romain ; fait les modifications de Citadelle |
 | Gaëlle | ressource humaine du service ; associée, gérante ou salariée : à définir |
-| Lilian Céré (orthographe à vérifier), agence Com'2 | pas associé au projet ; Roland a des parts dans Com'2. Réseaux sociaux, site internet, acquisition via les réseaux : connexion à prévoir, sans concurrence |
+| Lilian Céré (orthographe à vérifier), agence Com'2 | hors de l'équipe : partenaire externe, une fois la société lancée. Roland a des parts dans Com'2. Réseaux sociaux, site internet, acquisition via les réseaux, sans concurrence |
+
+**L'équipe du projet, c'est Roland, Romain et Gaëlle, et personne d'autre.**
+Louis travaille pour Romain sur Citadelle, il n'est pas dans ce projet.
 
 ## Le parcours de l'artisan, de bout en bout
 
