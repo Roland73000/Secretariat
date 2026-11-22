@@ -107,3 +107,11 @@ l'option C : dans l'offre du secrétariat, le moteur des chantiers peut
 être présenté comme une partie du système de la nouvelle société, sans
 mettre en avant BTP Performance. À trancher : on le nomme Citadelle,
 ou on le rend invisible.
+
+### Décision (Roland, 22/11/2026) : option C
+
+La V2 de BTP Performance et Citadelle appartiennent à Option & Solution,
+dont Roland est le seul associé : la question de la propriété est réglée.
+**Roland retient l'option C** (voir `decisions.md`). Restent à préparer :
+le contrat de licence (avec l'expert-comptable) et le choix de nommer
+Citadelle ou de la rendre invisible dans l'offre du secrétariat.

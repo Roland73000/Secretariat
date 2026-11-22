@@ -147,3 +147,17 @@ Une ligne par décision : la date, ce qui est décidé, pourquoi.
   devis, système, Citadelle, expert-comptable). Raison : l'utilisateur
   d'abord ; on doit apporter aux dirigeants du BTP un vrai service, qui
   n'existe pas aujourd'hui.
+- **22/11/2026** : **Citadelle : un moteur, deux portes.** La V2 de BTP
+  Performance et Citadelle appartiennent à Option & Solution, dont Roland
+  est le seul associé. Citadelle reste le seul moteur des chantiers
+  (chantiers, pointage, planning, rentabilité). Pas de version bridée : des
+  modules qu'on active selon le client. Le système de la nouvelle société
+  ne contient que ce qui est à elle (bibliothèque qui apprend, appels,
+  relances, poste de pilotage du bras droit, communauté, page de suivi).
+  Les deux se parlent par API dès le premier jour, avec un contrat de
+  licence entre les deux sociétés (prix par client, longue durée,
+  exclusivité sur le marché du secrétariat, sort du contrat en cas de vente
+  d'une des sociétés). **En communication, on ne mélange pas** : deux
+  offres, sauf l'offre globale. Raison : un seul code et aucune double
+  saisie, sans emmêler les deux sociétés ; chacune peut vivre ou être
+  vendue seule.
