@@ -96,3 +96,23 @@ protéger, mais facile à comprendre.
 - « Qui mieux qu'une personne de confiance pour tenir votre bureau ? »
 - Pour ceux qui n'ont personne : « Pas de proche pour tenir le bureau ? On
   vous trouve quelqu'un en qui vous aurez la même confiance. »
+
+### La garde rapprochée (idée de Roland, 22/11/2026)
+
+Image de la protection rapprochée : le patron est le VIP, et autour de lui
+il y a un **premier cercle**, les personnes en qui il a le plus confiance
+et qui sont le plus proches de lui. Dans le métier, le dispositif se pense
+en cercles concentriques ; le premier cercle est au contact. Dans le
+langage courant, la **garde rapprochée** d'un dirigeant désigne ses
+fidèles, ceux qui ont sa confiance totale.
+
+- Ça colle au registre de Citadelle (protéger un système) et à
+  l'argument de la confidentialité.
+- La conjointe y est naturellement ; ceux qui n'en ont pas peuvent y faire
+  entrer quelqu'un.
+- Risque : « garde » peut sonner défensif. Dans l'usage courant, le sens de
+  confiance l'emporte.
+- Phrases candidates : « Votre garde rapprochée. » ; « Le premier cercle du
+  patron. » ; « Dans votre premier cercle, il y a votre bureau. »
+- « Premier Cercle » comme nom de marque : sûrement déjà pris, à vérifier à
+  l'INPI avant d'y penser.
