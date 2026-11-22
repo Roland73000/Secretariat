@@ -1,6 +1,6 @@
 # Le cahier de l'inexistant
 
-Pour Romain. Version 3 du 22/11/2026, construite à partir des veilles du
+Pour Romain. Version 4 du 22/11/2026, construite à partir des veilles du
 21 et du 22/11 (dossier `notes/veille/`). Pour chaque brique du système :
 ce que les meilleurs font aujourd'hui, ce que personne ne fait, et ce que
 notre système doit faire en mieux.
@@ -10,6 +10,15 @@ impossible**, au service du BTP.
 
 Deux règles traversent tout le cahier : **le client au centre** et
 **jamais de double saisie**.
+
+**L'idée révolutionnaire du projet** (Roland, 22/11/2026, version 4) : **la
+bibliothèque vit chez nous, l'IA écrit chez eux.** La bibliothèque
+d'articles et d'ouvrages qui se met à jour est dans notre système, jamais
+chez l'éditeur. Ce sont l'IA et les API qui écrivent les ouvrages et les
+devis dans le logiciel de chaque artisan, quel qu'il soit. Le cerveau est à
+nous ; les logiciels de devis deviennent les mains. L'artisan garde sa
+bibliothèque s'il change de logiciel, et nous ne dépendons d'aucun
+éditeur.
 
 Règle de travail (Roland, 22/11/2026) : pour chaque brique, regarder aussi
 ce que font **nos partenaires** (Costructor, Dougs), repérer les doublons,
@@ -52,7 +61,15 @@ nationale).
 partir des heures réelles du chantier. Aucun outil trouvé, ni en France ni
 à l'étranger.
 
-**Ce que notre système doit faire** :
+**Ce que notre système doit faire** (la bibliothèque vit chez nous, voir
+l'idée révolutionnaire en tête du cahier) :
+- **un connecteur par logiciel de devis** : chaque connecteur sait écrire
+  les ouvrages et les devis en brouillon dans un logiciel (Costructor
+  d'abord, puis d'autres), et relire ce qui a été signé. Si un éditeur n'a
+  pas d'API d'écriture, une solution de repli : un fichier d'import de la
+  bibliothèque, mis à jour par nous ;
+- **la bibliothèque est indépendante du logiciel** : le même ouvrage peut
+  partir vers Costructor, Obat ou un autre, sans être ressaisi ;
 - une bibliothèque **en deux couches** (la base commune tenue à jour,
   l'entreprise ne garde que ses différences : voir `sujets-romain.md`) ;
 - une **cadence réelle par ouvrage**, calculée à partir des heures et des

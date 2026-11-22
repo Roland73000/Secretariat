@@ -172,3 +172,15 @@ Une ligne par décision : la date, ce qui est décidé, pourquoi.
   clientèle. Ceci précise la décision « deux offres, deux tunnels » : la
   formule « bras droit » passe toujours par BTP Performance. Détail dans
   `notes/entrees-commerciales.md`.
+- **22/11/2026** : **la bibliothèque vit chez nous, l'IA écrit chez eux.**
+  La bibliothèque d'articles et d'ouvrages qui se met à jour (les deux
+  couches, les temps corrigés par les heures réelles) est **dans le système
+  de la nouvelle société**, jamais chez l'éditeur. Ce sont l'IA et les API
+  qui écrivent les ouvrages et les devis dans le logiciel de chaque
+  artisan, quel que soit ce logiciel (Costructor d'abord). Ceci tranche la
+  décision du 22/11 « la partie technique vit dans le système de la
+  nouvelle société ou chez l'éditeur partenaire » : c'est chez nous.
+  Raison : c'est l'idée révolutionnaire du projet (Roland). Le cerveau est à
+  nous, les logiciels de devis deviennent les mains ; l'artisan garde sa
+  bibliothèque s'il change de logiciel, et nous ne dépendons d'aucun
+  éditeur.
