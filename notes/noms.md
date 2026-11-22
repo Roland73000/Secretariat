@@ -83,3 +83,11 @@ Taxi »… Page complète : https://claude.ai/artifact/FpUnZs4KnFy4w9FvV8Vz76
 - Égide : INPI encombré (risque fort).
 - INPI à reprendre pour les autres : le site a limité les recherches après
   trois requêtes (vérification anti-robot, non contournée).
+- **Binôme retenu par Roland** (22/11/2026, au soir) : INPI à vérifier en
+  priorité, demain. binomebtp.fr et binomesecretariat.fr libres.
+- Roland veut aussi des noms qui disent tout de suite « secrétariat ».
+  Pistes ajoutées à la page : Assistelle, Officielle, Bureautelle,
+  Adminelle (.fr et .com libres), Secrébat, et la voie mixte « Binôme
+  Secrétariat » (on dépose « Binôme », on écrit « Binôme, le secrétariat
+  des artisans »). Rappel : plus un nom décrit le service, plus il est dur
+  à déposer.

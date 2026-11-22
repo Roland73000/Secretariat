@@ -67,8 +67,9 @@ p,li{max-width:68ch}
 </ul>
 </div>
 
-<h2>Mes quatre favoris</h2>
+<h2>Les favoris</h2>
 <div class="top">
+<div><b>Binôme</b><span>retenu par Roland</span></div>
 <div><b>Aronde</b><span>l'assemblage le plus solide</span></div>
 <div><b>Faîtière</b><span>ce qui couronne et chapeaute</span></div>
 <div><b>Hirondelle</b><span>bâtisseuse et fidèle</span></div>
@@ -91,7 +92,7 @@ const T=[
  {t:"La main et la confiance",i:"Le plus proche de « bras droit », sans en reprendre les mots.",n:[
   {n:"Dextre",s:"2 syllabes",sens:"Écarté par Roland : trop dur à prononcer. La main droite, en vieux français, d'où vient « dextérité ».",d:"Dextre BTP, Dextre Taxi, Dextre Boulangerie.",dom:["dextre.fr libre","dextrebtp.fr libre"],inpi:["mid","DEXTRE (2002) expirée ; mais DEXTRA (2015, classes 35 et 42) et DEXTR (2020, classe 35) sont actives. Assez proches pour un risque d'opposition."]},
   {n:"Complice",s:"3 syllabes",sens:"Le couple qui travaille ensemble, et la complicité avec le client. Chaleureux, mais très courant.",d:"Complice BTP.",dom:["complicebtp.fr libre"],inpi:["na"]},
-  {n:"Binôme",s:"3 syllabes",sens:"On travaille à deux : le patron et son bras droit. Clair, un peu scolaire.",d:"Binôme BTP.",dom:["binomebtp.fr libre"],inpi:["na"]}]},
+  {n:"Binôme",s:"3 syllabes",fav:1,sens:"Retenu par Roland, INPI à vérifier en priorité. On travaille à deux : le patron et son bras droit, le couple. Clair, facile à dire.",d:"Binôme BTP.",dom:["binomebtp.fr libre"],inpi:["na"]}]},
  {t:"Le BTP",i:"Des mots du métier, que l'artisan reconnaît tout de suite.",n:[
   {n:"Aronde",s:"2 syllabes",fav:1,sens:"La queue d'aronde est l'assemblage le plus solide de la charpente et de la menuiserie. Et « aronde » est l'ancien nom de l'hirondelle, qui bâtit son nid et revient chaque année. Solidité, métier et fidélité en un mot.",d:"Aronde BTP, Aronde Taxi.",dom:["aronde.fr pris","arondebtp.fr libre"],inpi:["na","À vérifier en priorité (il a existé une voiture Simca Aronde)."]},
   {n:"Faîtière",s:"3 syllabes",fav:1,sens:"La tuile faîtière couronne et protège le toit ; une organisation faîtière chapeaute et coordonne. Double sens BTP et pilotage.",d:"Faîtière BTP. Se décline moins bien hors du bâtiment.",dom:["faitiere.fr libre","faitierebtp.fr libre"],inpi:["ok","Vérifié le 21/11 : 3 marques seulement, pour des vins."]},
@@ -123,7 +124,14 @@ const T=[
   {n:"Bastidelle",s:"3 syllabes",sens:"La bastide, maison fortifiée du Sud, avec la terminaison de Citadelle.",d:"Bastidelle BTP.",dom:["bastidelle.fr libre","bastidelle.com libre"],inpi:["ok","Vérifié le 21/11 : 2 marques de vin, expirées."]},
   {n:"Œuvrelle",s:"3 syllabes",sens:"Œuvre et elle : celle qui fait avancer l'œuvre. Rappelle « Vous œuvrez » de la baseline.",d:"Œuvrelle BTP.",dom:["oeuvrelle.fr libre","oeuvrelle.com libre"],inpi:["na"]},
   {n:"Bâtisselle",s:"3 syllabes",sens:"Bâtir et elle. Très BTP, se décline moins bien ailleurs.",d:"Bâtisselle BTP.",dom:["batisselle.fr libre","batisselle.com libre"],inpi:["na"]},
-  {n:"Ancrelle",s:"2 syllabes",sens:"Ancre et elle : ce qui tient l'entreprise, au féminin.",d:"Ancrelle BTP.",dom:["ancrelle.fr libre"],inpi:["na"]}]}
+  {n:"Ancrelle",s:"2 syllabes",sens:"Ancre et elle : ce qui tient l'entreprise, au féminin.",d:"Ancrelle BTP.",dom:["ancrelle.fr libre"],inpi:["na"]}]},
+ {t:"Les noms qui disent ce qu'on fait",i:"Demande de Roland : qu'on comprenne tout de suite qu'il s'agit d'un secrétariat. Attention : plus un nom décrit le service, plus il est dur à déposer (le souvenir de BTP Performance). Les mots fabriqués s'en sortent mieux que les mots du dictionnaire.",n:[
+  {n:"Assistelle",s:"3 syllabes",sens:"Assistante et elle, comme Citadelle. On comprend « assistante » à la première écoute, et le mot inventé se dépose mieux.",d:"Assistelle BTP, Assistelle Taxi.",dom:["assistelle.fr pris","assistellebtp.fr libre"],inpi:["na"]},
+  {n:"Officielle",s:"4 syllabes",sens:"Office (le bureau) et elle ; et « officielle » comme la conjointe enfin reconnue dans l'entreprise. Mot du dictionnaire, donc plus fragile.",d:"Officielle BTP.",dom:["officielle.fr pris","officiellebtp.fr libre"],inpi:["na"]},
+  {n:"Bureautelle",s:"3 syllabes",sens:"Le bureau et elle. Transparent, un peu long.",d:"Bureautelle BTP.",dom:["bureautelle.fr libre","bureautelle.com libre"],inpi:["na"]},
+  {n:"Adminelle",s:"3 syllabes",sens:"L'administratif et elle. On comprend tout de suite, le mot est libre partout.",d:"Adminelle BTP.",dom:["adminelle.fr libre","adminelle.com libre"],inpi:["na"]},
+  {n:"Secrébat",s:"2 syllabes",sens:"Secrétariat et bâtiment, à la manière de Batiprix ou Batiweb. Immédiat pour le BTP, mais ne se décline pas aux autres métiers.",d:"Ne se décline pas (« bat »).",dom:["secrebat.fr libre","secrebat.com libre"],inpi:["na"]},
+  {n:"Binôme Secrétariat",s:"2 mots",sens:"La voie mixte que je recommande : un nom qui se dépose (Binôme) et un mot qui dit le service (secrétariat). On dépose « Binôme », on écrit « Binôme, le secrétariat des artisans ».",d:"Binôme Secrétariat, puis Binôme BTP, Binôme Taxi.",dom:["binomesecretariat.fr libre","binomebtp.fr libre"],inpi:["na","Dépend de la vérification de Binôme."]}]}
 ];
 const L={ok:"INPI dégagé",mid:"INPI risque moyen",ko:"INPI risque fort",na:"INPI à vérifier"};
 const esc=s=>s.replace(/&/g,"&amp;").replace(/</g,"&lt;");
