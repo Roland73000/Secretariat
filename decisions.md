@@ -122,6 +122,13 @@ Une ligne par décision : la date, ce qui est décidé, pourquoi.
   est abandonnée (marque « Bras droit des dirigeants » active en classe 35) ;
   « bras droit » reste le nom de la formule. Raison : la phrase est à nous,
   et le risque de marque est faible.
+- **22/11/2026** : **on développe ce qui n'existe nulle part**, à commencer
+  par la bibliothèque qui corrige toute seule le temps d'un ouvrage à partir
+  des heures réelles du chantier. C'est la valeur attendue de Romain :
+  réaliser l'inexistant. Méthode : repérer ce que chaque acteur fait dans son
+  coin et le proposer en mieux, dans un écosystème complet au service du BTP.
+  Raison : la veille du 22/11 n'a trouvé cet outil ni en France ni à
+  l'étranger.
 - **22/11/2026** : **jamais de double saisie pour l'artisan.** Une
   information saisie une fois circule partout où elle sert (logiciel de
   devis, système, Citadelle, expert-comptable). Raison : l'utilisateur
