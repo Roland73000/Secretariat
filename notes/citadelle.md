@@ -96,3 +96,14 @@ nouvelle société, accepteront-ils qu'une brique centrale appartienne à
 l'autre société de Roland ? Solution si ça bloque : en parler avec
 l'expert-comptable (licence, ou Citadelle logée dans une société à part
 que les deux utilisent).
+
+### En communication, on ne mélange pas (Roland, 22/11/2026)
+
+Quelle que soit l'option technique, **le marketing et la communication
+restent séparés** : deux offres, chacune avec sa vente, sauf l'offre
+globale (le tout-en-un), qui combine les deux. C'est la décision du
+22/11 sur les deux tunnels, appliquée à Citadelle. Conséquence pour
+l'option C : dans l'offre du secrétariat, le moteur des chantiers peut
+être présenté comme une partie du système de la nouvelle société, sans
+mettre en avant BTP Performance. À trancher : on le nomme Citadelle,
+ou on le rend invisible.
