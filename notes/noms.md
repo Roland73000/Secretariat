@@ -155,3 +155,12 @@ d'essayer cinq autres façons de chercher :
    s'occupe du reste »).
 Test à passer : le nom doit bien sonner suivi de « BTP », « Taxi »,
 « Boulangerie ». « nombtp.fr » libre pour tous, sauf comptoirbtp.fr.
+- **Binôme : risque fort.** 95 marques. Sur notre terrain : « BINOME »
+  d'ALU-GLASS (2019, classes 6, 19, 35, 37, 40, 42 : matériaux et
+  construction), « Binôme Dirigeant » (2019, classes 35, 36, 38, 41, 42 :
+  services aux dirigeants), « Binome » du Cabinet Patrick Camus (2019,
+  classes 9, 35, 36, 41, 45), « binôm » (2024, 9, 35, 41), « Binôme
+  Impact » (2026, 35). À écarter.
+- Bilan de la nuit : les trois mots courants (Renfort, Appui, Binôme) sont
+  déjà pris dans nos classes. Plus un mot est courant et évocateur de
+  l'aide, plus il est déjà déposé dans les services aux entreprises.
