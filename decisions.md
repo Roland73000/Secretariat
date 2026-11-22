@@ -117,6 +117,11 @@ Une ligne par décision : la date, ce qui est décidé, pourquoi.
   présenté sans commission et gère toute la relation ; le bras droit peut
   suivre les échéances et les attestations (administratif). Raison : Roland
   ne veut pas de ce métier réglementé.
+- **22/11/2026** : **la baseline** de la société est « Vous décidez. Vous
+  œuvrez. On s'occupe du reste. » La signature « Le bras droit des artisans »
+  est abandonnée (marque « Bras droit des dirigeants » active en classe 35) ;
+  « bras droit » reste le nom de la formule. Raison : la phrase est à nous,
+  et le risque de marque est faible.
 - **22/11/2026** : **jamais de double saisie pour l'artisan.** Une
   information saisie une fois circule partout où elle sert (logiciel de
   devis, système, Citadelle, expert-comptable). Raison : l'utilisateur
