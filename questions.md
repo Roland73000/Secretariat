@@ -58,6 +58,9 @@
   expert-comptable unique ? Comment le proposer sans l'imposer ?
 - Quel montage avec l'éditeur : revendeur, refacturation ou apporteur
   d'affaires ?
+- Quel assureur partenaire en option (décennale, RC pro, flotte) ? Faut-il
+  s'inscrire à l'ORIAS pour être rémunéré ?
+- La banque : mise de côté le 22/11/2026, à revoir.
 - Bibliothèque : on construit la nôtre (générée puis vérifiée), ou on
   négocie une licence de redistribution ?
 - Rendez-vous à prendre par Roland : Emmanuel Ningre, l'Ordre des

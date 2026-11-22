@@ -29,6 +29,17 @@ Encore une piste de réflexion, pas une décision :
   4. tout-en-un **Costructor + notre système + Dougs** ;
   5. le « plus que tout-en-un » : **le tout + BTP Performance**.
 
+Ajout de Roland (22/11/2026) : **un assureur partenaire**, en option dans
+le tout-en-un. **La banque est mise de côté** pour l'instant (Roland a un
+doute), à revoir après l'enquête sur les acteurs étrangers.
+
+Remarque de Claude sur l'assureur : recommander une assurance contre une
+commission, c'est de l'**intermédiation en assurance**, une activité
+réglementée (inscription à l'ORIAS, par exemple comme mandataire
+d'intermédiaire, avec une formation obligatoire). Sans inscription, on peut
+seulement présenter l'assureur sans être rémunéré, ou laisser l'assureur
+gérer toute la relation. À vérifier avant de bâtir l'offre.
+
 Remarque de Claude : cinq offres, c'est beaucoup à expliquer. Les présenter
 comme **une offre de base et trois options** (Costructor, Dougs, BTP
 Performance) garde la même richesse en restant simple à vendre.
