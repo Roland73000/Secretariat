@@ -72,6 +72,15 @@ Une ligne par décision : la date, ce qui est décidé, pourquoi.
   (bibliothèque, chiffrage) vit ailleurs : dans le système de la nouvelle
   société ou chez l'éditeur partenaire. Raison : deux sociétés distinctes,
   deux métiers distincts.
+- **22/11/2026** : **deux offres, deux tunnels de vente, deux sociétés
+  distinctes.** Le nouveau service ne dépend pas de l'entrée par BTP
+  Performance : les membres de BTP Performance peuvent y accéder, et le
+  service pourra envoyer des clients vers BTP Performance, mais chacun a sa
+  propre offre et sa propre vente. En plus, on travaillera une **offre
+  globale** qui combine les deux, pour pousser le tout-en-un plus loin.
+  Ceci précise la décision « un seul système, deux pilotes » : le parcours
+  par BTP Performance est une porte d'entrée, pas la seule. Raison : ne pas
+  mélanger les deux sociétés, et ouvrir le service au-delà des membres.
 - **22/11/2026** : **jamais de double saisie pour l'artisan.** Une
   information saisie une fois circule partout où elle sert (logiciel de
   devis, système, Citadelle, expert-comptable). Raison : l'utilisateur

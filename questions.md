@@ -16,8 +16,14 @@
 
 ## Offre
 
-- Le système est-il réservé aux membres de BTP Performance, ou vendu aussi
-  à des artisans qui n'y sont pas ?
+- Le service a son propre tunnel de vente (décidé le 22/11/2026) : qui
+  forme l'épouse d'un artisan qui n'est pas membre de BTP Performance ? La
+  nouvelle société elle-même (et alors faut-il Qualiopi ?), ou BTP
+  Performance comme prestataire ?
+- Que contient l'offre globale BTP Performance + service, à quel prix, et
+  qui la vend ?
+- Commissions croisées entre les deux sociétés quand l'une envoie un client
+  à l'autre ?
 - Combien d'entreprises Gaëlle peut-elle piloter seule avec le système, et
   à partir de quand embauche-t-on ?
 - Quel message pour les couples où c'est un homme, ou une salariée, qui
