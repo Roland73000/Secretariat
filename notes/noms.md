@@ -164,3 +164,29 @@ Test à passer : le nom doit bien sonner suivi de « BTP », « Taxi »,
 - Bilan de la nuit : les trois mots courants (Renfort, Appui, Binôme) sont
   déjà pris dans nos classes. Plus un mot est courant et évocateur de
   l'aide, plus il est déjà déposé dans les services aux entreprises.
+
+## Axe retenu : ce que l'artisan gagne (Roland, 22/11/2026)
+
+Roland choisit de creuser le bénéfice, parce qu'un nom qui dit ce que
+l'artisan gagne marche aussi pour les autres secteurs de l'artisanat
+(taxi, boulangerie, coiffure…), alors qu'un nom tiré du BTP s'y enferme.
+Ce que tout artisan gagne avec nous, quel que soit son métier : du temps,
+de la tranquillité, de la liberté, l'argent rentré, la clarté.
+
+Domaines vérifiés le 22/11/2026 : le « .fr » seul est pris pour les 23
+mots. « nombtp.fr » et « nomartisan.fr » sont libres partout, sauf
+horizonbtp.fr, carrebtp.fr et aplombartisan.fr. INPI : pas encore vérifié,
+attendre le feu vert de Roland.
+
+| Ce qu'il gagne | Noms |
+| --- | --- |
+| Son temps à lui | Dimanche, Samedi, Relâche, Répit |
+| La tranquillité | Accalmie, Éclaircie, Souffle, Quiétude, Sérénité, Oasis |
+| La liberté | Envol, Élan, Large (« prendre le large »), Liberté |
+| L'argent rentré | Récolte, Moisson, Recette |
+| La clarté | Clarté, Carré (« c'est carré »), Aplomb, Sésame |
+
+Préférés de Claude : **Dimanche** (le jour que l'artisan retrouve, celui
+qu'il passe aujourd'hui sur ses devis), **Éclaircie** (après la tempête
+administrative, sans être gnangnan), **Accalmie**, **Récolte** (l'argent
+rentré plutôt que les heures gagnées).
