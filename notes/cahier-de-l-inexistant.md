@@ -1,18 +1,27 @@
 # Le cahier de l'inexistant
 
-Pour Romain. Version 1 du 22/11/2026, construite à partir des veilles du
-21 et du 22/11 (`notes/veille/`). Pour chaque brique du système : ce que
-les meilleurs font aujourd'hui, ce que personne ne fait, et ce que notre
-système doit faire en mieux.
+Pour Romain. Version 2 du 22/11/2026, construite à partir des veilles du
+21 et du 22/11 (dossier `notes/veille/`). Pour chaque brique du système :
+ce que les meilleurs font aujourd'hui, ce que personne ne fait, et ce que
+notre système doit faire en mieux.
 
 Le cap fixé par Roland : **réaliser l'inexistant, voire ce qu'on croit
 impossible**, au service du BTP.
 
+Deux règles traversent tout le cahier : **le client au centre** et
+**jamais de double saisie**.
+
 Règle de travail (Roland, 22/11/2026) : pour chaque brique, regarder aussi
 ce que font **nos partenaires** (Costructor, Dougs), repérer les doublons,
 et décider : utiliser leur système, utiliser le nôtre, ou développer en
-doublon. Voir `veille/doublons-partenaires.md`. Deux règles traversent tout le cahier :
-**le client au centre** et **jamais de double saisie**.
+doublon. Voir la section « Les doublons avec nos partenaires » en fin de
+cahier, et `veille/doublons-partenaires.md`.
+
+**Qui fait quoi** : notre système (la nouvelle société) porte la
+bibliothèque, le devis préparé par l'IA, le bras droit, la relation avec
+les clients de l'artisan et la communauté. **Citadelle** (BTP Performance)
+porte la rentabilité, le planning et le pointage. Les deux échangent leurs
+données par un accord entre les deux sociétés.
 
 ---
 
@@ -21,7 +30,9 @@ doublon. Voir `veille/doublons-partenaires.md`. Deux règles traversent tout le 
 **Ce que les meilleurs font** : des bibliothèques de 30 000 ouvrages avec
 temps de pose (Obat), des bases de prix licenciées à 32 logiciels
 (Batiprix), la personnalisation à la main partout, Obat qui crée la
-bibliothèque à partir des anciens devis du client.
+bibliothèque à partir des anciens devis du client, CostLib chez Costructor
+(bibliothèque partagée, notée par les utilisateurs, prix en moyenne
+nationale).
 
 **Ce que personne ne fait** : corriger tout seul le temps d'un ouvrage à
 partir des heures réelles du chantier. Aucun outil trouvé, ni en France ni
@@ -31,79 +42,74 @@ partir des heures réelles du chantier. Aucun outil trouvé, ni en France ni
 - une bibliothèque **en deux couches** (la base commune tenue à jour,
   l'entreprise ne garde que ses différences : voir `sujets-romain.md`) ;
 - une **cadence réelle par ouvrage**, calculée à partir des heures et des
-  quantités posées, et une **proposition de nouveau temps** que le dirigeant
-  valide en un clic ;
+  quantités posées venues de Citadelle, et une **proposition de nouveau
+  temps** que le dirigeant valide en un clic ;
 - des **temps mis en commun et anonymisés** entre artisans, pour que même
   un artisan qui pose rarement un ouvrage ait un temps fiable ;
 - un **humain qui s'en occupe** (le bras droit, et un économiste de la
-  construction pour la base).
-- Accroche choisie par Roland : « Chaque chantier rend votre prochain
-  devis plus juste. »
+  construction pour la base) ;
+- nos ouvrages et nos temps **stockés chez nous**, jamais seulement chez
+  Costructor.
 
-## 2. Le pointage et le suivi de chantier
+Accroche choisie par Roland : « Chaque chantier rend votre prochain devis
+plus juste. »
+
+## 2. Le pointage et le suivi de chantier (dans Citadelle)
 
 **Ce que les meilleurs font** : Alobees, pointage en un clic géolocalisé
 avec relance d'oubli, quantité posée par tâche validée par le chef, feuille
-d'heures pré-remplie et verrouillée, export vers la paie.
+d'heures pré-remplie et verrouillée, export vers la paie. Costructor crée un
+planning à partir des lignes de main d'oeuvre du devis, et a des feuilles
+d'heures et une rentabilité prévu contre réel par chantier.
 
-**Ce que personne ne fait** : pointer par ouvrage avec la quantité posée,
-et renvoyer les écarts vers les temps du chiffrage. (Correction du
-22/11/2026 : Costructor crée déjà un planning à partir des lignes de main
-d'oeuvre du devis, et a des feuilles d'heures et une rentabilité prévu
-contre réel par chantier ; il ne fait ni le pointage par ouvrage, ni les
-quantités posées, ni le retour vers les temps.)
+**Ce que personne ne fait** : pointer **par ouvrage avec la quantité
+posée**, et renvoyer les écarts vers les temps du chiffrage.
 
-**Ce que notre système doit faire** : chaque ligne d'ouvrage du devis signé
-devient une tâche pointable (quantité et temps prévu), sans rien ressaisir ;
-le compagnon pointe en un clic, à la voix si possible ; l'écart repart vers
-la bibliothèque (brique 1) et vers la rentabilité (Citadelle, par un échange
-entre les deux sociétés).
+**Ce qu'il faut faire** (dans Citadelle, puisque le pointage y vit) :
+chaque ligne d'ouvrage du devis signé devient une tâche pointable (quantité
+et temps prévu), sans rien ressaisir ; le compagnon pointe en un clic, à la
+voix si possible ; l'écart part vers la rentabilité (Citadelle) et vers la
+bibliothèque (notre système, brique 1).
 
 ## 3. Le planning des chantiers (dans Citadelle)
 
 **Décidé le 22/11/2026** : la planification et l'organisation des chantiers
-sont intégrées à **Citadelle** (BTP Performance), dont c'est la dernière
-brique manquante. Notre système s'en sert par un accord entre les deux
-sociétés. Cette brique concerne donc le développement de Citadelle. Pas de
-partenariat avec ANAV : on construit le nôtre. Veille mondiale des fonctions
-à modéliser : veille/planning-monde.md (13 outils français, une vingtaine
-d'étrangers).
-
-**Ce que la veille mondiale apprend** (22/11/2026) :
-- **Personne** ne fait le point de perte en heures, ni la durée calculée
-  par l'effectif avec une barre qui glisse, ni l'effectif jour par jour, ni
-  la relance automatique des sous-traitants quelques jours avant leur
-  intervention, ni la boucle des heures réelles vers les temps du devis.
-- **Déjà bien fait ailleurs** : le planning créé depuis le devis en un clic
-  (Fergus à l'acceptation du devis, JobTread depuis le budget, Houzz Pro par
-  IA) ; le planning général multi-chantiers avec projeté (ANAV, JobTread,
-  Obat) ; l'affichage des conflits de matériel (Kalitics, simPRO, HERO) ; la
-  confirmation demandée aux sous-traitants (Buildertrend, JobTread).
-- **Idées en plus** : dépendances simples entre tâches, planning de
-  référence figé pour comparer, raison notée à chaque décalage, météo, vue
-  client, échéances de paiement sur le planning, simulation avant signature,
-  IA qui propose un planning en expliquant pourquoi, et **notifications
-  faciles aux clients de l'artisan** (Roland, voir brique 12).
-
-**Ce que les meilleurs font** : ANAV (Pilote Soft, La Bauche en Savoie,
-19 € par collaborateur et par mois) : planning par affaire (Gantt, jalons),
-planning d'équipe en glisser-déposer, plan de charge par compétence, temps
-passés avec indicateur passé, prévu et projeté, appli mobile, agent IA.
-Alobees pour le pointage. Voir `veille/fiche-anav.md`.
-Le cahier des charges de Roland du 19/11 sert de référence : planification
-dès la signature, compagnons par défaut ou jour par jour, barre qu'on
+sont intégrées à **Citadelle**, dont c'est la dernière brique manquante.
+Notre système s'en sert par un accord entre les deux sociétés. Pas de
+partenariat avec ANAV : on construit le nôtre. Le cahier des charges de
+Roland du 19/11 sert de référence : planification dès la signature,
+compagnons par défaut ou jour par jour, durée calculée et barre qu'on
 glisse, sous-traitants sur la barre, matériel unique non réservable deux
-fois, planning général avec prévu, point de perte, réel et projeté.
+fois, planning général avec prévu, point de perte, réel et projeté, chef
+d'équipe par chantier.
 
-**Ce que personne ne fait** : un planning nourri par des temps corrigés par
-les vrais chantiers (ANAV, comme Alobees, ne renvoie rien vers le
-chiffrage). Il manque aussi à ANAV, par rapport au cahier des charges de
-Roland : le point de perte, la durée calculée par l'effectif, le matériel
-unique et le chef d'équipe par chantier.
+**Ce que les meilleurs font** (`veille/fiche-anav.md`,
+`veille/planning-monde.md`) :
+- ANAV (Pilote Soft, à La Bauche en Savoie, 19 € par collaborateur et par
+  mois) : planning par affaire, planning d'équipe en glisser-déposer, plan
+  de charge par compétence, indicateur passé, prévu et projeté ;
+- le planning créé depuis le devis (Fergus à l'acceptation du devis,
+  JobTread depuis le budget, Houzz Pro par IA, Costructor) ;
+- le planning général multi-chantiers avec projeté (ANAV, JobTread, Obat) ;
+- l'affichage des conflits de matériel (Kalitics, simPRO, HERO) ;
+- la confirmation demandée aux sous-traitants (Buildertrend, JobTread).
 
-**Ce que notre système doit faire** : planifier avec les temps de la
-bibliothèque qui apprend, donc plus juste à chaque chantier ; relancer les
-sous-traitants au bon moment (le bras droit ou une automatisation).
+**Ce que personne ne fait** : le point de perte en heures ; la durée
+calculée par l'effectif avec une barre qui glisse ; l'effectif jour par
+jour ; la relance automatique des sous-traitants quelques jours avant leur
+intervention ; un planning nourri par des temps corrigés par les vrais
+chantiers.
+
+**Les idées en plus** : dépendances simples entre tâches, planning de
+référence figé pour comparer, raison notée à chaque décalage, météo,
+échéances de paiement sur le planning, simulation avant signature, IA qui
+propose un planning en expliquant pourquoi, et **notifications faciles aux
+clients de l'artisan** (brique 12).
+
+**Ce qu'il faut faire** : le cahier des charges de Roland en entier, plus
+les idées retenues ; planifier avec les temps de la bibliothèque qui
+apprend ; relancer les sous-traitants au bon moment (le bras droit ou une
+automatisation).
 
 ## 4. Les appels et la joignabilité
 
@@ -124,50 +130,53 @@ arrivent au même endroit.
 
 **Ce que les meilleurs font** : devis dicté à la voix (Boby, Rita),
 brouillon de devis à partir d'un message vocal (Plancraft, Handoff), devis
-par IA chez Obat et Costructor. **Côté client, Costructor fait déjà signer
-le devis en ligne (signature électronique) et propose le paiement en ligne
-des factures, acomptes compris** (vérifié sur costructor.co le 22/11/2026) :
-on s'appuie dessus, sans rien refaire.
+par IA chez Obat et Costructor. Côté client, Costructor fait déjà signer le
+devis en ligne et propose le paiement en ligne des factures, acomptes
+compris (vérifié sur costructor.co le 22/11/2026) : on s'appuie dessus.
 
 **Ce que personne ne fait** : une visite guidée qui produit un brouillon
 **relu et complété par un humain** avant que l'artisan valide.
 
 **Ce que notre système doit faire** : une liste de contrôle par type de
-travaux sur l'appli, photos et dictée vocale dans notre appli (le devis
-par WhatsApp est écarté : Roland n'y voit pas d'intérêt, Costructor couvre
-la signature et l'acompte côté client) ; le brouillon arrive dans le logiciel
-partenaire, chiffré avec la bibliothèque qui apprend ; le bras droit le
-relit ; l'artisan valide en un clic.
+travaux, photos et dictée vocale dans notre appli ; notre IA chiffre le
+brouillon avec la bibliothèque qui apprend et **l'écrit dans Costructor par
+son API** ; le bras droit le relit ; l'artisan valide en un clic. (Le devis
+par WhatsApp est écarté.)
 
 ## 6. Les relances jusqu'à la signature
 
 **Ce que les meilleurs font** : InterFast repère les devis à relancer ;
-Costructor relance par IA ; WorkHero suit les devis ouverts.
+l'agent IA de Costructor relance quand l'artisan le lui demande (pas de
+relance automatique des devis trouvée) ; WorkHero suit les devis ouverts.
 
 **Ce que personne ne fait** : relancer avec une personne qui connaît le
 dossier et rappelle au bon moment.
 
-**Ce que notre système doit faire** : relances automatiques programmées,
-puis appel du bras droit sur les devis importants ; prise de rendez-vous de
-présentation du devis dans l'agenda de l'artisan.
+**Ce que notre système doit faire** : relances programmées, puis appel du
+bras droit sur les devis importants ; prise de rendez-vous de présentation
+du devis dans l'agenda de l'artisan. Une seule source de relances : si
+l'agent de Costructor relance, le nôtre ne relance pas.
 
 ## 7. La facture et l'encaissement
 
 **Ce que les meilleurs font** : WorkHero, brouillon de facture à la clôture
-du chantier, relu et envoyé par l'humaine, relances à 7, 15 et 30 jours.
+du chantier, relu et envoyé par l'humaine, relances à 7, 15 et 30 jours ;
+Costructor, relances automatiques des impayés (formule Business+).
 
 **Ce que personne ne fait en France** : ce circuit complet avec un humain,
 branché sur le logiciel de l'artisan.
 
 **Ce que notre système doit faire** : facture préparée dès que le chantier
-est terminé, validée en un clic par l'artisan ; relances automatiques puis
-humaines ; tableau des retards de paiement. Attention : rester sur la
-relance amiable, le recouvrement pour le compte d'autrui est réglementé.
+est terminé, validée en un clic par l'artisan ; relances automatiques (celles
+de Costructor ou les nôtres, jamais les deux) puis humaines ; tableau des
+retards de paiement. Attention : rester sur la relance amiable, le
+recouvrement pour le compte d'autrui est réglementé.
 
 ## 8. Le lien avec l'expert-comptable
 
 **Ce que les meilleurs font** : Dougs (banque synchronisée, justificatifs
-en photo), Pennylane ; aucune API publique chez Dougs.
+en photo, plateforme agréée pour la facture électronique), Pennylane ;
+aucune API publique chez Dougs.
 
 **Ce que personne ne fait** : zéro double saisie entre le logiciel de
 devis, le suivi de chantier et l'expert-comptable.
@@ -215,50 +224,48 @@ pratique des conjointes du BTP.
 **Ce que notre système doit faire** : un espace à nous (pas Facebook),
 relié au système : entraide, formations, masterclasses des partenaires.
 
----
-
-Ce cahier s'enrichit à chaque veille. 
-
----
-
 ## 12. La communication avec les clients de l'artisan
 
-**Ce que les meilleurs font** : portails clients des logiciels américains
-(Buildertrend, Houzz Pro) ; notifications par SMS ; suivi de commande en
-direct des grandes enseignes.
+**Ce que les meilleurs font** : portails clients (Buildertrend, Houzz Pro,
+et le portail client de Costructor pour les devis, les factures et le
+paiement) ; notifications par SMS ; suivi de commande en direct des grandes
+enseignes.
 
 **Ce que personne ne fait pour un artisan français** (supposé, à vérifier) :
 une page de suivi du chantier, sans appli à télécharger, alimentée toute
-seule par le planning et le pointage.
+seule par le planning et le pointage, avec les photos et les messages.
 
 **Ce que notre système doit faire** : la page de suivi du chantier, avec
 notifications par le canal le moins cher (e-mail, notification de
-navigateur, SMS pour l'urgent). Détail dans sujets-romain.md.
+navigateur, SMS pour l'urgent). Les devis, factures et paiements restent
+dans le portail de Costructor : la page de suivi y renvoie, pour que le
+client n'ait qu'une porte d'entrée (à régler avec Costructor). Détail dans
+`sujets-romain.md`.
 
-**Puis l'appli « carnet de la maison »** (validé par Roland le 22/11/2026,
-portée par la nouvelle société) : après le chantier, le client garde tout
-(factures, garanties, notices, photos des réseaux cachés) et reçoit les
-rappels d'entretien. Pour l'artisan, c'est **un outil commercial** :
-fidélisation, relance d'entretien, annonces de promotion sur des produits
-complémentaires, et plus tard la porte d'entrée du réseau ou label.
-Attention : les messages de promotion aux particuliers suivent les règles
-de la CNIL (accord du client, ou produits analogues de la même entreprise,
-avec désinscription facile).
+**Puis l'appli « carnet de la maison »** (validée par Roland le
+22/11/2026, portée par la nouvelle société) : après le chantier, le client
+garde tout (factures, garanties, notices, photos des réseaux cachés) et
+reçoit les rappels d'entretien. Pour l'artisan, c'est **un outil
+commercial** : fidélisation, relance d'entretien, annonces de promotion sur
+des produits complémentaires, et plus tard la porte d'entrée du réseau ou
+label. Attention : les messages de promotion aux particuliers suivent les
+règles de la CNIL (accord du client, ou produits analogues de la même
+entreprise, avec désinscription facile).
 
 ---
 
 ## Les doublons avec nos partenaires (22/11/2026)
 
-Détail dans veille/doublons-partenaires.md. Règles proposées : **un seul
+Détail dans `veille/doublons-partenaires.md`. Règles proposées : **un seul
 maître par donnée**, et **ne jamais activer deux fois la même fonction**
 chez l'artisan (relances, pointage, banque).
 
 - **On prend le leur** : signature et paiement en ligne, facture
   électronique, mise en forme du devis et de la facture, portail client de
   Costructor ; banque, justificatifs et comptabilité chez Dougs.
-- **On prend le nôtre** : l'humain, la bibliothèque qui apprend, le
-  pointage par ouvrage, les appels, l'agenda, la vue multi-clients du bras
-  droit, la communauté.
+- **On prend le nôtre** : l'humain, la bibliothèque qui apprend, les appels,
+  l'agenda, la vue multi-clients du bras droit, la page de suivi du
+  chantier, la communauté ; le pointage par ouvrage dans Citadelle.
 - **Doublons assumés** : le devis préparé par notre IA, le planning et la
   rentabilité (dans Citadelle, alors que Costructor en a une version), le
   prospect avant devis.
@@ -266,11 +273,10 @@ chez l'artisan (relances, pointage, banque).
   comptabilité chez Dougs seul ; la réception des factures fournisseurs
   reste à trancher.
 - **Risques** : l'agent IA de Costructor qui relancerait seul ; **CostLib**,
-  sa bibliothèque collaborative notée par les utilisateurs, qui pourrait se
-  mettre à apprendre des heures réelles ; Dougs a levé 50 M€ et annonce un
-  réseau de partenaires locaux en 2027. Parades : rester maîtres des
-  ouvrages et des temps (jamais stockés seulement chez Costructor), aller
-  vite, vendre l'humain, signer des contrats écrits.
+  qui pourrait se mettre à apprendre des heures réelles ; Dougs a levé
+  50 M€ et annonce un réseau de partenaires locaux en 2027. Parades : rester
+  maîtres des ouvrages et des temps, aller vite, vendre l'humain, signer des
+  contrats écrits (ordre du jour du rendez-vous : `rdv-costructor.md`).
 
 ---
 
@@ -285,3 +291,5 @@ chez l'artisan (relances, pointage, banque).
 4. **Le prochain devis est plus juste.**
 
 Aucune double saisie : chaque information est saisie une fois et circule.
+
+Ce cahier s'enrichit à chaque veille.
