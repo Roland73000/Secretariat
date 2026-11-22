@@ -84,3 +84,35 @@ chiffrage** (ouvrages, temps, marge à partir de la bibliothèque), et que le
 logiciel partenaire ne fasse que la mise en forme, l'envoi, la facture et la
 conformité. On garde la valeur, on laisse la paperasse réglementaire à
 l'éditeur.
+
+## La marque blanche, expliquée (22/11/2026)
+
+**Le principe** : l'éditeur fournit son logiciel, mais l'artisan le voit à
+nos couleurs. L'éditeur garde le code, les mises à jour, l'hébergement et la
+conformité (facture électronique) ; nous gardons la relation client.
+
+Trois niveaux, du plus léger au plus complet :
+
+| Niveau | Ce que voit l'artisan | Ce que ça demande |
+| --- | --- | --- |
+| **Partenariat avec lien dédié** | le logiciel de l'éditeur, avec une remise et un accès réservé à nos clients | un simple accord ; c'est ce que Costructor fait déjà avec la CAPEB (lien dédié, membres rattachés à un tableau de bord partenaire) |
+| **Co-marquage** | « Costructor, édition [notre marque] » : notre logo, nos réglages, nos bibliothèques préchargées | un contrat de distribution, un volume minimum |
+| **Marque blanche complète** | un logiciel à notre nom, sans trace de l'éditeur | un gros contrat : frais de mise en place, prix par utilisateur, engagement de volume ; rarement accordé à un petit réseau |
+
+**Avantages** : « notre logiciel » sans le construire ; les évolutions de
+l'éditeur profitent à nos clients ; la conformité reste son problème ; une
+marge sur chaque licence.
+**Inconvénients** : on dépend toujours de l'éditeur (prix, qualité, avenir) ;
+si le contrat s'arrête, il faut migrer tous les clients ; l'éditeur voit
+nos clients passer.
+
+**Costructor** : aucune offre de marque blanche publique trouvée le
+22/11/2026. L'exemple le plus proche est son partenariat avec la CAPEB
+(https://www.capeb.fr/partenaires-commerciaux/costructor). Costructor
+affiche l'ambition de devenir le leader européen du logiciel BTP
+(https://www.batiweb.com/actualites/numerique-bim/costructor-ambitionne-de-devenir-le-logiciel-de-btp-leader-en-europe-d-ici-5-ans-41588) :
+un réseau qui lui apporte des clients l'intéresse probablement (supposé).
+
+**Proposition de Claude** : commencer par le partenariat avec lien dédié,
+comme la CAPEB, et demander dès le premier rendez-vous ce qu'il faudrait
+pour un co-marquage (volume, prix, bibliothèques préchargées, API).
