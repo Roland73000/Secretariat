@@ -147,3 +147,16 @@ tourne autour ». On garde « bras droit » en attendant. On reprendra le
 sujet avec le **nom de l'entreprise**, à chercher dans cet esprit (la
 confiance, la proximité, le premier cercle, des mots que tout civil
 comprend). Pour Roland, le nom trouvé débloquera le reste.
+
+## Promettre de l'argent rentré, pas des heures gagnées (enseignement gardé par Roland, 22/11/2026)
+
+Tiré de WorkHero (États-Unis), dont le produit d'appel n'est pas « le
+secrétariat » mais l'argent obtenu pour le client. La niche des primes
+énergie (ancienne piste 22) est retirée, mais l'enseignement reste : nos
+messages parlent d'argent rentré, pas seulement de temps gagné.
+- Des factures envoyées le jour même.
+- Des relances qui font rentrer les impayés.
+- Des devis plus justes grâce à la bibliothèque qui apprend : plus de
+  marge sur chaque chantier.
+Piste de message : « On fait rentrer votre argent » plutôt que « On vous
+fait gagner du temps ».

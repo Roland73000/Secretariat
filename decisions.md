@@ -185,3 +185,10 @@ Une ligne par décision : la date, ce qui est décidé, pourquoi.
   nous, les logiciels de devis deviennent les mains ; l'artisan garde sa
   bibliothèque s'il change de logiciel, et nous ne dépendons d'aucun
   éditeur.
+- **22/11/2026** : **pas de niche RGE** (ancienne piste 22 retirée) : on ne
+  fait pas du montage des dossiers d'aides (MaPrimeRénov', CEE) un produit
+  d'appel. Raison : idée transposée de WorkHero sans étude ; en France, le
+  terrain est occupé par des acteurs qui le font gratuitement, la
+  réglementation change sans cesse, et la niche rétrécirait la cible. On
+  garde l'enseignement : promettre de l'argent rentré plutôt que des heures
+  gagnées (voir `notes/positionnement.md`).
