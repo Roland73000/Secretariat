@@ -137,3 +137,21 @@ Taxi »… Page complète : https://claude.ai/artifact/FpUnZs4KnFy4w9FvV8Vz76
   échéance en 2026 ; si elles n'ont pas été renouvelées, la place se
   libère. À faire vérifier par un conseil en propriété industrielle avant
   de renoncer tout à fait.
+
+## Changer d'axe (Roland, 22/11/2026, tard)
+
+Roland n'est satisfait par presque rien et se demande s'il a pris le bon
+axe. Claude propose de quitter la métaphore (protection, armée, BTP) et
+d'essayer cinq autres façons de chercher :
+1. **Un prénom** : la personne de confiance qui tient le bureau (Simone,
+   Colette, Paulette, Marcelle, Odette, Suzanne, Louise, Margot).
+2. **Un verbe à l'impératif** : ce qu'on dit à l'artisan (Délègue, Respire,
+   Confie).
+3. **Le bénéfice ressenti** : ce que l'artisan gagne (Répit, Souffle,
+   Quiétude).
+4. **Le lieu du bureau** : là où vit l'administratif (Loge, Guichet,
+   Cabane, Bungalow).
+5. **Une expression de tous les jours** : Coup de main, Le Reste (« on
+   s'occupe du reste »).
+Test à passer : le nom doit bien sonner suivi de « BTP », « Taxi »,
+« Boulangerie ». « nombtp.fr » libre pour tous, sauf comptoirbtp.fr.
