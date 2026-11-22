@@ -85,6 +85,13 @@ Une ligne par décision : la date, ce qui est décidé, pourquoi.
   **fidélisation** (entretenir la relation après le chantier). Raison : un
   client satisfait et suivi revient et recommande ; c'est de l'acquisition
   gratuite pour l'artisan.
+- **22/11/2026** : **le client au centre de tout.** Tout le système tourne
+  autour de l'artisan : le plus simple et le plus fluide possible pour lui
+  (dans l'esprit d'Amazon, sans forcément le citer). Et **la valeur avant le
+  prix** : on ne cherche pas à gratter quelques euros, on construit un
+  service si pratique et si rentable pour l'entreprise (temps et argent
+  gagnés) que son coût devient secondaire. Raison : c'est ce qui fait un
+  service qui n'existe pas aujourd'hui.
 - **22/11/2026** : **jamais de double saisie pour l'artisan.** Une
   information saisie une fois circule partout où elle sert (logiciel de
   devis, système, Citadelle, expert-comptable). Raison : l'utilisateur
