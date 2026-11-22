@@ -45,3 +45,12 @@ prévoir :
   « entreprendre à deux », « en couple et en affaires » ; « Elle partage
   votre vie. Elle peut partager votre entreprise. » ; « Vous êtes un duo.
   Votre entreprise aussi. »
+
+## Les messages qui parlent au couple (retenus par Roland, 22/11/2026)
+
+- **« Votre couple fait votre bonheur. Il peut aussi faire votre
+  réussite. »** : la phrase d'explication ; « aussi » pour inciter.
+- **« Le bonheur à deux. La réussite à deux. »** : la version courte, pour
+  les titres, les publicités et les vidéos.
+Les deux s'adressent au couple, pas à l'un des deux : lui et elle s'y
+retrouvent ensemble.
