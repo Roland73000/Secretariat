@@ -41,3 +41,58 @@ les deux reliés par API ? Comme c'est la même équipe (Romain et Louis) des
 deux côtés, le branchement entre les deux est facilité, mais la question de
 qui possède quoi (Option & Solution ou la nouvelle société) reste à
 poser.
+
+## Une Citadelle bridée ou deux logiciels reliés ? (question de Roland, 22/11/2026)
+
+**La question** : soit on fait évoluer Citadelle et on la bride pour BTP
+Performance, pour qu'elle reste la transcription des tableaux de bord de
+Roland, et on la pousse à fond pour le secrétariat ; soit on développe deux
+solutions qu'on interconnecte. Dans les deux cas, il y aura des connexions
+à créer.
+
+### Option A : une seule Citadelle, deux versions
+
+- Pour : un seul code, une seule base, aucune double saisie, une seule
+  équipe (Romain, Louis).
+- Contre : la nouvelle société dépend d'un logiciel qui appartient à
+  Option & Solution ; les deux sociétés se retrouvent liées (vente de l'une
+  sans l'autre, désaccord entre associés). « Brider » pour les membres de
+  BTP Performance peut leur donner le sentiment d'avoir la version au
+  rabais.
+
+### Option B : deux logiciels reliés par API
+
+- Pour : chaque société possède son outil ; chacune peut être vendue,
+  financée ou évoluer seule.
+- Contre : on risque de refaire deux fois les chantiers, le pointage et le
+  planning, ce qui contredit « on ne refait pas ailleurs » ; deux fois le
+  coût ; et la règle « jamais de double saisie » dépend alors entièrement
+  de la synchronisation.
+
+### Option C, proposée par Claude : un moteur, deux portes
+
+- **Citadelle reste le seul moteur des chantiers** : chantiers, pointage,
+  planning, rentabilité. Elle appartient à Option & Solution. C'est déjà ce
+  qu'on a décidé pour le planning.
+- **Pas de bridage, des modules qu'on active** : le même logiciel, avec des
+  modules allumés ou éteints selon le client. Le membre de BTP Performance
+  garde ses tableaux de bord ; le client du secrétariat a, en plus, les
+  modules dont le bras droit a besoin. Rien n'est retiré à personne.
+- **Le système de la nouvelle société ne contient que ce qui est à elle** :
+  la bibliothèque qui apprend, les appels, les relances, le poste de
+  pilotage du bras droit, la communauté, la page de suivi des clients.
+- **Les deux se parlent par API dès le premier jour**, même si c'est la
+  même équipe qui code les deux. C'est ce qui permet un jour de séparer
+  les sociétés sans tout casser.
+- **Un contrat de licence entre les deux sociétés** : un prix par client,
+  une longue durée, l'exclusivité sur le marché du secrétariat, et ce qui
+  se passe si l'une des deux sociétés est vendue.
+
+### La question qui fâche
+
+À qui appartient vraiment Citadelle ? À Option & Solution seule, ou Romain
+a-t-il des droits sur le code ? Et Romain et Gaëlle, associés de la
+nouvelle société, accepteront-ils qu'une brique centrale appartienne à
+l'autre société de Roland ? Solution si ça bloque : en parler avec
+l'expert-comptable (licence, ou Citadelle logée dans une société à part
+que les deux utilisent).

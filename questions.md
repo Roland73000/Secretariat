@@ -9,6 +9,9 @@
   débloquera le mot du rôle (« bras droit » en attendant). Voir
   `notes/positionnement.md`.
 - Quel lien avec BTP Performance : même société, société sœur, aucune ?
+- Citadelle : une seule version avec des modules activables, ou deux
+  logiciels reliés par API ? Et à qui appartient le code (Option & Solution,
+  Romain) ? Voir `notes/citadelle.md`.
 - Quelle place pour Romain Gache : parts, apport (le développement contre
   des parts ?), rémunération ?
 - Quel statut pour Gaëlle : associée, gérante, salariée ?
