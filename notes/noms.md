@@ -74,8 +74,10 @@ Taxi »… Page complète : https://claude.ai/artifact/FpUnZs4KnFy4w9FvV8Vz76
   mots inventés en « -elle ».
 - 49 des 52 vrais mots testés sont pris en .fr. La solution : la marque est
   le mot, le site est « motbtp.fr », libre pour presque tous.
-- Favoris de Claude : **Dextre** (la main droite ; dextre.fr libre ; INPI
-  risque moyen à cause de DEXTRA et DEXTR en classe 35), **Aronde** (la
+- Dextre écarté par Roland (trop dur à prononcer) ; nouveau critère : facile
+  à prononcer du premier coup. Ancien détail : dextre.fr libre ; INPI
+  risque moyen (DEXTRA, DEXTR en classe 35).
+- Favoris de Claude : **Aronde** (la
   queue d'aronde et l'hirondelle), **Faîtière** (INPI dégagé),
   **Hirondelle**, **Cordée**.
 - Égide : INPI encombré (risque fort).
