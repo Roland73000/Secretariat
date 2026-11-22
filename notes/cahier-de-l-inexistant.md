@@ -62,7 +62,24 @@ sont intégrées à **Citadelle** (BTP Performance), dont c'est la dernière
 brique manquante. Notre système s'en sert par un accord entre les deux
 sociétés. Cette brique concerne donc le développement de Citadelle. Pas de
 partenariat avec ANAV : on construit le nôtre. Veille mondiale des fonctions
-à modéliser : veille/planning-monde.md (en cours le 22/11/2026).
+à modéliser : veille/planning-monde.md (13 outils français, une vingtaine
+d'étrangers).
+
+**Ce que la veille mondiale apprend** (22/11/2026) :
+- **Personne** ne fait le point de perte en heures, ni la durée calculée
+  par l'effectif avec une barre qui glisse, ni l'effectif jour par jour, ni
+  la relance automatique des sous-traitants quelques jours avant leur
+  intervention, ni la boucle des heures réelles vers les temps du devis.
+- **Déjà bien fait ailleurs** : le planning créé depuis le devis en un clic
+  (Fergus à l'acceptation du devis, JobTread depuis le budget, Houzz Pro par
+  IA) ; le planning général multi-chantiers avec projeté (ANAV, JobTread,
+  Obat) ; l'affichage des conflits de matériel (Kalitics, simPRO, HERO) ; la
+  confirmation demandée aux sous-traitants (Buildertrend, JobTread).
+- **Idées en plus** : dépendances simples entre tâches, planning de
+  référence figé pour comparer, raison notée à chaque décalage, météo, vue
+  client, échéances de paiement sur le planning, simulation avant signature,
+  IA qui propose un planning en expliquant pourquoi, et **notifications
+  faciles aux clients de l'artisan** (Roland, voir brique 12).
 
 **Ce que les meilleurs font** : ANAV (Pilote Soft, La Bauche en Savoie,
 19 € par collaborateur et par mois) : planning par affaire (Gantt, jalons),
