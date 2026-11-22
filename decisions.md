@@ -137,6 +137,11 @@ Une ligne par décision : la date, ce qui est décidé, pourquoi.
   système de la nouvelle société s'en servira, par un accord entre les deux
   sociétés. Raison : c'est le métier de Citadelle (rentabilité, pointage,
   chantiers), et on ne le refait pas ailleurs.
+- **22/11/2026** : **pas de partenariat avec ANAV** : on construit notre propre
+  planification (dans Citadelle). Règle générale : on note tout ce qu'on peut
+  modéliser de ce que font les concurrents, en France et dans le monde
+  (). Raison : réaliser en mieux, dans notre
+  écosystème, ce que chacun fait dans son coin.
 - **22/11/2026** : **jamais de double saisie pour l'artisan.** Une
   information saisie une fois circule partout où elle sert (logiciel de
   devis, système, Citadelle, expert-comptable). Raison : l'utilisateur

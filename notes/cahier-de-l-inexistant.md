@@ -55,7 +55,9 @@ entre les deux sociétés).
 **Décidé le 22/11/2026** : la planification et l'organisation des chantiers
 sont intégrées à **Citadelle** (BTP Performance), dont c'est la dernière
 brique manquante. Notre système s'en sert par un accord entre les deux
-sociétés. Cette brique concerne donc le développement de Citadelle.
+sociétés. Cette brique concerne donc le développement de Citadelle. Pas de
+partenariat avec ANAV : on construit le nôtre. Veille mondiale des fonctions
+à modéliser :  (en cours le 22/11/2026).
 
 **Ce que les meilleurs font** : ANAV (Pilote Soft, La Bauche en Savoie,
 19 € par collaborateur et par mois) : planning par affaire (Gantt, jalons),
