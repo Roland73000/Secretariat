@@ -192,3 +192,15 @@ Une ligne par décision : la date, ce qui est décidé, pourquoi.
   réglementation change sans cesse, et la niche rétrécirait la cible. On
   garde l'enseignement : promettre de l'argent rentré plutôt que des heures
   gagnées (voir `notes/positionnement.md`).
+- **22/11/2026** : **la bibliothèque : l'IA d'abord, un économiste en
+  contrôle.** L'IA construit et met à jour la bibliothèque (génération des
+  ouvrages, rangement, correction des temps par les heures réelles,
+  repérage des anomalies). Un économiste de la construction indépendant
+  intervient au démarrage (nomenclature commune, validation de la première
+  base), puis quelques jours par mois (contrôles par sondage, arbitrage des
+  cas signalés sur la base commune). Son rôle diminue à mesure que les
+  heures réelles s'accumulent. Pas d'embauche prévue, sauf si la
+  bibliothèque devient un produit vendu à part. Raison : au départ, sans
+  heures réelles, l'IA peut inventer des temps plausibles mais faux ; une
+  erreur sur la base commune coûte de la marge à tous les artisans ; et
+  « validé par un économiste » rassure.
