@@ -192,3 +192,17 @@ relié au système : entraide, formations, masterclasses des partenaires.
 ---
 
 Ce cahier s'enrichit à chaque veille. 
+
+---
+
+## La boucle complète (validée par Roland le 22/11/2026)
+
+1. **Le devis** : notre IA le chiffre avec notre bibliothèque et l'écrit
+   toute seule dans Costructor, par son API. L'artisan valide.
+2. **Le planning et le pointage** se font dans Citadelle (heures réelles et
+   quantités posées, par ouvrage).
+3. **Les heures reviennent dans notre système**, qui corrige les temps de la
+   bibliothèque (le dirigeant valide).
+4. **Le prochain devis est plus juste.**
+
+Aucune double saisie : chaque information est saisie une fois et circule.

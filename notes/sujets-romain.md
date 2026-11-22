@@ -47,3 +47,15 @@ des quantités posées sur mobile, la comparaison réalisé contre estimé. Il
 ne renvoie rien vers le chiffrage : c'est la moitié qu'il nous reste à
 construire, et vite, car Alobees (racheté par le groupe belge Eternia en
 2025) a toutes les briques pour le faire.
+
+## L'API Costructor : que peut-on y écrire ?
+
+**Le besoin** : notre IA écrit toute seule dans Costructor (création de
+devis en brouillon, lignes d'ouvrage, articles de bibliothèque), puis
+récupère les devis signés et les factures.
+**À vérifier** : la documentation de l'API Costructor n'a pas pu être lue
+(réservée aux comptes). Elle est vendue 10 € par mois en option, et un
+serveur MCP existe. **Solution proposée** : un artisan pilote (ou un compte
+BTP Performance) active l'option, et Romain teste ce qu'elle permet
+d'écrire ; en parallèle, le demander directement à Costructor dans le
+rendez-vous de partenariat.
