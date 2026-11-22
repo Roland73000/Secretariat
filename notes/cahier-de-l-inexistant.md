@@ -52,14 +52,21 @@ entre les deux sociétés).
 
 ## 3. Le planning des chantiers
 
-**Ce que les meilleurs font** : à compléter avec la fiche ANAV (en cours).
+**Ce que les meilleurs font** : ANAV (Pilote Soft, La Bauche en Savoie,
+19 € par collaborateur et par mois) : planning par affaire (Gantt, jalons),
+planning d'équipe en glisser-déposer, plan de charge par compétence, temps
+passés avec indicateur passé, prévu et projeté, appli mobile, agent IA.
+Alobees pour le pointage. Voir .
 Le cahier des charges de Roland du 19/11 sert de référence : planification
 dès la signature, compagnons par défaut ou jour par jour, barre qu'on
 glisse, sous-traitants sur la barre, matériel unique non réservable deux
 fois, planning général avec prévu, point de perte, réel et projeté.
 
-**Ce que personne ne fait** (supposé, à confirmer) : un planning nourri par
-des temps corrigés par les vrais chantiers.
+**Ce que personne ne fait** : un planning nourri par des temps corrigés par
+les vrais chantiers (ANAV, comme Alobees, ne renvoie rien vers le
+chiffrage). Il manque aussi à ANAV, par rapport au cahier des charges de
+Roland : le point de perte, la durée calculée par l'effectif, le matériel
+unique et le chef d'équipe par chantier.
 
 **Ce que notre système doit faire** : planifier avec les temps de la
 bibliothèque qui apprend, donc plus juste à chaque chantier ; relancer les
@@ -177,5 +184,4 @@ relié au système : entraide, formations, masterclasses des partenaires.
 
 ---
 
-Ce cahier s'enrichit à chaque veille. Prochaine mise à jour : la fiche
-ANAV (brique 3).
+Ce cahier s'enrichit à chaque veille. 
