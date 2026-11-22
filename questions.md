@@ -100,6 +100,6 @@
 
 ## Le réseau qui relie les particuliers et les artisans (idée du 22/11/2026)
 
-- Faut-il aller jusqu'à un réseau qui aide les particuliers à repérer de
-  bons artisans (comme Bilik, ou Artisaner, le « Doctolib des artisans » de
-  la Loire) ? Partenaire, concurrent, ou brique de notre offre ?
+- Le réseau fermé ou label (deuxième étape) : réservé aux membres de BTP
+  Performance, aux clients de notre société, ou aux deux ? À quelle société
+  appartient-il ? Quel cahier des charges et quels contrôles ?

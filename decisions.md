@@ -106,6 +106,12 @@ Une ligne par décision : la date, ce qui est décidé, pourquoi.
   d'abord, puis son métier ; nous faisons le reste. « Œuvrer » vaut pour tous
   les corps d'état (gros œuvre, second œuvre). Trois temps courts, qui se
   retiennent.
+- **22/11/2026** : **dès la première étape, le bras droit traite tous les
+  contacts entrants** de l'artisan (téléphone, site, plateformes) et recueille
+  les avis de ses clients. **Le réseau qui relie les particuliers aux
+  artisans vient en deuxième étape**, sans Bilik : un réseau fermé, presque un
+  label, à étudier. Boby est écarté. Raison : commencer par ce qui sert tout
+  de suite, sans dépendre d'une plateforme.
 - **22/11/2026** : **jamais de double saisie pour l'artisan.** Une
   information saisie une fois circule partout où elle sert (logiciel de
   devis, système, Citadelle, expert-comptable). Raison : l'utilisateur
