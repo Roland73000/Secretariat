@@ -50,7 +50,12 @@ le compagnon pointe en un clic, à la voix si possible ; l'écart repart vers
 la bibliothèque (brique 1) et vers la rentabilité (Citadelle, par un échange
 entre les deux sociétés).
 
-## 3. Le planning des chantiers
+## 3. Le planning des chantiers (dans Citadelle)
+
+**Décidé le 22/11/2026** : la planification et l'organisation des chantiers
+sont intégrées à **Citadelle** (BTP Performance), dont c'est la dernière
+brique manquante. Notre système s'en sert par un accord entre les deux
+sociétés. Cette brique concerne donc le développement de Citadelle.
 
 **Ce que les meilleurs font** : ANAV (Pilote Soft, La Bauche en Savoie,
 19 € par collaborateur et par mois) : planning par affaire (Gantt, jalons),

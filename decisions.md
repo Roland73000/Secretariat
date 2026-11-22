@@ -132,6 +132,11 @@ Une ligne par décision : la date, ce qui est décidé, pourquoi.
 - **22/11/2026** : **l'accroche de la bibliothèque qui apprend** : « Chaque
   chantier rend votre prochain devis plus juste. » Raison : elle dit le
   bénéfice (des devis justes) et le mécanisme en une phrase.
+- **22/11/2026** : **la planification et l'organisation des chantiers seront
+  intégrées à Citadelle**, dont c'est la dernière brique manquante. Le
+  système de la nouvelle société s'en servira, par un accord entre les deux
+  sociétés. Raison : c'est le métier de Citadelle (rentabilité, pointage,
+  chantiers), et on ne le refait pas ailleurs.
 - **22/11/2026** : **jamais de double saisie pour l'artisan.** Une
   information saisie une fois circule partout où elle sert (logiciel de
   devis, système, Citadelle, expert-comptable). Raison : l'utilisateur
