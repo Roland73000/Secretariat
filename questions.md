@@ -14,9 +14,11 @@
   la prospection des prescripteurs (secrétariat) et l'acquisition par les
   réseaux (Com'2) ?
 
-- Flavien et Com'2 travaillent aussi pour BTP Performance : comment la
-  nouvelle société les paie-t-elle (prestation facturée, temps refacturé) pour
-  garder les deux sociétés bien séparées ?
+- Com'2 est déjà une entreprise : elle facture la nouvelle société comme
+  prestataire externe. Flavien est salarié de BTP Performance : contrat de
+  mise à disposition avec un temps de travail défini, ou autre montage ? À
+  voir juridiquement (le prêt de main-d'œuvre entre sociétés doit se faire
+  à prix coûtant, avec une convention et l'accord écrit du salarié).
 
 ## Gaëlle et le réseau des bras droits (voir `notes/reseau-bras-droits.md`)
 
