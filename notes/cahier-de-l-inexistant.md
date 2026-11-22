@@ -56,7 +56,7 @@ entre les deux sociétés).
 19 € par collaborateur et par mois) : planning par affaire (Gantt, jalons),
 planning d'équipe en glisser-déposer, plan de charge par compétence, temps
 passés avec indicateur passé, prévu et projeté, appli mobile, agent IA.
-Alobees pour le pointage. Voir .
+Alobees pour le pointage. Voir `veille/fiche-anav.md`.
 Le cahier des charges de Roland du 19/11 sert de référence : planification
 dès la signature, compagnons par défaut ou jour par jour, barre qu'on
 glisse, sous-traitants sur la barre, matériel unique non réservable deux
