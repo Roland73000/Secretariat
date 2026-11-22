@@ -1,0 +1,201 @@
+<title>Point d'étape Secrétariat</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@600;700&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Mise en page : une colonne de lecture, une marge gauche pour les numéros, des étiquettes de changement comme sur un plan révisé (indice A, B, C) */
+:root{
+  --bg:#f6f7f9; --paper:#ffffff; --fg:#1d2430; --muted:#5d6878; --line:#dde2ea;
+  --accent:#2f5d8a;
+  --add:#1f7a4d; --add-bg:#e5f4ec;
+  --mod:#9a5b00; --mod-bg:#fdf1dc;
+  --del:#b3261e; --del-bg:#fbe7e5;
+  --mov:#3b5fb0; --mov-bg:#e8eefb;
+  --display:"IBM Plex Sans Condensed","Arial Narrow",system-ui,sans-serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#12161c; --paper:#1a2029; --fg:#e4e8ee; --muted:#9aa5b4; --line:#2c3440;
+  --accent:#7fb0e0;
+  --add:#5fd39a; --add-bg:#16301f; --mod:#f0b45a; --mod-bg:#33270f;
+  --del:#ff8a80; --del-bg:#3a1a18; --mov:#9ab5f5; --mov-bg:#1b2540; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#12161c; --paper:#1a2029; --fg:#e4e8ee; --muted:#9aa5b4; --line:#2c3440;
+  --accent:#7fb0e0;
+  --add:#5fd39a; --add-bg:#16301f; --mod:#f0b45a; --mod-bg:#33270f;
+  --del:#ff8a80; --del-bg:#3a1a18; --mov:#9ab5f5; --mov-bg:#1b2540; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.55}
+.wrap{max-width:780px;margin:0 auto;padding-block:28px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:22px}
+header{display:grid;gap:8px}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font-family:var(--display);font-size:clamp(28px,6vw,40px);line-height:1.1;margin:0;text-wrap:balance}
+h2{font-family:var(--display);font-size:22px;margin:0;text-wrap:balance}
+h3{font-family:var(--body);font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:14px 0 4px}
+p{margin:0}
+.lede{color:var(--muted);max-width:62ch}
+.controls{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;padding:12px 14px;background:var(--paper);border:1px solid var(--line);border-radius:8px}
+.controls label{display:flex;gap:8px;align-items:center;cursor:pointer;font-size:14px}
+.legend{display:flex;flex-wrap:wrap;gap:8px}
+.tag{font-family:var(--mono);font-size:11px;letter-spacing:.04em;text-transform:uppercase;padding:2px 7px;border-radius:4px;white-space:nowrap;align-self:start}
+.t-add{color:var(--add);background:var(--add-bg)} .t-mod{color:var(--mod);background:var(--mod-bg)}
+.t-del{color:var(--del);background:var(--del-bg)} .t-mov{color:var(--mov);background:var(--mov-bg)}
+section.block{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:18px 18px 20px;display:grid;gap:10px;min-width:0}
+ol.items{list-style:none;margin:0;padding:0;display:grid;gap:2px}
+.item{display:grid;grid-template-columns:2.6em 1fr;gap:10px;padding:8px 8px 8px 0;border-left:3px solid transparent;padding-left:8px;border-radius:0 6px 6px 0}
+.num{font-family:var(--mono);font-size:14px;color:var(--muted);text-align:right;padding-top:2px;font-variant-numeric:tabular-nums}
+.content{display:grid;gap:6px;min-width:0}
+.line1{display:flex;gap:8px;align-items:flex-start;flex-wrap:wrap}
+.line1 .txt{flex:1 1 300px;min-width:0}
+.note{font-size:14px;color:var(--muted)}
+.before{font-size:14px;color:var(--muted);border-left:2px solid var(--line);padding-left:10px}
+.before b{font-weight:600}
+.para{padding:8px 10px;border-left:3px solid transparent;border-radius:0 6px 6px 0;display:grid;gap:6px}
+body.show .item[data-c="add"],body.show .para[data-c="add"]{border-left-color:var(--add);background:var(--add-bg)}
+body.show .item[data-c="mod"],body.show .para[data-c="mod"]{border-left-color:var(--mod);background:var(--mod-bg)}
+body.show .item[data-c="mov"]{border-left-color:var(--mov);background:var(--mov-bg)}
+.item[data-c="del"],.para[data-c="del"]{border-left-color:var(--del);background:var(--del-bg)}
+.item[data-c="del"] .txt,.para[data-c="del"] .txt{text-decoration:line-through;text-decoration-color:var(--del);color:var(--muted)}
+body:not(.show) .tag.chg, body:not(.show) .before{display:none}
+body:not(.showdel) [data-c="del"]{display:none}
+ul.sub{margin:4px 0 0;padding-left:1.1em;display:grid;gap:2px}
+.journal{display:grid;gap:14px}
+.ver{display:grid;gap:4px}
+.ver h3{margin:0;color:var(--fg)}
+.ver ul{margin:0;padding-left:1.1em;display:grid;gap:2px;font-size:15px}
+.count{display:flex;gap:8px;flex-wrap:wrap}
+a{color:var(--accent)}
+input[type=checkbox]{width:18px;height:18px;accent-color:var(--accent)}
+input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+</style>
+
+<div class="wrap" id="top">
+<header>
+  <div class="eyebrow">Projet Secrétariat · version 3 · 22/11/2026</div>
+  <h1>Point d'étape</h1>
+  <p class="lede">Roland valide, corrige ou barre chaque point par son numéro. Les couleurs montrent ce qui a changé depuis la version 2. Le journal en bas de page garde toutes les versions.</p>
+</header>
+
+<div class="controls">
+  <label for="show"><input type="checkbox" id="show" checked> Montrer les changements</label>
+  <label for="showdel"><input type="checkbox" id="showdel" checked> Montrer ce qui a été retiré</label>
+  <div class="legend"><span class="tag t-add">Nouveau</span><span class="tag t-mod">Modifié</span><span class="tag t-mov">Déplacé</span><span class="tag t-del">Retiré</span></div>
+</div>
+
+<div class="count" id="count"></div>
+
+<section class="block">
+  <h2>Ce que Claude a compris du projet</h2>
+  <div class="para"><p class="txt">Une nouvelle société, montée par <b>Roland, Romain Gache et Gaëlle</b>, distincte de BTP Performance et d'Option &amp; Solution. Elle apporte aux dirigeants du BTP un service qui n'existe pas en France : <b>piloter tout le parcours de l'artisan</b>, de la recherche de clients jusqu'à l'encaissement de la facture. Le dirigeant ne garde que son métier : la visite, la validation du devis et les travaux.</p></div>
+  <div class="para" data-c="mod">
+    <div class="line1"><p class="txt">La société fournit <b>un système autonome</b>, piloté <b>par l'épouse</b> de l'artisan, formée et suivie (« bras droit »), ou, sans épouse, <b>par Gaëlle</b> (« tout compris »). Ce système se branche sur les logiciels de devis des artisans ; une offre tout-en-un pourrait l'associer à un logiciel partenaire (Costructor) et à un expert-comptable partenaire (Dougs). Une communauté des conjointes du BTP l'accompagne.</p><span class="tag t-mod chg">Modifié</span></div>
+    <p class="before"><b>Avant :</b> « Autour, un environnement tout-en-un (logiciel de devis partenaire, expert-comptable partenaire) et une communauté des conjointes du BTP. »</p>
+  </div>
+  <div class="para"><p class="txt"><b>Ce service et BTP Performance sont deux offres distinctes, avec deux tunnels de vente.</b> Les membres de BTP Performance peuvent accéder au service, le service peut envoyer des clients vers BTP Performance, et une offre globale combinera les deux.</p></div>
+  <div class="para"><p class="txt">Le rempart face à l'IA : l'humain du BTP, la formation, la communauté et les données réelles de chantier.</p></div>
+</section>
+
+<section class="block">
+  <h2>Les décisions prises</h2>
+  <h3>Le périmètre</h3>
+  <ol class="items">
+    <li class="item"><span class="num">1</span><div class="content"><p class="txt">Le BTP uniquement, pour l'instant. D'autres métiers peut-être plus tard, dans d'autres sociétés avec Romain.</p></div></li>
+    <li class="item"><span class="num">2</span><div class="content"><p class="txt">L'équipe : Roland, Romain et Gaëlle, personne d'autre. Louis n'en fait pas partie. Com'2 (Lilian) sera un partenaire externe une fois la société lancée, sans qu'on lui fasse concurrence.</p></div></li>
+    <li class="item"><span class="num">3</span><div class="content"><p class="txt"><b>On ne mélange pas BTP Performance et ce projet.</b> Citadelle reste l'outil de rentabilité de BTP Performance et ne gère pas la bibliothèque d'ouvrages.</p></div></li>
+    <li class="item"><span class="num">4</span><div class="content"><p class="txt"><b>Deux offres, deux tunnels de vente, deux sociétés distinctes</b>, avec des clients qui peuvent passer de l'une à l'autre, et une <b>offre globale</b> qui combine les deux.</p></div></li>
+  </ol>
+  <h3>L'offre</h3>
+  <ol class="items">
+    <li class="item"><span class="num">5</span><div class="content"><p class="txt"><b>Un seul système, deux pilotes</b> : l'épouse ou Gaëlle. On attaque par les conjointes. Passer par BTP Performance est une porte d'entrée parmi d'autres.</p></div></li>
+    <li class="item"><span class="num">6</span><div class="content"><p class="txt"><b>Le parcours complet</b> : former, accompagner, suivre, et fournir tout l'environnement, pour pouvoir afficher un résultat.</p></div></li>
+    <li class="item"><span class="num">7</span><div class="content"><p class="txt"><b>La communauté des conjointes</b> du BTP.</p></div></li>
+    <li class="item"><span class="num">8</span><div class="content"><p class="txt">L'artisan fait la visite et valide toujours le devis. Le service peut en préparer un brouillon à distance.</p></div></li>
+    <li class="item"><span class="num">9</span><div class="content"><p class="txt">Les appels sortants sont faits par des humains, sans IA vocale. L'artisan, lui, parle à son appli au lieu de taper.</p></div></li>
+    <li class="item"><span class="num">10</span><div class="content"><p class="txt"><b>Jamais de double saisie pour l'artisan.</b></p></div></li>
+  </ol>
+  <h3>Les outils</h3>
+  <ol class="items">
+    <li class="item" data-c="add"><span class="num">11</span><div class="content"><div class="line1"><p class="txt"><b>On ne fabrique pas de logiciel de devis et factures.</b> Notre système se branche sur les logiciels du BTP qui nous donnent leurs clés API, et sur les outils de l'expert-comptable.</p><span class="tag t-add chg">Nouveau</span></div><p class="note">Lève la contradiction du 21/11 et reprend l'ancien point 13 (accès API).</p></div></li>
+    <li class="item" data-c="del"><span class="num">11</span><div class="content"><div class="line1"><p class="txt">Tout-en-un mais pas obligatoire : l'artisan peut garder son logiciel ou son expert-comptable ; le contrat nous dégage alors de toute responsabilité.</p><span class="tag t-mov">Passé en piste 14</span></div></div></li>
+    <li class="item" data-c="del"><span class="num">12</span><div class="content"><div class="line1"><p class="txt">Un à trois logiciels de devis et factures partenaires, avec Costructor en tête.</p><span class="tag t-del">Retiré</span></div><p class="note">Remplacé par la piste 13 : un seul partenaire pour le tout-en-un, Costructor.</p></div></li>
+    <li class="item" data-c="del"><span class="num">13</span><div class="content"><div class="line1"><p class="txt">On cherche à obtenir les accès API des logiciels.</p><span class="tag t-del">Fusionné</span></div><p class="note">Repris dans le nouveau point 11.</p></div></li>
+  </ol>
+  <h3>Le fonctionnement</h3>
+  <ol class="items">
+    <li class="item" data-c="mov"><span class="num">12</span><div class="content"><div class="line1"><p class="txt">Le dépôt GitHub et le tableau Miro servent à la réflexion. Pas de développement tant que ce n'est pas nécessaire.</p><span class="tag t-mov chg">Était 14</span></div></div></li>
+  </ol>
+  <div class="para" data-c="del"><div class="line1"><p class="txt">Une contradiction à lever : le 21/11 « pas de logiciel de devis », le 22/11 « l'offre inclut un à trois logiciels partenaires ».</p><span class="tag t-del">Levée</span></div></div>
+</section>
+
+<section class="block">
+  <h2>Les pistes, pas encore décidées</h2>
+  <ol class="items">
+    <li class="item" data-c="add"><span class="num">13</span><div class="content"><div class="line1"><p class="txt"><b>La gamme d'offres</b>, piste de positionnement de Roland, avec un seul logiciel partenaire pour le tout-en-un : Costructor.</p><span class="tag t-add chg">Nouveau</span></div>
+      <ul class="sub">
+        <li>a. le système seul, branché sur le logiciel de l'artisan (déduit par Claude) ;</li>
+        <li>b. tout-en-un <b>Costructor + notre système</b> ;</li>
+        <li>c. tout-en-un <b>notre système + Dougs</b> ;</li>
+        <li>d. tout-en-un <b>Costructor + notre système + Dougs</b> ;</li>
+        <li>e. le « plus que tout-en-un » : <b>le tout + BTP Performance</b>.</li>
+      </ul>
+      <p class="note">Remarque de Claude : présenter cette gamme comme une offre de base et trois options (Costructor, Dougs, BTP Performance), plus simple à vendre.</p></div></li>
+    <li class="item" data-c="mov"><span class="num">14</span><div class="content"><div class="line1"><p class="txt"><b>Tout-en-un mais pas obligatoire</b> : l'artisan peut garder son logiciel ou son expert-comptable ; le contrat nous dégage alors de toute responsabilité sur ces outils.</p><span class="tag t-mov chg">Venu des décisions</span></div></div></li>
+    <li class="item"><span class="num">15</span><div class="content"><p class="txt">Les secrétaires recrutées en priorité parmi des conjointes d'artisans, sans le mentionner dans les annonces (c'est interdit).</p></div></li>
+    <li class="item" data-c="mod"><span class="num">16</span><div class="content"><div class="line1"><p class="txt">Lancer par étapes : d'abord la formation, le système piloté, <b>le</b> logiciel partenaire et la communauté ; ensuite la bibliothèque personnalisée ; enfin la bibliothèque partagée par métier, avec l'IA.</p><span class="tag t-mod chg">Modifié</span></div><p class="before"><b>Avant :</b> « un logiciel partenaire »</p></div></li>
+    <li class="item" data-c="mod"><span class="num">17</span><div class="content"><div class="line1"><p class="txt">Ne pas créer notre propre logiciel de devis, sauf à un seuil (300 à 500 artisans) ou si Costructor devient un concurrent. Avec Costructor : partenariat avec lien dédié d'abord, puis co-marquage. BTP Performance a déjà son partenariat (20 % de remise) ; la nouvelle société aura le sien.</p><span class="tag t-mod chg">Modifié</span></div><p class="before"><b>Avant :</b> « Ne pas créer notre propre logiciel de devis maintenant, et se reposer la question vers 300 à 500 artisans. »</p></div></li>
+    <li class="item"><span class="num">18</span><div class="content"><p class="txt">Dougs comme expert-comptable partenaire, en commençant par le schéma le plus simple : la secrétaire, mandatée, travaille dans l'espace Dougs de l'artisan.</p></div></li>
+    <li class="item"><span class="num">19</span><div class="content"><p class="txt">Les prix de départ à tester : « bras droit » 99 à 199 € HT par mois plus une formation ; « tout compris » 450 à 600 € HT par mois.</p></div></li>
+    <li class="item"><span class="num">20</span><div class="content"><p class="txt">Garder « bras droit » comme nom de la formule plutôt que comme nom de société.</p></div></li>
+    <li class="item"><span class="num">21</span><div class="content"><p class="txt">Le système de la nouvelle société reçoit les heures réelles de Citadelle, par un accord entre les deux sociétés (conséquence de la règle « pas de double saisie »).</p></div></li>
+  </ol>
+</section>
+
+<section class="block">
+  <h2>Ce qui reste ouvert, par priorité</h2>
+  <ol class="items">
+    <li class="item"><span class="num">·</span><div class="content"><p class="txt"><b>Qui forme l'épouse</b> d'un artisan qui n'est pas membre de BTP Performance : la nouvelle société (avec sa propre certification Qualiopi ?) ou BTP Performance comme prestataire ?</p></div></li>
+    <li class="item"><span class="num">·</span><div class="content"><p class="txt"><b>L'offre globale</b> : contenu, prix, qui la vend, commissions croisées.</p></div></li>
+    <li class="item"><span class="num">·</span><div class="content"><p class="txt"><b>Le nom de la société</b> : rien ne plaît encore. Dégagés à l'INPI : Faîtière, Bastidelle, Tiré au Cordeau, La Poutre Maîtresse, Libre d'Œuvre.</p></div></li>
+    <li class="item"><span class="num">·</span><div class="content"><p class="txt"><b>Les statuts</b> : parts de Romain, statut de Gaëlle.</p></div></li>
+    <li class="item"><span class="num">·</span><div class="content"><p class="txt"><b>Le juridique à faire valider</b> : relances de paiement et recouvrement amiable, frontière avec la comptabilité, statut des secrétaires.</p></div></li>
+    <li class="item"><span class="num">·</span><div class="content"><p class="txt"><b>Les rendez-vous</b> : Costructor, Dougs, Emmanuel Ningre, l'Ordre des experts-comptables.</p></div></li>
+    <li class="item"><span class="num">·</span><div class="content"><p class="txt"><b>Qualiopi</b> : BTP Performance est-elle certifiée ?</p></div></li>
+  </ol>
+</section>
+
+<section class="block">
+  <h2>Journal des versions</h2>
+  <div class="journal">
+    <div class="ver"><h3>Version 3 · 22/11/2026</h3><ul>
+      <li>Contradiction sur les logiciels de devis levée : nouveau point 11, « on ne fabrique pas de logiciel, on se branche par API ».</li>
+      <li>L'environnement repasse en piste : « tout-en-un pas obligatoire » devient la piste 14 ; « un à trois logiciels » est retiré ; « accès API » est fusionné dans le point 11.</li>
+      <li>Nouvelle piste 13 : la gamme d'offres, avec Costructor comme seul partenaire du tout-en-un.</li>
+      <li>Retouches des pistes 16 et 17, et du deuxième paragraphe de la compréhension.</li>
+    </ul></div>
+    <div class="ver"><h3>Version 2 · 22/11/2026</h3><ul>
+      <li>Nouvelle décision 4 : deux offres, deux tunnels de vente, et une offre globale.</li>
+      <li>Décision 5 précisée : passer par BTP Performance est une porte d'entrée parmi d'autres.</li>
+      <li>Compréhension réécrite : le service et BTP Performance sont distincts.</li>
+      <li>Deux questions ouvertes ajoutées : qui forme l'épouse, et l'offre globale.</li>
+      <li>Piste 17 complétée par le partenariat existant avec Costructor (20 %).</li>
+    </ul></div>
+    <div class="ver"><h3>Version 1 · 22/11/2026</h3><ul>
+      <li>Premier point d'étape : 13 décisions, 7 propositions, les questions ouvertes.</li>
+    </ul></div>
+  </div>
+</section>
+</div>
+
+<script>
+(function(){
+  var b=document.body, s=document.getElementById('show'), d=document.getElementById('showdel');
+  function apply(){ b.classList.toggle('show', s.checked); b.classList.toggle('showdel', d.checked); }
+  try{ var v=JSON.parse(localStorage.getItem('pe-opts')||'null'); if(v){ s.checked=!!v.s; d.checked=!!v.d; } }catch(e){}
+  s.addEventListener('change',function(){apply();save();}); d.addEventListener('change',function(){apply();save();});
+  function save(){ try{ localStorage.setItem('pe-opts',JSON.stringify({s:s.checked,d:d.checked})); }catch(e){} }
+  apply();
+  var c={add:0,mod:0,mov:0,del:0}; document.querySelectorAll('[data-c]').forEach(function(e){c[e.dataset.c]++;});
+  var lab={add:['t-add','nouveau'],mod:['t-mod','modifié'],mov:['t-mov','déplacé'],del:['t-del','retiré']};
+  document.getElementById('count').innerHTML=Object.keys(c).filter(function(k){return c[k]}).map(function(k){return '<span class="tag '+lab[k][0]+'">'+c[k]+' '+lab[k][1]+(c[k]>1?'s':'')+'</span>';}).join('');
+})();
+</script>
