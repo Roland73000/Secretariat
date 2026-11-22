@@ -113,3 +113,10 @@ Taxi »… Page complète : https://claude.ai/artifact/FpUnZs4KnFy4w9FvV8Vz76
   (dans une patrouille d'avions de chasse, le binôme du leader : il le
   protège et attaque avec lui), Pilier (au rugby, il tient la mêlée et la
   pousse en avant). Tous en « nombtp.fr » libre.
+- **Finalistes de Roland (22/11/2026, au soir)** : **Renfort** et **Appui**.
+  En réserve : Binôme, Cordée, Chaînage. Prochaine étape : vérification
+  INPI (classes 35, 42, 9) selon les directives de Roland, puis test à voix
+  haute auprès de conjointes et d'artisans. Point de vigilance : deux mots
+  très courants, sans doute déjà utilisés dans l'intérim, le recrutement ou
+  l'accompagnement ; c'est l'INPI qui dira s'ils restent déposables dans
+  nos classes.
