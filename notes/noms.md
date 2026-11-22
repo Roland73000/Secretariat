@@ -105,3 +105,11 @@ Taxi »… Page complète : https://claude.ai/artifact/FpUnZs4KnFy4w9FvV8Vz76
     explicites (Assistelle, Officielle, Bureautelle, Adminelle, Secrébat,
     Binôme Secrétariat : trop longs, moches) ;
   - règle confirmée : un seul mot, peu de syllabes.
+- **Nouvelle série (veine « on ne se lâche pas »)** : Roland aime **Renfort**,
+  **Appui** et **Rempart** (mais trop défensif : on va aussi de l'avant,
+  vers les clients et les fournisseurs). Il cherche un mot qui protège ET
+  qui avance. Pistes de Claude : Renfort (les renforts protègent et
+  avancent), Appui (l'appui-feu soutient la troupe qui avance), Ailier
+  (dans une patrouille d'avions de chasse, le binôme du leader : il le
+  protège et attaque avec lui), Pilier (au rugby, il tient la mêlée et la
+  pousse en avant). Tous en « nombtp.fr » libre.
