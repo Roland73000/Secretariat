@@ -55,6 +55,9 @@ Une ligne par décision : la date, ce qui est décidé, pourquoi.
   (closing)**. Les partenaires (Com'2, et en piste Costructor, Dougs, un
   assureur) sont des entreprises extérieures, listées à part. Raison : séparer
   clairement associés, appui et partenaires.
+- **22/11/2026** : **Lilian ne devient pas associé.** On travaille avec Com'2
+  par un partenariat, comme prévu. Raison : garder les partenaires à leur
+  place de partenaires.
 - **22/11/2026** : un seul système autonome, deux pilotes possibles. Le
   parcours commercial : l'artisan entre dans BTP Performance, on le forme,
   on forme son épouse ; puis on met à sa disposition le système, piloté par
