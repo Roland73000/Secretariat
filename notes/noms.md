@@ -91,3 +91,17 @@ Taxi »… Page complète : https://claude.ai/artifact/FpUnZs4KnFy4w9FvV8Vz76
   Secrétariat » (on dépose « Binôme », on écrit « Binôme, le secrétariat
   des artisans »). Rappel : plus un nom décrit le service, plus il est dur
   à déposer.
+- **Retours de Roland sur la page (22/11/2026, au soir)** :
+  - gardés : **Binôme** (lien avec l'armée : on n'abandonne jamais son
+    binôme ; une vraie relation entre les deux), **Cordée** (pas mal),
+    **Chaînage** (pas pire) ;
+  - la **protection** est un bon terrain (l'idée de Gardian lui plaît, pas
+    le mot) ;
+  - écartés : Dextre (prononciation), Complice (gnangnan), Aronde (ne se
+    décline pas, peu connu), Faîtière (fait objet), Ancrage, Égide, Escorte
+    (escort girl), Pavois (inconnu), Talisman (ésotérique), tous les
+    animaux, le Japon (personne ne connaît), Sherpa (trop utilisé), Bosco,
+    Âtre, Osmose, tous les mots inventés en « -elle », tous les noms
+    explicites (Assistelle, Officielle, Bureautelle, Adminelle, Secrébat,
+    Binôme Secrétariat : trop longs, moches) ;
+  - règle confirmée : un seul mot, peu de syllabes.
