@@ -28,6 +28,12 @@ le métier technique du dirigeant d'une entreprise du bâtiment.
 | Gaëlle | ressource humaine du service ; associée, gérante ou salariée : à définir |
 | Lilian Céré (orthographe à vérifier), agence Com'2 | hors de l'équipe : partenaire externe, une fois la société lancée. Roland a des parts dans Com'2. Réseaux sociaux, site internet, acquisition via les réseaux, sans concurrence |
 
+| Flavien Buffet (fils de Roland) | promotion de la nouvelle société : media buying, community management, montage vidéo, comme pour BTP Performance |
+
+Com'2 (Lilian) traite les clients de la nouvelle société (site, réseaux,
+media buying), en partenaire. Flavien s'occupe de la communication de la
+société elle-même. (Décidé le 22/11/2026.)
+
 **L'équipe du projet, c'est Roland, Romain et Gaëlle, et personne d'autre.**
 Louis travaille pour Romain sur Citadelle, il n'est pas dans ce projet.
 

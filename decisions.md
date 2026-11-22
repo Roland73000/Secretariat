@@ -41,6 +41,14 @@ Une ligne par décision : la date, ce qui est décidé, pourquoi.
 - **21/11/2026** : l'équipe du projet, c'est Roland, Romain Gache et Gaëlle,
   personne d'autre. Louis (qui travaille pour Romain) n'en fait pas partie ;
   Com'2 sera un partenaire externe une fois la société lancée.
+- **22/11/2026** : deux renforts autour de l'équipe, sans être associés.
+  **Com'2 (Lilian)** devient le partenaire des clients de la nouvelle société
+  pour leur site internet, leurs réseaux sociaux et leur media buying, comme
+  il le fait déjà pour certains clients de BTP Performance. **Flavien Buffet**
+  (fils de Roland) fait pour la nouvelle société ce qu'il fait pour BTP
+  Performance : sa promotion, son media buying, son community management,
+  ses montages vidéo. Raison : ils travaillent déjà pour Roland et
+  connaissent le BTP.
 - **22/11/2026** : un seul système autonome, deux pilotes possibles. Le
   parcours commercial : l'artisan entre dans BTP Performance, on le forme,
   on forme son épouse ; puis on met à sa disposition le système, piloté par

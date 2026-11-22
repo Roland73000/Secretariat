@@ -14,6 +14,10 @@
   la prospection des prescripteurs (secrétariat) et l'acquisition par les
   réseaux (Com'2) ?
 
+- Flavien et Com'2 travaillent aussi pour BTP Performance : comment la
+  nouvelle société les paie-t-elle (prestation facturée, temps refacturé) pour
+  garder les deux sociétés bien séparées ?
+
 ## Offre
 
 - Le service a son propre tunnel de vente (décidé le 22/11/2026) : qui
