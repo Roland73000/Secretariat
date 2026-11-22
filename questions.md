@@ -106,3 +106,5 @@
 - Le sponsoring de la communauté par les partenaires exclusifs (modèle
   TradieWives) : pertinent ? Analyse lancée le 22/11/2026
   (`notes/veille/sponsoring-communaute.md`).
+- Économiste de la construction pour la bibliothèque (étapes 2 et 3) :
+  embauche, indépendant ou cabinet partenaire ? À partir de quand ?
