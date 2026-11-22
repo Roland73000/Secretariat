@@ -38,10 +38,9 @@
   bibliothèques des partenaires, catalogues fournisseurs), qui la construit
   (maître d'œuvre, économiste, IA), et avec quel accord des membres pour
   partager les données ?
-- Où se fait le suivi de chantier par ouvrage, puisque Citadelle reste
-  l'outil de rentabilité de BTP Performance ? Le système de la nouvelle
-  société peut-il recevoir des données de Citadelle (heures réelles), et
-  selon quel accord entre les deux sociétés ?
+- Le système de la nouvelle société reçoit les heures réelles de Citadelle
+  (pas de double saisie, décidé le 22/11/2026) : selon quel accord entre
+  les deux sociétés, et quelles données exactement ?
 - La formule « bras droit » : qui la vend, la nouvelle société ou BTP
   Performance ?
 - La prospection des prescripteurs (architectes, maîtres d'œuvre) fait-elle

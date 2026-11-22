@@ -72,3 +72,8 @@ Une ligne par décision : la date, ce qui est décidé, pourquoi.
   (bibliothèque, chiffrage) vit ailleurs : dans le système de la nouvelle
   société ou chez l'éditeur partenaire. Raison : deux sociétés distinctes,
   deux métiers distincts.
+- **22/11/2026** : **jamais de double saisie pour l'artisan.** Une
+  information saisie une fois circule partout où elle sert (logiciel de
+  devis, système, Citadelle, expert-comptable). Raison : l'utilisateur
+  d'abord ; on doit apporter aux dirigeants du BTP un vrai service, qui
+  n'existe pas aujourd'hui.
