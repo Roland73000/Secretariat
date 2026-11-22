@@ -45,6 +45,17 @@
 - La prospection des prescripteurs (architectes, maîtres d'œuvre) fait-elle
   partie de l'offre de départ ?
 
+## L'environnement tout-en-un (voir `notes/environnement-tout-en-un.md`)
+
+- Verrouiller l'environnement : Costructor, notre système, et Dougs comme
+  expert-comptable unique ? Comment le proposer sans l'imposer ?
+- Quel montage avec l'éditeur : revendeur, refacturation ou apporteur
+  d'affaires ?
+- Bibliothèque : on construit la nôtre (générée puis vérifiée), ou on
+  négocie une licence de redistribution ?
+- Rendez-vous à prendre par Roland : Emmanuel Ningre, l'Ordre des
+  experts-comptables de Savoie, Dougs, Costructor.
+
 ## Prix et économie
 
 - Quel prix, et sous quelle forme (forfait mensuel, à l'heure, à la tâche) ?
