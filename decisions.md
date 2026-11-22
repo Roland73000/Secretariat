@@ -161,3 +161,14 @@ Une ligne par décision : la date, ce qui est décidé, pourquoi.
   offres, sauf l'offre globale. Raison : un seul code et aucune double
   saisie, sans emmêler les deux sociétés ; chacune peut vivre ou être
   vendue seule.
+- **22/11/2026** : **quatre entrées commerciales.** (1) BTP Performance
+  seul ; (2) le secrétariat seul, fait par nous (« tout compris »), sans
+  BTP Performance ; (3) la formule « bras droit » : **l'entrée dans BTP
+  Performance est obligatoire**, qui forme le dirigeant et son épouse (ou
+  sa collaboratrice), puis la nouvelle société la suit dans le système ;
+  (4) l'offre globale. Raison : sécuriser la relation du couple ; former
+  l'épouse seule la met en opposition avec un mari qui n'applique rien, et
+  nous empêche de tenir nos engagements. C'est aussi un tri de la
+  clientèle. Ceci précise la décision « deux offres, deux tunnels » : la
+  formule « bras droit » passe toujours par BTP Performance. Détail dans
+  `notes/entrees-commerciales.md`.

@@ -68,8 +68,14 @@
 - Le système de la nouvelle société reçoit les heures réelles de Citadelle
   (pas de double saisie, décidé le 22/11/2026) : selon quel accord entre
   les deux sociétés, et quelles données exactement ?
-- La formule « bras droit » : qui la vend, la nouvelle société ou BTP
-  Performance ?
+- La formule « bras droit » (BTP Performance obligatoire, décidé le
+  22/11) : qui la vend et qui touche quoi ? Un prix « parcours à deux »
+  unique, payé au mois ? Combien de temps BTP Performance reste
+  obligatoire (la phase de formation, 12 mois ?) ? Voir
+  `notes/entrees-commerciales.md`.
+- La formule « tout compris » : quel engagement minimum du dirigeant
+  (charte, rendez-vous de démarrage, point chaque semaine) ?
+- Le rendez-vous de découverte à deux, comme premier tri, avant de signer ?
 - La prospection des prescripteurs (architectes, maîtres d'œuvre) fait-elle
   partie de l'offre de départ ?
 
