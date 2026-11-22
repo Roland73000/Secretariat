@@ -116,3 +116,28 @@ fidèles, ceux qui ont sa confiance totale.
   patron. » ; « Dans votre premier cercle, il y a votre bureau. »
 - « Premier Cercle » comme nom de marque : sûrement déjà pris, à vérifier à
   l'INPI avant d'y penser.
+
+### Des mots que tout le monde connaît (Roland, 22/11/2026)
+
+Le vocabulaire militaire est écarté : trop militaire, et « aide de camp »
+n'est pas connu de tous (détail dans `veille/vocabulaire-protection.md`).
+**Règle de Roland : le mot doit déjà avoir un sens pour un civil**, comme
+« garde du corps », pas seulement pour les gens de la sécurité ou de
+l'armée.
+
+Mots candidats que tout le monde comprend (Claude) :
+
+| Mot | Ce qu'il évoque | Limite |
+| --- | --- | --- |
+| **le copilote** | il lit la route, prévient, gère la navigation ; le pilote conduit. Va avec « Vous décidez. Vous œuvrez. » | Microsoft Copilot : on risque d'être pris pour une IA, alors qu'on vend de l'humain |
+| **la garde rapprochée** | les fidèles, la confiance totale | un peu défensif |
+| **le premier cercle** | les plus proches | sonne club ou politique |
+| **l'ange gardien** | veille sur vous, chaleureux | un peu naïf, sûrement déposé |
+| **la personne de confiance** | clair, immédiat | banal, impossible à protéger |
+| **le confident, la confidente** | le secret, la confidentialité | ne dit rien du travail |
+| **le binôme, le coéquipier** | on travaille à deux | plat |
+| **votre moitié** | le couple, avec un clin d'œil | réservé aux couples, pour les campagnes |
+
+Ce que propose Claude : un mot pour le rôle (copilote ou bras droit, qui
+reste le plus clair) et une image pour la confiance (garde rapprochée ou
+premier cercle).
