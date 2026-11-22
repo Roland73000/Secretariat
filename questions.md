@@ -29,7 +29,17 @@
 - Qualification des prospects avant le rendez-vous : qui, comment ?
 - Appels entrants (le client qui appelle l'artisan) : un humain décroche
   toujours, ou l'IA peut prendre un message en dehors des heures ?
-- Quels logiciels de devis viser d'abord (Obat, Costructor…) ?
+- Un ou deux logiciels partenaires ? Costructor seul, ou Costructor et
+  Interfast ? Quelles conditions négocier (API, prix, marque blanche,
+  sortie) ?
+- Que propose-t-on à l'artisan qui refuse de changer de logiciel ?
+- Faut-il un outil de paiement inclus, et lequel ?
+- La bibliothèque d'ouvrages : d'où partir (licence d'une base de prix,
+  bibliothèques des partenaires, catalogues fournisseurs), qui la construit
+  (maître d'œuvre, économiste, IA), et avec quel accord des membres pour
+  partager les données ?
+- Suivi de chantier par ouvrage dans Citadelle : faisable, et à quelle
+  étape ?
 - La formule « bras droit » : qui la vend, la nouvelle société ou BTP
   Performance ?
 - La prospection des prescripteurs (architectes, maîtres d'œuvre) fait-elle

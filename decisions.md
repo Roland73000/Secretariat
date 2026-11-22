@@ -45,3 +45,16 @@ Une ligne par décision : la date, ce qui est décidé, pourquoi.
   système est piloté par Gaëlle (formule « tout compris »). On attaque par
   les conjointes. Raison : ne pas partir dans tous les sens ; un seul outil
   à construire, deux façons de le faire tourner.
+- **22/11/2026** : on y va clairement sur le **parcours complet** de
+  l'artisan : former, accompagner, suivre, et fournir tout l'environnement
+  (système, logiciel de devis et factures partenaire, outils), pour pouvoir
+  afficher un résultat. Raison : personne ne le fait en France, et
+  contrôler l'environnement rend le résultat mesurable.
+- **22/11/2026** : on crée une **communauté des conjointes** du BTP.
+  Raison : rien d'équivalent en France, alors que ça marche ailleurs
+  (TradieWives en Australie) ; c'est aussi l'acquisition et le vivier des
+  secrétaires.
+- **22/11/2026** : l'offre inclut **un ou deux logiciels de devis et
+  factures partenaires** (Costructor en tête, Interfast possible), au lieu
+  de se brancher sur tous les logiciels. Raison : maîtriser parfaitement les
+  outils, former dessus, simplifier les connexions.
