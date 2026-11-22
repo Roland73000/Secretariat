@@ -46,8 +46,12 @@ partir des heures réelles du chantier. Aucun outil trouvé, ni en France ni
 avec relance d'oubli, quantité posée par tâche validée par le chef, feuille
 d'heures pré-remplie et verrouillée, export vers la paie.
 
-**Ce que personne ne fait** : créer les tâches à pointer directement depuis
-les lignes d'ouvrage du devis, et renvoyer les écarts vers le chiffrage.
+**Ce que personne ne fait** : pointer par ouvrage avec la quantité posée,
+et renvoyer les écarts vers les temps du chiffrage. (Correction du
+22/11/2026 : Costructor crée déjà un planning à partir des lignes de main
+d'oeuvre du devis, et a des feuilles d'heures et une rentabilité prévu
+contre réel par chantier ; il ne fait ni le pointage par ouvrage, ni les
+quantités posées, ni le retour vers les temps.)
 
 **Ce que notre système doit faire** : chaque ligne d'ouvrage du devis signé
 devient une tâche pointable (quantité et temps prévu), sans rien ressaisir ;
@@ -230,6 +234,33 @@ seule par le planning et le pointage.
 **Ce que notre système doit faire** : la page de suivi du chantier, avec
 notifications par le canal le moins cher (e-mail, notification de
 navigateur, SMS pour l'urgent). Détail dans sujets-romain.md.
+
+---
+
+## Les doublons avec nos partenaires (22/11/2026)
+
+Détail dans veille/doublons-partenaires.md. Règles proposées : **un seul
+maître par donnée**, et **ne jamais activer deux fois la même fonction**
+chez l'artisan (relances, pointage, banque).
+
+- **On prend le leur** : signature et paiement en ligne, facture
+  électronique, mise en forme du devis et de la facture, portail client de
+  Costructor ; banque, justificatifs et comptabilité chez Dougs.
+- **On prend le nôtre** : l'humain, la bibliothèque qui apprend, le
+  pointage par ouvrage, les appels, l'agenda, la vue multi-clients du bras
+  droit, la communauté.
+- **Doublons assumés** : le devis préparé par notre IA, le planning et la
+  rentabilité (dans Citadelle, alors que Costructor en a une version), le
+  prospect avant devis.
+- **Entre Costructor et Dougs** : facturer avec Costructor, banque et
+  comptabilité chez Dougs seul ; la réception des factures fournisseurs
+  reste à trancher.
+- **Risques** : l'agent IA de Costructor qui relancerait seul ; **CostLib**,
+  sa bibliothèque collaborative notée par les utilisateurs, qui pourrait se
+  mettre à apprendre des heures réelles ; Dougs a levé 50 M€ et annonce un
+  réseau de partenaires locaux en 2027. Parades : rester maîtres des
+  ouvrages et des temps (jamais stockés seulement chez Costructor), aller
+  vite, vendre l'humain, signer des contrats écrits.
 
 ---
 
