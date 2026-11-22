@@ -4,7 +4,10 @@
 
 ## Société et associés
 
-- Quel nom pour l'entreprise ? (après la compréhension du projet)
+- Quel nom pour l'entreprise ? À chercher dans l'esprit de la confiance et
+  du premier cercle, avec des mots que tout civil comprend ; le nom
+  débloquera le mot du rôle (« bras droit » en attendant). Voir
+  `notes/positionnement.md`.
 - Quel lien avec BTP Performance : même société, société sœur, aucune ?
 - Quelle place pour Romain Gache : parts, apport (le développement contre
   des parts ?), rémunération ?

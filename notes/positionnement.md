@@ -141,3 +141,9 @@ Mots candidats que tout le monde comprend (Claude) :
 Ce que propose Claude : un mot pour le rôle (copilote ou bras droit, qui
 reste le plus clair) et une image pour la confiance (garde rapprochée ou
 premier cercle).
+
+**Point d'arrêt (Roland, 22/11/2026)** : aucun mot ne convient, « on
+tourne autour ». On garde « bras droit » en attendant. On reprendra le
+sujet avec le **nom de l'entreprise**, à chercher dans cet esprit (la
+confiance, la proximité, le premier cercle, des mots que tout civil
+comprend). Pour Roland, le nom trouvé débloquera le reste.
