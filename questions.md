@@ -8,6 +8,12 @@
 - Quel lien avec BTP Performance : même société, société sœur, aucune ?
 - Quelle place pour Romain Gache : parts, apport (le développement contre
   des parts ?), rémunération ?
+- Faire entrer Lilian comme associé ? Idée de Roland du 22/11/2026, pas
+  urgente : par exemple 10 à 20 % pour Gaëlle, 20 % pour Romain, 20 % ou un
+  peu moins pour Lilian, Roland largement majoritaire. Attention au calcul :
+  avec 20 / 20 / 20, Roland n'a que 40 % ; avec 10 / 20 / 20, 50 %. Voir
+  aussi : Lilian serait à la fois associé et prestataire (Com'2), et Roland
+  a déjà des parts dans Com'2.
 - Quel statut pour Gaëlle : associée, gérante, salariée ?
 - Quel lien avec Com'2, l'agence de Lilian : partenaire, apporteur
   d'affaires dans les deux sens, sous-traitant ? Où passe la frontière entre
