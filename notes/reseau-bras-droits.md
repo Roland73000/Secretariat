@@ -91,4 +91,4 @@ au centre.
 | --- | --- | --- |
 | Elle a un bras droit (conjointe, secrétaire) | le bras droit, avec le système | superviser, former, contrôler |
 | Elle n'a pas de bras droit | une conjointe du réseau, prestataire | attribuer, superviser, remplacer |
-| Au tout début, avant le réseau | Gaëlle elle-même, sur quelques pilotes | faire, pour apprendre la méthode |
+| Au début | Gaëlle elle-même, pour les entreprises sans bras droit | faire, puis suivre moins d'entreprises et superviser de plus en plus, jusqu'à la supervision à plein temps (précisé par Roland le 22/11/2026) |
