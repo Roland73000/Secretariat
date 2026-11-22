@@ -112,6 +112,11 @@ Une ligne par décision : la date, ce qui est décidé, pourquoi.
   artisans vient en deuxième étape**, sans Bilik : un réseau fermé, presque un
   label, à étudier. Boby est écarté. Raison : commencer par ce qui sert tout
   de suite, sans dépendre d'une plateforme.
+- **22/11/2026** : **pas d'inscription à l'ORIAS** : la société ne devient pas
+  intermédiaire d'assurance. L'assureur partenaire, s'il y en a un, est
+  présenté sans commission et gère toute la relation ; le bras droit peut
+  suivre les échéances et les attestations (administratif). Raison : Roland
+  ne veut pas de ce métier réglementé.
 - **22/11/2026** : **jamais de double saisie pour l'artisan.** Une
   information saisie une fois circule partout où elle sert (logiciel de
   devis, système, Citadelle, expert-comptable). Raison : l'utilisateur
