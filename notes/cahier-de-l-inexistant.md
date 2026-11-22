@@ -6,7 +6,12 @@ les meilleurs font aujourd'hui, ce que personne ne fait, et ce que notre
 système doit faire en mieux.
 
 Le cap fixé par Roland : **réaliser l'inexistant, voire ce qu'on croit
-impossible**, au service du BTP. Deux règles traversent tout le cahier :
+impossible**, au service du BTP.
+
+Règle de travail (Roland, 22/11/2026) : pour chaque brique, regarder aussi
+ce que font **nos partenaires** (Costructor, Dougs), repérer les doublons,
+et décider : utiliser leur système, utiliser le nôtre, ou développer en
+doublon. Voir `veille/doublons-partenaires.md`. Deux règles traversent tout le cahier :
 **le client au centre** et **jamais de double saisie**.
 
 ---
