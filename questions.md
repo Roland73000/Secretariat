@@ -14,6 +14,8 @@
   la prospection des prescripteurs (secrétariat) et l'acquisition par les
   réseaux (Com'2) ?
 
+- Teddy Garrido (closing) : même question de statut que Flavien vis-à-vis
+  de la nouvelle société.
 - Com'2 est déjà une entreprise : elle facture la nouvelle société comme
   prestataire externe. Flavien est salarié de BTP Performance : contrat de
   mise à disposition avec un temps de travail défini, ou autre montage ? À

@@ -49,6 +49,12 @@ Une ligne par décision : la date, ce qui est décidé, pourquoi.
   Performance : sa promotion, son media buying, son community management,
   ses montages vidéo. Raison : ils travaillent déjà pour Roland et
   connaissent le BTP.
+- **22/11/2026** : **l'organisation de l'équipe.** Les associés : Roland,
+  Romain Gache et Gaëlle. L'équipe d'appui, qui travaille pour Roland sans
+  être associée : Flavien Buffet (promotion de la société) et **Teddy Garrido
+  (closing)**. Les partenaires (Com'2, et en piste Costructor, Dougs, un
+  assureur) sont des entreprises extérieures, listées à part. Raison : séparer
+  clairement associés, appui et partenaires.
 - **22/11/2026** : un seul système autonome, deux pilotes possibles. Le
   parcours commercial : l'artisan entre dans BTP Performance, on le forme,
   on forme son épouse ; puis on met à sa disposition le système, piloté par
