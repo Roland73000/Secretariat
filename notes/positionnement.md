@@ -33,3 +33,15 @@ prévoir :
 - jamais un bras droit qui travaille pour un concurrent direct de son propre
   conjoint ;
 - la même personne dans la durée, avec une remplaçante connue.
+
+## Le vocabulaire (Roland, 22/11/2026)
+
+- **Jamais « femme d'artisan »** : l'expression la rend dépendante de
+  quelqu'un. Elle existe en tant que telle.
+- **Mais le marketing doit dire clairement que c'est sa conjointe**, la
+  personne qui partage sa vie, pas une secrétaire. C'est ce lien qui fait la
+  confiance et toute la différence du service.
+- Pistes de mots et de phrases (Claude) : « la conjointe », « le couple »,
+  « entreprendre à deux », « en couple et en affaires » ; « Elle partage
+  votre vie. Elle peut partager votre entreprise. » ; « Vous êtes un duo.
+  Votre entreprise aussi. »
