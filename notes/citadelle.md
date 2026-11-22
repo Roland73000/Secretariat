@@ -141,9 +141,10 @@ Android).
 - **Administration** : membres, import des appels, modération…
 - **Barbara** : une assistante en bas à droite de l'écran.
 
-Pas vu : un accès pour les clients de l'artisan (particuliers), les
-notifications envoyées depuis l'application téléphone, les documents
-(devis et factures restent dans le logiciel de devis).
+Confirmé par Roland (22/11/2026) : **l'application téléphone envoie des
+notifications**, et **les photos sont rangées par chantier**. Pas vu : un
+accès pour les clients de l'artisan (particuliers) ; les documents (devis
+et factures restent dans le logiciel de devis).
 
 ### Ce qui peut servir au point 27 (la relation avec les clients de l'artisan)
 
