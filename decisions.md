@@ -58,3 +58,11 @@ Une ligne par décision : la date, ce qui est décidé, pourquoi.
   factures partenaires** (Costructor en tête, Interfast possible), au lieu
   de se brancher sur tous les logiciels. Raison : maîtriser parfaitement les
   outils, former dessus, simplifier les connexions.
+- **22/11/2026** : l'offre est **tout-en-un mais pas obligatoire**.
+  L'artisan peut garder son logiciel de devis et factures ou son
+  expert-comptable ; dans ce cas, le contrat nous dégage de toute
+  responsabilité en cas de problème avec ces outils ou ce cabinet, que nous
+  ne maîtrisons pas. Côté logiciels, on vise un à trois éditeurs partenaires
+  (moins de dépendance, mais plus de partenariats à gérer). Raison : la
+  solution globale est la plus forte, sans fermer la porte à ceux qui
+  tiennent à leurs outils.
