@@ -153,3 +153,21 @@ confirmer par un conseil en propriété industrielle.
   Cordeau**, **La Poutre Maîtresse**, **Libre d'Œuvre** : aucune marque
   trouvée sur l'expression exacte ; **L'Aide de Camp** : marque enregistrée
   en classe 35, à écarter.
+
+## 7. « Bras Droit » (22/11/2026)
+
+Roland aime l'idée de « bras droit » comme nom.
+- **brasdroit.fr est pris** depuis le 24/03/2025 et **mis en vente** par un
+  revendeur de domaines (Dovendi, prix non affiché). bras-droit.fr,
+  lebrasdroit.fr, monbrasdroit.fr, votrebrasdroit.fr : pris.
+- **Libres** : brasdroitbtp.fr, lebrasdroitbtp.fr, brasdroitartisan.fr,
+  brasdroitpro.fr (et leurs .com).
+- **INPI** : 10 marques contenant « bras droit », dont **« Bras droit des
+  dirigeants »** (déposée en 2007, 2016 et 2017, plus des déclinaisons RH,
+  direction commerciale, Corporate), un réseau de services aux dirigeants,
+  et « BRAS DROITS NOUVELLE GÉNÉRATION » (2025). Classes non lues (la page
+  ne les affichait pas).
+- **Avis** : risque fort pour une marque de services aux entreprises, car
+  proche d'un acteur déjà installé, et « bras droit » est presque
+  descriptif d'un service d'assistance. Mieux vaut garder « bras droit »
+  comme **nom de la formule**, à l'intérieur d'une marque distinctive.
