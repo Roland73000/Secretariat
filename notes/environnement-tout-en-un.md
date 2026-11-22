@@ -129,6 +129,14 @@ automatiquement. On n'a pas besoin de franchir la ligne.
   d'apporteurs d'affaires et les activités commerciales : à vérifier avec
   Emmanuel Ningre avant de bâtir le montage avec Dougs.
 
+## Ce qui existe déjà avec Costructor
+
+Dit par Roland le 22/11/2026 : il connaît très bien Costructor, et **BTP
+Performance a déjà un partenariat** avec eux : 20 % de remise sur la licence
+pour les membres. C'est un partenariat de BTP Performance : la nouvelle
+société devra avoir le sien (revendeur ou co-marquage, accès API), pour ne
+pas mélanger les deux sociétés.
+
 ## Les rendez-vous que Roland peut prendre
 
 1. **Emmanuel Ningre**, son ami expert-comptable : jusqu'où un secrétariat
