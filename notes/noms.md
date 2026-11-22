@@ -120,3 +120,20 @@ Taxi »… Page complète : https://claude.ai/artifact/FpUnZs4KnFy4w9FvV8Vz76
   très courants, sans doute déjà utilisés dans l'intérim, le recrutement ou
   l'accompagnement ; c'est l'INPI qui dira s'ils restent déposables dans
   nos classes.
+
+### INPI, nuit du 22 au 23/11/2026 (data.inpi.fr, premier tri)
+
+- **Renfort : risque fort.** « RENFORT CHANTIER » (demande publiée le
+  13/06/2026, classes 9, 35 et 42 : logiciels, SaaS, intermédiation,
+  gestion de fichiers) ; « Renfort Dirigeants » (2025, classe 35 : gestion,
+  administration, travaux de bureau) ; « En Renfort » (2024, enregistrée,
+  35 et 42). À écarter.
+- **Appui : risque fort.** 242 marques contiennent « appui ». Trois
+  touchent notre terrain : « APPUI » seul (déposée le 10/09/2016, classe 35
+  dont travaux de bureau ; affichée enregistrée) ; « APPUI TRAVAUX »
+  (15/02/2016, classe 35 travaux de bureau et classe 37 conseils en
+  construction ; affichée enregistrée) ; « APPUI-VRD » (2020, classes 35,
+  37 et 42). Une marque dure 10 ans : les deux de 2016 arrivaient à
+  échéance en 2026 ; si elles n'ont pas été renouvelées, la place se
+  libère. À faire vérifier par un conseil en propriété industrielle avant
+  de renoncer tout à fait.
