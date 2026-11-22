@@ -1,0 +1,176 @@
+# Le cahier de l'inexistant
+
+Pour Romain. Version 1 du 22/11/2026, construite à partir des veilles du
+21 et du 22/11 (`notes/veille/`). Pour chaque brique du système : ce que
+les meilleurs font aujourd'hui, ce que personne ne fait, et ce que notre
+système doit faire en mieux.
+
+Le cap fixé par Roland : **réaliser l'inexistant, voire ce qu'on croit
+impossible**, au service du BTP. Deux règles traversent tout le cahier :
+**le client au centre** et **jamais de double saisie**.
+
+---
+
+## 1. La bibliothèque d'ouvrages et le chiffrage (priorité 1)
+
+**Ce que les meilleurs font** : des bibliothèques de 30 000 ouvrages avec
+temps de pose (Obat), des bases de prix licenciées à 32 logiciels
+(Batiprix), la personnalisation à la main partout, Obat qui crée la
+bibliothèque à partir des anciens devis du client.
+
+**Ce que personne ne fait** : corriger tout seul le temps d'un ouvrage à
+partir des heures réelles du chantier. Aucun outil trouvé, ni en France ni
+à l'étranger.
+
+**Ce que notre système doit faire** :
+- une bibliothèque **en deux couches** (la base commune tenue à jour,
+  l'entreprise ne garde que ses différences : voir `sujets-romain.md`) ;
+- une **cadence réelle par ouvrage**, calculée à partir des heures et des
+  quantités posées, et une **proposition de nouveau temps** que le dirigeant
+  valide en un clic ;
+- des **temps mis en commun et anonymisés** entre artisans, pour que même
+  un artisan qui pose rarement un ouvrage ait un temps fiable ;
+- un **humain qui s'en occupe** (le bras droit, et un économiste de la
+  construction pour la base).
+- Accroche proposée : « Chaque chantier rend votre prochain devis plus
+  juste. »
+
+## 2. Le pointage et le suivi de chantier
+
+**Ce que les meilleurs font** : Alobees, pointage en un clic géolocalisé
+avec relance d'oubli, quantité posée par tâche validée par le chef, feuille
+d'heures pré-remplie et verrouillée, export vers la paie.
+
+**Ce que personne ne fait** : créer les tâches à pointer directement depuis
+les lignes d'ouvrage du devis, et renvoyer les écarts vers le chiffrage.
+
+**Ce que notre système doit faire** : chaque ligne d'ouvrage du devis signé
+devient une tâche pointable (quantité et temps prévu), sans rien ressaisir ;
+le compagnon pointe en un clic, à la voix si possible ; l'écart repart vers
+la bibliothèque (brique 1) et vers la rentabilité (Citadelle, par un échange
+entre les deux sociétés).
+
+## 3. Le planning des chantiers
+
+**Ce que les meilleurs font** : à compléter avec la fiche ANAV (en cours).
+Le cahier des charges de Roland du 19/11 sert de référence : planification
+dès la signature, compagnons par défaut ou jour par jour, barre qu'on
+glisse, sous-traitants sur la barre, matériel unique non réservable deux
+fois, planning général avec prévu, point de perte, réel et projeté.
+
+**Ce que personne ne fait** (supposé, à confirmer) : un planning nourri par
+des temps corrigés par les vrais chantiers.
+
+**Ce que notre système doit faire** : planifier avec les temps de la
+bibliothèque qui apprend, donc plus juste à chaque chantier ; relancer les
+sous-traitants au bon moment (le bras droit ou une automatisation).
+
+## 4. Les appels et la joignabilité
+
+**Ce que les meilleurs font** : Artisaner, SMS au client après un appel
+manqué et réservation en ligne ; Yelp, Jobber, Housecall Pro, agents IA qui
+décrochent et qualifient (autour de 99 $ par mois) ; permanences humaines
+généralistes.
+
+**Ce que personne ne fait** : un humain du BTP qui rappelle à coup sûr,
+avec l'automate qui fait patienter.
+
+**Ce que notre système doit faire** : appel manqué, SMS immédiat au client,
+puis **rappel par le bras droit dans l'heure** ; fiche du prospect créée
+toute seule ; tous les contacts entrants (téléphone, site, plateformes)
+arrivent au même endroit.
+
+## 5. La visite et le devis
+
+**Ce que les meilleurs font** : devis dicté à la voix ou par WhatsApp
+(Boby, Rita), brouillon de devis à partir d'un message vocal (Plancraft,
+Handoff), devis par IA chez Obat et Costructor.
+
+**Ce que personne ne fait** : une visite guidée qui produit un brouillon
+**relu et complété par un humain** avant que l'artisan valide.
+
+**Ce que notre système doit faire** : une liste de contrôle par type de
+travaux sur l'appli, photos et dictée ; le brouillon arrive dans le logiciel
+partenaire, chiffré avec la bibliothèque qui apprend ; le bras droit le
+relit ; l'artisan valide en un clic.
+
+## 6. Les relances jusqu'à la signature
+
+**Ce que les meilleurs font** : InterFast repère les devis à relancer ;
+Costructor relance par IA ; WorkHero suit les devis ouverts.
+
+**Ce que personne ne fait** : relancer avec une personne qui connaît le
+dossier et rappelle au bon moment.
+
+**Ce que notre système doit faire** : relances automatiques programmées,
+puis appel du bras droit sur les devis importants ; prise de rendez-vous de
+présentation du devis dans l'agenda de l'artisan.
+
+## 7. La facture et l'encaissement
+
+**Ce que les meilleurs font** : WorkHero, brouillon de facture à la clôture
+du chantier, relu et envoyé par l'humaine, relances à 7, 15 et 30 jours.
+
+**Ce que personne ne fait en France** : ce circuit complet avec un humain,
+branché sur le logiciel de l'artisan.
+
+**Ce que notre système doit faire** : facture préparée dès que le chantier
+est terminé, validée en un clic par l'artisan ; relances automatiques puis
+humaines ; tableau des retards de paiement. Attention : rester sur la
+relance amiable, le recouvrement pour le compte d'autrui est réglementé.
+
+## 8. Le lien avec l'expert-comptable
+
+**Ce que les meilleurs font** : Dougs (banque synchronisée, justificatifs
+en photo), Pennylane ; aucune API publique chez Dougs.
+
+**Ce que personne ne fait** : zéro double saisie entre le logiciel de
+devis, le suivi de chantier et l'expert-comptable.
+
+**Ce que notre système doit faire** : chaque pièce part une seule fois, au
+bon endroit, sans que l'artisan y touche ; on prépare, l'expert-comptable
+fait la comptabilité.
+
+## 9. Les avis et la fidélisation
+
+**Ce que les meilleurs font** : Bilik, avis lus avant publication et
+badges de vérification ; Artisaner importe les avis Google.
+
+**Ce que personne ne fait** : relier l'avis, la fidélisation et le
+prochain chantier.
+
+**Ce que notre système doit faire** : demande d'avis à la fin de chaque
+chantier, avis vérifié ; rappels d'entretien et de garanties ; demande de
+recommandation ; plus tard, le réseau fermé ou label.
+
+## 10. Le pilotage par le bras droit, et la supervision
+
+**Ce que les meilleurs font** : WorkHero, un portail pour ses office
+managers et un agent qui passe les dossiers en revue chaque jour ;
+Office Shed, deux remplaçantes formées et un rapport quotidien.
+
+**Ce que personne ne fait** : un système pensé pour que **la conjointe**
+pilote l'administratif de l'entreprise de son mari, et pour qu'une
+superviseuse (Gaëlle) suive des dizaines de bras droits.
+
+**Ce que notre système doit faire** : un tableau de bord du bras droit
+(tout ce qui attend une action, du plus urgent au moins urgent) ; une revue
+quotidienne automatique qui signale ce qui coince ; un tableau de bord de
+supervision pour Gaëlle ; les remplacements en un clic ; une trace de qui a
+vu quoi (confiance).
+
+## 11. La communauté
+
+**Ce que les meilleurs font** : TradieWives, groupe gratuit très modéré,
+trois niveaux d'abonnement, partenaires exclusifs par catégorie.
+
+**Ce que personne ne fait en France** : une communauté nationale et
+pratique des conjointes du BTP.
+
+**Ce que notre système doit faire** : un espace à nous (pas Facebook),
+relié au système : entraide, formations, masterclasses des partenaires.
+
+---
+
+Ce cahier s'enrichit à chaque veille. Prochaine mise à jour : la fiche
+ANAV (brique 3).
