@@ -53,7 +53,14 @@ Ce que l'artisan garde (**A**) et ce que le service pilote (**S**).
 8. **Travaux** (A), tous corps d'État.
 9. **Facture** (S émet, A contrôle).
 10. **Relances de paiement, suivi des délais** (S).
-11. **En continu** : agenda, prise de rendez-vous en ligne par les clients,
+11. **Satisfaction** (S) : à la fin du chantier, recueillir l'avis du client
+    (questionnaire court, avis Google), et traiter tout de suite un client
+    mécontent.
+12. **Fidélisation** (S) : entretenir la relation après le chantier. Rappels
+    d'entretien (chaudière, toiture, ramonage), suivi des garanties (parfait
+    achèvement à un an), prise de nouvelles, demande de recommandation ou
+    parrainage, vœux de fin d'année. Ajouté par Roland le 22/11/2026.
+13. **En continu** : agenda, prise de rendez-vous en ligne par les clients,
     synchronisation avec le planning du dirigeant (S).
 
 ## Un seul système, deux pilotes (décidé le 22/11/2026)

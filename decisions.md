@@ -72,6 +72,11 @@ Une ligne par décision : la date, ce qui est décidé, pourquoi.
   Ceci précise la décision « un seul système, deux pilotes » : le parcours
   par BTP Performance est une porte d'entrée, pas la seule. Raison : ne pas
   mélanger les deux sociétés, et ouvrir le service au-delà des membres.
+- **22/11/2026** : le parcours piloté ne s'arrête pas à l'encaissement : il
+  va jusqu'à la **satisfaction du client** (recueil des avis) et la
+  **fidélisation** (entretenir la relation après le chantier). Raison : un
+  client satisfait et suivi revient et recommande ; c'est de l'acquisition
+  gratuite pour l'artisan.
 - **22/11/2026** : **jamais de double saisie pour l'artisan.** Une
   information saisie une fois circule partout où elle sert (logiciel de
   devis, système, Citadelle, expert-comptable). Raison : l'utilisateur

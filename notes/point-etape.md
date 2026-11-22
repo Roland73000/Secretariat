@@ -1,6 +1,6 @@
 # Point d'étape
 
-Version du 22/11/2026, mise à jour à chaque retour de Roland. Roland valide,
+Version 4 du 22/11/2026, mise à jour à chaque retour de Roland. Roland valide,
 corrige ou barre chaque point par son numéro.
 
 ## Ce que Claude a compris du projet
@@ -9,7 +9,8 @@ Une nouvelle société, montée par **Roland, Romain Gache et Gaëlle**,
 distincte de BTP Performance et d'Option & Solution. Elle apporte aux
 dirigeants du BTP un service qui n'existe pas en France : **piloter tout le
 parcours de l'artisan**, de la recherche de clients jusqu'à l'encaissement
-de la facture. Le dirigeant ne garde que son métier : la visite, la
+de la facture, puis la satisfaction du client et sa fidélisation après le
+chantier. Le dirigeant ne garde que son métier : la visite, la
 validation du devis et les travaux.
 
 La société fournit **un système autonome**, piloté **par l'épouse** de
@@ -48,7 +49,9 @@ données réelles de chantier.
    les conjointes. Passer par BTP Performance est une porte d'entrée parmi
    d'autres.
 6. **Le parcours complet** : former, accompagner, suivre, et fournir tout
-   l'environnement, pour pouvoir afficher un résultat.
+   l'environnement, pour pouvoir afficher un résultat. Le parcours va jusqu'à
+   la satisfaction du client (recueil des avis) et la fidélisation (rappels
+   d'entretien, suivi des garanties, prise de nouvelles, recommandation).
 7. **La communauté des conjointes** du BTP.
 8. L'artisan fait la visite et valide toujours le devis. Le service peut en
    préparer un brouillon à distance.
@@ -119,3 +122,5 @@ données réelles de chantier.
 - **Les rendez-vous** : Costructor, Dougs, Emmanuel Ningre, l'Ordre des
   experts-comptables.
 - **Qualiopi** : BTP Performance est-elle certifiée ?
+- **Avis clients et fidélisation** : frontière avec Com'2 (avis Google,
+  réseaux) ; qui écrit au client de l'artisan, et à quel rythme ?
