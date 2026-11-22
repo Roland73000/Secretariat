@@ -171,3 +171,31 @@ Roland aime l'idée de « bras droit » comme nom.
   proche d'un acteur déjà installé, et « bras droit » est presque
   descriptif d'un service d'assistance. Mieux vaut garder « bras droit »
   comme **nom de la formule**, à l'intérieur d'une marque distinctive.
+
+## 8. La signature et la promesse face à l'INPI (22/11/2026)
+
+**« Le bras droit des artisans du bâtiment / du BTP »** : aucune marque
+trouvée sur « bras droit artisans ». Mais des marques proches existent dans
+les services aux entreprises :
+- **« Bras droit des dirigeants »**, marque française de 2007 **renouvelée**
+  (classes 35, 38, 41), plus une marque internationale de 2017 (35, 38, 41) ;
+- « Bras droit des dirigeants RH » et « … direction commerciale » (2016,
+  enregistrées, 35 et 42), du même univers ;
+- « BRAS DROITS NOUVELLE GÉNÉRATION » (2025, enregistrée, 35 et 41) ;
+- « mon bras droit » (2007) : expirée.
+Lecture de Claude : « Le bras droit des artisans » reprend la structure
+« Bras droit des [catégorie de patrons] » d'une marque active dans la même
+classe 35, et un artisan est un dirigeant. **Risque réel d'opposition** si
+on l'utilise comme slogan. Argument contraire : « bras droit » est une
+expression courante, presque descriptive d'un service d'assistance, que
+personne ne peut s'approprier seule. **À faire trancher par un conseil en
+propriété industrielle avant tout usage public.** Sans risque : employer
+« bras droit » dans le texte (« on forme votre bras droit »).
+
+**« Vous décidez. Vous œuvrez. On s'occupe du reste. »** : aucune marque
+identique. « On s'occupe du reste » apparaît dans 8 marques, toujours au
+bout d'une phrase différente (« Rêvez, on s'occupe du reste » en 35 et 37,
+« Vivez ! On s'occupe du reste » en 37, « Conduisez, on s'occupe du reste »
+renouvelée). La formule est courante, donc faible seule ; notre phrase
+entière est distinctive grâce à « Vous décidez. Vous œuvrez. ». Risque
+faible, à confirmer par le même conseil.
