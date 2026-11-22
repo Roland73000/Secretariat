@@ -115,3 +115,42 @@ dont Roland est le seul associé : la question de la propriété est réglée.
 **Roland retient l'option C** (voir `decisions.md`). Restent à préparer :
 le contrat de licence (avec l'expert-comptable) et le choix de nommer
 Citadelle ou de la rendre invisible dans l'offre du secrétariat.
+
+## Ce que contient la plateforme (inventaire du 19/11/2026)
+
+Relevé en lecture seule lors de la revue de la plateforme
+app.btpperformance.fr par Roland et Claude, dans le projet CRM-Roland. La
+plateforme existe sur ordinateur et en application téléphone (iOS et
+Android).
+
+- **Citadelle** :
+  - tableau de bord (résultat de production, avance de production,
+    trésorerie du jour, heure vendue, devis, chantiers en cours) ;
+  - clients et dossiers, un dossier par chantier, avec trois onglets :
+    contrôle des devis (prix de référence, point de perte, prix mini),
+    **suivi de chantier (achats, avancement, facturation, pointage des
+    heures par jour et par personne, photos)**, historique ;
+  - suivi commercial (rendez-vous, devis rendus et signés, provenance) ;
+  - collaborateurs, tableau des charges (taux horaire cible), suivi de
+    trésorerie ;
+  - planification des chantiers : en projet.
+- **Communauté** : réseau (191 pros sur une carte), partenariats,
+  calendrier des coachings (avec Calendly), **messagerie**, entraide, pause
+  café, classement.
+- **Formation** : 8 modules.
+- **Administration** : membres, import des appels, modération…
+- **Barbara** : une assistante en bas à droite de l'écran.
+
+Pas vu : un accès pour les clients de l'artisan (particuliers), les
+notifications envoyées depuis l'application téléphone, les documents
+(devis et factures restent dans le logiciel de devis).
+
+### Ce qui peut servir au point 27 (la relation avec les clients de l'artisan)
+
+| Brique de la page de suivi | Où elle est déjà |
+| --- | --- |
+| avancement du chantier, photos | Citadelle, onglet suivi de chantier |
+| planning | Citadelle, module en projet |
+| devis, factures, paiement | Costructor (par API) |
+| messages | messagerie de la plateforme, à ouvrir aux particuliers ? |
+| accès par un lien, sans compte ; notifications au particulier ; carnet de la maison | à créer |
