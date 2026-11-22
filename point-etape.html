@@ -65,15 +65,21 @@ ul.sub{margin:4px 0 0;padding-left:1.1em;display:grid;gap:2px}
 .ver ul{margin:0;padding-left:1.1em;display:grid;gap:2px;font-size:15px}
 .count{display:flex;gap:8px;flex-wrap:wrap}
 a{color:var(--accent)}
+.tablewrap{overflow-x:auto;min-width:0}
+table.gamme{border-collapse:collapse;width:100%;font-size:14px;min-width:520px}
+table.gamme th,table.gamme td{text-align:left;padding:7px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+table.gamme th{font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:500}
+table.gamme tr.base td{background:var(--bg);font-weight:500}
+code{font-family:var(--mono);font-size:13px}
 input[type=checkbox]{width:18px;height:18px;accent-color:var(--accent)}
 input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 </style>
 
 <div class="wrap" id="top">
 <header>
-  <div class="eyebrow">Projet Secrétariat · version 18 · 22/11/2026</div>
+  <div class="eyebrow">Projet Secrétariat · version 19 · 22/11/2026</div>
   <h1>Point d'étape</h1>
-  <p class="lede">Roland valide, corrige ou barre chaque point par son numéro. Les couleurs montrent ce qui a changé depuis la version 17. Le journal en bas de page garde toutes les versions.</p>
+  <p class="lede">Roland valide, corrige ou barre chaque point par son numéro. Les couleurs montrent ce qui a changé depuis la version 18. Le journal en bas de page garde toutes les versions.</p>
 </header>
 
 <div class="controls">
@@ -117,7 +123,7 @@ input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
     <li class="item"><span class="num">6</span><div class="content"><div class="line1"><p class="txt"><b>Le parcours complet.</b> <b>Pour l'artisan, notre client</b> : on le forme, on l'accompagne, on le suit et on lui fournit tout l'environnement, pour pouvoir afficher un résultat. <b>Pour les clients de l'artisan</b> (les particuliers et les entreprises pour qui il travaille) : on s'en occupe <b>de leur acquisition jusqu'à leur fidélisation</b>.</p></div></div></li>
     <li class="item"><span class="num">7</span><div class="content"><p class="txt"><b>La communauté des conjointes</b> du BTP.</p></div></li>
     <li class="item"><span class="num">8</span><div class="content"><p class="txt">L'artisan fait la visite et valide toujours le devis. Le service peut en préparer un brouillon à distance.</p></div></li>
-    <li class="item" data-c="add"><span class="num">8 b</span><div class="content"><div class="line1"><p class="txt"><b>Dès la première étape, le bras droit traite tous les contacts entrants</b> de l'artisan (téléphone, site, plateformes) et recueille les avis de ses clients.</p><span class="tag t-add chg">Nouveau</span></div></div></li>
+    <li class="item"><span class="num">8 b</span><div class="content"><div class="line1"><p class="txt"><b>Dès la première étape, le bras droit traite tous les contacts entrants</b> de l'artisan (téléphone, site, plateformes) et recueille les avis de ses clients.</p></div></div></li>
     <li class="item"><span class="num">9</span><div class="content"><div class="line1"><p class="txt">Les appels sortants sont faits par des humains (le bras droit ou la société), sans IA vocale. L'artisan, lui, parle à son appli au lieu de taper. <b>On surveille</b> l'évolution de l'IA vocale et la loi (le règlement européen impose déjà de dire qu'on parle à une IA).</p></div></div></li>
     <li class="item"><span class="num">10</span><div class="content"><div class="line1"><p class="txt"><b>Le client au centre de tout</b> : le plus simple et le plus fluide possible pour l'artisan, dans l'esprit d'Amazon (sans forcément le citer). <b>Jamais de double saisie.</b></p></div></div></li>
     <li class="item"><span class="num">10 b</span><div class="content"><div class="line1"><p class="txt"><b>La valeur avant le prix</b> : on ne gratte pas quelques euros ; on construit un service si pratique et si rentable pour l'entreprise que son coût devient secondaire.</p></div></div></li>
@@ -147,7 +153,7 @@ input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 <section class="block">
   <h2>Les pistes, pas encore décidées</h2>
   <ol class="items">
-    <li class="item"><span class="num">13</span><div class="content"><div class="line1"><p class="txt"><b>La gamme d'offres</b>, avec un seul logiciel partenaire pour le tout-en-un, Costructor : le système seul ; Costructor + système ; système + Dougs ; Costructor + système + Dougs ; le tout + BTP Performance. <b>En option : un assureur partenaire</b> et Com'2. <b>La banque est mise de côté</b> ; l'enquête suggère plutôt de la voir comme sponsor de la communauté.</p></div><p class="note">Remarque de Claude : présenter la gamme comme une offre de base et des options. Pour toucher une commission sur une assurance, il faut une inscription à l'ORIAS.</p></div></li>
+    <li class="item" data-c="mod"><span class="num">13</span><div class="content"><div class="line1"><p class="txt"><b>La gamme d'offres : une offre de base, et des options au choix.</b></p><span class="tag t-mod chg">Modifié</span></div><div class="tablewrap"><table class="gamme"><thead><tr><th></th><th>Ce que c'est</th><th>Avec qui</th><th>Statut</th></tr></thead><tbody><tr class="base"><td><b>L'offre de base</b></td><td>notre système, piloté par le bras droit (formé par nous, ou trouvé par nous)</td><td>notre société</td><td>décidé</td></tr><tr><td>Option logiciel</td><td>le logiciel de devis et factures</td><td>Costructor, seul partenaire du tout-en-un</td><td>piste</td></tr><tr><td>Option comptable</td><td>l'expert-comptable</td><td>Dougs</td><td>piste</td></tr><tr><td>Option assurance</td><td>décennale, RC pro</td><td>un assureur, à choisir (ORIAS, voir la note)</td><td>piste</td></tr><tr><td>Option visibilité</td><td>site internet, réseaux sociaux, media buying</td><td>Com'2</td><td>partenaire décidé</td></tr><tr><td>Option formation</td><td>la formation du dirigeant à la gestion</td><td>BTP Performance</td><td>piste (offre globale)</td></tr></tbody></table></div><p class="note">L'artisan qui garde son logiciel ou son expert-comptable prend l'offre de base seule : notre système s'y branche (voir la piste 14). La banque est mise de côté, peut-être sponsor de la communauté.</p><p class="note"><b>ORIAS</b> : pour être payé quand on fait souscrire une assurance, il faut être inscrit au registre des intermédiaires en assurance. Plusieurs façons de faire, détaillées dans <code>notes/environnement-tout-en-un.md</code>.</p><p class="before"><b>Avant :</b> une liste de cinq formules (système seul ; Costructor + système ; système + Dougs ; Costructor + système + Dougs ; le tout + BTP Performance), avec l'assureur et Com'2 en option. Roland : plus lisible.</p></div></li>
     <li class="item"><span class="num">14</span><div class="content"><p class="txt"><b>Tout-en-un mais pas obligatoire</b> : l'artisan peut garder son logiciel ou son expert-comptable ; le contrat nous dégage alors de toute responsabilité sur ces outils.</p></div></li>
     <li class="item"><span class="num">15</span><div class="content"><div class="line1"><p class="txt"><b>Le réseau des bras droits</b> : les conjointes formées, selon le temps qu'elles ont, travaillent pour d'autres entreprises clientes. Elles sont à la fois clientes (pour l'entreprise de leur conjoint) et prestataires. Statut à valider (salariée à temps partiel le plus sûr) ; jamais pour un concurrent du conjoint ; engagement de confidentialité.</p></div></div></li>
     <li class="item"><span class="num">15 b</span><div class="content"><div class="line1"><p class="txt"><b>Gaëlle supervise plutôt qu'elle ne fait</b> : formation, méthode, contrôle qualité, remplacements, attribution des entreprises au réseau. Elle fait elle-même seulement au début, sur quelques pilotes, pour apprendre la méthode.</p></div><p class="note">Appui : chez WorkHero, une personne qui fait tout suit 5 à 6 entreprises ; une superviseure peut suivre 60 à 80 bras droits.</p></div></li>
@@ -160,7 +166,7 @@ input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
     <li class="item"><span class="num">22</span><div class="content"><div class="line1"><p class="txt"><b>Une niche de départ</b> : les artisans RGE, avec le montage des dossiers d'aides (MaPrimeRénov', CEE) comme produit d'appel. Promettre de l'argent récupéré plutôt que des heures gagnées.</p></div></div></li>
     <li class="item"><span class="num">23</span><div class="content"><div class="line1"><p class="txt"><b>La recette de la communauté</b>, sur le modèle de TradieWives : groupe gratuit très modéré, trois niveaux d'abonnement, appel d'accueil et bilan à 6 mois, un partenaire exclusif par catégorie qui finance, une journée nationale. Vocabulaire : « bras droits » plutôt que « femmes de ».</p></div></div></li>
     <li class="item"><span class="num">24</span><div class="content"><div class="line1"><p class="txt"><b>La continuité de service</b> : deux remplaçantes formées pour chaque entreprise et un rapport régulier (modèle Office Shed).</p></div></div></li>
-    <li class="item" data-c="add"><span class="num">25</span><div class="content"><div class="line1"><p class="txt"><b>Deuxième étape, à ne pas oublier : un réseau fermé, presque un label</b>, réservé aux entreprises membres de BTP Performance et/ou clientes de notre société (périmètre à décider), poussé pour apporter des demandes de clients à ses membres. Sans Bilik : on s'appuie sur la cartographie des membres qui existe déjà chez BTP Performance.</p><span class="tag t-add chg">Nouveau</span></div><p class="note">Remarques de Claude : un label doit avoir un cahier des charges et des contrôles, sinon il peut être jugé trompeur ; il se protège par une marque (collective ou de certification). Jamais un client vendu à plusieurs artisans. Si le label couvre les deux sociétés, il faudra décider à laquelle il appartient.</p></div></li>
+    <li class="item"><span class="num">25</span><div class="content"><div class="line1"><p class="txt"><b>Deuxième étape, à ne pas oublier : un réseau fermé, presque un label</b>, réservé aux entreprises membres de BTP Performance et/ou clientes de notre société (périmètre à décider), poussé pour apporter des demandes de clients à ses membres. Sans Bilik : on s'appuie sur la cartographie des membres qui existe déjà chez BTP Performance.</p></div><p class="note">Remarques de Claude : un label doit avoir un cahier des charges et des contrôles, sinon il peut être jugé trompeur ; il se protège par une marque (collective ou de certification). Jamais un client vendu à plusieurs artisans. Si le label couvre les deux sociétés, il faudra décider à laquelle il appartient.</p></div></li>
   </ol>
 </section>
 
@@ -183,6 +189,9 @@ input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 <section class="block">
   <h2>Journal des versions</h2>
   <div class="journal">
+    <div class="ver"><h3>Version 19 · 22/11/2026</h3><ul>
+      <li>Piste 13 réécrite en tableau : une offre de base et cinq options (logiciel, comptable, assurance, visibilité, formation).</li>
+    </ul></div>
     <div class="ver"><h3>Version 18 · 22/11/2026</h3><ul>
       <li>Nouvelle décision 8 b : dès la première étape, le bras droit traite tous les contacts entrants et recueille les avis.</li>
       <li>Nouvelle piste 25 : en deuxième étape, un réseau fermé, presque un label, sans Bilik.</li>

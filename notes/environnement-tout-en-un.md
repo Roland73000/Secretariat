@@ -40,6 +40,33 @@ d'intermédiaire, avec une formation obligatoire). Sans inscription, on peut
 seulement présenter l'assureur sans être rémunéré, ou laisser l'assureur
 gérer toute la relation. À vérifier avant de bâtir l'offre.
 
+**L'ORIAS en détail** (22/11/2026, à confirmer avec l'assureur choisi et
+l'ORIAS) :
+- **Ce que c'est** : le registre unique des intermédiaires en assurance,
+  banque et finance. Toute personne qui présente ou propose des contrats
+  d'assurance contre rémunération doit y être inscrite.
+- **Les catégories** : courtier, agent général, mandataire d'assurance, et
+  **mandataire d'intermédiaire d'assurance** (on agit pour le compte d'un
+  courtier ou d'un agent). Cette dernière est la plus légère et la plus
+  adaptée à un partenariat.
+- **Les conditions** : une capacité professionnelle (une formation dont la
+  durée dépend de la catégorie), l'honorabilité (casier judiciaire), parfois
+  une assurance RC pro et une garantie financière (surtout pour les
+  courtiers), des frais d'inscription chaque année, et une formation continue
+  d'au moins 15 heures par an.
+- **Les obligations** : informer le client, analyser ses besoins, lui
+  conseiller un contrat adapté et pouvoir le prouver ; une responsabilité en
+  cas de mauvais conseil.
+- **Les trois options pour nous** :
+  1. ne pas toucher de commission : on présente l'assureur partenaire, il
+     gère tout ; aucune inscription ;
+  2. devenir mandataire d'un courtier partenaire : inscription légère, une
+     part de la commission ;
+  3. devenir courtier : le plus lourd, à écarter au démarrage.
+- **Ce que la secrétaire peut faire dans tous les cas** : suivre les
+  échéances, rappeler les renouvellements, fournir les attestations aux
+  clients de l'artisan. C'est de l'administratif, pas de l'intermédiation.
+
 Remarque de Claude : cinq offres, c'est beaucoup à expliquer. Les présenter
 comme **une offre de base et trois options** (Costructor, Dougs, BTP
 Performance) garde la même richesse en restant simple à vendre.
