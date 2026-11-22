@@ -190,3 +190,49 @@ Préférés de Claude : **Dimanche** (le jour que l'artisan retrouve, celui
 qu'il passe aujourd'hui sur ses devis), **Éclaircie** (après la tempête
 administrative, sans être gnangnan), **Accalmie**, **Récolte** (l'argent
 rentré plutôt que les heures gagnées).
+
+## INPI, nuit du 23/11/2026
+
+- **Chaînage : aucune marque déposée** (0 résultat, avec et sans accent),
+  et **chainage.fr est libre**. C'est le seul mot aimé par Roland qui
+  passe les deux tests. Restent à voir : 251 entreprises ont « chainage »
+  dans leur nom (souvent des entreprises de maçonnerie ou de ferraillage),
+  ce qui peut prêter à confusion dans le BTP.
+
+### La nuit du 23/11 : quatre axes, 19 mots à l'INPI
+
+Directives de Roland (22/11/2026, tard) : mots français courants, mots
+étrangers et mots inventés courts autorisés, pas de prénoms ; INPI vérifié
+sans attendre son feu vert ; plusieurs agents en parallèle ; le nom doit
+sonner dans « Vous décidez, vous œuvrez, [Nom] s'occupe du reste. ».
+
+Quatre agents, un par axe (mots français façon Apple, protéger et avancer,
+mots étrangers, mots inventés) : environ 330 idées, 60 gardées avec leurs
+domaines. Détail : page https://claude.ai/artifact/FpUnZs4KnFy4w9FvV8Vz76.
+
+Résultats INPI (data.inpi.fr, premier tri, classes 9, 35, 42) :
+- Cordée : 169 marques (la recherche inclut « corde »). Bloquant : « LA CORDEE » (réseau de coworking La Cordée, renouvelée 2016, classes 35, 36, 38, 39, 41, 42, 43, 45) ; « Cordée de l'entrepreneuriat » (AFE, 2017, 35, 38, 41, 45) ; « la cordée responsable », « CORDEE QUINZE » (35, 41). RISQUE FORT.
+- Proue : 14 marques seulement, aucune « PROUE » dans nos classes (seulement « prouès » 2011, sans doute expirée, et une marque marketing avec le nom Prou). DÉGAGÉ, risque faible.
+- Piolet : 33 marques, aucune vivante en classes 9, 35 ou 42 (surtout vêtements et matériel de montagne). DÉGAGÉ dans nos classes.
+- Avanti : 1563 résultats (la recherche inclut « avant »), seuls les 100 premiers lisibles. Déjà : « AVANTI » (2025, classe 9, enregistrée), « AVANTI » (2024, classes 1, 5, 9, 40, 42), « Avantia » (2025, classes 35, 37, 38, 42), « Avanti Yachts ». RISQUE MOYEN À FORT.
+- Trousseau : 54 marques. Gênants : « Le Groupe Trousseau » (2026, classes 35, 41, 42, enregistrée), « Trousseau Digital » (2024, 9, 35, 45). RISQUE FORT.
+- Tenac : 36 marques. Gênant : « tenac.io » (2021, classes 9 et 42 : logiciel, enregistrée). Rien en classe 35. Les autres TENAC sont en chimie (classe 1). RISQUE MOYEN (logiciel seulement).
+- Commode : 29 marques, aucune « COMMODE » seule vivante dans nos classes. Seulement des noms composés : « Studio Commode » (2023, 9, 35), « COMMODE COMMUNE » (2021, 9, 35, 38, 45), « COMMODE SALON D'ESSAYAGE » (2017, 35, 39). RISQUE FAIBLE À MOYEN.
+- Cheville : 75 marques, aucune « CHEVILLE » seule dans nos classes ; seulement des noms médicaux (Institut de la Cheville, Académie de la cheville). Les chevilles de fixation sont en classes 6 et 20. RISQUE FAIBLE dans nos classes.
+- Amarre : 42 marques. « Amarré » (2021, 9, 16, 18) et « AMARREE » (2020, 4, 9, 12, 41) touchent la classe 9 seulement ; rien en 35 ni 42. RISQUE FAIBLE À MOYEN.
+- Hopla : 107 marques, au moins six « HOPLA » seules dans nos classes (2009 renouvelée en 35, 37 ; 2017 en 9, 35 ; 2017 en 35, 42 ; 2020 en 9, 35, 38, 42 ; 2023 en 35 ; « HOPLA SERVICE » 2017). RISQUE TRÈS FORT.
+- Dimanche : 719 marques. « DIMANCHE » seule déposée le 26/05/2026 en classes 35 et 41 (enregistrée), plus des dizaines de composés en 35. RISQUE FORT.
+- Éclaircie : 28 marques. « ECLAIRCIE » (2024, classes 9, 35, 37, 40, 42, enregistrée : en plein dans le bâtiment) ; « Eclaircie organisation » (2022, 35, 41, 42, 45). RISQUE FORT.
+- Accalmie : 12 marques, aucune vivante en classes 9, 35 ou 42. DÉGAGÉ.
+- Memento : 209 marques. « memento » (2025, 35, 38, 41, 45), « Mémento » (2022, 9, 16, 35, 38, 41, 42), « MEMENTO » (2017, 35, 41), « Memento Cloud » (2021, 9, 35, 42). RISQUE TRÈS FORT.
+- Garvan : 7 marques. « GARVAN » (2005, 9, 35, 45) est expirée ; reste « GARVAN ARREDAMENTO ACUSTICO » (2013, classe 9, mobilier acoustique italien). RISQUE FAIBLE.
+- Récolte : 375 marques. « RECOLTE » seule (2021, classes 9, 35, 38, 41, 42, 44, enregistrée) ; « LA RECOLTE » (2021, 35). RISQUE FORT.
+- Libero : 152 marques. « LIBERO » (2017, 35, 36, 41), « LIBERO » (2012, 9, 35, 42…), « LIBERO OFFICE » (2020, 35, 36, 43), « Libero Conseil » (2019, 35, 36). RISQUE TRÈS FORT.
+- Tiroir : 60 marques, seulement des composés en 35 (« Les Tiroirs de l'Histoire », « les tiroirs de Milie »). RISQUE FAIBLE.
+
+**Survivants (10)** : Proue, Cheville, Piolet, Chaînage, Accalmie, Tiroir
+(dégagés ou risque faible) ; Commode, Amarre, Tenac (risque moyen) ;
+Garvan (risque faible, mot inventé). « nombtp.fr » et « nomtaxi.fr » libres
+pour tous ; le .fr seul libre pour Chaînage, Garvan et Tenac.
+**Trio de tête de Claude** : Proue (protège et avance), Cheville (la
+cheville ouvrière), Piolet (on assure, vous montez).
