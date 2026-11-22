@@ -97,3 +97,9 @@
 - Mandat pour agir au nom de l'artisan, assurance responsabilité civile
   professionnelle ?
 - Règles de prospection par mail et SMS, collecte automatique de données ?
+
+## Le réseau qui relie les particuliers et les artisans (idée du 22/11/2026)
+
+- Faut-il aller jusqu'à un réseau qui aide les particuliers à repérer de
+  bons artisans (comme Bilik, ou Artisaner, le « Doctolib des artisans » de
+  la Loire) ? Partenaire, concurrent, ou brique de notre offre ?

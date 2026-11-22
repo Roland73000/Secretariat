@@ -38,6 +38,17 @@ le reste est piloté pour lui », pour :
   humains et logiciels (exemples connus à vérifier : ServiceTitan, Jobber,
   Housecall Pro, et les agences d'assistants virtuels pour le bâtiment).
 
+## À lancer sur le signal « pause » de Roland (22/11/2026)
+
+**Les réseaux qui relient les particuliers et les artisans, dans le monde
+entier** : annuaires d'artisans de confiance, plateformes de mise en
+relation, prise de rendez-vous en ligne, avis vérifiés (en France : Bilik,
+Artisaner, Boby, Habitatpresto, Travaux.com, illiCO travaux… ; à
+l'étranger : Angi, Thumbtack, Houzz, Checkatrade, MyBuilder, Rated People,
+Hipages, Werkspot, MyHammer…). Ce qu'on peut en retirer, en apprendre et
+modéliser pour notre système. Les fiches détaillées de Bilik et
+d'Artisaner sont faites à part (`veille/fiche-reseaux-artisans.md`).
+
 ## Pour chaque acteur
 
 Nom, pays, site, cible (taille d'entreprise, métiers), ce qui est fait par
