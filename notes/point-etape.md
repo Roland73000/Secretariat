@@ -6,4 +6,4 @@ https://claude.ai/artifact/EueTheKbo1DqtRdRispX8q
 
 Elle montre en couleur ce qui a changé depuis la version précédente
 (nouveau, modifié, déplacé, retiré) et garde un journal des versions.
-Version actuelle : 30, du 22/11/2026.
+Version actuelle : 31, du 22/11/2026.
