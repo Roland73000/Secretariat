@@ -1,0 +1,243 @@
+<title>Cahier de l'inexistant</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@600;700&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Une colonne de lecture, même famille visuelle que le point d'étape */
+:root{--bg:#f6f7f9;--paper:#fff;--fg:#1d2430;--muted:#5d6878;--line:#dde2ea;--accent:#2f5d8a;
+--display:"IBM Plex Sans Condensed","Arial Narrow",system-ui,sans-serif;--body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;--mono:"IBM Plex Mono",ui-monospace,Consolas,monospace}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#12161c;--paper:#1a2029;--fg:#e4e8ee;--muted:#9aa5b4;--line:#2c3440;--accent:#7fb0e0;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#12161c;--paper:#1a2029;--fg:#e4e8ee;--muted:#9aa5b4;--line:#2c3440;--accent:#7fb0e0;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.6}
+.wrap{max-width:780px;margin:0 auto;padding-block:28px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.back{font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase}
+a{color:var(--accent)}
+h1{font-family:var(--display);font-size:clamp(28px,6vw,40px);line-height:1.1;margin:12px 0 8px;text-wrap:balance}
+h2{font-family:var(--display);font-size:22px;margin:32px 0 8px;padding-top:16px;border-top:1px solid var(--line);text-wrap:balance}
+p,li{max-width:68ch}
+code{font-family:var(--mono);font-size:13px;background:var(--paper);border:1px solid var(--line);border-radius:4px;padding:0 4px}
+hr{border:0;border-top:1px solid var(--line);margin:28px 0}
+strong{font-weight:600}
+</style>
+<div class="wrap">
+<a class="back" href="https://claude.ai/artifact/EueTheKbo1DqtRdRispX8q">← Point d'étape</a>
+<div id="doc"></div>
+</div>
+<script id="md" type="text/markdown"># Le cahier de l'inexistant
+
+Pour Romain. Version 1 du 22/11/2026, construite à partir des veilles du
+21 et du 22/11 (`notes/veille/`). Pour chaque brique du système : ce que
+les meilleurs font aujourd'hui, ce que personne ne fait, et ce que notre
+système doit faire en mieux.
+
+Le cap fixé par Roland : **réaliser l'inexistant, voire ce qu'on croit
+impossible**, au service du BTP.
+
+Règle de travail (Roland, 22/11/2026) : pour chaque brique, regarder aussi
+ce que font **nos partenaires** (Costructor, Dougs), repérer les doublons,
+et décider : utiliser leur système, utiliser le nôtre, ou développer en
+doublon. Voir `veille/doublons-partenaires.md`. Deux règles traversent tout le cahier :
+**le client au centre** et **jamais de double saisie**.
+
+---
+
+## 1. La bibliothèque d'ouvrages et le chiffrage (priorité 1)
+
+**Ce que les meilleurs font** : des bibliothèques de 30 000 ouvrages avec
+temps de pose (Obat), des bases de prix licenciées à 32 logiciels
+(Batiprix), la personnalisation à la main partout, Obat qui crée la
+bibliothèque à partir des anciens devis du client.
+
+**Ce que personne ne fait** : corriger tout seul le temps d'un ouvrage à
+partir des heures réelles du chantier. Aucun outil trouvé, ni en France ni
+à l'étranger.
+
+**Ce que notre système doit faire** :
+- une bibliothèque **en deux couches** (la base commune tenue à jour,
+  l'entreprise ne garde que ses différences : voir `sujets-romain.md`) ;
+- une **cadence réelle par ouvrage**, calculée à partir des heures et des
+  quantités posées, et une **proposition de nouveau temps** que le dirigeant
+  valide en un clic ;
+- des **temps mis en commun et anonymisés** entre artisans, pour que même
+  un artisan qui pose rarement un ouvrage ait un temps fiable ;
+- un **humain qui s'en occupe** (le bras droit, et un économiste de la
+  construction pour la base).
+- Accroche choisie par Roland : « Chaque chantier rend votre prochain
+  devis plus juste. »
+
+## 2. Le pointage et le suivi de chantier
+
+**Ce que les meilleurs font** : Alobees, pointage en un clic géolocalisé
+avec relance d'oubli, quantité posée par tâche validée par le chef, feuille
+d'heures pré-remplie et verrouillée, export vers la paie.
+
+**Ce que personne ne fait** : créer les tâches à pointer directement depuis
+les lignes d'ouvrage du devis, et renvoyer les écarts vers le chiffrage.
+
+**Ce que notre système doit faire** : chaque ligne d'ouvrage du devis signé
+devient une tâche pointable (quantité et temps prévu), sans rien ressaisir ;
+le compagnon pointe en un clic, à la voix si possible ; l'écart repart vers
+la bibliothèque (brique 1) et vers la rentabilité (Citadelle, par un échange
+entre les deux sociétés).
+
+## 3. Le planning des chantiers (dans Citadelle)
+
+**Décidé le 22/11/2026** : la planification et l'organisation des chantiers
+sont intégrées à **Citadelle** (BTP Performance), dont c'est la dernière
+brique manquante. Notre système s'en sert par un accord entre les deux
+sociétés. Cette brique concerne donc le développement de Citadelle. Pas de
+partenariat avec ANAV : on construit le nôtre. Veille mondiale des fonctions
+à modéliser : veille/planning-monde.md (en cours le 22/11/2026).
+
+**Ce que les meilleurs font** : ANAV (Pilote Soft, La Bauche en Savoie,
+19 € par collaborateur et par mois) : planning par affaire (Gantt, jalons),
+planning d'équipe en glisser-déposer, plan de charge par compétence, temps
+passés avec indicateur passé, prévu et projeté, appli mobile, agent IA.
+Alobees pour le pointage. Voir `veille/fiche-anav.md`.
+Le cahier des charges de Roland du 19/11 sert de référence : planification
+dès la signature, compagnons par défaut ou jour par jour, barre qu'on
+glisse, sous-traitants sur la barre, matériel unique non réservable deux
+fois, planning général avec prévu, point de perte, réel et projeté.
+
+**Ce que personne ne fait** : un planning nourri par des temps corrigés par
+les vrais chantiers (ANAV, comme Alobees, ne renvoie rien vers le
+chiffrage). Il manque aussi à ANAV, par rapport au cahier des charges de
+Roland : le point de perte, la durée calculée par l'effectif, le matériel
+unique et le chef d'équipe par chantier.
+
+**Ce que notre système doit faire** : planifier avec les temps de la
+bibliothèque qui apprend, donc plus juste à chaque chantier ; relancer les
+sous-traitants au bon moment (le bras droit ou une automatisation).
+
+## 4. Les appels et la joignabilité
+
+**Ce que les meilleurs font** : Artisaner, SMS au client après un appel
+manqué et réservation en ligne ; Yelp, Jobber, Housecall Pro, agents IA qui
+décrochent et qualifient (autour de 99 $ par mois) ; permanences humaines
+généralistes.
+
+**Ce que personne ne fait** : un humain du BTP qui rappelle à coup sûr,
+avec l'automate qui fait patienter.
+
+**Ce que notre système doit faire** : appel manqué, SMS immédiat au client,
+puis **rappel par le bras droit dans l'heure** ; fiche du prospect créée
+toute seule ; tous les contacts entrants (téléphone, site, plateformes)
+arrivent au même endroit.
+
+## 5. La visite et le devis
+
+**Ce que les meilleurs font** : devis dicté à la voix (Boby, Rita),
+brouillon de devis à partir d'un message vocal (Plancraft, Handoff), devis
+par IA chez Obat et Costructor. **Côté client, Costructor fait déjà signer
+le devis en ligne (signature électronique) et propose le paiement en ligne
+des factures, acomptes compris** (vérifié sur costructor.co le 22/11/2026) :
+on s'appuie dessus, sans rien refaire.
+
+**Ce que personne ne fait** : une visite guidée qui produit un brouillon
+**relu et complété par un humain** avant que l'artisan valide.
+
+**Ce que notre système doit faire** : une liste de contrôle par type de
+travaux sur l'appli, photos et dictée vocale dans notre appli (le devis
+par WhatsApp est écarté : Roland n'y voit pas d'intérêt, Costructor couvre
+la signature et l'acompte côté client) ; le brouillon arrive dans le logiciel
+partenaire, chiffré avec la bibliothèque qui apprend ; le bras droit le
+relit ; l'artisan valide en un clic.
+
+## 6. Les relances jusqu'à la signature
+
+**Ce que les meilleurs font** : InterFast repère les devis à relancer ;
+Costructor relance par IA ; WorkHero suit les devis ouverts.
+
+**Ce que personne ne fait** : relancer avec une personne qui connaît le
+dossier et rappelle au bon moment.
+
+**Ce que notre système doit faire** : relances automatiques programmées,
+puis appel du bras droit sur les devis importants ; prise de rendez-vous de
+présentation du devis dans l'agenda de l'artisan.
+
+## 7. La facture et l'encaissement
+
+**Ce que les meilleurs font** : WorkHero, brouillon de facture à la clôture
+du chantier, relu et envoyé par l'humaine, relances à 7, 15 et 30 jours.
+
+**Ce que personne ne fait en France** : ce circuit complet avec un humain,
+branché sur le logiciel de l'artisan.
+
+**Ce que notre système doit faire** : facture préparée dès que le chantier
+est terminé, validée en un clic par l'artisan ; relances automatiques puis
+humaines ; tableau des retards de paiement. Attention : rester sur la
+relance amiable, le recouvrement pour le compte d'autrui est réglementé.
+
+## 8. Le lien avec l'expert-comptable
+
+**Ce que les meilleurs font** : Dougs (banque synchronisée, justificatifs
+en photo), Pennylane ; aucune API publique chez Dougs.
+
+**Ce que personne ne fait** : zéro double saisie entre le logiciel de
+devis, le suivi de chantier et l'expert-comptable.
+
+**Ce que notre système doit faire** : chaque pièce part une seule fois, au
+bon endroit, sans que l'artisan y touche ; on prépare, l'expert-comptable
+fait la comptabilité.
+
+## 9. Les avis et la fidélisation
+
+**Ce que les meilleurs font** : Bilik, avis lus avant publication et
+badges de vérification ; Artisaner importe les avis Google.
+
+**Ce que personne ne fait** : relier l'avis, la fidélisation et le
+prochain chantier.
+
+**Ce que notre système doit faire** : demande d'avis à la fin de chaque
+chantier, avis vérifié ; rappels d'entretien et de garanties ; demande de
+recommandation ; plus tard, le réseau fermé ou label.
+
+## 10. Le pilotage par le bras droit, et la supervision
+
+**Ce que les meilleurs font** : WorkHero, un portail pour ses office
+managers et un agent qui passe les dossiers en revue chaque jour ;
+Office Shed, deux remplaçantes formées et un rapport quotidien.
+
+**Ce que personne ne fait** : un système pensé pour que **la conjointe**
+pilote l'administratif de l'entreprise de son mari, et pour qu'une
+superviseuse (Gaëlle) suive des dizaines de bras droits.
+
+**Ce que notre système doit faire** : un tableau de bord du bras droit
+(tout ce qui attend une action, du plus urgent au moins urgent) ; une revue
+quotidienne automatique qui signale ce qui coince ; un tableau de bord de
+supervision pour Gaëlle ; les remplacements en un clic ; une trace de qui a
+vu quoi (confiance).
+
+## 11. La communauté
+
+**Ce que les meilleurs font** : TradieWives, groupe gratuit très modéré,
+trois niveaux d'abonnement, partenaires exclusifs par catégorie.
+
+**Ce que personne ne fait en France** : une communauté nationale et
+pratique des conjointes du BTP.
+
+**Ce que notre système doit faire** : un espace à nous (pas Facebook),
+relié au système : entraide, formations, masterclasses des partenaires.
+
+---
+
+Ce cahier s'enrichit à chaque veille. 
+
+---
+
+## La boucle complète (validée par Roland le 22/11/2026)
+
+1. **Le devis** : notre IA le chiffre avec notre bibliothèque et l'écrit
+   toute seule dans Costructor, par son API. L'artisan valide.
+2. **Le planning et le pointage** se font dans Citadelle (heures réelles et
+   quantités posées, par ouvrage).
+3. **Les heures reviennent dans notre système**, qui corrige les temps de la
+   bibliothèque (le dirigeant valide).
+4. **Le prochain devis est plus juste.**
+
+Aucune double saisie : chaque information est saisie une fois et circule.
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
+<script>
+(function(){var src=document.getElementById('md').textContent;var el=document.getElementById('doc');
+try{el.innerHTML=marked.parse(src);}catch(e){var pre=document.createElement('pre');pre.style.whiteSpace='pre-wrap';pre.textContent=src;el.appendChild(pre);}})();
+</script>
