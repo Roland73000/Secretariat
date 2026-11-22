@@ -10,7 +10,9 @@
   `notes/positionnement.md`.
 - Quel lien avec BTP Performance : même société, société sœur, aucune ?
 - Citadelle (option C décidée le 22/11) : le contrat de licence entre les
-  deux sociétés, à préparer avec l'expert-comptable ; et dans l'offre du
+  deux sociétés, à préparer avec l'expert-comptable ; il couvre aussi les
+  heures réelles que Citadelle renvoie vers notre bibliothèque. La liste
+  exacte des données échangées est à écrire avec Romain ; et dans l'offre du
   secrétariat, on nomme Citadelle ou on la rend invisible ?
 - Quelle place pour Romain Gache : parts, apport (le développement contre
   des parts ?), rémunération ?
@@ -65,9 +67,6 @@
   bibliothèques des partenaires, catalogues fournisseurs), qui la construit
   (maître d'œuvre, économiste, IA), et avec quel accord des membres pour
   partager les données ?
-- Le système de la nouvelle société reçoit les heures réelles de Citadelle
-  (pas de double saisie, décidé le 22/11/2026) : selon quel accord entre
-  les deux sociétés, et quelles données exactement ?
 - La formule « bras droit » (BTP Performance obligatoire, décidé le
   22/11) : qui la vend et qui touche quoi ? Un prix « parcours à deux »
   unique, payé au mois ? Combien de temps BTP Performance reste

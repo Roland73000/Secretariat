@@ -154,7 +154,8 @@ Une ligne par décision : la date, ce qui est décidé, pourquoi.
   modules qu'on active selon le client. Le système de la nouvelle société
   ne contient que ce qui est à elle (bibliothèque qui apprend, appels,
   relances, poste de pilotage du bras droit, communauté, page de suivi).
-  Les deux se parlent par API dès le premier jour, avec un contrat de
+  Les deux se parlent par API dès le premier jour (Citadelle renvoie
+  notamment les heures réelles vers notre bibliothèque), avec un contrat de
   licence entre les deux sociétés (prix par client, longue durée,
   exclusivité sur le marché du secrétariat, sort du contrat en cas de vente
   d'une des sociétés). **En communication, on ne mélange pas** : deux
