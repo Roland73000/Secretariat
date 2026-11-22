@@ -38,3 +38,12 @@ superposer.
 C'est le principe des « surcharges » qu'on connaît en informatique : la
 base reste unique, chaque entreprise n'enregistre que ses différences.
 Romain saura dire comment l'organiser techniquement.
+
+## Alobees, à égaler puis à dépasser (fiche du 22/11/2026)
+
+Voir `veille/fiche-alobees.md`. Alobees fait déjà la moitié de notre boucle :
+des tâches avec unité, quantité et heures estimées, la saisie quotidienne
+des quantités posées sur mobile, la comparaison réalisé contre estimé. Il
+ne renvoie rien vers le chiffrage : c'est la moitié qu'il nous reste à
+construire, et vite, car Alobees (racheté par le groupe belge Eternia en
+2025) a toutes les briques pour le faire.
