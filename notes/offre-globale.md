@@ -27,6 +27,13 @@ sont pas fidèles. Face à une offre globale qui l'inclut, ils changeront.
 
 ## La bibliothèque d'ouvrages qui apprend
 
+> **Correction de Roland (22/11/2026)** : Citadelle reste l'outil de
+> rentabilité de BTP Performance ; il ne gère pas les ouvrages. La
+> bibliothèque vit dans le système de la nouvelle société (ou chez
+> l'éditeur partenaire). On ne fusionne pas BTP Performance et ce projet.
+> Ce qui suit parle des heures réelles de Citadelle comme d'une source de
+> données possible, par un échange entre deux sociétés, à décider.
+
 - Partir des bibliothèques d'articles et d'ouvrages qui existent par métier.
 - Construire avec le dirigeant **sa** bibliothèque personnalisée.
 - **L'ajuster automatiquement** à partir du suivi de chantier dans

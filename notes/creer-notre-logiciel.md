@@ -79,11 +79,18 @@ une marque blanche. **Se reposer la question à un seuil**, par exemple
 direct. À ce moment-là, deux options : construire, ou racheter un petit
 éditeur.
 
-Une voie intermédiaire à creuser avec Romain : que **Citadelle prépare le
-chiffrage** (ouvrages, temps, marge à partir de la bibliothèque), et que le
-logiciel partenaire ne fasse que la mise en forme, l'envoi, la facture et la
-conformité. On garde la valeur, on laisse la paperasse réglementaire à
-l'éditeur.
+Une voie intermédiaire à creuser avec Romain : que **le système de la
+nouvelle société prépare le chiffrage** (ouvrages, temps, marge à partir de
+la bibliothèque), et que le logiciel partenaire ne fasse que la mise en
+forme, l'envoi, la facture et la conformité. On garde la valeur, on laisse
+la paperasse réglementaire à l'éditeur.
+
+**Correction de Roland (22/11/2026)** : Citadelle ne gère ni ouvrages ni
+articles ; c'est l'outil de BTP Performance qui contrôle la rentabilité.
+La partie technique (bibliothèque, chiffrage) vit ailleurs, dans le système
+de la nouvelle société ou chez l'éditeur partenaire. Partout où cette note
+parle d'une « boucle avec Citadelle », lire : un échange de données entre
+deux outils de deux sociétés distinctes, à décider.
 
 ## La marque blanche, expliquée (22/11/2026)
 

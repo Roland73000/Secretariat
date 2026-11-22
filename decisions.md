@@ -66,3 +66,9 @@ Une ligne par décision : la date, ce qui est décidé, pourquoi.
   (moins de dépendance, mais plus de partenariats à gérer). Raison : la
   solution globale est la plus forte, sans fermer la porte à ceux qui
   tiennent à leurs outils.
+- **22/11/2026** : **on ne mélange pas BTP Performance et ce projet.**
+  Citadelle reste l'outil de BTP Performance qui contrôle la rentabilité ;
+  il ne gère ni ouvrages ni articles de bibliothèque. La partie technique
+  (bibliothèque, chiffrage) vit ailleurs : dans le système de la nouvelle
+  société ou chez l'éditeur partenaire. Raison : deux sociétés distinctes,
+  deux métiers distincts.
