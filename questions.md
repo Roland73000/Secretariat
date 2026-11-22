@@ -103,3 +103,6 @@
 - Le réseau fermé ou label (deuxième étape) : réservé aux membres de BTP
   Performance, aux clients de notre société, ou aux deux ? À quelle société
   appartient-il ? Quel cahier des charges et quels contrôles ?
+- Le sponsoring de la communauté par les partenaires exclusifs (modèle
+  TradieWives) : pertinent ? Analyse lancée le 22/11/2026
+  (`notes/veille/sponsoring-communaute.md`).
