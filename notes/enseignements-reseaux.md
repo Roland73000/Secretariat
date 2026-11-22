@@ -31,8 +31,8 @@ Boby et Artisaner se disent tous les deux « le Doctolib du bâtiment » :
 3. **Le standard « appel manqué »** à copier d'Artisaner, en mieux : un SMS
    part tout de suite au client, puis le bras droit le rappelle dans l'heure.
    L'automate rassure, l'humain conclut.
-4. **Le devis par WhatsApp** à copier de Boby : l'artisan ne change pas
-   d'appli. C'est la règle « le client au centre » appliquée à l'artisan.
+4. ~~Le devis par WhatsApp~~ : écarté par Roland le 22/11/2026 ; Costructor
+   fait déjà signer le devis en ligne et encaisser l'acompte.
 5. **L'audit par les 10 derniers clients** à copier de Bilik, pour deux
    usages : vérifier la qualité de nos propres artisans avant de les
    recommander, et en faire un argument (« artisan vérifié auprès de ses
@@ -58,8 +58,7 @@ Boby et Artisaner se disent tous les deux « le Doctolib du bâtiment » :
   passe par un **partenariat avec Bilik** plutôt qu'en le construisant
   nous-mêmes.
 - **Dès la première étape**, on intègre trois briques copiées : le SMS
-  après appel manqué suivi d'un rappel humain, le devis par WhatsApp (si le
-  logiciel partenaire le permet), et l'avis vérifié après chaque chantier.
+  après appel manqué suivi d'un rappel humain, et l'avis vérifié après chaque chantier.
 
 ## Ce qu'ajoute la veille mondiale (`veille/reseaux-monde.md`)
 

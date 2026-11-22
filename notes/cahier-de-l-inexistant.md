@@ -82,15 +82,20 @@ arrivent au même endroit.
 
 ## 5. La visite et le devis
 
-**Ce que les meilleurs font** : devis dicté à la voix ou par WhatsApp
-(Boby, Rita), brouillon de devis à partir d'un message vocal (Plancraft,
-Handoff), devis par IA chez Obat et Costructor.
+**Ce que les meilleurs font** : devis dicté à la voix (Boby, Rita),
+brouillon de devis à partir d'un message vocal (Plancraft, Handoff), devis
+par IA chez Obat et Costructor. **Côté client, Costructor fait déjà signer
+le devis en ligne (signature électronique) et propose le paiement en ligne
+des factures, acomptes compris** (vérifié sur costructor.co le 22/11/2026) :
+on s'appuie dessus, sans rien refaire.
 
 **Ce que personne ne fait** : une visite guidée qui produit un brouillon
 **relu et complété par un humain** avant que l'artisan valide.
 
 **Ce que notre système doit faire** : une liste de contrôle par type de
-travaux sur l'appli, photos et dictée ; le brouillon arrive dans le logiciel
+travaux sur l'appli, photos et dictée vocale dans notre appli (le devis
+par WhatsApp est écarté : Roland n'y voit pas d'intérêt, Costructor couvre
+la signature et l'acompte côté client) ; le brouillon arrive dans le logiciel
 partenaire, chiffré avec la bibliothèque qui apprend ; le bras droit le
 relit ; l'artisan valide en un clic.
 
