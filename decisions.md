@@ -92,10 +92,11 @@ Une ligne par décision : la date, ce qui est décidé, pourquoi.
   service si pratique et si rentable pour l'entreprise (temps et argent
   gagnés) que son coût devient secondaire. Raison : c'est ce qui fait un
   service qui n'existe pas aujourd'hui.
-- **22/11/2026** : **la promesse** du service : « Vous décidez. Vous bâtissez.
+- **22/11/2026** : **la promesse** du service : « Vous décidez. Vous œuvrez.
   On s'occupe du reste. » Raison : l'artisan garde ses deux rôles, décider
-  d'abord, puis son métier ; nous faisons le reste. Trois temps courts, qui
-  se retiennent.
+  d'abord, puis son métier ; nous faisons le reste. « Œuvrer » vaut pour tous
+  les corps d'état (gros œuvre, second œuvre). Trois temps courts, qui se
+  retiennent.
 - **22/11/2026** : **jamais de double saisie pour l'artisan.** Une
   information saisie une fois circule partout où elle sert (logiciel de
   devis, système, Citadelle, expert-comptable). Raison : l'utilisateur
