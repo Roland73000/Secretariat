@@ -15,6 +15,24 @@ Performance)**
 On commercialise d'un côté BTP Performance (la formation), de l'autre le
 secrétariat, qui intègre déjà les outils.
 
+## Piste de positionnement (Roland, 22/11/2026)
+
+Encore une piste de réflexion, pas une décision :
+- **Notre système se branche sur tous les logiciels du BTP** qui acceptent
+  de nous donner leurs clés API.
+- **Pour le tout-en-un, un seul logiciel partenaire : Costructor.**
+- Une gamme possible :
+  1. le système seul, branché sur le logiciel de l'artisan (déduit par
+     Claude) ;
+  2. tout-en-un **Costructor + notre système** ;
+  3. tout-en-un **notre système + Dougs** ;
+  4. tout-en-un **Costructor + notre système + Dougs** ;
+  5. le « plus que tout-en-un » : **le tout + BTP Performance**.
+
+Remarque de Claude : cinq offres, c'est beaucoup à expliquer. Les présenter
+comme **une offre de base et trois options** (Costructor, Dougs, BTP
+Performance) garde la même richesse en restant simple à vendre.
+
 ## Les questions de Roland, et les réponses de Claude
 
 ### 1. Claude peut-il générer la bibliothèque d'ouvrages ?

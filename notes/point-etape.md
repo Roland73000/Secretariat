@@ -14,9 +14,10 @@ validation du devis et les travaux.
 
 La société fournit **un système autonome**, piloté **par l'épouse** de
 l'artisan, formée et suivie (« bras droit »), ou, sans épouse, **par
-Gaëlle** (« tout compris »). Autour : un environnement tout-en-un (logiciel
-de devis partenaire, expert-comptable partenaire) et une communauté des
-conjointes du BTP.
+Gaëlle** (« tout compris »). Ce système se branche sur les logiciels de
+devis des artisans ; une offre tout-en-un pourrait l'associer à un logiciel
+partenaire (Costructor) et à un expert-comptable partenaire (Dougs). Une
+communauté des conjointes du BTP l'accompagne.
 
 **Ce service et BTP Performance sont deux offres distinctes, avec deux
 tunnels de vente.** Les membres de BTP Performance peuvent accéder au
@@ -55,40 +56,44 @@ données réelles de chantier.
    L'artisan, lui, parle à son appli au lieu de taper.
 10. **Jamais de double saisie pour l'artisan.**
 
-**L'environnement**
+**Les outils**
 
-11. **Tout-en-un mais pas obligatoire.** L'artisan peut garder son logiciel
-    ou son expert-comptable. Dans ce cas, le contrat nous dégage de toute
-    responsabilité sur ces outils.
-12. Un à trois logiciels de devis et factures partenaires, avec Costructor
-    en tête. On ne se branche pas sur tous les logiciels.
-13. On cherche à obtenir les accès API des logiciels.
+11. **On ne fabrique pas de logiciel de devis et factures.** Notre système
+    se branche sur les logiciels du BTP qui nous donnent leurs clés API, et
+    sur les outils de l'expert-comptable. *(La contradiction du 21/11 est
+    levée : cette décision remplace les deux anciennes formulations.)*
 
 **Le fonctionnement**
 
-14. Le dépôt GitHub et le tableau Miro servent à la réflexion. Pas de
+12. Le dépôt GitHub et le tableau Miro servent à la réflexion. Pas de
     développement tant que ce n'est pas nécessaire.
 
-### Une contradiction à lever
+## Les pistes, pas encore décidées
 
-Le 21/11 : « pas de logiciel de devis, on se branche sur ceux des
-artisans ». Le 22/11 : « l'offre inclut un à trois logiciels partenaires ».
-Lecture de Claude : **on ne fabrique pas de logiciel de devis**, mais **on en
-propose un ou plusieurs dans l'offre**, et ceux qui veulent garder le leur
-le peuvent. À valider pour remplacer la décision du 21/11.
-
-## Ce qui n'est pas encore décidé (propositions et orientations)
-
+13. **La gamme d'offres** (piste de positionnement de Roland) : un seul
+    logiciel partenaire pour le tout-en-un, Costructor.
+    - a. le système seul, branché sur le logiciel de l'artisan (déduit par
+      Claude) ;
+    - b. tout-en-un **Costructor + notre système** ;
+    - c. tout-en-un **notre système + Dougs** ;
+    - d. tout-en-un **Costructor + notre système + Dougs** ;
+    - e. le « plus que tout-en-un » : **le tout + BTP Performance**.
+    Remarque de Claude : présenter cette gamme comme **une offre de base et
+    trois options** (Costructor, Dougs, BTP Performance), plus simple à
+    vendre.
+14. **Tout-en-un mais pas obligatoire** : l'artisan peut garder son logiciel
+    ou son expert-comptable ; le contrat nous dégage alors de toute
+    responsabilité sur ces outils.
 15. Les secrétaires recrutées en priorité parmi des conjointes d'artisans,
     sans le mentionner dans les annonces (c'est interdit).
-16. Lancer par étapes : d'abord la formation, le système piloté, un logiciel
-    partenaire et la communauté ; ensuite la bibliothèque personnalisée ;
-    enfin la bibliothèque partagée par métier, avec l'IA.
-17. Ne pas créer notre propre logiciel de devis maintenant, et se reposer la
-    question vers 300 à 500 artisans. Commencer par un partenariat avec
-    Costructor avec lien dédié, puis viser un co-marquage. (BTP Performance
-    a déjà un partenariat avec 20 % de remise ; la nouvelle société aura le
-    sien.)
+16. Lancer par étapes : d'abord la formation, le système piloté, le
+    logiciel partenaire et la communauté ; ensuite la bibliothèque
+    personnalisée ; enfin la bibliothèque partagée par métier, avec l'IA.
+17. Ne pas créer notre propre logiciel de devis, même plus tard, sauf à un
+    seuil (300 à 500 artisans) ou si Costructor devient un concurrent.
+    Avec Costructor : partenariat avec lien dédié d'abord, puis co-marquage.
+    BTP Performance a déjà son partenariat (20 % de remise) ; la nouvelle
+    société aura le sien.
 18. Dougs comme expert-comptable partenaire, en commençant par le schéma le
     plus simple : la secrétaire, mandatée, travaille dans l'espace Dougs de
     l'artisan.

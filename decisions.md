@@ -9,10 +9,13 @@ Une ligne par décision : la date, ce qui est décidé, pourquoi.
   D'autres métiers (taxis, boulangers…) pourront venir plus tard, dans
   d'autres sociétés avec Romain. Raison : c'est le monde que Roland maîtrise,
   et la demande naturelle viendra des membres de BTP Performance.
-- **21/11/2026** : pas de logiciel de devis et de factures (ce que Roland
-  appelle « CRM ») ; on se branche sur ceux des artisans (Obat…) et sur les
-  outils de l'expert-comptable. Raison : chaque artisan a déjà le sien, et ce
-  n'est pas le métier de la société.
+- **21/11/2026, précisée le 22/11/2026** : **on ne fabrique pas de logiciel
+  de devis et de factures** (ce que Roland appelle « CRM »). Notre système
+  se branche sur les logiciels du BTP qui nous donnent leurs clés API, et
+  sur les outils de l'expert-comptable. Raison : chaque artisan a déjà le
+  sien, et ce n'est pas le métier de la société. (La façon de proposer un
+  logiciel partenaire dans une offre tout-en-un reste une piste, voir
+  `notes/point-etape.md`.)
 - **21/11/2026** : l'artisan fait la visite, ajuste et valide toujours le
   devis ; le service peut préparer un brouillon à distance (qualification
   avant, liste de contrôle et dictée pendant, brouillon après). Raison : la
@@ -54,18 +57,6 @@ Une ligne par décision : la date, ce qui est décidé, pourquoi.
   Raison : rien d'équivalent en France, alors que ça marche ailleurs
   (TradieWives en Australie) ; c'est aussi l'acquisition et le vivier des
   secrétaires.
-- **22/11/2026** : l'offre inclut **un ou deux logiciels de devis et
-  factures partenaires** (Costructor en tête, Interfast possible), au lieu
-  de se brancher sur tous les logiciels. Raison : maîtriser parfaitement les
-  outils, former dessus, simplifier les connexions.
-- **22/11/2026** : l'offre est **tout-en-un mais pas obligatoire**.
-  L'artisan peut garder son logiciel de devis et factures ou son
-  expert-comptable ; dans ce cas, le contrat nous dégage de toute
-  responsabilité en cas de problème avec ces outils ou ce cabinet, que nous
-  ne maîtrisons pas. Côté logiciels, on vise un à trois éditeurs partenaires
-  (moins de dépendance, mais plus de partenariats à gérer). Raison : la
-  solution globale est la plus forte, sans fermer la porte à ceux qui
-  tiennent à leurs outils.
 - **22/11/2026** : **on ne mélange pas BTP Performance et ce projet.**
   Citadelle reste l'outil de BTP Performance qui contrôle la rentabilité ;
   il ne gère ni ouvrages ni articles de bibliothèque. La partie technique
