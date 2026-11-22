@@ -129,6 +129,9 @@ Une ligne par décision : la date, ce qui est décidé, pourquoi.
   coin et le proposer en mieux, dans un écosystème complet au service du BTP.
   Raison : la veille du 22/11 n'a trouvé cet outil ni en France ni à
   l'étranger.
+- **22/11/2026** : **l'accroche de la bibliothèque qui apprend** : « Chaque
+  chantier rend votre prochain devis plus juste. » Raison : elle dit le
+  bénéfice (des devis justes) et le mécanisme en une phrase.
 - **22/11/2026** : **jamais de double saisie pour l'artisan.** Une
   information saisie une fois circule partout où elle sert (logiciel de
   devis, système, Citadelle, expert-comptable). Raison : l'utilisateur

@@ -32,8 +32,8 @@ partir des heures réelles du chantier. Aucun outil trouvé, ni en France ni
   un artisan qui pose rarement un ouvrage ait un temps fiable ;
 - un **humain qui s'en occupe** (le bras droit, et un économiste de la
   construction pour la base).
-- Accroche proposée : « Chaque chantier rend votre prochain devis plus
-  juste. »
+- Accroche choisie par Roland : « Chaque chantier rend votre prochain
+  devis plus juste. »
 
 ## 2. Le pointage et le suivi de chantier
 
