@@ -54,3 +54,45 @@ prévoir :
   les titres, les publicités et les vidéos.
 Les deux s'adressent au couple, pas à l'un des deux : lui et elle s'y
 retrouvent ensemble.
+
+## Élargir : la personne de confiance (réflexion de Roland, 22/11/2026)
+
+**L'idée de Roland** : « conjointe » limite. Un artisan célibataire ne se
+dit pas « super, ils forment les conjointes ». Le mot plus large, c'est la
+**personne de confiance** : « Ayez une personne de confiance à côté de
+vous. Qui mieux qu'une personne de confiance ? » La conjointe devient une
+évidence pour ceux qui en ont une ; ceux qui n'en ont pas doivent sentir
+qu'avec nous, ce serait presque pareil : même proximité, même confiance,
+même confidentialité.
+
+Rien n'est décidé. Ce qu'en pense Claude :
+
+- **Ce que ça ouvre** : le cercle de confiance d'un artisan ne s'arrête pas
+  à sa conjointe. Il y a aussi sa mère, sa sœur, sa fille ou son fils, un
+  père à la retraite, un ancien salarié. Ce sont des bras droits possibles,
+  à former comme les conjointes. Le marché s'élargit sans changer le
+  service.
+- **Le risque** : diluer l'attaque par les conjointes, qui est notre angle
+  le plus fort et le plus original (la communauté, Gaëlle en figure de
+  proue, les messages au couple).
+- **La solution proposée : deux étages.**
+  1. La marque parle de **confiance**, pour tout le monde.
+  2. Les campagnes qui visent les couples parlent du **couple** : les deux
+     messages retenus restent valables.
+- **Pour ceux qui n'ont personne**, la confiance ne se décrète pas, elle se
+  prouve : les garanties déjà listées plus haut (confidentialité signée,
+  accès limités, trace, la même personne dans la durée) deviennent un
+  argument commercial, pas seulement une précaution.
+
+**Mots candidats pour le rôle** (à la place ou à côté de « bras droit ») :
+personne de confiance, proche de confiance, votre second, votre binôme,
+votre complice, votre premier cercle. Attention : « personne de confiance »
+est aussi un terme du droit de la santé ; il est courant, donc difficile à
+protéger, mais facile à comprendre.
+
+**Phrases candidates** :
+- « Votre bureau entre des mains de confiance. »
+- « La confiance d'un proche. Le métier d'une pro. »
+- « Qui mieux qu'une personne de confiance pour tenir votre bureau ? »
+- Pour ceux qui n'ont personne : « Pas de proche pour tenir le bureau ? On
+  vous trouve quelqu'un en qui vous aurez la même confiance. »
