@@ -66,6 +66,13 @@ sont pas fidèles. Face à une offre globale qui l'inclut, ils changeront.
    concurrent de demain. Il faut un contrat : accès API garanti, prix de
    gros, marque blanche ou commission, durée, et sortie possible. D'où
    l'intérêt d'en avoir deux.
+   **Le retournement vu par Roland (22/11/2026)** : en travaillant avec un
+   éditeur, la menace devient un moteur. Tout ce qu'il développe en IA (devis
+   dicté, relances automatiques) fait progresser notre offre sans qu'on le
+   paie. Claude est d'accord, avec une limite : l'éditeur vendra aussi ces
+   fonctions directement aux artisans et à d'autres. Notre valeur reste donc
+   ce que l'éditeur n'a pas : les humains du BTP, la formation, la
+   communauté et les heures réelles de chantier de Citadelle.
 3. **Le paiement.** Ne jamais détenir l'argent des clients de l'artisan :
    passer par un prestataire agréé (lien de paiement, acompte, prélèvement).
    Sinon, on tombe dans une activité réglementée.
