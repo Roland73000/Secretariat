@@ -235,6 +235,16 @@ seule par le planning et le pointage.
 notifications par le canal le moins cher (e-mail, notification de
 navigateur, SMS pour l'urgent). Détail dans sujets-romain.md.
 
+**Puis l'appli « carnet de la maison »** (validé par Roland le 22/11/2026,
+portée par la nouvelle société) : après le chantier, le client garde tout
+(factures, garanties, notices, photos des réseaux cachés) et reçoit les
+rappels d'entretien. Pour l'artisan, c'est **un outil commercial** :
+fidélisation, relance d'entretien, annonces de promotion sur des produits
+complémentaires, et plus tard la porte d'entrée du réseau ou label.
+Attention : les messages de promotion aux particuliers suivent les règles
+de la CNIL (accord du client, ou produits analogues de la même entreprise,
+avec désinscription facile).
+
 ---
 
 ## Les doublons avec nos partenaires (22/11/2026)
