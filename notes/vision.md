@@ -56,6 +56,18 @@ Ce que l'artisan garde (**A**) et ce que le service pilote (**S**).
 11. **En continu** : agenda, prise de rendez-vous en ligne par les clients,
     synchronisation avec le planning du dirigeant (S).
 
+## Un seul système, deux pilotes (décidé le 22/11/2026)
+
+1. L'artisan entre dans **BTP Performance** : on le forme, et on forme son
+   épouse.
+2. On lui met à disposition **un système autonome** qui fait tout le
+   parcours ci-dessus.
+3. Ce système est **piloté par son épouse** (« bras droit ») ou, s'il n'y a
+   pas d'épouse, **par Gaëlle** (« tout compris »).
+
+On attaque par les conjointes. Le système est le même dans les deux cas :
+c'est lui, et donc le travail de Romain, qui est au centre.
+
 ## Deux formules
 
 - **Formule « bras droit »** : le ou la conjointe (ou une collaboratrice

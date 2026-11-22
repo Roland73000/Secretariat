@@ -16,6 +16,13 @@
 
 ## Offre
 
+- Le système est-il réservé aux membres de BTP Performance, ou vendu aussi
+  à des artisans qui n'y sont pas ?
+- Combien d'entreprises Gaëlle peut-elle piloter seule avec le système, et
+  à partir de quand embauche-t-on ?
+- Quel message pour les couples où c'est un homme, ou une salariée, qui
+  tient le bureau (« votre épouse ou votre bras droit ») ?
+
 - Que fait-on à la main au lancement, que développe-t-on ensuite ?
 - L'outil du secrétariat : une nouvelle appli (Romain), un prolongement de
   Citadelle (Louis), ou les deux reliés par API ? Voir `notes/citadelle.md`.
