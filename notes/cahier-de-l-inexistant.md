@@ -1,6 +1,6 @@
 # Le cahier de l'inexistant
 
-Pour Romain. Version 2 du 22/11/2026, construite à partir des veilles du
+Pour Romain. Version 3 du 22/11/2026, construite à partir des veilles du
 21 et du 22/11 (dossier `notes/veille/`). Pour chaque brique du système :
 ce que les meilleurs font aujourd'hui, ce que personne ne fait, et ce que
 notre système doit faire en mieux.
@@ -22,6 +22,20 @@ bibliothèque, le devis préparé par l'IA, le bras droit, la relation avec
 les clients de l'artisan et la communauté. **Citadelle** (BTP Performance)
 porte la rentabilité, le planning et le pointage. Les deux échangent leurs
 données par un accord entre les deux sociétés.
+
+**Citadelle : un moteur, deux portes** (décidé le 22/11/2026, version 3) :
+- Citadelle est le **seul moteur des chantiers** (chantiers, pointage,
+  planning, rentabilité). On ne le refait jamais dans notre système.
+- **Pas de version bridée : des modules qu'on active** selon le client. Le
+  membre de BTP Performance garde ses tableaux de bord ; le client du
+  secrétariat a, en plus, les modules dont le bras droit a besoin. À
+  prévoir dans Citadelle : l'activation des modules client par client.
+- **Les deux logiciels se parlent par API dès le premier jour**, même si
+  c'est la même équipe qui code les deux, pour pouvoir un jour séparer les
+  sociétés sans rien casser. Un contrat de licence lie les deux sociétés.
+- **En communication, on ne mélange pas** : dans l'offre du secrétariat,
+  le moteur des chantiers apparaît comme une partie de notre système (le
+  nommer Citadelle ou non reste à décider).
 
 ---
 
@@ -212,6 +226,23 @@ superviseuse (Gaëlle) suive des dizaines de bras droits.
 quotidienne automatique qui signale ce qui coince ; un tableau de bord de
 supervision pour Gaëlle ; les remplacements en un clic ; une trace de qui a
 vu quoi (confiance).
+
+**Ajout de la version 3 : le parcours du couple.** Pour la formule
+« bras droit », l'entrée dans BTP Performance est obligatoire : BTP
+Performance forme le dirigeant et son épouse, puis notre système la suit
+(décision du 22/11/2026, `notes/entrees-commerciales.md`). Le système doit
+donc :
+- connaître **l'étape du parcours** de chaque couple (formation BTP
+  Performance, prise en main, autonomie) et adapter le niveau d'aide ;
+- **suivre l'engagement du dirigeant, pas seulement celui du bras droit** :
+  valide-t-il ses devis à temps, vient-il au point de la semaine,
+  applique-t-il ce qu'il a appris ? Si lui décroche, une alerte part vers
+  la superviseuse avant que la conjointe ne craque. Ce que personne ne
+  fait : mesurer la santé du binôme, pas seulement l'avancement des
+  tâches ;
+- pour la formule « tout compris », suivre de la même façon l'engagement
+  minimum du dirigeant (point de la semaine, réponses aux questions de la
+  secrétaire).
 
 ## 11. La communauté
 
