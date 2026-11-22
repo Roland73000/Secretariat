@@ -18,6 +18,13 @@
   nouvelle société les paie-t-elle (prestation facturée, temps refacturé) pour
   garder les deux sociétés bien séparées ?
 
+## Gaëlle et le réseau des bras droits (voir `notes/reseau-bras-droits.md`)
+
+- Gaëlle supervise les bras droits plutôt que de faire elle-même ?
+- Les conjointes formées deviennent-elles prestataires pour d'autres
+  entreprises ? Avec quel statut (salariée à temps partiel, indépendante) ?
+- Quelles règles de confidentialité et de non-concurrence ?
+
 ## Offre
 
 - Le service a son propre tunnel de vente (décidé le 22/11/2026) : qui
