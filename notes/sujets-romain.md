@@ -59,3 +59,34 @@ serveur MCP existe. **Solution proposée** : un artisan pilote (ou un compte
 BTP Performance) active l'option, et Romain teste ce qu'elle permet
 d'écrire ; en parallèle, le demander directement à Costructor dans le
 rendez-vous de partenariat.
+
+## Comment communiquer avec les clients de l'artisan ?
+
+**Le problème** (Roland, 22/11/2026) : chaque client a son canal préféré
+(SMS, e-mail, WhatsApp…). Le SMS coûte, WhatsApp Business aussi (facturé
+par message pour les messages envoyés à l'initiative de l'entreprise), et
+une appli à télécharger est un frein pour un client qui ne fait des travaux
+qu'une fois tous les dix ans.
+
+**La solution proposée par Claude : la page de suivi du chantier.**
+- Chaque chantier a **sa page privée**, ouverte d'un simple lien, sans rien
+  télécharger ni créer de compte (comme le suivi d'une livraison) : le
+  planning et les dates d'intervention, la météo et les décalages, les
+  photos d'avancement, les documents (devis signé, factures, attestations),
+  le paiement en ligne, et une messagerie avec le bras droit.
+- **Les notifications partent par le canal le moins cher qui marche** :
+  e-mail par défaut (gratuit), notification de navigateur si le client
+  l'accepte (gratuit, la page peut s'installer comme une appli sur le
+  téléphone), et SMS seulement pour l'urgent (intervention décalée le jour
+  même), inclus dans le forfait avec un quota.
+- **Le client choisit** son canal préféré une fois ; le système s'adapte.
+- **Une vraie appli plus tard**, seulement si les clients la demandent :
+  la même page, emballée en appli.
+- **Pourquoi c'est disruptif sans réinventer la roue** : l'artisan donne à
+  son client une expérience de grande enseigne (suivi en direct, photos,
+  documents au même endroit), et tout part en automatique depuis Citadelle
+  et notre système. C'est aussi une vitrine : le client montre la page à
+  ses proches, et la fin du chantier enchaîne sur la demande d'avis.
+
+À valider avec Romain : la technique (page installable, notifications), et
+les coûts réels des SMS et de WhatsApp Business au moment de choisir.
