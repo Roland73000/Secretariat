@@ -60,3 +60,23 @@ Boby et Artisaner se disent tous les deux « le Doctolib du bâtiment » :
 - **Dès la première étape**, on intègre trois briques copiées : le SMS
   après appel manqué suivi d'un rappel humain, le devis par WhatsApp (si le
   logiciel partenaire le permet), et l'avis vérifié après chaque chantier.
+
+## Ce qu'ajoute la veille mondiale (`veille/reseaux-monde.md`)
+
+Attention : la plupart des faits viennent de résumés de moteur de recherche,
+peu de pages ont été lues en entier ; les prix sont souvent ceux des
+comparateurs.
+
+- **Ce que les artisans détestent partout** : le même contact vendu à 3 à
+  5 concurrents, payer sans décrocher de chantier, l'engagement de 12 mois,
+  les faux avis (HomeAdvisor sanctionné par l'autorité américaine de la
+  concurrence en 2023). Règle pour nous : **jamais un client vendu à
+  plusieurs artisans.**
+- **Le marché bouge** : Angi laisse le client choisir lui-même ses pros
+  depuis 2025 ; Google a supprimé la garantie de remboursement de son badge
+  « Google Guaranteed » fin 2025.
+- **La menace** : Yelp, Jobber et Housecall Pro vendent des agents IA qui
+  répondent aux appels et qualifient les demandes (autour de 99 $ par mois).
+- **Recommandation** : dès le lancement, le bras droit traite **tous les
+  contacts entrants** de l'artisan, plateformes comprises, et recueille ses
+  avis ; un réseau propre réservé à nos artisans viendra plus tard.
