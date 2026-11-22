@@ -61,3 +61,23 @@ zeropaperasse, lebureauduchantier, artisanlibre, arriereboutique.
 - Vérifier aussi les noms de sociétés existantes (Pappers, Infogreffe).
 - Une recherche INPI faite par nous est un premier tri, pas une garantie :
   avant de déposer, faire valider par un conseil en propriété industrielle.
+
+## Un seul mot (recherche du 22/11/2026, au soir)
+
+Demande de Roland : repartir presque de zéro, un seul mot court, parlant,
+déposable, avec un domaine libre, déclinable en « [Nom] BTP », « [Nom]
+Taxi »… Page complète : https://claude.ai/artifact/FpUnZs4KnFy4w9FvV8Vz76
+(source `noms-un-mot.html`).
+
+- 28 noms en 8 thèmes : la main et la confiance, le BTP, la protection,
+  les animaux, le Japon, la montagne et la mer, le foyer et le couple, les
+  mots inventés en « -elle ».
+- 49 des 52 vrais mots testés sont pris en .fr. La solution : la marque est
+  le mot, le site est « motbtp.fr », libre pour presque tous.
+- Favoris de Claude : **Dextre** (la main droite ; dextre.fr libre ; INPI
+  risque moyen à cause de DEXTRA et DEXTR en classe 35), **Aronde** (la
+  queue d'aronde et l'hirondelle), **Faîtière** (INPI dégagé),
+  **Hirondelle**, **Cordée**.
+- Égide : INPI encombré (risque fort).
+- INPI à reprendre pour les autres : le site a limité les recherches après
+  trois requêtes (vérification anti-robot, non contournée).

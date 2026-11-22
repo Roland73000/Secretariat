@@ -1,0 +1,131 @@
+<title>Un seul mot</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@600;700&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Une colonne de lecture ; chaque nom est une fiche, le nom en grand comme sur une enseigne */
+:root{--bg:#f6f7f9;--paper:#fff;--fg:#1d2430;--muted:#5d6878;--line:#dde2ea;--accent:#2f5d8a;
+--ok:#0f7a3d;--ok-bg:#e3f4ea;--mid:#9a5b00;--mid-bg:#fdf0dc;--ko:#b3261e;--ko-bg:#fbe5e3;--na:#5d6878;--na-bg:#eef1f5;
+--display:"IBM Plex Sans Condensed","Arial Narrow",system-ui,sans-serif;--body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;--mono:"IBM Plex Mono",ui-monospace,Consolas,monospace}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#12161c;--paper:#1a2029;--fg:#e4e8ee;--muted:#9aa5b4;--line:#2c3440;--accent:#7fb0e0;
+--ok:#6fd39a;--ok-bg:#16301f;--mid:#f0b45a;--mid-bg:#3a2a10;--ko:#f08a82;--ko-bg:#3a1a18;--na:#9aa5b4;--na-bg:#232a35;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#12161c;--paper:#1a2029;--fg:#e4e8ee;--muted:#9aa5b4;--line:#2c3440;--accent:#7fb0e0;
+--ok:#6fd39a;--ok-bg:#16301f;--mid:#f0b45a;--mid-bg:#3a2a10;--ko:#f08a82;--ko-bg:#3a1a18;--na:#9aa5b4;--na-bg:#232a35;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.6}
+.wrap{max-width:860px;margin:0 auto;padding-block:28px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+a{color:var(--accent)}
+.back{font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:16px}
+h1{font-family:var(--display);font-size:clamp(32px,7vw,48px);line-height:1.05;margin:6px 0 10px;text-wrap:balance}
+h2{font-family:var(--display);font-size:24px;margin:40px 0 4px;padding-top:18px;border-top:1px solid var(--line);text-wrap:balance}
+h2 + .intro{margin-top:0}
+p,li{max-width:68ch}
+.intro{color:var(--muted)}
+.rule{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:16px 20px;margin:16px 0}
+.rule ul{margin:8px 0 0;padding-left:20px}
+.top{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));margin:16px 0}
+.top div{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:12px 14px;min-width:0}
+.top b{display:block;font-family:var(--display);font-size:26px;line-height:1.1}
+.top span{font-size:13px;color:var(--muted)}
+.cards{display:grid;gap:12px;margin-top:14px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:16px 18px;display:grid;gap:6px;min-width:0}
+.card.fav{border-color:var(--accent)}
+.head{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 12px}
+.name{font-family:var(--display);font-size:30px;line-height:1.05;font-weight:700}
+.syl{font-family:var(--mono);font-size:12px;color:var(--muted)}
+.fav-tag{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
+.sens{margin:0}
+.decl{margin:0;font-size:14px;color:var(--muted)}
+.facts{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
+.chip{font-family:var(--mono);font-size:12px;padding:3px 9px;border-radius:999px;white-space:nowrap}
+.ok{color:var(--ok);background:var(--ok-bg)}.mid{color:var(--mid);background:var(--mid-bg)}.ko{color:var(--ko);background:var(--ko-bg)}.na{color:var(--na);background:var(--na-bg)}
+.note{font-size:14px;color:var(--muted);margin:0}
+.legend{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
+</style>
+<div class="wrap">
+<a class="back" href="https://claude.ai/artifact/EueTheKbo1DqtRdRispX8q">← Point d'étape</a>
+<div class="eyebrow">Projet Secrétariat · le nom de la société · 22/11/2026</div>
+<h1>Un seul mot</h1>
+<p class="intro">28 noms classés par thème, pour une société qui doit d'abord parler aux artisans du BTP, puis pouvoir se décliner à d'autres métiers.</p>
+
+<div class="rule">
+<b>La règle du jeu (Roland)</b>
+<ul>
+<li>Un seul mot, court, facile à dire, comme « Citadelle » ou « bras droit ».</li>
+<li>Parlant et efficace en marketing, d'abord pour le BTP.</li>
+<li>Déposable à l'INPI, avec un nom de domaine libre.</li>
+<li>Déclinable : « [Nom] BTP », « [Nom] Taxi », « [Nom] Boulangerie ». Un mot courant peut faire l'affaire s'il n'est pas déposé dans notre domaine, comme Apple pour des ordinateurs.</li>
+</ul>
+</div>
+
+<div class="rule">
+<b>Ce que la recherche a montré</b>
+<ul>
+<li><b>Presque tous les vrais mots français sont pris en .fr</b> : 49 des 52 testés. Il ne faut donc pas chercher « le mot.fr ».</li>
+<li><b>Ta déclinaison règle le problème.</b> La marque est le mot, et le site devient « motbtp.fr ». Ce domaine est libre pour presque tous les candidats, et il prépare « mottaxi.fr » ou « motboulangerie.fr ».</li>
+<li><b>Le vrai filtre, c'est l'INPI</b> (classes 35 pour la gestion et le secrétariat, 42 et 9 pour le logiciel). Le site de l'INPI limite le nombre de recherches : 4 noms vérifiés (Dextre et Égide ce soir, Faîtière et Bastidelle hier), les autres demain, plus lentement.</li>
+</ul>
+</div>
+
+<h2>Mes cinq favoris</h2>
+<div class="top">
+<div><b>Dextre</b><span>la main droite, sans le mot</span></div>
+<div><b>Aronde</b><span>l'assemblage le plus solide</span></div>
+<div><b>Faîtière</b><span>ce qui couronne et chapeaute</span></div>
+<div><b>Hirondelle</b><span>bâtisseuse et fidèle</span></div>
+<div><b>Cordée</b><span>on avance encordés</span></div>
+</div>
+<div class="legend"><span class="chip ok">INPI dégagé</span><span class="chip mid">INPI risque moyen</span><span class="chip ko">INPI risque fort</span><span class="chip na">INPI à vérifier</span></div>
+
+<div id="themes"></div>
+
+<h2>La suite</h2>
+<ol>
+<li>Tu entoures 3 à 5 noms, même sans certitude.</li>
+<li>Je vérifie ces noms à l'INPI, lentement, avec les classes et le statut de chaque marque proche.</li>
+<li>On les teste à voix haute auprès de 5 conjointes et 5 artisans : « Qu'est-ce que ce nom vous évoque ? ».</li>
+<li>Avant de déposer, un conseil en propriété industrielle confirme. Une recherche faite par nous reste un premier tri.</li>
+</ol>
+</div>
+<script>
+const T=[
+ {t:"La main et la confiance",i:"Le plus proche de « bras droit », sans en reprendre les mots.",n:[
+  {n:"Dextre",s:"2 syllabes",fav:1,sens:"La main droite, en vieux français, d'où vient « dextérité ». C'est « bras droit » en un mot, sans la marque « Bras droit des dirigeants ». Rare, net, facile à dire.",d:"Dextre BTP, Dextre Taxi, Dextre Boulangerie.",dom:["dextre.fr libre","dextrebtp.fr libre"],inpi:["mid","DEXTRE (2002) expirée ; mais DEXTRA (2015, classes 35 et 42) et DEXTR (2020, classe 35) sont actives. Assez proches pour un risque d'opposition."]},
+  {n:"Complice",s:"3 syllabes",sens:"Le couple qui travaille ensemble, et la complicité avec le client. Chaleureux, mais très courant.",d:"Complice BTP.",dom:["complicebtp.fr libre"],inpi:["na"]},
+  {n:"Binôme",s:"3 syllabes",sens:"On travaille à deux : le patron et son bras droit. Clair, un peu scolaire.",d:"Binôme BTP.",dom:["binomebtp.fr libre"],inpi:["na"]}]},
+ {t:"Le BTP",i:"Des mots du métier, que l'artisan reconnaît tout de suite.",n:[
+  {n:"Aronde",s:"2 syllabes",fav:1,sens:"La queue d'aronde est l'assemblage le plus solide de la charpente et de la menuiserie. Et « aronde » est l'ancien nom de l'hirondelle, qui bâtit son nid et revient chaque année. Solidité, métier et fidélité en un mot.",d:"Aronde BTP, Aronde Taxi.",dom:["aronde.fr pris","arondebtp.fr libre"],inpi:["na","À vérifier en priorité (il a existé une voiture Simca Aronde)."]},
+  {n:"Faîtière",s:"3 syllabes",fav:1,sens:"La tuile faîtière couronne et protège le toit ; une organisation faîtière chapeaute et coordonne. Double sens BTP et pilotage.",d:"Faîtière BTP. Se décline moins bien hors du bâtiment.",dom:["faitiere.fr libre","faitierebtp.fr libre"],inpi:["ok","Vérifié le 21/11 : 3 marques seulement, pour des vins."]},
+  {n:"Chaînage",s:"2 syllabes",sens:"Ce qui relie et rigidifie toute la structure. Parlant pour un maçon, technique pour les autres.",d:"Chaînage BTP.",dom:["chainage.fr libre"],inpi:["na"]},
+  {n:"Ancrage",s:"2 syllabes",sens:"Ce qui tient, ce qui ne bouge pas. Très courant dans les noms de sociétés.",d:"Ancrage BTP.",dom:["ancragebtp.fr libre"],inpi:["na"]}]},
+ {t:"La protection",i:"La garde rapprochée en mots de civils, sans le vocabulaire militaire.",n:[
+  {n:"Égide",s:"2 syllabes",sens:"« Sous l'égide de » : sous la protection de. Élégant et court.",d:"Égide BTP.",dom:["egide.fr pris","egidebtp.fr libre"],inpi:["ko","Terrain encombré : EGIDE en logiciel et sécurité informatique (classes 9 et 42), Egidis Conseil et Egide Expertise en classe 35."]},
+  {n:"Escorte",s:"3 syllabes",sens:"On accompagne l'artisan, on ne le laisse jamais seul. Connu de tous.",d:"Escorte BTP.",dom:["escortebtp.fr libre"],inpi:["na","Attention au double sens possible sur internet."]},
+  {n:"Pavois",s:"2 syllabes",sens:"Le grand bouclier ; « hisser sur le pavois », c'est mettre à l'honneur. Beau, mais peu connu.",d:"Pavois BTP.",dom:["pavoisbtp.fr libre"],inpi:["na"]},
+  {n:"Talisman",s:"3 syllabes",sens:"L'objet qui protège et porte chance. Connu de tous, un peu magique.",d:"Talisman BTP.",dom:["talismanbtp.fr libre"],inpi:["na"]},
+  {n:"Gardian",s:"2 syllabes",sens:"Le gardian de Camargue veille sur le troupeau. Chaleureux, mais très régional.",d:"Gardian BTP.",dom:["gardianbtp.fr libre"],inpi:["na"]}]},
+ {t:"Les animaux et les oiseaux",i:"Des bêtes qui bâtissent, qui s'organisent ou qui reviennent.",n:[
+  {n:"Hirondelle",s:"3 syllabes",fav:1,sens:"Elle maçonne son nid de terre, revient au même endroit chaque année (la fidélisation) et annonce le printemps. Féminine et en « -elle », comme Citadelle.",d:"Hirondelle BTP, Hirondelle Taxi.",dom:["hirondelle.fr pris","hirondellebtp.fr libre"],inpi:["na","Mot très utilisé : à vérifier en priorité."]},
+  {n:"Sittelle",s:"2 syllabes",sens:"Un petit oiseau qui maçonne l'entrée de son nid avec de la boue (la « sittelle torchepot »). Joli, rare, en « -elle ».",d:"Sittelle BTP.",dom:["sittelle.fr pris","sittellebtp.fr libre"],inpi:["na"]},
+  {n:"Castor",s:"2 syllabes",sens:"Le bâtisseur par excellence. Immédiat, mais déjà partout (et les « Castors », l'autoconstruction).",d:"Castor BTP.",dom:["castorbtp.fr libre"],inpi:["na"]},
+  {n:"Colibri",s:"3 syllabes",sens:"« Faire sa part ». Sympathique, mais lié au mouvement Colibris.",d:"Colibri BTP.",dom:["colibribtp.fr libre"],inpi:["na"]}]},
+ {t:"Le Japon",i:"Des mots qui sonnent bien et qu'on peut s'approprier, à condition de les expliquer.",n:[
+  {n:"Kizuna",s:"3 syllabes",sens:"Le lien de confiance entre les personnes. Fort, doux, mais il faut l'expliquer.",d:"Kizuna BTP.",dom:["kizunabtp.fr libre"],inpi:["na"]},
+  {n:"Takumi",s:"3 syllabes",sens:"Le maître artisan, celui qui a atteint l'excellence. Flatte l'artisan.",d:"Takumi BTP.",dom:["takumibtp.fr libre"],inpi:["na"]},
+  {n:"Omamori",s:"4 syllabes",sens:"L'amulette qu'on garde sur soi pour être protégé. Un peu long.",d:"Omamori BTP.",dom:["omamoribtp.fr libre"],inpi:["na"]}]},
+ {t:"La montagne et la mer",i:"Avancer ensemble, porter la charge, tenir le cap.",n:[
+  {n:"Cordée",s:"2 syllabes",fav:1,sens:"L'équipe encordée : on se confie sa vie, chacun assure l'autre. « Premier de cordée ». Parle au couple comme à l'équipe.",d:"Cordée BTP, Cordée Taxi.",dom:["cordee.fr pris","cordeebtp.fr libre"],inpi:["na","À vérifier en priorité."]},
+  {n:"Sherpa",s:"2 syllabes",sens:"Il porte la charge pour que l'alpiniste atteigne le sommet : exactement « on s'occupe du reste ». Mais déjà très employé dans le monde des affaires.",d:"Sherpa BTP.",dom:["sherpabtp.fr libre"],inpi:["na"]},
+  {n:"Bosco",s:"2 syllabes",sens:"Le maître d'équipage, qui fait tourner le navire pour le capitaine. Drôle, sonore, peu connu.",d:"Bosco BTP.",dom:["boscobtp.fr libre"],inpi:["na"]}]},
+ {t:"Le foyer et le couple",i:"La conjointe au cœur de l'entreprise.",n:[
+  {n:"Âtre",s:"1 syllabe",sens:"Le cœur de la maison, là où brûle le feu. Parle au bâtiment, au foyer et au couple. Très court, mais proche de « être » à l'oral.",d:"Âtre BTP.",dom:["atrebtp.fr libre"],inpi:["na"]},
+  {n:"Osmose",s:"2 syllabes",sens:"Le couple et l'entreprise en harmonie. Très courant dans les noms de sociétés.",d:"Osmose BTP.",dom:["osmosebtp.fr libre"],inpi:["na"]}]},
+ {t:"Les mots inventés en « -elle »",i:"Comme Citadelle. Moins parlants au premier abord, mais les plus faciles à protéger, avec le .fr et le .com libres.",n:[
+  {n:"Bastidelle",s:"3 syllabes",sens:"La bastide, maison fortifiée du Sud, avec la terminaison de Citadelle.",d:"Bastidelle BTP.",dom:["bastidelle.fr libre","bastidelle.com libre"],inpi:["ok","Vérifié le 21/11 : 2 marques de vin, expirées."]},
+  {n:"Œuvrelle",s:"3 syllabes",sens:"Œuvre et elle : celle qui fait avancer l'œuvre. Rappelle « Vous œuvrez » de la baseline.",d:"Œuvrelle BTP.",dom:["oeuvrelle.fr libre","oeuvrelle.com libre"],inpi:["na"]},
+  {n:"Bâtisselle",s:"3 syllabes",sens:"Bâtir et elle. Très BTP, se décline moins bien ailleurs.",d:"Bâtisselle BTP.",dom:["batisselle.fr libre","batisselle.com libre"],inpi:["na"]},
+  {n:"Ancrelle",s:"2 syllabes",sens:"Ancre et elle : ce qui tient l'entreprise, au féminin.",d:"Ancrelle BTP.",dom:["ancrelle.fr libre"],inpi:["na"]}]}
+];
+const L={ok:"INPI dégagé",mid:"INPI risque moyen",ko:"INPI risque fort",na:"INPI à vérifier"};
+const esc=s=>s.replace(/&/g,"&amp;").replace(/</g,"&lt;");
+document.getElementById("themes").innerHTML=T.map(th=>`<h2>${esc(th.t)}</h2><p class="intro">${esc(th.i)}</p><div class="cards">${th.n.map(x=>`<div class="card${x.fav?' fav':''}"><div class="head"><span class="name">${esc(x.n)}</span><span class="syl">${x.s}</span>${x.fav?'<span class="fav-tag">Favori</span>':''}</div><p class="sens">${esc(x.sens)}</p><p class="decl">${esc(x.d)}</p><div class="facts">${x.dom.map(d=>`<span class="chip ${/libre/.test(d)?'ok':'na'}">${esc(d)}</span>`).join("")}<span class="chip ${x.inpi[0]}">${L[x.inpi[0]]}</span></div>${x.inpi[1]?`<p class="note">${esc(x.inpi[1])}</p>`:""}</div>`).join("")}</div>`).join("");
+</script>
