@@ -50,6 +50,27 @@ revendre. Ce qui est possible :
 - **construire la nôtre** (voir le point 1), et c'est elle qui aura de la
   valeur avec les données de Citadelle.
 
+### 2 bis. Et si les artisans nous donnent leur propre bibliothèque ?
+
+Question de Roland (22/11/2026). **Oui, c'est la meilleure voie, avec un
+accord écrit et deux précautions.**
+- **Ce que l'artisan a construit lui-même lui appartient** : il peut nous
+  autoriser à l'utiliser, par une clause de licence dans notre contrat
+  (usage, durée, réutilisation anonymisée pour les autres membres).
+- **Ce qu'il a importé d'une base payante ou du logiciel de son éditeur
+  ne lui appartient pas** : il ne peut pas nous céder des droits qu'il n'a
+  pas. Il faut une clause où il garantit que ce qu'il nous donne vient de
+  lui, et ne garder que sa structure, ses temps et ses prix réels, réécrits
+  à notre façon.
+- **Un fait isolé n'est pas protégé** (« poser 1 m² de placo prend tant de
+  temps ») ; c'est la base entière, ou une grosse partie copiée, qui l'est.
+- **Ses prix sont un secret d'affaires** : on ne les montre jamais tels
+  quels aux autres ; on les agrège et on les anonymise (moyennes par métier
+  et par région, avec un nombre minimum d'entreprises).
+- **Le donnant-donnant** : « vous partagez vos ouvrages, vous recevez la
+  bibliothèque commune de votre métier, corrigée par les vrais chantiers ».
+  C'est ce qui donne envie de partager.
+
 ### 3. Peut-on encaisser le client, puis reverser à l'éditeur ?
 
 **Oui, c'est une pratique commerciale normale**, à condition d'avoir
