@@ -54,7 +54,17 @@ td:first-child{font-weight:600;white-space:nowrap}
 <a class="back" href="https://claude.ai/artifact/EueTheKbo1DqtRdRispX8q">← Point d'étape</a>
 <div class="eyebrow">Projet Secrétariat · le nom de la société · mis à jour le 23/11/2026 : la piste des prénoms</div>
 <h1>Un seul mot</h1>
-<p class="intro"><b>Mise à jour du 23/11 :</b> la piste des prénoms à double sens (Tim = team). Environ 150 prénoms trouvés, 50 gardés, 19 noms passés à l'INPI aujourd'hui, dont la piste « performance » (Max, Prosper, Olympe). Résultat : les prénoms courts sont presque tous déjà déposés. Seul Amédée passe, Pilar et Theam sont risqués. Le tableau complet est juste en dessous, avec tous les noms vérifiés depuis le début.</p>
+<div class="rule">
+<b>Compte rendu du 23/11/2026</b>
+<ul>
+<li><b>Ta piste des prénoms à double sens</b> (Tim = team) : environ 150 prénoms trouvés, 21 passés à l'INPI. Presque tous sont déjà déposés en classe 35 : Tim, Thim, Teem, Timéa, Ally, Andy, Ed, Mano, Max, Prosper, Olympe, Félix, Amy. <b>Seul Amédée passe.</b> Pilar, Clément et Maxime sont risqués (des marques dans le bâtiment), Theam aussi.</li>
+<li><b>Tim, regardé de près</b> : bloqué par Telecom Italia (marque TIM très connue, en classe 35 dès 2011 et sur presque tout en 2025). Ni « Tim BTP » ni un changement d'orthographe ne suffisent. Détail plus bas.</li>
+<li><b>Ta piste « performance »</b> (Max, maximum) : Max, Prosper, Olympe et Summum sont pris. <b>Levier passe</b> : aucune marque « LEVIER » en vigueur, et levierbtp.fr est libre. C'est la bonne surprise du jour : un outil de chantier qui démultiplie la force, donc la performance.</li>
+<li><b>Ce qu'on apprend</b> : les mots qui disent l'aide, la performance ou un prénom court sont convoités par tout le monde. Ce qui passe, ce sont les mots concrets : Proue, Piolet, Cheville, Chaînage, Levier.</li>
+<li><b>Les noms encore possibles</b> : Proue, Cheville, Piolet, Chaînage, Levier, Accalmie, Tiroir, Garvan et Amédée (pas risqués) ; Commode, Amarre, Tenac, Pilar, Clément, Maxime et Theam (risqués).</li>
+</ul>
+<p class="note">« Vous décidez, vous œuvrez, Levier s'occupe du reste. » Prochaine étape : tu choisis 3 finalistes ; on les teste auprès de quelques artisans et conjointes ; on réserve les nomBTP.fr ; un conseil en propriété industrielle valide avant le dépôt.</p>
+</div>
 
 <h2>Le tableau complet</h2>
 <p class="intro">Toutes les propositions vérifiées à ce jour : les prénoms du 23/11, les 10 survivants de la nuit et les noms bloqués. Domaines vérifiés le 23/11/2026. INPI : marques en vigueur portant le nom exact, en France, en Europe et à l'international, classes 35 (gestion, secrétariat), 42 et 9 (logiciel).</p>
@@ -185,15 +195,15 @@ const R=[
  ["Mano","p","la main, le coup de main",0,0,1,"ko","« MANO » de ManoMano (Colibri SAS), classes 35 et 37"],
  ["Pilar","p","le pilier (espagnol)",0,0,1,"mid","rien en 35 ni 42 ; mais « PILAR » d'Oknoplast, fabricant de fenêtres (classes 6, 19, 20, 37) : même monde que nos artisans"],
  ["Amédée","p","« à m'aider »",0,0,1,"ok","seulement des vins et de l'alimentaire"],
- ["Félix","p","heureux (latin)",0,0,1,"wait","pas encore vérifié ; prénom très déposé, risque probable"],
- ["Clément","p","bienveillant",0,0,1,"wait","pas encore vérifié"],
- ["Amy","p","s'entend « amie »",0,0,1,"wait","pas encore vérifié"],
+ ["Félix","p","heureux (latin)",0,0,1,"ko","six « FELIX » en 35 et 42, dont trois déposées en 2026 et une de Nestlé"],
+ ["Clément","p","bienveillant",0,0,1,"mid","rien en 35 ni 42 ; mais une « CLEMENT » en 6, 19, 37 (le bâtiment) ; le reste : rhum, boissons"],
+ ["Amy","p","s'entend « amie »",0,0,1,"ko","« AMY » en 35 (2024), en logiciel chez la RATP et Ezygain (42), chez Somfy (9)"],
  ["Max","f","« au max », clin d'œil à BTP Performance",0,0,1,"ko","plus de 100 marques, dont « MAX » chez Berger-Levrault (logiciels de gestion), Arkéa (35), Cargill"],
  ["Prosper","f","prénom, s'entend « prospérer »",0,0,1,"ko","quatre « PROSPER » en classe 35 (2017 à 2022), dont un cabinet de gestion"],
  ["Olympe","f","prénom féminin, le sommet, l'olympisme",0,0,1,"ko","« OLYMPE » d'Aegide en 35 et 37 (2016), et deux logiciels en 42"],
- ["Maxime","f","prénom, « le plus grand »",0,0,1,"wait","pas encore vérifié (captcha de l'INPI)"],
- ["Levier","f","il démultiplie la force",0,0,1,"wait","pas encore vérifié (captcha de l'INPI)"],
- ["Summum","f","le plus haut point",0,0,1,"wait","pas encore vérifié (captcha de l'INPI)"],
+ ["Maxime","f","prénom, « le plus grand »",0,0,1,"mid","rien en 35 ; mais « Maxime » de Viebrockhaus, constructeur de maisons (19, 37, 42)"],
+ ["Levier","f","il démultiplie la force : outil de chantier et idée de performance",0,0,1,"ok","aucune marque « LEVIER » en vigueur ; seulement des noms composés possibles, à faire confirmer"],
+ ["Summum","f","le plus haut point",0,0,1,"ko","cinq « SUMMUM » en 35, dont un cabinet de conseil"],
  ["Proue","s","protège et avance",0,0,1,"ok","14 marques en tout, aucune dans nos classes"],
  ["Cheville","s","la cheville ouvrière",0,0,1,"ok","seulement des marques médicales"],
  ["Piolet","s","on assure, vous montez",0,0,1,"ok","aucune vivante en 9, 35, 42"],

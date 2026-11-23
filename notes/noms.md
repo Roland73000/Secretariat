@@ -316,3 +316,21 @@ Max fait penser à « maximum », donc de loin à BTP Performance.
 - Autres idées : Victor, Valentin, Essor, Élan, Palier, Cran. Domaines : tous
   les .fr sont pris ; nomBTP.fr libre sauf tremplinbtp.fr, atoutbtp.fr et
   apexbtp.fr (déjà des entreprises du bâtiment).
+
+### Fin des vérifications du 23/11
+
+- **Levier** : PAS RISQUÉ. Aucune marque « LEVIER » en vigueur au nom exact.
+  levier.fr et levier.com pris, levierbtp.fr libre. Noms composés à faire
+  confirmer par un conseil.
+- **Maxime** : risqué. Rien en 35 ; « Maxime » de Viebrockhaus (maisons,
+  19, 37, 42, 2015).
+- **Summum** : très risqué (cinq SUMMUM en 35, dont Hapi Conseil, 2018).
+- **Félix** : très risqué (six FELIX en 35 et 42, trois déposées en 2026,
+  une de Nestlé).
+- **Clément** : risqué. Rien en 35 ni 42 ; une CLEMENT en 6, 19, 37
+  (bâtiment). Forme accentuée non vérifiée.
+- **Amy** : très risqué (AMY en 35 en 2024 ; RATP et Ezygain en 42 ; Somfy).
+
+Bilan : les noms encore possibles sont Proue, Cheville, Piolet, Chaînage,
+Levier, Accalmie, Tiroir, Garvan et Amédée (pas risqués), puis Commode,
+Amarre, Tenac, Pilar, Clément, Maxime et Theam (risqués).
