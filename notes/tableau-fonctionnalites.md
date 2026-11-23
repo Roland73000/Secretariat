@@ -34,7 +34,7 @@ socle commun à tous les logiciels de devis** :
    synchronisé avec le nôtre : saisi une seule fois ;
 2. le devis : mise en forme, numérotation, envoi (notre IA l'écrit dedans) ;
 3. la facture et ses obligations légales : numérotation, acomptes,
-   situations, avoirs, retenue de garantie, **facture électronique** ;
+   situations, avoirs, retenue de garantie (seulement quand le contrat la prévoit), **facture électronique** ;
 4. l'export vers l'expert-comptable.
 
 Condition : le logiciel de l'artisan doit avoir une API pour que notre IA
@@ -105,7 +105,8 @@ et Costructor est recommandé, jamais imposé.
 
 | Fonctionnalité | Nous | Costructor | Note |
 | --- | --- | --- | --- |
-| Factures, acomptes, situations, avoirs, retenue de garantie | Socle | ✓ | |
+| Factures, acomptes, situations, avoirs, retenue de garantie | Socle | ✓ | retenue de garantie : seulement si le contrat la prévoit ; rare avec les particuliers |
+| Suivi des retenues de garantie : date de levée, relance pour récupérer les 5 % | ✓ | | souvent oubliés par l'artisan : de l'argent qui dort |
 | Facture électronique | Socle | ✓ (gratuit) | par Pennylane ou SuperPDP |
 | Relance des impayés, avec un humain | ✓ | Partiel (Business+) | chez eux relance automatique, sans humain |
 | Suivi de trésorerie | ✓ Citadelle | ✓ (Premium) | existe dans Citadelle |
