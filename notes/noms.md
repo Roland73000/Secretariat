@@ -237,3 +237,39 @@ Garvan (risque faible, mot inventé). « nombtp.fr » et « nomtaxi.fr » libres
 pour tous ; le .fr seul libre pour Chaînage, Garvan et Tenac.
 **Trio de tête de Claude** : Proue (protège et avance), Cheville (la
 cheville ouvrière), Piolet (on assure, vous montez).
+
+## Piste des prénoms à double sens (23/11/2026)
+
+Idée de Roland : un prénom court, facile à retenir, qui s'entend aussi comme
+un mot dans l'esprit du projet. Modèle : **Tim**, qui s'entend « team ».
+(Roland lève ici sa consigne de la nuit, « pas de prénoms ».)
+
+Deux recherches en parallèle (axe français, axe anglais et étranger) :
+environ 150 prénoms bruts, 50 gardés.
+
+**Domaines** : pour les 50, NOM.fr et NOM.com sont pris (normal pour des
+prénoms). NOMbtp.fr et NOMtaxi.fr sont libres presque partout (pris :
+pierrebtp.fr, rochtaxi.fr, hopetaxi.fr). Avec un prénom, l'adresse sera donc
+composée (timbtp.fr) ou le .fr devra être racheté.
+
+**INPI** (recherche avancée sur le nom exact, marques en vigueur) :
+- Tim : RISQUE FORT. Une trentaine de marques « TIM » vivantes, dont plusieurs
+  en classe 35 (2011, 2013, 2014, 2022, 2025) et en 42.
+- Ally : RISQUE FORT. « ALLY » en classe 35 (2023, 2025, demande 2026) et 42.
+- Le reste n'a pas pu être vérifié : l'INPI a activé son contrôle anti-robot
+  (erreur 403 et captcha). On ne le contourne pas.
+
+**Meilleurs candidats encore à vérifier à l'INPI** :
+- Ed : s'entend « aide », une syllabe. Réserve : peut-être jugé descriptif.
+- Andy : s'entend « handy », le coup de main.
+- Pilar : le pilier, en espagnol ; image très BTP.
+- Félix : heureux, en latin ; l'artisan tranquille.
+- Clément : clément = bienveillant.
+- Amy : s'entend « amie ».
+- Max : au max.
+- Amédée : « à m'aider » ; trois syllabes.
+- Mano : la main, le coup de main (espagnol, italien).
+- Roch : « roc », la solidité ; rochtaxi.fr est pris.
+
+À trancher avec Romain et Gaëlle : un prénom masculin (Tim, Andy, Max) ou
+féminin (Amy, Pilar), alors que la secrétaire sera le plus souvent une femme.
