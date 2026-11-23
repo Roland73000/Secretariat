@@ -54,7 +54,7 @@ td:first-child{font-weight:600;white-space:nowrap}
 <a class="back" href="https://claude.ai/artifact/EueTheKbo1DqtRdRispX8q">← Point d'étape</a>
 <div class="eyebrow">Projet Secrétariat · le nom de la société · mis à jour le 23/11/2026 : la piste des prénoms</div>
 <h1>Un seul mot</h1>
-<p class="intro"><b>Mise à jour du 23/11 :</b> la piste des prénoms à double sens (Tim = team). Environ 150 prénoms trouvés, 50 gardés, 16 noms passés à l'INPI aujourd'hui. Résultat : les prénoms courts sont presque tous déjà déposés. Seul Amédée passe, Pilar et Theam sont risqués. Le tableau complet est juste en dessous, avec tous les noms vérifiés depuis le début.</p>
+<p class="intro"><b>Mise à jour du 23/11 :</b> la piste des prénoms à double sens (Tim = team). Environ 150 prénoms trouvés, 50 gardés, 19 noms passés à l'INPI aujourd'hui, dont la piste « performance » (Max, Prosper, Olympe). Résultat : les prénoms courts sont presque tous déjà déposés. Seul Amédée passe, Pilar et Theam sont risqués. Le tableau complet est juste en dessous, avec tous les noms vérifiés depuis le début.</p>
 
 <h2>Le tableau complet</h2>
 <p class="intro">Toutes les propositions vérifiées à ce jour : les prénoms du 23/11, les 10 survivants de la nuit et les noms bloqués. Domaines vérifiés le 23/11/2026. INPI : marques en vigueur portant le nom exact, en France, en Europe et à l'international, classes 35 (gestion, secrétariat), 42 et 9 (logiciel).</p>
@@ -188,7 +188,12 @@ const R=[
  ["Félix","p","heureux (latin)",0,0,1,"wait","pas encore vérifié ; prénom très déposé, risque probable"],
  ["Clément","p","bienveillant",0,0,1,"wait","pas encore vérifié"],
  ["Amy","p","s'entend « amie »",0,0,1,"wait","pas encore vérifié"],
- ["Max","p","« au max »",0,0,1,"wait","pas encore vérifié ; prénom très déposé, risque probable"],
+ ["Max","f","« au max », clin d'œil à BTP Performance",0,0,1,"ko","plus de 100 marques, dont « MAX » chez Berger-Levrault (logiciels de gestion), Arkéa (35), Cargill"],
+ ["Prosper","f","prénom, s'entend « prospérer »",0,0,1,"ko","quatre « PROSPER » en classe 35 (2017 à 2022), dont un cabinet de gestion"],
+ ["Olympe","f","prénom féminin, le sommet, l'olympisme",0,0,1,"ko","« OLYMPE » d'Aegide en 35 et 37 (2016), et deux logiciels en 42"],
+ ["Maxime","f","prénom, « le plus grand »",0,0,1,"wait","pas encore vérifié (captcha de l'INPI)"],
+ ["Levier","f","il démultiplie la force",0,0,1,"wait","pas encore vérifié (captcha de l'INPI)"],
+ ["Summum","f","le plus haut point",0,0,1,"wait","pas encore vérifié (captcha de l'INPI)"],
  ["Proue","s","protège et avance",0,0,1,"ok","14 marques en tout, aucune dans nos classes"],
  ["Cheville","s","la cheville ouvrière",0,0,1,"ok","seulement des marques médicales"],
  ["Piolet","s","on assure, vous montez",0,0,1,"ok","aucune vivante en 9, 35, 42"],
@@ -215,10 +220,10 @@ const R=[
  ["Citadelle","b","la protection",0,0,1,"ko","« CITADELLE » en 35, 9 et 42 ; nom interne de BTP Performance"]
 ];
 const RL={ok:"pas risqué",mid:"risqué",ko:"très risqué",wait:"à vérifier"},RC={ok:"ok",mid:"mid",ko:"ko",wait:"na"};
-const G={p:"Prénoms",s:"Survivants de la nuit",b:"Bloqués"};
+const G={p:"Prénoms",f:"Piste performance",s:"Survivants de la nuit",b:"Bloqués"};
 const dch=(v,l)=>v==="?"?`<span class="chip na">?</span>`:`<span class="chip ${v?'ok':'na'}">${v?'libre':'pris'}</span>`;
 let cur="all";
 function draw(){document.getElementById("full").innerHTML=R.filter(r=>cur==="all"||r[1]===cur).map(r=>`<tr><td>${esc(r[0])}<div class="rank">${G[r[1]]}</div></td><td>${esc(r[2])}</td><td>${dch(r[3])}</td><td>${dch(r[4])}</td><td>${dch(r[5])}</td><td><span class="chip ${RC[r[6]]}">${RL[r[6]]}</span></td><td>${esc(r[7])}</td></tr>`).join("");
-document.getElementById("filt").innerHTML=[["all","Tout"],["p","Prénoms"],["s","Survivants"],["b","Bloqués"]].map(([k,l])=>`<button class="${k===cur?'on':''}" onclick="cur='${k}';draw()">${l} (${k==="all"?R.length:R.filter(r=>r[1]===k).length})</button>`).join("");}
+document.getElementById("filt").innerHTML=[["all","Tout"],["p","Prénoms"],["f","Performance"],["s","Survivants"],["b","Bloqués"]].map(([k,l])=>`<button class="${k===cur?'on':''}" onclick="cur='${k}';draw()">${l} (${k==="all"?R.length:R.filter(r=>r[1]===k).length})</button>`).join("");}
 draw();
 </script>

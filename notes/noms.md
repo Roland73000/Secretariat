@@ -303,3 +303,16 @@ Recherche avancée sur le nom exact, marques en vigueur (FR, UE, international).
 
 Enseignement : comme les mots d'aide, les prénoms courts sont presque tous
 déjà déposés en classe 35.
+
+### Piste « performance » (23/11, idée de Roland à partir de Max)
+
+Max fait penser à « maximum », donc de loin à BTP Performance.
+- **Max** : très risqué (plus de 100 marques ; MAX de Berger-Levrault en
+  9, 35, 42 ; Arkéa en 35 ; Cargill ; deux logiciels en 42).
+- **Prosper** (« prospérer ») : très risqué (quatre PROSPER en 35, 2017 à 2022).
+- **Olympe** (prénom féminin, le sommet) : très risqué (Aegide en 35 et 37,
+  2016 ; deux logiciels en 42).
+- Pas encore vérifiés (l'INPI a relancé son captcha) : Maxime, Levier, Summum.
+- Autres idées : Victor, Valentin, Essor, Élan, Palier, Cran. Domaines : tous
+  les .fr sont pris ; nomBTP.fr libre sauf tremplinbtp.fr, atoutbtp.fr et
+  apexbtp.fr (déjà des entreprises du bâtiment).
