@@ -48,12 +48,49 @@ th{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:up
 tr:last-child td{border-bottom:0}
 td:first-child{font-weight:600;white-space:nowrap}
 .rank{font-family:var(--mono);font-size:12px;color:var(--muted)}
+.filt{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}.filt button{font:inherit;font-size:13px;padding:5px 12px;border-radius:999px;border:1px solid var(--line);background:var(--paper);color:var(--fg);cursor:pointer}.filt button.on{background:var(--accent);color:var(--paper);border-color:var(--accent)}
 </style>
 <div class="wrap">
 <a class="back" href="https://claude.ai/artifact/EueTheKbo1DqtRdRispX8q">← Point d'étape</a>
-<div class="eyebrow">Projet Secrétariat · le nom de la société · nuit du 22 au 23/11/2026</div>
+<div class="eyebrow">Projet Secrétariat · le nom de la société · mis à jour le 23/11/2026 : la piste des prénoms</div>
 <h1>Un seul mot</h1>
-<p class="intro">Le travail de la nuit : environ 330 idées sur quatre axes, 60 gardées et leurs domaines vérifiés, puis 19 mots passés à l'INPI. Il reste 10 noms possibles, chacun lu dans ta baseline.</p>
+<p class="intro"><b>Mise à jour du 23/11 :</b> la piste des prénoms à double sens (Tim = team). Environ 150 prénoms trouvés, 50 gardés, 16 noms passés à l'INPI aujourd'hui. Résultat : les prénoms courts sont presque tous déjà déposés. Seul Amédée passe, Pilar et Theam sont risqués. Le tableau complet est juste en dessous, avec tous les noms vérifiés depuis le début.</p>
+
+<h2>Le tableau complet</h2>
+<p class="intro">Toutes les propositions vérifiées à ce jour : les prénoms du 23/11, les 10 survivants de la nuit et les noms bloqués. Domaines vérifiés le 23/11/2026. INPI : marques en vigueur portant le nom exact, en France, en Europe et à l'international, classes 35 (gestion, secrétariat), 42 et 9 (logiciel).</p>
+<div class="legend"><span class="chip ok">pas risqué</span><span class="chip mid">risqué</span><span class="chip ko">très risqué</span><span class="chip na">pas encore vérifié</span></div>
+<div class="filt" id="filt"></div>
+<div class="tw"><table>
+<thead><tr><th>Nom</th><th>L'idée</th><th>.fr</th><th>.com</th><th>nomBTP.fr</th><th>INPI</th><th>Ce qui gêne, ou pas</th></tr></thead>
+<tbody id="full"></tbody></table></div>
+
+<h2>Tim : peut-on passer quand même ?</h2>
+<div class="rule">
+<b>Ce qui bloque exactement</b>
+<ul>
+<li><b>Telecom Italia</b> possède « TIM », sa marque d'opérateur mobile, très connue en Italie. Elle a plusieurs marques européennes valables en France : une de 2011 en classe 35 pour la « gestion commerciale » et l'« administration commerciale » (notre métier), une de 2013, et une de <b>novembre 2025</b> qui couvre presque toutes les classes, dont 35 et 42.</li>
+<li><b>TIM S.A.</b> (un distributeur polonais) a « TIM » en classes 35 et 42 (2014 et 2022), et un autre déposant a « TIM » en classes 35 et 42 (2024).</li>
+<li>Domaines : tim.fr et tim.com sont pris. <b>timbtp.fr et timbtp.com sont libres</b>, comme timtaxi.fr et timboulangerie.fr.</li>
+</ul>
+</div>
+<div class="rule">
+<b>Ce qui ne suffit pas</b>
+<ul>
+<li><b>Ajouter « BTP »</b> : l'INPI regarde l'élément qui domine. Dans « Tim BTP », c'est TIM ; « BTP » ne fait que décrire le secteur.</li>
+<li><b>Changer l'orthographe en gardant le son</b> (Thim, Tym, Tymm) : la comparaison se fait aussi à l'oreille. Thim se prononce comme TIM, et une marque « THIM » existe déjà en classe 35 (2023).</li>
+<li><b>Un logo</b> : il ne change pas le nom qu'on prononce au téléphone.</li>
+</ul>
+</div>
+<div class="rule">
+<b>Les voies légales, et ce qu'elles valent</b>
+<ul>
+<li><b>Faire tomber une marque qui ne sert pas</b> (la « déchéance pour non-usage ») : une marque qu'on n'utilise pas pendant 5 ans pour un service peut perdre ce service. On pourrait viser la marque de 2011. Mais celle de novembre 2025 est intouchable jusqu'en 2030 au moins. <b>Voie fermée pour l'instant.</b></li>
+<li><b>Demander un accord de coexistence</b> à Telecom Italia : les métiers sont éloignés (téléphonie d'un côté, secrétariat d'artisans en France de l'autre). C'est possible, mais long, sans garantie, et un géant répond rarement à une petite société. À faire par un conseil en propriété industrielle.</li>
+<li><b>Garder l'idée « team » dans un nom qui se distingue</b> : c'est la voie la plus sûre. Voir les variantes ci-dessous.</li>
+</ul>
+<p class="note"><b>Mon avis</b> : « Tim » seul est très risqué. Le jour où l'on grandit, une lettre d'avocat de Telecom Italia nous obligerait à changer de nom, de site et de supports. Si tu tiens à Tim, une consultation d'un conseil en propriété industrielle (quelques centaines d'euros) donnera un avis écrit avant toute dépense.</p>
+</div>
+
 
 <div class="rule">
 <b>La règle du jeu (Roland)</b>
@@ -109,7 +146,7 @@ td:first-child{font-weight:600;white-space:nowrap}
 </tbody></table></div>
 
 <h2>Écartés par toi</h2>
-<p class="intro">Dextre (prononciation), Complice (gnangnan), Aronde, Faîtière, Ancrage, Escorte, Pavois, Talisman, Gardian, Sherpa, Bosco, Âtre, Osmose, les animaux, le Japon, les mots en « -elle » et les noms explicites (Assistelle, Secrébat…), Rempart (trop défensif). Pas de prénoms.</p>
+<p class="intro">Dextre (prononciation), Complice (gnangnan), Aronde, Faîtière, Ancrage, Escorte, Pavois, Talisman, Gardian, Sherpa, Bosco, Âtre, Osmose, les animaux, le Japon, les mots en « -elle » et les noms explicites (Assistelle, Secrébat…), Rempart (trop défensif). Les prénoms étaient exclus la nuit du 22/11 ; tu as rouvert la piste le 23/11.</p>
 
 <h2>Ce que je te propose ce matin</h2>
 <ol>
@@ -136,4 +173,52 @@ const S=[
 const L={ok:"INPI dégagé",mid:"INPI risque moyen",ko:"INPI risque fort"};
 const esc=s=>s.replace(/&/g,"&amp;").replace(/</g,"&lt;");
 document.getElementById("surv").innerHTML=S.map((x,i)=>`<div class="card${x.fav?' fav':''}"><div class="head"><span class="rank">${i+1}</span><span class="name">${esc(x.n)}</span><span class="syl">${x.s}</span>${x.fav?'<span class="fav-tag">Trio de tête</span>':''}</div><p class="base">« ${esc(x.b)} »</p><p class="sens">${esc(x.sens)}</p><p class="decl">En publicité : ${esc(x.p)}</p><div class="facts">${x.dom.map(d=>`<span class="chip ${/libre/.test(d)?'ok':'na'}">${esc(d)}</span>`).join("")}<span class="chip ${x.inpi[0]}">${L[x.inpi[0]]}</span></div><p class="note">${esc(x.inpi[1])}</p></div>`).join("");
+const R=[
+ ["Tim","p","prénom, s'entend « team »",0,0,1,"ko","Telecom Italia (TIM, classe 35 dès 2011, et une marque de nov. 2025 sur presque tout), TIM S.A. en 35 et 42"],
+ ["Thim","p","Tim écrit autrement",0,0,1,"ko","« THIM » déjà en classe 35 (2023), et même son que TIM"],
+ ["Teem","p","s'entend « team »",0,0,1,"ko","« TEEM » en classe 35 en France (2017) et en logiciel (Eptura, 2019)"],
+ ["Theam","p","thé + team (ton idée)",0,0,1,"mid","« THEAM » de Rotatheam (machines, classes 7, 35, 37, 2016) ; theam.fr pris"],
+ ["Timéa","p","prénom féminin, garde « team »",0,0,1,"ko","« TIMEA » de Total Soft, éditeur de logiciels (9, 35, 42), et une autre en 35"],
+ ["Ally","p","allié (anglais)",0,0,1,"ko","« ALLY » en classe 35 (2023, 2025, 2026) et 42"],
+ ["Andy","p","« handy », le coup de main",0,0,1,"ko","« ANDY » en classe 35 (2023, deux fois) et 42 (2026)"],
+ ["Ed","p","s'entend « aide »",0,0,1,"ko","une quinzaine de « ED » en classes 35 et 42"],
+ ["Mano","p","la main, le coup de main",0,0,1,"ko","« MANO » de ManoMano (Colibri SAS), classes 35 et 37"],
+ ["Pilar","p","le pilier (espagnol)",0,0,1,"mid","rien en 35 ni 42 ; mais « PILAR » d'Oknoplast, fabricant de fenêtres (classes 6, 19, 20, 37) : même monde que nos artisans"],
+ ["Amédée","p","« à m'aider »",0,0,1,"ok","seulement des vins et de l'alimentaire"],
+ ["Félix","p","heureux (latin)",0,0,1,"wait","pas encore vérifié ; prénom très déposé, risque probable"],
+ ["Clément","p","bienveillant",0,0,1,"wait","pas encore vérifié"],
+ ["Amy","p","s'entend « amie »",0,0,1,"wait","pas encore vérifié"],
+ ["Max","p","« au max »",0,0,1,"wait","pas encore vérifié ; prénom très déposé, risque probable"],
+ ["Proue","s","protège et avance",0,0,1,"ok","14 marques en tout, aucune dans nos classes"],
+ ["Cheville","s","la cheville ouvrière",0,0,1,"ok","seulement des marques médicales"],
+ ["Piolet","s","on assure, vous montez",0,0,1,"ok","aucune vivante en 9, 35, 42"],
+ ["Chaînage","s","ce qui tient la structure",1,0,1,"ok","aucune marque ; très BTP"],
+ ["Accalmie","s","le calme après la tempête",0,0,1,"ok","aucune dans nos classes"],
+ ["Tiroir","s","tout est rangé",0,0,1,"ok","seulement des noms composés"],
+ ["Garvan","s","garde + avant (inventé)",1,0,1,"ok","l'ancienne marque en 35 a expiré"],
+ ["Commode","s","« c'est commode »",0,0,1,"mid","« Studio Commode », « Commode Commune » en 35"],
+ ["Amarre","s","on ne vous lâche pas",0,0,1,"mid","« Amarré » en classe 9"],
+ ["Tenac","s","tenace (inventé)",1,0,1,"mid","« tenac.io » en logiciel"],
+ ["Renfort","b","le renfort",0,0,1,"ko","« RENFORT CHANTIER » (logiciel, 2026)"],
+ ["Appui","b","l'appui",0,0,1,"ko","« APPUI » en travaux de bureau"],
+ ["Binôme","b","le binôme",0,0,1,"ko","fabricant de menuiseries, « Binôme Dirigeant »"],
+ ["Cordée","b","la cordée",0,0,1,"ko","« LA CORDEE », réseau de coworking"],
+ ["Trousseau","b","le trousseau de clés",0,0,1,"ko","« Le Groupe Trousseau » (35, 42, 2026)"],
+ ["Dimanche","b","le dimanche retrouvé",0,0,1,"ko","« DIMANCHE » en 35 (2026)"],
+ ["Éclaircie","b","l'éclaircie",0,0,1,"ko","« ECLAIRCIE » en 35, 37, 42"],
+ ["Récolte","b","la récolte",0,0,1,"ko","« RECOLTE » en 35 et 42"],
+ ["Hopla","b","hop là",0,0,1,"ko","six « HOPLA » en 35"],
+ ["Memento","b","le pense-bête",0,0,1,"ko","trois « MEMENTO » en 35"],
+ ["Libero","b","le libéro",0,0,1,"ko","« LIBERO OFFICE », « Libero Conseil »"],
+ ["Avanti","b","en avant",0,0,1,"ko","« AVANTI » en logiciel, « Avantia » en 35"],
+ ["Égide","b","sous l'égide",0,0,1,"ko","« EGIDE » en logiciel"],
+ ["Citadelle","b","la protection",0,0,1,"ko","« CITADELLE » en 35, 9 et 42 ; nom interne de BTP Performance"]
+];
+const RL={ok:"pas risqué",mid:"risqué",ko:"très risqué",wait:"à vérifier"},RC={ok:"ok",mid:"mid",ko:"ko",wait:"na"};
+const G={p:"Prénoms",s:"Survivants de la nuit",b:"Bloqués"};
+const dch=(v,l)=>v==="?"?`<span class="chip na">?</span>`:`<span class="chip ${v?'ok':'na'}">${v?'libre':'pris'}</span>`;
+let cur="all";
+function draw(){document.getElementById("full").innerHTML=R.filter(r=>cur==="all"||r[1]===cur).map(r=>`<tr><td>${esc(r[0])}<div class="rank">${G[r[1]]}</div></td><td>${esc(r[2])}</td><td>${dch(r[3])}</td><td>${dch(r[4])}</td><td>${dch(r[5])}</td><td><span class="chip ${RC[r[6]]}">${RL[r[6]]}</span></td><td>${esc(r[7])}</td></tr>`).join("");
+document.getElementById("filt").innerHTML=[["all","Tout"],["p","Prénoms"],["s","Survivants"],["b","Bloqués"]].map(([k,l])=>`<button class="${k===cur?'on':''}" onclick="cur='${k}';draw()">${l} (${k==="all"?R.length:R.filter(r=>r[1]===k).length})</button>`).join("");}
+draw();
 </script>

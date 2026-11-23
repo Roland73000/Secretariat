@@ -273,3 +273,33 @@ composée (timbtp.fr) ou le .fr devra être racheté.
 
 À trancher avec Romain et Gaëlle : un prénom masculin (Tim, Andy, Max) ou
 féminin (Amy, Pilar), alors que la secrétaire sera le plus souvent une femme.
+
+### Suite du 23/11 : Tim de près, variantes et prénoms passés à l'INPI
+
+Recherche avancée sur le nom exact, marques en vigueur (FR, UE, international).
+
+- **Tim** : TRÈS RISQUÉ. Telecom Italia (marque TIM très connue) : EM010209311
+  (2011, classe 35 « gestion commerciale, administration commerciale »),
+  EM012032711 (2013), EM019283305 (novembre 2025, presque toutes les classes,
+  intouchable pour non-usage avant 2030). TIM S.A. (35, 42 : 2014, 2022) ;
+  un autre déposant (11, 35, 37, 42 : 2024). timbtp.fr et timbtp.com libres.
+- Voies étudiées : ajouter « BTP » ne suffit pas (TIM reste dominant) ; changer
+  l'orthographe en gardant le son non plus ; déchéance pour non-usage fermée
+  par la marque de 2025 ; accord de coexistence possible mais incertain, via un
+  conseil en propriété industrielle.
+- **Thim** : très risqué (THIM, ACOS, classe 35, 2023 ; même son que TIM).
+- **Teem** : très risqué (TEEM en 35 en France, 2017 ; Eptura en 42).
+- **Theam** (idée de Roland : thé + team) : risqué. THEAM de Rotatheam
+  (machines, 7, 35, 37, 2016) ; theam.fr pris.
+- **Timéa** : très risqué (TIMEA de Total Soft, logiciels, 9, 35, 42).
+- **Andy** : très risqué (ANDY en 35 en 2023, en 42 en 2026).
+- **Ed** : très risqué (une quinzaine de ED en 35 et 42).
+- **Mano** : très risqué (MANO de Colibri SAS, c'est-à-dire ManoMano, 35 et 37).
+- **Pilar** : risqué. Rien en 35 ni 42, mais PILAR d'Oknoplast (fenêtres,
+  6, 19, 20, 37, 2024), même monde que nos artisans.
+- **Amédée** : pas risqué (seulement vins et alimentaire). À recontrôler avec
+  l'accent.
+- Pas encore vérifiés : Félix, Clément, Amy, Max.
+
+Enseignement : comme les mots d'aide, les prénoms courts sont presque tous
+déjà déposés en classe 35.
