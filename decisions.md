@@ -204,3 +204,8 @@ Une ligne par décision : la date, ce qui est décidé, pourquoi.
   heures réelles, l'IA peut inventer des temps plausibles mais faux ; une
   erreur sur la base commune coûte de la marge à tous les artisans ; et
   « validé par un économiste » rassure.
+- **23/11/2026** : **deux associés seulement : Roland et Romain Gache.**
+  Gaëlle n'est plus associée : elle devient une ressource, avec le même
+  statut que Flavien Buffet (elle travaille pour la société sans en avoir
+  de parts). Remplace la décision du 22/11 sur l'organisation de l'équipe
+  pour ce qui concerne les associés.

@@ -91,8 +91,8 @@ solutions qu'on interconnecte. Dans les deux cas, il y aura des connexions
 ### La question qui fâche
 
 À qui appartient vraiment Citadelle ? À Option & Solution seule, ou Romain
-a-t-il des droits sur le code ? Et Romain et Gaëlle, associés de la
-nouvelle société, accepteront-ils qu'une brique centrale appartienne à
+a-t-il des droits sur le code ? Et Romain, associé de la
+nouvelle société (avec Roland, depuis le 23/11), acceptera-t-il qu'une brique centrale appartienne à
 l'autre société de Roland ? Solution si ça bloque : en parler avec
 l'expert-comptable (licence, ou Citadelle logée dans une société à part
 que les deux utilisent).
