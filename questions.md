@@ -136,3 +136,7 @@
   d'Option & Solution. Mise à disposition avec une convention, à prix
   coûtant, ou temps partiel chez Timops ? Teddy, lui, est indépendant et
   facture Timops directement.
+- **L'assureur partenaire : Generali ?** Roland a rendez-vous avec Generali
+  la semaine du 30/11/2026 pour un partenariat avec BTP Performance ;
+  l'occasion de sonder aussi un partenariat pour Timops (décennale et RC pro
+  en option, sans commission). À voir avec Romain.
