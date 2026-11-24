@@ -230,3 +230,8 @@ Une ligne par décision : la date, ce qui est décidé, pourquoi.
   n'accepte que l'IA de Timops écrive chez lui, Timops ira au bout de
   l'idée révolutionnaire et pourra créer son propre CRM. Raison : l'idée
   (le cerveau chez Timops) ne doit pas dépendre du bon vouloir d'un éditeur.
+- **24/11/2026** : **être disruptif sur le prix.** Timops ne vend pas un
+  service pas cher : elle veut un prix qui paraît dérisoire par rapport à
+  la valeur perçue (l'argent rentré et le temps gagné). Raison : le prix se
+  fixe à partir de ce que le service rapporte à l'artisan, pas à partir des
+  concurrents. OK Roland, en attente de l'avis de Romain.
