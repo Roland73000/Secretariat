@@ -153,7 +153,7 @@ Tous les sujets ouverts du dossier Timops, regroupés en quatre pôles
 (détail au chapitre 10 du dossier) :
 
 1. **La société** : statut, immatriculation et pays, répartition des parts,
-   apports et rémunération, activité, banque, marque (dépôt, timops.com,
+   apports et rémunération, activité, banque, expert-comptable, marque (dépôt, timops.com,
    logo).
 2. **Le juridique** : statut de Gaëlle et Flavien pour Timops, statut des
    conjointes prestataires, relances et recouvrement amiable, frontière
