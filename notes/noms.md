@@ -434,3 +434,19 @@ Autres propositions dans le même esprit (domaines .fr par DNS, .com) :
   Timpower, Timcore, Timkey, Timeff, Timact, Timplan, Timfix, Timboost,
   Timmax, Timtop ;
 - pris en .fr : Timpact, Timwin, Timjet, Timop.
+
+### Les trois finalistes : Timperf, Timops, Timtac (24/11/2026)
+
+Roland valide de proposer **Timperf, Timops et Timtac**. Timtac : « team
+tac », comme tactique, et ça fait « tic tac » ; facile à retenir, moins
+explicite que Timops.
+
+- **Timtac** : INPI aucune marque « TIMTAC » (FR, UE, international). .fr
+  libre (DNS ; registre AFNIC bloqué, à confirmer). .com pris depuis 2006 :
+  site actif d'un cabinet américain, « Time Is Money Training and
+  Consulting » (formation et conseil en gestion), sans marque en France.
+- Réserve propre à Timtac : le clin d'œil à « Tic Tac » touche une marque
+  très connue (Ferrero). Une marque renommée est protégée au-delà de ses
+  classes si on profite de sa notoriété. Le risque paraît faible (bonbons
+  contre secrétariat, « team » et non « tic »), mais à faire confirmer par
+  le conseil en propriété industrielle, comme le « Tim » de Telecom Italia.
