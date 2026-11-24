@@ -224,3 +224,9 @@ Une ligne par décision : la date, ce qui est décidé, pourquoi.
   équipe.** Un travail d'équipe où chacun a son rôle et sa place (l'artisan,
   son bras droit, nous), et très opérationnel : on fait, chaque jour.
   Ajouté aux principes du projet.
+- **24/11/2026** : **nuance à la décision du 21/11 sur le logiciel de devis
+  et factures.** On commence toujours par se brancher sur les logiciels des
+  artisans. Mais si aucun éditeur (Costructor, Interfast ou un autre)
+  n'accepte que l'IA de Timops écrive chez lui, Timops ira au bout de
+  l'idée révolutionnaire et pourra créer son propre CRM. Raison : l'idée
+  (le cerveau chez Timops) ne doit pas dépendre du bon vouloir d'un éditeur.
