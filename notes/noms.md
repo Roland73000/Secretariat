@@ -410,3 +410,27 @@ Domaines (.fr par le DNS, .com par Verisign) :
   - mots seuls à consonance féminine : Brigada et Tacta libres en .fr ;
     Garda, Briga, Legia, Kohorta, Unita, Skwad, Opsa, Taktika, Komanda,
     Falanga pris.
+
+### Les deux préférés de Roland : Timperf et Timops (24/11/2026)
+
+Roland valide « team » au début. Il aime Timops (facile à dire, « ops » :
+opérationnel, forces spéciales, subtil) et Timperf (clin d'œil à BTP
+Performance). N'aime pas Timsquad ni Timcommando (« on n'est pas des
+commandos »).
+
+- **Timperf** : INPI aucune marque ; .fr libre (DNS), .com libre.
+- **Timops** : INPI aucune marque ; .fr libre (DNS) ; .com pris depuis
+  le 01/05/2021, aucun site derrière (rachat possible). À l'oreille c'est
+  « TeamOps », nom d'une méthode de management lancée par GitLab en 2022 :
+  **aucune marque « TEAMOPS » en France, en Europe ni à l'international**
+  à l'INPI (vérifié le 24/11). Une marque américaine reste possible.
+- Le registre .fr (AFNIC) nous bloque par moments : confirmer les .fr au
+  moment de réserver.
+
+Autres propositions dans le même esprit (domaines .fr par DNS, .com) :
+- libres en .fr et .com : Timactiv, Timpilot, Timsprint, Timvalor, Timrapid ;
+- libres en .fr : **Timtac** (tactique), **Timcap** (le cap, le capitaine),
+  **Timope** (une « opé »), Timpulse, Timelite, Timrun, Timrush, Timprime,
+  Timpower, Timcore, Timkey, Timeff, Timact, Timplan, Timfix, Timboost,
+  Timmax, Timtop ;
+- pris en .fr : Timpact, Timwin, Timjet, Timop.
