@@ -393,3 +393,20 @@ Domaines (.fr par le DNS, .com par Verisign) :
   aloha), Heloa, Kalla, Alora, Taima (time), Izia (easy), Calma, Serena,
   Liberta, Chanti (chantier + shanti), Frya, Buro, Deska, Ovrea, Batia,
   Badia, Perfia, Perfea, Perfo, Formia, Optia, Kera (care), Keria.
+
+### Timperf, le préféré de Roland, et la piste militaire (24/11/2026)
+
+- **Timperf** reste le préféré de Roland. INPI : **aucune marque
+  « TIMPERF »**. timperf.fr et timperf.com libres. Reste la réserve TIM
+  (Telecom Italia) à faire trancher par un conseil. Timamia : rejeté, trop
+  long et dur à prononcer.
+- Piste militaire, Tim + un mot (domaines vérifiés) :
+  - libres en .fr et .com : **Timsquad**, Timskwad, **Timunit**,
+    Timcommando, Timrecon, Timlegion, Timbrigade, Timmission, Timranger,
+    Timcohorte, Timgarda, Timcharlie ;
+  - libres en .fr seulement : **Timops**, Timforce, Timdelta, Timtac,
+    Timtak, Timstrat, Timbase, Timalpha, Timbravo, Timcorps, Timsection,
+    Timecho ;
+  - mots seuls à consonance féminine : Brigada et Tacta libres en .fr ;
+    Garda, Briga, Legia, Kohorta, Unita, Skwad, Opsa, Taktika, Komanda,
+    Falanga pris.
