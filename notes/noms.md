@@ -375,3 +375,21 @@ confirmer au moment de réserver).
 Réserve : tous commencent par TIM. Fondu dans un seul mot, le risque
 Telecom Italia baisse, sans disparaître. À faire trancher par un conseil en
 propriété industrielle pour le finaliste.
+
+### Mots qui s'écrivent autrement qu'ils s'entendent (24/11/2026)
+
+Retours de Roland sur Tim + syllabe : aime Timami (presque latin) et
+Timperf (clin d'œil à BTP Performance) ; n'aime pas Timally, Timvigie,
+Timescorte, Timfort ; Timgarde bof ; préférerait une consonance féminine.
+Nouvelle consigne : l'écrit et l'oral décalés (TIM = team), sur les axes du
+métier, des prestations, du bénéfice client, et un clin d'œil à BTP
+Performance.
+
+Domaines (.fr par le DNS, .com par Verisign) :
+- Libres en .fr et en .com : **Timamia** (team + ami + mia, « ma »).
+- Libres en .fr seulement : Timalia, Timaia, Timela, Serenia, Ofisia
+  (office), Sekreta, Partna (partner), Meita (mate), Bura (bureau), Perfa.
+- Pris en .fr : Timora, Timeva, Aidea, Assista, Elpia, Aloa (allô +
+  aloha), Heloa, Kalla, Alora, Taima (time), Izia (easy), Calma, Serena,
+  Liberta, Chanti (chantier + shanti), Frya, Buro, Deska, Ovrea, Batia,
+  Badia, Perfia, Perfea, Perfo, Formia, Optia, Kera (care), Keria.
