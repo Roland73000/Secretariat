@@ -216,3 +216,11 @@ Une ligne par décision : la date, ce qui est décidé, pourquoi.
   libre. Le .com est pris (réservé depuis 2021, sans site) : on pourra
   tenter de le racheter. Suite : Romain réserve le .fr sur LWS, puis l'avocate
   spécialisée en dépôt de marque avant le dépôt INPI ; le logo ensuite.
+- **24/11/2026** : **on promet de l'argent rentré et du temps gagné.**
+  Corrige l'enseignement du 22/11 (« de l'argent rentré plutôt que des
+  heures gagnées ») : on vend aussi le temps gagné. Raison : c'est ce que
+  l'artisan achète d'abord quand il confie son administratif.
+- **24/11/2026** : **le nom porte une valeur : très opérationnel, en
+  équipe.** Un travail d'équipe où chacun a son rôle et sa place (l'artisan,
+  son bras droit, nous), et très opérationnel : on fait, chaque jour.
+  Ajouté aux principes du projet.
