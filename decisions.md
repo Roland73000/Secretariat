@@ -209,3 +209,10 @@ Une ligne par décision : la date, ce qui est décidé, pourquoi.
   statut que Flavien Buffet (elle travaille pour la société sans en avoir
   de parts). Remplace la décision du 22/11 sur l'organisation de l'équipe
   pour ce qui concerne les associés.
+- **24/11/2026** : **la société s'appelle Timops.** Choisi par Roland,
+  validé par Romain, parmi les trois finalistes (Timops, Timperf, Timtac).
+  Raison : on l'entend « team ops », l'équipe opérationnelle ; le mot
+  n'existe pas, aucune marque déposée en France ni en Europe, et le .fr est
+  libre. Le .com est pris (réservé depuis 2021, sans site) : on pourra
+  tenter de le racheter. Suite : réserver le .fr sur LWS, puis l'avocate
+  spécialisée en dépôt de marque avant le dépôt INPI ; le logo ensuite.
