@@ -1,0 +1,125 @@
+<title>Timops, Timperf, Timtac</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Une note de chantier : colonne de lecture, une frise datée, un tableau des finalistes */
+:root{
+--bg:#f3f4f2;--paper:#ffffff;--fg:#1f2523;--muted:#5b6461;--line:#d9ddd9;
+--accent:#c2560f;--accent-bg:#fbeee4;--ok:#1f7a45;--ok-bg:#e2f2e8;--ko:#a8321f;--ko-bg:#f8e4e0;--na:#5b6461;--na-bg:#eceeec;
+--display:"Barlow Condensed","Arial Narrow",system-ui,sans-serif;--body:"Source Sans 3",system-ui,-apple-system,"Segoe UI",sans-serif;--mono:"JetBrains Mono",ui-monospace,Consolas,monospace}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#141816;--paper:#1c211f;--fg:#e6e9e7;--muted:#9aa4a0;--line:#2e3532;--accent:#f0915a;--accent-bg:#3a2416;--ok:#6fcf98;--ok-bg:#16301f;--ko:#f08a7a;--ko-bg:#3a1c17;--na:#9aa4a0;--na-bg:#262c29;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#141816;--paper:#1c211f;--fg:#e6e9e7;--muted:#9aa4a0;--line:#2e3532;--accent:#f0915a;--accent-bg:#3a2416;--ok:#6fcf98;--ok-bg:#16301f;--ko:#f08a7a;--ko-bg:#3a1c17;--na:#9aa4a0;--na-bg:#262c29;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:17px;line-height:1.6}
+.wrap{max-width:820px;margin:0 auto;padding-block:32px 72px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font-family:var(--display);font-weight:700;font-size:clamp(36px,8vw,56px);line-height:1;margin:10px 0 12px;text-wrap:balance}
+h2{font-family:var(--display);font-weight:700;font-size:28px;line-height:1.1;margin:44px 0 8px;padding-top:18px;border-top:2px solid var(--fg);text-wrap:balance}
+h3{font-family:var(--display);font-weight:600;font-size:21px;margin:0}
+p,li{max-width:66ch}
+.lead{font-size:19px;color:var(--fg)}
+.muted{color:var(--muted)}
+a{color:var(--accent)}
+.pick{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));margin:22px 0 6px}
+.pick div{background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:14px 16px;min-width:0}
+.pick div.first{border:2px solid var(--accent);background:var(--accent-bg)}
+.pick b{display:block;font-family:var(--display);font-size:34px;line-height:1}
+.pick .rank{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.pick .first .rank{color:var(--accent)}
+.pick span{font-size:15px;color:var(--muted)}
+.base{font-family:var(--display);font-size:24px;line-height:1.25;margin:18px 0;color:var(--accent);text-wrap:balance}
+.box{background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:16px 20px;margin:14px 0}
+.box ul{margin:6px 0 0;padding-left:20px}
+.time{list-style:none;padding:0;margin:16px 0;display:grid;gap:0}
+.time li{display:grid;grid-template-columns:92px 1fr;gap:14px;padding:14px 0;border-bottom:1px solid var(--line);max-width:none}
+.time li:last-child{border-bottom:0}
+.time .d{font-family:var(--mono);font-size:12px;color:var(--muted);padding-top:4px}
+.time p{margin:4px 0 0}
+.verdict{font-size:15px;color:var(--muted)}
+.verdict b{color:var(--fg)}
+.tw{overflow-x:auto;margin:14px 0;border:1px solid var(--line);border-radius:6px;background:var(--paper)}
+table{border-collapse:collapse;width:100%;font-size:15px;line-height:1.45}
+th,td{text-align:left;vertical-align:top;padding:9px 12px;border-bottom:1px solid var(--line)}
+th{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:500}
+tr:last-child td{border-bottom:0}
+td:first-child{font-weight:600;white-space:nowrap}
+.chip{font-family:var(--mono);font-size:12px;padding:2px 8px;border-radius:999px;white-space:nowrap}
+.ok{color:var(--ok);background:var(--ok-bg)}.ko{color:var(--ko);background:var(--ko-bg)}.na{color:var(--na);background:var(--na-bg)}
+.lessons{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));margin:14px 0}
+.lessons div{background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:14px 16px;min-width:0}
+.lessons p{margin:4px 0 0;font-size:15px}
+ol.next{padding-left:22px}
+ol.next li{margin:6px 0}
+.foot{font-size:14px;color:var(--muted);margin-top:36px}
+@media (max-width:480px){.time li{grid-template-columns:1fr;gap:2px}}
+</style>
+<div class="wrap">
+<div class="eyebrow">Projet Secrétariat · le nom de la société · pour Romain · 24/11/2026</div>
+<h1>Timops, Timperf, Timtac</h1>
+<p class="lead">Romain, voici où on en est sur le nom de la société, et le chemin pour y arriver. En quatre jours, on a passé plus de 700 idées au crible et vérifié une soixantaine de noms à l'INPI. Il en reste trois. <b>Mon préféré, c'est Timops.</b> J'ai besoin de ton avis.</p>
+<p class="muted">Roland</p>
+
+<div class="pick">
+<div class="first"><span class="rank">Mon préféré</span><b>Timops</b><span>team ops : l'équipe opérationnelle, les forces spéciales. Le plus facile à dire.</span></div>
+<div><span class="rank">Finaliste</span><b>Timperf</b><span>team perf : la performance, et un clin d'œil à BTP Performance.</span></div>
+<div><span class="rank">Finaliste</span><b>Timtac</b><span>team tactique, et « tic tac » : il se retient tout seul.</span></div>
+</div>
+<p class="base">« Vous décidez, vous œuvrez, Timops s'occupe du reste. »</p>
+
+<h2>Le principe retenu</h2>
+<p>On écrit <b>TIM</b> et on entend <b>« team »</b>, l'équipe. Derrière, une syllabe qui dit l'opérationnel ou la performance. Le nom est court, il sonne comme un prénom, il dit que l'artisan n'est plus seul, et un mot fondu comme celui-là est libre à l'INPI, ce que n'étaient pas les mots courants.</p>
+
+<h2>Les trois finalistes, vérifiés</h2>
+<div class="tw"><table>
+<thead><tr><th>Nom</th><th>INPI</th><th>.fr</th><th>.com</th><th>À savoir</th></tr></thead>
+<tbody>
+<tr><td>Timops</td><td><span class="chip ok">aucune marque</span></td><td><span class="chip ok">libre</span></td><td><span class="chip na">pris</span></td><td>Le .com est réservé depuis 2021 par quelqu'un, sans aucun site derrière : on peut tenter de le racheter. « TeamOps », une méthode de management de l'éditeur GitLab, n'est pas déposée en France ni en Europe.</td></tr>
+<tr><td>Timperf</td><td><span class="chip ok">aucune marque</span></td><td><span class="chip ok">libre</span></td><td><span class="chip ok">libre</span></td><td>Le seul des trois libre partout.</td></tr>
+<tr><td>Timtac</td><td><span class="chip ok">aucune marque</span></td><td><span class="chip ok">libre</span></td><td><span class="chip na">pris</span></td><td>Le .com appartient à un petit cabinet américain de formation depuis 2006. Le clin d'œil à Tic Tac (Ferrero) est à faire valider.</td></tr>
+</tbody></table></div>
+<div class="box">
+<b>Deux réserves, pour les trois noms</b>
+<ul>
+<li><b>Le « TIM » de Telecom Italia.</b> L'opérateur italien a déposé « TIM » en Europe, y compris pour des services de gestion. Fondu dans un seul mot, le risque baisse beaucoup, sans disparaître. Un conseil en propriété industrielle doit trancher avant le dépôt (quelques centaines d'euros).</li>
+<li><b>Notre recherche INPI est un premier tri</b> sur le nom exact. Le conseil fera la recherche complète, noms proches compris.</li>
+</ul>
+</div>
+
+<h2>Le parcours</h2>
+<ol class="time">
+<li><span class="d">21/11</span><div><h3>Des expressions qui parlent</h3>
+<p>Libre d'Œuvre, Quartier-Maître, La Seconde Ligne, Ma Base Arrière, Intendance BTP, Bras Droit BTP…</p>
+<p class="verdict"><b>Écartées.</b> Un nom qui décrit le service est refusé à l'INPI. C'est ce qui avait rendu le dépôt de BTP Performance difficile.</p></div></li>
+<li><span class="d">22/11</span><div><h3>Un seul mot, comme Apple</h3>
+<p>Nouvelle règle : un mot, peu de syllabes, prononçable du premier coup, qui se décline (« BTP », « Taxi », « Boulangerie ») et qui sonne dans la promesse « Vous décidez, vous œuvrez, … s'occupe du reste ». Pistes : le chantier, l'armée, la protection, un rappel de Citadelle.</p>
+<p class="verdict"><b>Bloqués à l'INPI :</b> Renfort, Appui, Binôme, Égide, Citadelle.</p></div></li>
+<li><span class="d">Nuit du 22</span><div><h3>330 idées, 19 noms à l'INPI</h3>
+<p>Quatre axes en parallèle : mots français, protéger et avancer, mots étrangers, mots inventés. Dix noms passent : Proue, Cheville, Piolet, Chaînage, Accalmie, Tiroir, Garvan, Commode, Amarre, Tenac.</p>
+<p class="verdict"><b>Bloqués :</b> Cordée, Trousseau, Dimanche, Éclaircie, Récolte, Hopla, Memento, Libero, Avanti. <b>Écartés par moi :</b> les dix survivants. Libres, mais aucun ne me parlait.</p></div></li>
+<li><span class="d">23/11</span><div><h3>Un prénom à double sens</h3>
+<p>Mon idée : Tim, qu'on entend « team ». Environ 150 prénoms trouvés, une vingtaine passés à l'INPI.</p>
+<p class="verdict"><b>Bloqués :</b> Tim (Telecom Italia), Thim, Teem, Timéa, Ally, Andy, Ed, Mano (ManoMano), Félix, Amy. <b>Risqués :</b> Pilar, Clément, Maxime, Theam (des marques dans le bâtiment). <b>Libre :</b> Amédée, mais il ne m'a pas convaincu.</p></div></li>
+<li><span class="d">23/11</span><div><h3>La performance</h3>
+<p>Max, pour « maximum », et un lien avec BTP Performance.</p>
+<p class="verdict"><b>Bloqués :</b> Max, Prosper, Olympe, Summum. <b>Libre :</b> Levier, mais c'est un objet, et les noms d'objets ne me plaisaient pas.</p></div></li>
+<li><span class="d">24/11</span><div><h3>Garder Tim, mais le fondre dans un mot</h3>
+<p>Mots inventés (Tiamy, Tiameo, Aliamo, Copio), puis Tim + une syllabe : ami, allié, militaire, Citadelle, performance. Une cinquantaine de noms, presque tous libres en .fr.</p>
+<p class="verdict"><b>Écartés par moi :</b> Timamia (trop long), Timally, Timgarde, Timfort, Timvigie, Timescorte, Timsquad, Timcommando (« on n'est pas des commandos »). <b>Gardés :</b> Timperf, Timops, puis Timtac.</p></div></li>
+</ol>
+
+<h2>Ce qu'on a appris</h2>
+<div class="lessons">
+<div><h3>Les beaux mots sont pris</h3><p>Tout ce qui dit l'aide, l'équipe ou la performance (Renfort, Ally, Max, Prosper) est déjà déposé dans les services aux entreprises.</p></div>
+<div><h3>Les prénoms courts aussi</h3><p>Un prénom de 3 ou 4 lettres a presque toujours une marque en classe 35.</p></div>
+<div><h3>Un mot fondu passe</h3><p>Timops, Timperf, Timtac : le mot n'existe pas, donc il est libre, et on entend quand même « team ».</p></div>
+<div><h3>Le .fr suit l'INPI</h3><p>Quand le .fr est pris, une marque traîne souvent derrière. Un .fr libre est bon signe.</p></div>
+</div>
+
+<h2>Ce que j'attends de toi</h2>
+<ol class="next">
+<li><b>Ton classement des trois</b>, et ce que chacun t'évoque à la première lecture, avant d'avoir lu les explications.</li>
+<li><b>Un veto éventuel</b> : un des trois te gêne-t-il, pour le site, la marque ou nos futurs clients ?</li>
+<li><b>La suite, si on est d'accord</b> : réserver tout de suite les .fr des trois et timperf.com (une dizaine d'euros par an chacun), tester le nom auprès de cinq artisans et conjointes, puis l'avis d'un conseil en propriété industrielle avant le dépôt.</li>
+</ol>
+
+<p class="foot">Le détail de chaque recherche (domaines, marques trouvées à l'INPI, dates) est dans la page « Un seul mot » : <a href="https://claude.ai/artifact/FpUnZs4KnFy4w9FvV8Vz76">claude.ai/artifact/FpUnZs4KnFy4w9FvV8Vz76</a>, et dans le dépôt du projet, <code>notes/noms.md</code>. Domaines vérifiés le 24/11/2026 ; les .fr seront confirmés au moment de la réservation.</p>
+</div>
