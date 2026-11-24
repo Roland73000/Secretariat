@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="fr" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Le projet Secrétariat</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Dossier imprimable A4 : même langage que le document du nom (titres condensés, accent orange chantier) */
+:root{
+--bg:#f3f4f2;--paper:#ffffff;--fg:#1f2523;--muted:#5b6461;--line:#d9ddd9;--soft:#f6f7f5;
+--accent:#c2560f;--accent-bg:#fbeee4;--ok:#1f7a45;--ok-bg:#e2f2e8;--wait:#8a5a00;--wait-bg:#fbf0d9;--na:#5b6461;--na-bg:#eceeec;
+--display:"Barlow Condensed","Arial Narrow",system-ui,sans-serif;--body:"Source Sans 3",system-ui,-apple-system,"Segoe UI",sans-serif;--mono:"JetBrains Mono",ui-monospace,Consolas,monospace}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#141816;--paper:#1c211f;--fg:#e6e9e7;--muted:#9aa4a0;--line:#2e3532;--soft:#202624;--accent:#f0915a;--accent-bg:#3a2416;--ok:#6fcf98;--ok-bg:#16301f;--wait:#f0c46a;--wait-bg:#33280f;--na:#9aa4a0;--na-bg:#262c29;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#141816;--paper:#1c211f;--fg:#e6e9e7;--muted:#9aa4a0;--line:#2e3532;--soft:#202624;--accent:#f0915a;--accent-bg:#3a2416;--ok:#6fcf98;--ok-bg:#16301f;--wait:#f0c46a;--wait-bg:#33280f;--na:#9aa4a0;--na-bg:#262c29;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.55;margin:0}
+.wrap{max-width:860px;margin:0 auto;padding:32px 16px 72px}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font-family:var(--display);font-weight:700;font-size:clamp(40px,8vw,64px);line-height:.98;margin:12px 0 16px;text-wrap:balance}
+h2{font-family:var(--display);font-weight:700;font-size:30px;line-height:1.05;margin:40px 0 10px;padding-top:14px;border-top:2px solid var(--fg);text-wrap:balance}
+h2 .n{font-family:var(--mono);font-size:13px;font-weight:500;color:var(--accent);display:block;letter-spacing:.06em;margin-bottom:4px}
+h3{font-family:var(--display);font-weight:600;font-size:20px;line-height:1.15;margin:18px 0 6px}
+p{margin:0 0 10px}
+.lead{font-size:18px}
+.muted{color:var(--muted)}
+.small{font-size:14px}
+a{color:var(--accent)}
+b{font-weight:600}
+.cover-sign{color:var(--muted);margin-top:4px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:22px 0}
+.stats div{background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:12px 14px}
+.stats b{display:block;font-family:var(--display);font-size:34px;line-height:1;color:var(--accent)}
+.stats span{font-size:13px;color:var(--muted)}
+.toc{list-style:none;padding:0;margin:8px 0 0;columns:2;column-gap:28px}
+.toc li{break-inside:avoid;padding:6px 0;border-bottom:1px solid var(--line);display:flex;gap:10px}
+.toc .n{font-family:var(--mono);font-size:12px;color:var(--accent);padding-top:3px;min-width:22px}
+.promise{font-family:var(--display);font-weight:700;font-size:30px;line-height:1.1;color:var(--accent);margin:10px 0 14px;text-wrap:balance}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:14px 16px;margin:10px 0}
+.card.hot{border:2px solid var(--accent);background:var(--accent-bg)}
+.card h3{margin-top:0}
+.card p:last-child,.card ul:last-child{margin-bottom:0}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.grid2 .card,.grid3 .card{margin:0}
+ul,ol{margin:4px 0 10px;padding-left:20px}
+li{margin:3px 0}
+.tw{border:1px solid var(--line);border-radius:6px;background:var(--paper);overflow-x:auto;margin:10px 0}
+table{border-collapse:collapse;width:100%;font-size:14px;line-height:1.4}
+th,td{text-align:left;vertical-align:top;padding:7px 10px;border-bottom:1px solid var(--line)}
+th{font-family:var(--mono);font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);font-weight:500}
+tr:last-child td{border-bottom:0}
+td.k{font-weight:600;white-space:nowrap}
+td.d{font-family:var(--mono);font-size:12px;color:var(--muted);white-space:nowrap}
+.chip{font-family:var(--mono);font-size:11px;padding:2px 7px;border-radius:999px;white-space:nowrap}
+.ok{color:var(--ok);background:var(--ok-bg)}.wait{color:var(--wait);background:var(--wait-bg)}.na{color:var(--na);background:var(--na-bg)}
+.loop{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin:12px 0;counter-reset:s}
+.loop div{position:relative;background:var(--paper);border:1px solid var(--line);padding:12px 14px 12px 14px;margin-right:14px;border-radius:6px}
+.loop div:not(:last-child)::after{content:"";position:absolute;right:-12px;top:50%;width:10px;height:2px;background:var(--accent)}
+.loop div:not(:last-child)::before{content:"";position:absolute;right:-13px;top:calc(50% - 4px);border:5px solid transparent;border-left:6px solid var(--accent)}
+.loop .s{font-family:var(--mono);font-size:11px;color:var(--accent);letter-spacing:.06em}
+.loop b{display:block;font-family:var(--display);font-size:19px;line-height:1.1;margin:2px 0 4px}
+.loop span{font-size:13px;color:var(--muted)}
+.loop div:last-child{border:2px solid var(--accent);background:var(--accent-bg);margin-right:0}
+.quote{border-left:3px solid var(--accent);padding:2px 0 2px 14px;margin:12px 0;font-size:17px}
+.steps{list-style:none;padding:0;margin:10px 0;counter-reset:st}
+.steps li{counter-increment:st;display:grid;grid-template-columns:30px 1fr;gap:10px;padding:8px 0;border-bottom:1px solid var(--line)}
+.steps li:last-child{border-bottom:0}
+.steps li::before{content:counter(st);font-family:var(--display);font-weight:700;font-size:22px;color:var(--accent);line-height:1}
+.ask{background:var(--accent-bg);border:2px solid var(--accent);border-radius:6px;padding:14px 18px;margin:12px 0}
+.ask ol{margin-bottom:0}
+.foot{font-size:13px;color:var(--muted);margin-top:28px;border-top:1px solid var(--line);padding-top:10px}
+@media (max-width:640px){.stats,.grid2,.grid3,.loop{grid-template-columns:1fr}.loop div{margin-right:0;margin-bottom:12px}.loop div:not(:last-child)::after,.loop div:not(:last-child)::before{display:none}.toc{columns:1}}
+
+/* Impression A4 */
+@page{size:A4;margin:14mm 16mm 14mm}
+@media print{
+  html{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  body{background:#fff;font-size:10.3pt;line-height:1.48}
+  .wrap{max-width:none;padding:0}
+  h1{font-size:46pt;margin:10px 0 14px}
+  h2{font-size:21pt;margin:20px 0 8px;padding-top:10px;break-after:avoid;page-break-after:avoid}
+  h2.np{break-before:page;page-break-before:always;margin-top:0}
+  h3{font-size:13.5pt;break-after:avoid;page-break-after:avoid}
+  .lead{font-size:12.5pt}
+  .promise{font-size:20pt}
+  .stats b{font-size:26pt}
+  table{font-size:9.3pt}
+  th,td{padding:5px 8px}
+  .card,.tw,tr,.loop,.steps li,.ask,.stats,.toc li,.quote,.grid2,.grid3{break-inside:avoid;page-break-inside:avoid}
+  .card{padding:10px 14px;margin:8px 0}
+  .small,.loop span,.stats span{font-size:9pt}
+  .foot{font-size:8.5pt}
+  a{text-decoration:none}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<!-- Couverture -->
+<div class="eyebrow">Projet Secrétariat · le travail du week-end · du 21 au 24/11/2026 · pour Romain</div>
+<h1>Le secrétariat des artisans, où on en est</h1>
+<p class="lead">Romain, voici tout ce que j'ai travaillé ce week-end sur notre future société : ce qu'on veut faire, ce qui est décidé, ce qui reste à trancher, et ce que j'attends de toi, en particulier sur la partie technique. Le document sur le nom de la société, avec mes trois finalistes, est à part.</p>
+<p class="cover-sign">Roland</p>
+
+<div class="stats">
+<div><b>34</b><span>décisions prises et datées</span></div>
+<div><b>20</b><span>veilles et fiches sur la concurrence, en France et à l'étranger</span></div>
+<div><b>12</b><span>briques du système décrites dans le cahier de l'inexistant</span></div>
+<div><b>700</b><span>idées de noms passées au crible</span></div>
+</div>
+
+<ol class="toc">
+<li><span class="n">01</span><span>Le projet en une page</span></li>
+<li><span class="n">02</span><span>Qui fait quoi, et les deux sociétés</span></li>
+<li><span class="n">03</span><span>Les décisions prises</span></li>
+<li><span class="n">04</span><span>L'offre et le lancement</span></li>
+<li><span class="n">05</span><span>Ce qui n'existe nulle part : ton terrain</span></li>
+<li><span class="n">06</span><span>Le système, brique par brique</span></li>
+<li><span class="n">07</span><span>Le marché et les prix</span></li>
+<li><span class="n">08</span><span>Nouvelle piste : les appels d'offres</span></li>
+<li><span class="n">09</span><span>Le nom de la société</span></li>
+<li><span class="n">10</span><span>Ce qui reste ouvert, et ce que j'attends de toi</span></li>
+</ol>
+<p class="foot">Tout le détail est dans le dépôt privé du projet sur GitHub : les décisions datées, les questions ouvertes, le cahier de l'inexistant, le tableau des fonctionnalités et une vingtaine de veilles. Je peux te donner l'accès. Document établi le 24/11/2026.</p>
+
+<!-- 1 -->
+<h2 class="np"><span class="n">01</span>Le projet en une page</h2>
+<p>Une nouvelle société, distincte de BTP Performance, qui prend en charge <b>tout l'administratif et la relation client des artisans du BTP</b>, pour qu'ils se consacrent à leur métier et à leurs décisions. D'autres métiers (taxis, boulangers) viendront peut-être plus tard, dans d'autres sociétés avec toi.</p>
+<p class="promise">« Vous décidez, vous œuvrez, on s'occupe du reste. »</p>
+
+<div class="card">
+<h3>Ce qu'on fait pour l'artisan</h3>
+<p>On répond et on rappelle ses clients ; on prépare ses rendez-vous et ses devis, il valide ; on relance ses devis jusqu'à la signature ; on passe ses commandes ; on envoie ses factures et on relance les retards ; on tient son agenda ; on fidélise ses clients ; <b>et on forme son bras droit, ou on lui en trouve un, pour qu'il pilote tout ça.</b></p>
+</div>
+
+<div class="grid2">
+<div class="card hot">
+<h3>L'idée centrale : le bras droit</h3>
+<p class="small">Un seul système, piloté par <b>le bras droit</b> du dirigeant : sa conjointe ou une collaboratrice, formée et suivie. S'il n'en a pas, on lui en trouve un : une personne recrutée avec lui, ou une personne de chez nous qui travaille pour lui à distance. <b>Personne, en France ni à l'étranger, ne met le bras droit au centre.</b></p>
+</div>
+<div class="card">
+<h3>Le positionnement : la conjointe au cœur de l'entreprise</h3>
+<p class="small">On attaque par les couples. Deux messages retenus : « Le bonheur à deux. La réussite à deux. » et « Votre couple fait votre bonheur. Il peut aussi faire votre réussite. » L'argument fort, c'est <b>la confiance</b> : les comptes, les marges, les paies restent en famille.</p>
+</div>
+</div>
+
+<div class="grid3" style="margin-top:10px">
+<div class="card"><h3>Le client au centre</h3><p class="small">Le plus simple possible pour l'artisan, dans l'esprit d'Amazon. <b>Jamais de double saisie</b> : une information saisie une fois circule partout.</p></div>
+<div class="card"><h3>La valeur avant le prix</h3><p class="small">On ne gratte pas quelques euros : un service si rentable pour l'entreprise que son coût devient secondaire. On promet <b>de l'argent rentré</b>, pas des heures gagnées.</p></div>
+<div class="card"><h3>Le rempart face à l'IA</h3><p class="small">L'humain du BTP, la formation, la communauté des bras droits et les données réelles de chantier. Les appels restent faits par des humains.</p></div>
+</div>
+
+<!-- 2 -->
+<h2 class="np"><span class="n">02</span>Qui fait quoi, et les deux sociétés</h2>
+<div class="tw"><table>
+<thead><tr><th>Rôle</th><th>Qui</th><th>Ce qu'ils font</th></tr></thead>
+<tbody>
+<tr><td class="k">Associés</td><td><b>Roland et toi</b>, seulement (décidé le 23/11)</td><td>La société, la stratégie ; toi, la partie technique et le développement.</td></tr>
+<tr><td class="k">Ressources</td><td>Gaëlle</td><td>Elle travaille pour la société sans en avoir de parts. Piste : elle fait d'abord elle-même pour les entreprises sans bras droit, puis supervise de plus en plus le réseau.</td></tr>
+<tr><td class="k"></td><td>Flavien Buffet</td><td>La promotion de la société : media buying, community management, vidéo.</td></tr>
+<tr><td class="k"></td><td>Teddy Garrido</td><td>Le closing, la vente aux artisans.</td></tr>
+<tr><td class="k">Partenaires</td><td>Com'2 (Lilian) <span class="chip ok">décidé</span></td><td>Le site, les réseaux sociaux et le media buying <b>des clients</b>. On ne lui fait pas concurrence.</td></tr>
+<tr><td class="k"></td><td>Costructor <span class="chip wait">piste</span></td><td>Le logiciel de devis et factures du tout-en-un, avec la même remise de 20 % que BTP Performance.</td></tr>
+<tr><td class="k"></td><td>Dougs <span class="chip wait">piste</span></td><td>L'expert-comptable du tout-en-un.</td></tr>
+<tr><td class="k"></td><td>Un assureur <span class="chip wait">piste</span></td><td>Décennale et RC pro en option, présenté sans commission : pas d'inscription à l'ORIAS.</td></tr>
+</tbody></table></div>
+<p class="small muted">Reste à voir au juridique : le contrat de Gaëlle, et la mise à disposition de Flavien et de Teddy par BTP Performance (à prix coûtant, avec une convention).</p>
+
+<h3>Les deux sociétés : on ne mélange pas</h3>
+<p><b>Deux offres, deux tunnels de vente, deux sociétés distinctes</b>, avec des clients qui passent de l'une à l'autre, et une offre globale qui combine les deux. En communication, on ne mélange jamais, sauf dans l'offre globale.</p>
+
+<div class="card hot">
+<h3>Citadelle : un moteur, deux portes</h3>
+<p class="small">Citadelle (nom interne, jamais utilisé à l'extérieur) appartient à Option &amp; Solution. Elle reste <b>le seul moteur des chantiers</b> : chantiers, pointage, planning, rentabilité. Pas de version bridée, des modules qu'on active selon le client. Notre système ne contient que ce qui est à nous : la bibliothèque qui apprend, les appels, les relances, le poste de pilotage du bras droit, la communauté, la page de suivi. <b>Les deux se parlent par API dès le premier jour</b>, avec un contrat de licence entre les deux sociétés, pour pouvoir un jour les séparer ou en vendre une sans rien casser. La planification des chantiers sera la dernière brique de Citadelle.</p>
+</div>
+
+<h3>Quatre entrées commerciales</h3>
+<div class="tw"><table>
+<thead><tr><th>Entrée</th><th>Ce que c'est</th></tr></thead>
+<tbody>
+<tr><td class="k">1. BTP Performance seul</td><td>Comme aujourd'hui.</td></tr>
+<tr><td class="k">2. Le secrétariat seul</td><td>« Tout compris » : c'est nous qui faisons, sans passer par BTP Performance.</td></tr>
+<tr><td class="k">3. La formule « bras droit »</td><td><b>Entrée dans BTP Performance obligatoire</b> : on forme le dirigeant et son épouse, puis notre société la suit dans le système. Ça sécurise le couple (elle ne se retrouve pas seule face à un mari qui n'applique rien) et ça trie la clientèle.</td></tr>
+<tr><td class="k">4. L'offre globale</td><td>Le tout-en-un, BTP Performance et le secrétariat ensemble.</td></tr>
+</tbody></table></div>
+
+<!-- 3 -->
+<h2 class="np"><span class="n">03</span>Les décisions prises</h2>
+<p class="small muted">Chaque décision est écrite dans le dépôt (<code>decisions.md</code>) avec sa date et sa raison. Les voici regroupées.</p>
+<div class="tw"><table>
+<thead><tr><th>Date</th><th>Décision</th></tr></thead>
+<tbody>
+<tr><td class="d">21/11</td><td><b>Le BTP uniquement</b>, pour l'instant.</td></tr>
+<tr><td class="d">21/11</td><td><b>On ne fabrique pas de logiciel de devis et factures.</b> Notre système se branche sur les logiciels des artisans par leurs API, et sur les outils de l'expert-comptable.</td></tr>
+<tr><td class="d">21/11</td><td>L'artisan fait la visite et <b>valide toujours le devis</b> ; on peut en préparer le brouillon à distance.</td></tr>
+<tr><td class="d">21/11</td><td>Les <b>appels sortants sont faits par des humains</b>, pas par une IA vocale. L'artisan, lui, dicte à son appli au lieu de taper.</td></tr>
+<tr><td class="d">22/11</td><td><b>Un seul système, deux pilotes</b> : le bras droit du dirigeant, ou notre société. On attaque par les conjointes.</td></tr>
+<tr><td class="d">22/11</td><td><b>Le parcours complet</b> : on forme, on accompagne, on suit l'artisan ; et pour ses clients, on s'occupe de tout, <b>de l'acquisition à la fidélisation</b>.</td></tr>
+<tr><td class="d">22/11</td><td>Dès la première étape, le bras droit traite <b>tous les contacts entrants</b> et recueille les avis.</td></tr>
+<tr><td class="d">22/11</td><td>Une <b>communauté des conjointes et des bras droits</b> du BTP.</td></tr>
+<tr><td class="d">22/11</td><td>On ne mélange pas BTP Performance et ce projet ; <b>deux offres, deux tunnels de vente</b>, plus une offre globale.</td></tr>
+<tr><td class="d">22/11</td><td><b>Citadelle : un moteur, deux portes</b>, reliés par API et par un contrat de licence. La planification des chantiers va dans Citadelle ; pas de partenariat avec ANAV.</td></tr>
+<tr><td class="d">22/11</td><td><b>Quatre entrées commerciales</b> ; BTP Performance obligatoire pour la formule « bras droit ».</td></tr>
+<tr><td class="d">22/11</td><td><b>Le client au centre, jamais de double saisie, la valeur avant le prix.</b></td></tr>
+<tr><td class="d">22/11</td><td>La baseline : <b>« Vous décidez. Vous œuvrez. On s'occupe du reste. »</b> « Bras droit » reste le nom de la formule, pas la signature (marque déjà déposée).</td></tr>
+<tr><td class="d">22/11</td><td><b>On développe ce qui n'existe nulle part</b>, à commencer par la bibliothèque qui apprend. Son accroche : « Chaque chantier rend votre prochain devis plus juste. »</td></tr>
+<tr><td class="d">22/11</td><td><b>La bibliothèque vit chez nous, l'IA écrit chez eux</b> (détail en partie 5).</td></tr>
+<tr><td class="d">22/11</td><td>La bibliothèque : <b>l'IA d'abord, un économiste de la construction indépendant en contrôle</b>, quelques jours par mois.</td></tr>
+<tr><td class="d">22/11</td><td><b>Pas d'inscription à l'ORIAS</b> : on ne devient pas intermédiaire d'assurance.</td></tr>
+<tr><td class="d">22/11</td><td>Pas de niche des primes énergie (RGE) : terrain occupé, réglementation instable.</td></tr>
+<tr><td class="d">22/11</td><td>Lilian reste partenaire, pas associé.</td></tr>
+<tr><td class="d">23/11</td><td><b>Deux associés : Roland et Romain.</b> Gaëlle devient une ressource, comme Flavien.</td></tr>
+</tbody></table></div>
+
+<!-- 4 -->
+<h2 class="np"><span class="n">04</span>L'offre et le lancement</h2>
+<h3>Une offre de base, des options au choix</h3>
+<div class="tw"><table>
+<thead><tr><th></th><th>Ce que c'est</th><th>Avec qui</th><th>Statut</th></tr></thead>
+<tbody>
+<tr><td class="k">Offre de base</td><td>Notre système, piloté par le bras droit (formé par nous, ou trouvé par nous)</td><td>notre société</td><td><span class="chip ok">décidé</span></td></tr>
+<tr><td class="k">Option logiciel</td><td>Le logiciel de devis et factures</td><td>Costructor</td><td><span class="chip wait">piste</span></td></tr>
+<tr><td class="k">Option comptable</td><td>L'expert-comptable</td><td>Dougs</td><td><span class="chip wait">piste</span></td></tr>
+<tr><td class="k">Option assurance</td><td>Décennale, RC pro</td><td>un assureur, sans commission</td><td><span class="chip wait">piste</span></td></tr>
+<tr><td class="k">Option visibilité</td><td>Site, réseaux sociaux, media buying</td><td>Com'2</td><td><span class="chip ok">décidé</span></td></tr>
+<tr><td class="k">Option formation</td><td>La formation du dirigeant à la gestion</td><td>BTP Performance</td><td><span class="chip wait">piste</span></td></tr>
+</tbody></table></div>
+<p class="small">Le tout-en-un n'est pas obligatoire : l'artisan garde son logiciel ou son expert-comptable s'il le veut, et notre système s'y branche.</p>
+
+<h3>Lancer par étapes</h3>
+<ol class="steps">
+<li><div><b>Le système piloté</b>, le logiciel partenaire et la communauté. Le bras droit traite tous les contacts entrants dès le départ.</div></li>
+<li><div><b>Une bibliothèque d'ouvrages créée avec l'IA</b> et les données des membres de BTP Performance et de nos clients volontaires (accord écrit, données anonymisées). En parallèle : un réseau fermé, presque un label, qui apporte des demandes de clients à ses membres.</div></li>
+<li><div><b>La bibliothèque qui apprend</b> des vrais chantiers, avec un service humain qui s'en occupe.</div></li>
+</ol>
+
+<div class="grid2">
+<div class="card"><h3>Le réseau des bras droits</h3><p class="small">Les conjointes formées, selon leur temps libre, travaillent aussi pour d'autres entreprises clientes : clientes et prestataires à la fois. Jamais pour un concurrent de leur conjoint, engagement de confidentialité. Statut à valider (salariée à temps partiel, le plus sûr). Repère : chez WorkHero, une personne suit 5 à 6 entreprises.</p></div>
+<div class="card"><h3>La communauté</h3><p class="small">Sur le modèle de TradieWives (Australie) : groupe gratuit très modéré, trois niveaux d'abonnement, un appel d'accueil, un partenaire exclusif par catégorie qui finance à partir d'environ 1&nbsp;000 membres, en forfait fixe, jamais en commission. Deux remplaçantes formées par entreprise pour la continuité du service.</p></div>
+</div>
+
+<!-- 5 -->
+<h2 class="np"><span class="n">05</span>Ce qui n'existe nulle part : ton terrain</h2>
+<p>Le cap : <b>réaliser l'inexistant, voire ce qu'on croit impossible</b>. La méthode : repérer ce que chaque acteur fait dans son coin (Alobees, Obat, Costructor…) et le proposer en mieux, dans un écosystème complet. C'est là que j'attends le plus de toi.</p>
+
+<div class="card hot">
+<h3>L'idée révolutionnaire : la bibliothèque vit chez nous, l'IA écrit chez eux</h3>
+<p class="small">La bibliothèque d'articles et d'ouvrages, qui se met à jour, est dans notre système, jamais chez l'éditeur. L'IA et les API écrivent les ouvrages et les devis dans le logiciel de chaque artisan, quel qu'il soit (Costructor d'abord). <b>Le cerveau est à nous, les logiciels de devis deviennent les mains.</b> L'artisan garde sa bibliothèque s'il change de logiciel, et nous ne dépendons d'aucun éditeur.</p>
+</div>
+
+<h3>La boucle complète</h3>
+<div class="loop">
+<div><span class="s">1 · LE DEVIS</span><b>Notre IA chiffre</b><span>avec notre bibliothèque, et l'écrit dans Costructor par son API. L'artisan valide.</span></div>
+<div><span class="s">2 · LE CHANTIER</span><b>Citadelle pointe</b><span>les heures réelles et les quantités posées, ouvrage par ouvrage.</span></div>
+<div><span class="s">3 · LE RETOUR</span><b>Les heures reviennent</b><span>dans notre système, qui corrige les temps. Le dirigeant valide.</span></div>
+<div><span class="s">4 · LE RÉSULTAT</span><b>Le devis suivant est plus juste</b><span>Plus de marge sur chaque chantier, sans rien ressaisir.</span></div>
+</div>
+<p class="small muted">Vérifié par la veille du 22/11 : la correction automatique des temps par les heures réelles n'existe nulle part, ni en France ni à l'étranger. Le plus proche : Obat. À surveiller : CostLib, la bibliothèque partagée de Costructor, et Alobees, qui a toutes les briques pour le faire.</p>
+
+<div class="grid2">
+<div class="card"><h3>La bibliothèque en deux couches</h3><p class="small">Le problème : chez les autres, un ouvrage modifié par l'artisan ne reçoit plus les mises à jour. La solution proposée : <b>on ne copie jamais, on superpose</b>. Une couche commune tenue à jour par nous, une couche de l'entreprise qui ne garde que ses différences, champ par champ. Pour les temps, on stocke <b>un écart au temps moyen</b>, recalculé avec ses heures réelles. C'est le principe des surcharges : à toi de dire comment l'organiser.</p></div>
+<div class="card"><h3>La page de suivi du chantier</h3><p class="small">Chaque chantier a sa page privée, ouverte d'un simple lien, sans appli ni compte : planning, photos, documents, paiement, messages avec le bras droit. Notifications par le canal le moins cher (e-mail, navigateur, SMS pour l'urgent). Ensuite, <b>l'appli « carnet de la maison »</b> : le client garde factures, garanties et rappels d'entretien, et l'artisan y gagne un outil de fidélisation.</p></div>
+</div>
+
+<!-- 6 -->
+<h2 class="np"><span class="n">06</span>Le système, brique par brique</h2>
+<p class="small muted">Résumé du cahier de l'inexistant : pour chaque brique, ce que les meilleurs font, ce que personne ne fait, et ce que nous ferons.</p>
+<div class="tw"><table>
+<thead><tr><th>Brique</th><th>Ce que personne ne fait</th><th>Ce que nous ferons</th></tr></thead>
+<tbody>
+<tr><td class="k">1. Bibliothèque et chiffrage</td><td>Corriger seul le temps d'un ouvrage avec les heures réelles</td><td>Un connecteur par logiciel de devis, deux couches, temps mis en commun et anonymisés, « validé » par l'économiste</td></tr>
+<tr><td class="k">2. Pointage (Citadelle)</td><td>Pointer par ouvrage avec la quantité posée</td><td>Chaque ligne du devis signé devient une tâche pointable, en un clic</td></tr>
+<tr><td class="k">3. Planning (Citadelle)</td><td>Point de perte en heures, durée calculée par l'effectif, relance des sous-traitants</td><td>Le cahier des charges de Roland du 19/11, nourri par les temps corrigés</td></tr>
+<tr><td class="k">4. Appels</td><td>Un humain du BTP qui rappelle à coup sûr</td><td>Appel manqué, SMS immédiat, rappel par le bras droit dans l'heure</td></tr>
+<tr><td class="k">5. Visite et devis</td><td>Un brouillon relu par un humain avant validation</td><td>Liste de contrôle, photos, dictée ; l'IA chiffre et écrit dans Costructor</td></tr>
+<tr><td class="k">6. Relances de devis</td><td>Une personne qui connaît le dossier et rappelle au bon moment</td><td>Relances programmées, puis appel du bras droit</td></tr>
+<tr><td class="k">7. Facture et encaissement</td><td>Le circuit complet avec un humain, branché sur le logiciel de l'artisan</td><td>Facture prête à la fin du chantier, relances automatiques puis humaines (amiable)</td></tr>
+<tr><td class="k">8. Expert-comptable</td><td>Zéro double saisie de bout en bout</td><td>Chaque pièce part une seule fois, au bon endroit</td></tr>
+<tr><td class="k">9. Avis et fidélisation</td><td>Relier l'avis, la fidélisation et le prochain chantier</td><td>Avis vérifié, rappels d'entretien, demande de recommandation</td></tr>
+<tr><td class="k">10. Pilotage du bras droit</td><td>Un système pensé pour la conjointe, et pour superviser des dizaines de bras droits</td><td>Tableau de bord des urgences, revue quotidienne automatique, <b>santé du binôme</b></td></tr>
+<tr><td class="k">11. Communauté</td><td>Une communauté nationale des conjointes du BTP</td><td>Un espace à nous, relié au système</td></tr>
+<tr><td class="k">12. Clients de l'artisan</td><td>Une page de suivi sans appli, alimentée toute seule</td><td>La page de suivi, puis le carnet de la maison</td></tr>
+</tbody></table></div>
+<div class="card">
+<h3>Les doublons avec nos partenaires</h3>
+<p class="small">Deux règles : <b>un seul maître par donnée</b>, et <b>jamais deux fois la même fonction</b> active chez l'artisan. On prend le leur pour la signature et le paiement en ligne, la facture électronique, la mise en forme des devis, la banque et la comptabilité (Dougs). On prend le nôtre pour l'humain, la bibliothèque, les appels, l'agenda, la page de suivi, la communauté. Le logiciel de devis garde seulement le socle : fichier clients synchronisé, devis, facture et ses obligations légales, export comptable.</p>
+</div>
+
+<!-- 7 -->
+<h2 class="np"><span class="n">07</span>Le marché et les prix</h2>
+<p class="small muted">Prix publics relevés les 21 et 22/11 : des ordres de grandeur pour fixer les nôtres plus tard.</p>
+<div class="grid2">
+<div>
+<h3>En France</h3>
+<div class="tw"><table>
+<thead><tr><th>Service</th><th>Prix</th></tr></thead>
+<tbody>
+<tr><td>Secrétaire indépendante</td><td>25 à 50 € HT / h</td></tr>
+<tr><td>Forfait d'heures de secrétariat</td><td>205 à 660 € / mois</td></tr>
+<tr><td>Secrétariat externalisé complet</td><td>800 à 2&nbsp;500 € HT / mois</td></tr>
+<tr><td>Secrétaire salariée à temps plein</td><td>2&nbsp;800 à 3&nbsp;200 € / mois chargée</td></tr>
+<tr><td>Permanence téléphonique humaine</td><td>60 à 499 € / mois</td></tr>
+<tr><td>Standard téléphonique par IA</td><td>39 à 159 € / mois</td></tr>
+<tr><td>Logiciel de devis avec IA</td><td>15 à 130 € / mois</td></tr>
+<tr><td>Expert-comptable en ligne</td><td>29 à 179 € HT / mois</td></tr>
+<tr><td>Secrétariat de RT Connecting</td><td>62 à 65 € HT / h</td></tr>
+</tbody></table></div>
+</div>
+<div>
+<h3>À l'étranger</h3>
+<div class="tw"><table>
+<thead><tr><th>Modèle</th><th>Repère</th></tr></thead>
+<tbody>
+<tr><td>WorkHero (États-Unis) : office manager du métier + IA</td><td>1&nbsp;000 à 3&nbsp;000 $ / mois ; 5 à 6 entreprises par personne</td></tr>
+<tr><td>Office Shed (Australie) : assistante à temps partagé</td><td>2,5 à 15 h / semaine ; deux remplaçantes formées</td></tr>
+<tr><td>Bureau partagé des artisans (Allemagne)</td><td>environ 650 à 750 € / mois</td></tr>
+<tr><td>TradieWives (Australie) : communauté des conjointes</td><td>gratuit, puis 20 et 99 $ AU / mois ; sponsors</td></tr>
+<tr><td>Standard IA qui qualifie</td><td>autour de 99 $ / mois</td></tr>
+</tbody></table></div>
+</div>
+</div>
+<p class="quote">L'artisan qui assemble aujourd'hui un logiciel, un standard et quelques heures de secrétaire paie déjà 400 à 800 € par mois pour un service en morceaux. Un service humain complet se vend 800 à 2&nbsp;500 €. <b>Personne ne vend ensemble l'humain du BTP, l'outil, la formation du bras droit et la communauté.</b></p>
+<p class="small muted">Fiches détaillées dans le dépôt : WorkHero, Bilik, Artisaner, Boby, Alobees, ANAV, Dougs, les communautés, les réseaux d'artisans dans le monde, les bibliothèques d'ouvrages, les plannings, le sponsoring, RT Connecting.</p>
+
+<!-- 8 -->
+<h2 class="np"><span class="n">08</span>Nouvelle piste : les appels d'offres</h2>
+<p>Idée du 24/11 : le secrétariat pourrait aussi <b>s'occuper des appels d'offres</b> de ses clients, en l'automatisant au maximum. Modèle étudié : <b>RT Connecting</b> (Pérols, 1,2 M€ de chiffre d'affaires en 2025).</p>
+<div class="grid2">
+<div class="card"><h3>Ce qu'ils vendent</h3><p class="small">Des packs de 3 à 10 appels d'offres, de 820 à 930 € HT chacun, payés d'avance, plus des primes de réussite de 1&nbsp;000 à 4&nbsp;000 €. Des prestations à la carte (DOE, PPSPS, Chorus, retenue de garantie, Qualibat) et <b>un secrétariat à 62 à 65 € de l'heure, directement concurrent du nôtre</b>.</p></div>
+<div class="card"><h3>Leurs faiblesses, nos angles</h3><p class="small">Cher, payé d'avance, sans garantie. Du travail à la pièce, sans continuité. <b>Plusieurs concurrents accompagnés sur le même lot</b>, écrit dans leurs conditions. Pas de chiffrage : l'artisan fait son prix seul, là où il bloque souvent.</p></div>
+</div>
+<h3>Comment l'intégrer chez nous</h3>
+<p class="small">Notre avantage : <b>on connaît déjà l'artisan</b>. Un appel d'offres n'est pas un dossier de zéro, c'est une suite.</p>
+<ol class="steps">
+<li><div><b>La veille automatique</b> : l'IA lit chaque jour les annonces publiques (BOAMP, TED) et garde celles qui collent au métier, à la zone et à la taille. Le bras droit présente « trois marchés pour vous » chaque semaine.</div></li>
+<li><div><b>Se faire connaître des acheteurs locaux</b> : sous 100&nbsp;000 € HT, les mairies achètent sans annonce. Les données publiques disent qui achète quoi ; le bras droit présente l'artisan. Personne ne le fait.</div></li>
+<li><div><b>La candidature presque automatique</b> : les pièces sont déjà dans le coffre du client, tenues à jour.</div></li>
+<li><div><b>Le mémoire technique écrit par l'IA</b>, relu par le bras droit.</div></li>
+<li><div><b>Le prix avec notre bibliothèque</b> : notre vraie différence.</div></li>
+<li><div><b>Après le marché gagné</b> : Chorus, DOE, PPSPS, retenue de garantie. Le quotidien du bras droit.</div></li>
+</ol>
+<p class="small">Règle à poser dès le départ : <b>jamais deux clients sur le même lot</b>. Reste à trancher : inclus, en option ou au succès ? RT Connecting partenaire ou concurrent ?</p>
+
+<!-- 9 -->
+<h2 class="np"><span class="n">09</span>Le nom de la société</h2>
+<p>Quatre jours de recherche, plus de 700 idées, une soixantaine de noms vérifiés à l'INPI. Le principe retenu : <b>on écrit TIM, on entend « team »</b>, suivi d'une syllabe qui a du sens. Trois finalistes, sans marque à l'INPI et libres en .fr :</p>
+<div class="grid3">
+<div class="card hot"><span class="eyebrow" style="color:var(--accent)">Mon préféré</span><h3 style="font-size:26px;margin:2px 0 4px">Timops</h3><p class="small">L'équipe, et « ops » pour l'opérationnel : une entreprise où l'on travaille en équipe et où l'on est hyper opérationnel.</p></div>
+<div class="card"><span class="eyebrow">Finaliste</span><h3 style="font-size:26px;margin:2px 0 4px">Timperf</h3><p class="small">La performance, et un clin d'œil à BTP Performance. Le seul libre aussi en .com.</p></div>
+<div class="card"><span class="eyebrow">Finaliste</span><h3 style="font-size:26px;margin:2px 0 4px">Timtac</h3><p class="small">Team tactique, et « tic tac » : il se retient tout seul.</p></div>
+</div>
+<p class="small" style="margin-top:10px">Tout le parcours et mes questions sont dans le document à part, « Timops, Timperf, Timtac ».</p>
+
+<!-- 10 -->
+<h2><span class="n">10</span>Ce qui reste ouvert, et ce que j'attends de toi</h2>
+<div class="ask">
+<h3 style="margin-top:0">Ce que j'attends de toi</h3>
+<ol>
+<li><b>Ton regard sur l'ensemble</b> : ce qui te plaît, ce qui te gêne, ce qui te paraît irréaliste.</li>
+<li><b>La bibliothèque en deux couches</b> : comment l'organiser techniquement, et ce qui te paraît faisable en premier.</li>
+<li><b>L'API Costructor</b> : tester avec un compte pilote ce qu'on peut y écrire (devis en brouillon, lignes d'ouvrage, articles), avant le rendez-vous avec eux.</li>
+<li><b>La liste des données échangées avec Citadelle</b>, à écrire ensemble pour le contrat de licence.</li>
+<li><b>La page de suivi du chantier</b> : la technique (page installable, notifications) et le coût réel des SMS et de WhatsApp.</li>
+<li><b>Ta place dans la société</b> : parts, apport (le développement contre des parts ?), rémunération. On en parle de vive voix.</li>
+</ol>
+</div>
+
+<h3>Les autres sujets ouverts</h3>
+<div class="tw"><table>
+<thead><tr><th>Sujet</th><th>Ce qu'il faut trancher</th></tr></thead>
+<tbody>
+<tr><td class="k">La formule « bras droit »</td><td>Qui la vend et qui touche quoi ; un prix « parcours à deux » unique au mois ; BTP Performance obligatoire combien de temps (12 mois ?).</td></tr>
+<tr><td class="k">Le positionnement</td><td>Élargir de la conjointe à la « personne de confiance », sans diluer l'attaque par les couples.</td></tr>
+<tr><td class="k">L'offre globale</td><td>Contenu, prix, qui la vend, commissions croisées entre les deux sociétés.</td></tr>
+<tr><td class="k">Les statuts</td><td>Le contrat de Gaëlle ; Flavien et Teddy ; le statut des conjointes prestataires du réseau.</td></tr>
+<tr><td class="k">Le juridique</td><td>Relances et recouvrement amiable, frontière avec la comptabilité, sponsoring, règles CNIL pour les messages aux particuliers.</td></tr>
+<tr><td class="k">Les rendez-vous</td><td><b>Costructor en premier</b> (ordre du jour prêt : partenariat, API, propriété des données, doublons), puis Dougs, l'Ordre des experts-comptables, la CAPEB et la FFB.</td></tr>
+<tr><td class="k">Les prix</td><td>Forfait mensuel, à l'heure ou à la tâche ; combien d'entreprises par bras droit.</td></tr>
+</tbody></table></div>
+
+
+</div>
+</body>
+</html>
