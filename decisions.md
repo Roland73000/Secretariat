@@ -215,7 +215,7 @@ Une ligne par décision : la date, ce qui est décidé, pourquoi.
   n'existe pas, aucune marque déposée en France ni en Europe, et le .fr est
   libre. Le .com est pris (réservé depuis 2021, sans site) : on pourra
   tenter de le racheter. Suite : Romain réserve le .fr (chez le registraire de son choix), puis l'avocate
-  spécialisée en dépôt de marque avant le dépôt INPI ; le logo ensuite.
+  spécialisée en dépôt de marque avant le dépôt INPI ; le logo ensuite (épuré, sur propositions de Romain).
 - **24/11/2026** : **on promet de l'argent rentré et du temps gagné.**
   Corrige l'enseignement du 22/11 (« de l'argent rentré plutôt que des
   heures gagnées ») : on vend aussi le temps gagné. Raison : c'est ce que
@@ -235,3 +235,5 @@ Une ligne par décision : la date, ce qui est décidé, pourquoi.
   la valeur perçue (l'argent rentré et le temps gagné). Raison : le prix se
   fixe à partir de ce que le service rapporte à l'artisan, pas à partir des
   concurrents. OK Roland, en attente de l'avis de Romain.
+- **24/11/2026** : **le logo sera épuré ; Romain fait des propositions.**
+  Validé par Roland et Romain, d'un commun accord.
