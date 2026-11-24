@@ -128,3 +128,11 @@
   en l'automatisant au maximum. Modèle étudié : RT Connecting, voir
   `notes/veille/fiche-rt-connecting.md`. À trancher : inclus, en option ou
   au succès ? Partenaire ou concurrent de RT Connecting ?
+- Idée de Roland (24/11) : **une banque partenaire**. Avec elle, on a tout
+  pour accompagner les créateurs d'entreprise ; et pour les artisans
+  mécontents de leur banque, un partenaire fort. À trouver : la bonne
+  banque (pas gagné). Option « banque » dans l'offre, en piste.
+- **Statut de Gaëlle et de Flavien chez Timops** : ils sont déjà salariés
+  d'Option & Solution. Mise à disposition avec une convention, à prix
+  coûtant, ou temps partiel chez Timops ? Teddy, lui, est indépendant et
+  facture Timops directement.

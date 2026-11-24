@@ -48,7 +48,7 @@ tr:last-child td{border-bottom:0}
 td.k{font-weight:600;white-space:nowrap}
 td.d{font-family:var(--mono);font-size:12px;color:var(--muted);white-space:nowrap}
 .chip{font-family:var(--mono);font-size:11px;padding:2px 7px;border-radius:999px;white-space:nowrap}
-.ok{color:var(--ok);background:var(--ok-bg)}.wait{color:var(--wait);background:var(--wait-bg)}.na{color:var(--na);background:var(--na-bg)}
+.ok{color:var(--ok);background:var(--ok-bg)}.rol{color:var(--accent);background:var(--accent-bg);border:1px solid var(--accent)}.wait{color:var(--wait);background:var(--wait-bg)}.na{color:var(--na);background:var(--na-bg)}
 .loop{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin:12px 0;counter-reset:s}
 .loop div{position:relative;background:var(--paper);border:1px solid var(--line);padding:12px 14px 12px 14px;margin-right:14px;border-radius:6px}
 .loop div:not(:last-child)::after{content:"";position:absolute;right:-12px;top:50%;width:10px;height:2px;background:var(--accent)}
@@ -64,6 +64,7 @@ td.d{font-family:var(--mono);font-size:12px;color:var(--muted);white-space:nowra
 .steps li::before{content:counter(st);font-family:var(--display);font-weight:700;font-size:22px;color:var(--accent);line-height:1}
 .ask{background:var(--accent-bg);border:2px solid var(--accent);border-radius:6px;padding:14px 18px;margin:12px 0}
 .ask ol{margin-bottom:0}
+.legend{font-size:13px;color:var(--muted);display:flex;flex-wrap:wrap;gap:6px 16px;align-items:center;margin:14px 0 0}
 .foot{font-size:13px;color:var(--muted);margin-top:28px;border-top:1px solid var(--line);padding-top:10px}
 @media (max-width:640px){.stats,.grid2,.grid3,.loop{grid-template-columns:1fr}.loop div{margin-right:0;margin-bottom:12px}.loop div:not(:last-child)::after,.loop div:not(:last-child)::before{display:none}.toc{columns:1}}
 
@@ -110,7 +111,7 @@ body.editing .edit-note{display:block}
 <!-- Couverture -->
 <div class="eyebrow">Timops · le travail du week-end · du 21 au 24/11/2026 · pour Romain</div>
 <h1>Timops, où on en est</h1>
-<p class="lead">Romain, voici tout ce que j'ai travaillé ce week-end sur notre future société : ce qu'on veut faire, ce qui est décidé, ce qui reste à trancher, et ce que j'attends de toi, en particulier sur la partie technique. Et depuis que tu as validé le nom, notre société en a un : <b>Timops</b>.</p>
+<p class="lead">Romain, voici tout ce que j'ai travaillé ce week-end sur notre future société : ce qu'on veut faire, ce que j'ai décidé de mon côté et que tu dois valider, ce qui reste à trancher, et ce que j'attends de toi, en particulier sur la partie technique. Et depuis que tu as validé le nom, notre société en a un : <b>Timops</b>.</p>
 <p class="cover-sign">Roland</p>
 
 <div class="stats">
@@ -123,7 +124,7 @@ body.editing .edit-note{display:block}
 <ol class="toc">
 <li><span class="n">01</span><span>Le projet en une page</span></li>
 <li><span class="n">02</span><span>Qui fait quoi, et les deux sociétés</span></li>
-<li><span class="n">03</span><span>Les décisions prises</span></li>
+<li><span class="n">03</span><span>Les décisions de mon côté</span></li>
 <li><span class="n">04</span><span>L'offre et le lancement</span></li>
 <li><span class="n">05</span><span>Ce qui n'existe nulle part : ton terrain</span></li>
 <li><span class="n">06</span><span>Le système, brique par brique</span></li>
@@ -132,6 +133,7 @@ body.editing .edit-note{display:block}
 <li><span class="n">09</span><span>Le nom : Timops</span></li>
 <li><span class="n">10</span><span>Ce qui reste ouvert, et ce que j'attends de toi</span></li>
 </ol>
+<p class="legend"><span><span class="chip ok">validé</span> Roland et Romain d'accord</span><span><span class="chip rol">OK Roland</span> en attente de ton avis</span><span><span class="chip na">piste</span> à étudier</span></p>
 <p class="foot">Tout le détail est dans le dépôt privé du projet sur GitHub : les décisions datées, les questions ouvertes, le cahier de l'inexistant, le tableau des fonctionnalités et une vingtaine de veilles. Je peux te donner l'accès. Document établi le 24/11/2026, mis à jour après ton accord sur le nom.</p>
 
 <!-- 1 -->
@@ -167,16 +169,18 @@ body.editing .edit-note{display:block}
 <div class="tw"><table>
 <thead><tr><th>Rôle</th><th>Qui</th><th>Ce qu'ils font</th></tr></thead>
 <tbody>
-<tr><td class="k">Associés</td><td><b>Roland et toi</b>, seulement (décidé le 23/11)</td><td>La société, la stratégie ; toi, la partie technique et le développement.</td></tr>
-<tr><td class="k">Ressources</td><td>Gaëlle</td><td>Elle travaille pour la société sans en avoir de parts. Piste : elle fait d'abord elle-même pour les entreprises sans bras droit, puis supervise de plus en plus le réseau.</td></tr>
-<tr><td class="k"></td><td>Flavien Buffet</td><td>La promotion de la société : media buying, community management, vidéo.</td></tr>
-<tr><td class="k"></td><td>Teddy Garrido</td><td>Le closing, la vente aux artisans.</td></tr>
-<tr><td class="k">Partenaires</td><td>Com'2 (Lilian) <span class="chip ok">décidé</span></td><td>Le site, les réseaux sociaux et le media buying <b>des clients</b>. On ne lui fait pas concurrence.</td></tr>
-<tr><td class="k"></td><td>Costructor <span class="chip wait">piste</span></td><td>Le logiciel de devis et factures du tout-en-un, avec la même remise de 20 % que BTP Performance.</td></tr>
-<tr><td class="k"></td><td>Dougs <span class="chip wait">piste</span></td><td>L'expert-comptable du tout-en-un.</td></tr>
-<tr><td class="k"></td><td>Un assureur <span class="chip wait">piste</span></td><td>Décennale et RC pro en option, présenté sans commission : pas d'inscription à l'ORIAS.</td></tr>
+<tr><td class="k">Associés</td><td><b>Roland et toi</b>, seulement <span class="chip rol">OK Roland</span></td><td>La société, la stratégie ; toi, la partie technique et le développement.</td></tr>
+<tr><td class="k">Ressources</td><td>Gaëlle</td><td>Elle travaillera pour Timops : d'abord elle-même pour les entreprises sans bras droit, puis elle supervise de plus en plus le réseau. <i>Statut à voir : elle est déjà salariée d'Option &amp; Solution.</i></td></tr>
+<tr><td class="k"></td><td>Flavien Buffet</td><td>Il travaillera aussi pour Timops : media buying, community management, vidéo. <i>Statut à voir : il est déjà salarié d'Option &amp; Solution.</i></td></tr>
+<tr><td class="k"></td><td>Teddy Garrido</td><td>Le closing, la vente aux artisans, en indépendant : il l'est déjà, donc aucune difficulté.</td></tr>
+<tr><td class="k">Partenaires</td><td>Com'2 (Lilian) <span class="chip rol">OK Roland</span></td><td>Le site, les réseaux sociaux et le media buying <b>des clients</b>. On ne lui fait pas concurrence.</td></tr>
+<tr><td class="k"></td><td>Costructor <span class="chip na">piste</span></td><td>Le logiciel de devis et factures du tout-en-un, avec la même remise de 20 % que BTP Performance.</td></tr>
+<tr><td class="k"></td><td>Dougs <span class="chip na">piste</span></td><td>L'expert-comptable du tout-en-un.</td></tr>
+<tr><td class="k"></td><td>Un assureur <span class="chip na">piste</span></td><td>Décennale et RC pro en option, présenté sans commission : pas d'inscription à l'ORIAS.</td></tr>
+<tr><td class="k"></td><td>Une banque <span class="chip na">piste</span></td><td>Avec elle, on a tout pour <b>accompagner les créateurs d'entreprise</b> : un coup à jouer. Et pour les artisans mécontents de leur banque, un partenaire fort. Trouver la bonne banque, ce n'est pas gagné.</td></tr>
 </tbody></table></div>
-<p class="small muted">Reste à voir au juridique : le contrat de Gaëlle, et la mise à disposition de Flavien et de Teddy par BTP Performance (à prix coûtant, avec une convention).</p>
+<p class="small muted">Reste à voir au juridique : sous quel statut Gaëlle et Flavien travaillent pour Timops, puisqu'ils sont déjà salariés d'Option &amp; Solution (mise à disposition avec une convention, à prix coûtant ? temps partiel chez Timops ?). Teddy facture Timops en indépendant.</p>
+<p class="legend"><span><span class="chip ok">validé</span> Roland et Romain d'accord</span><span><span class="chip rol">OK Roland</span> en attente de ton avis</span><span><span class="chip na">piste</span> à étudier</span></p>
 
 <h3>Les deux sociétés : on ne mélange pas</h3>
 <p><b>Deux offres, deux tunnels de vente, deux sociétés distinctes</b>, avec des clients qui passent de l'une à l'autre, et une offre globale qui combine les deux. En communication, on ne mélange jamais, sauf dans l'offre globale.</p>
@@ -191,14 +195,14 @@ body.editing .edit-note{display:block}
 <thead><tr><th>Entrée</th><th>Ce que c'est</th></tr></thead>
 <tbody>
 <tr><td class="k">1. BTP Performance seul</td><td>Comme aujourd'hui.</td></tr>
-<tr><td class="k">2. Le secrétariat seul</td><td>« Tout compris » : c'est nous qui faisons, sans passer par BTP Performance.</td></tr>
-<tr><td class="k">3. La formule « bras droit »</td><td><b>Entrée dans BTP Performance obligatoire</b> : on forme le dirigeant et son épouse, puis notre société la suit dans le système. Ça sécurise le couple (elle ne se retrouve pas seule face à un mari qui n'applique rien) et ça trie la clientèle.</td></tr>
-<tr><td class="k">4. L'offre globale</td><td>Le tout-en-un, BTP Performance et le secrétariat ensemble.</td></tr>
+<tr><td class="k">2. Timops seul</td><td>« Tout compris » : c'est nous qui faisons, sans passer par BTP Performance.</td></tr>
+<tr><td class="k">3. La formule « bras droit »</td><td><b>Entrée dans BTP Performance obligatoire</b> : on forme le dirigeant et son épouse, puis Timops la suit dans le système. Ça sécurise le couple (elle ne se retrouve pas seule face à un mari qui n'applique rien) et ça trie la clientèle.</td></tr>
+<tr><td class="k">4. L'offre globale</td><td>Le tout-en-un, BTP Performance et Timops ensemble.</td></tr>
 </tbody></table></div>
 
 <!-- 3 -->
-<h2 class="np"><span class="n">03</span>Les décisions prises</h2>
-<p class="small muted">Chaque décision est écrite dans le dépôt (<code>decisions.md</code>) avec sa date et sa raison. Les voici regroupées.</p>
+<h2 class="np"><span class="n">03</span>Les décisions de mon côté</h2>
+<p class="small muted">Chaque décision est écrite dans le dépôt (<code>decisions.md</code>) avec sa date et sa raison. Ce sont mes décisions : toutes sont <span class="chip rol">OK Roland</span> et attendent ton avis, sauf le nom, que tu as <span class="chip ok">validé</span>.</p>
 <div class="tw"><table>
 <thead><tr><th>Date</th><th>Décision</th></tr></thead>
 <tbody>
@@ -206,7 +210,7 @@ body.editing .edit-note{display:block}
 <tr><td class="d">21/11</td><td><b>On ne fabrique pas de logiciel de devis et factures.</b> Notre système se branche sur les logiciels des artisans par leurs API, et sur les outils de l'expert-comptable.</td></tr>
 <tr><td class="d">21/11</td><td>L'artisan fait la visite et <b>valide toujours le devis</b> ; on peut en préparer le brouillon à distance.</td></tr>
 <tr><td class="d">21/11</td><td>Les <b>appels sortants sont faits par des humains</b>, pas par une IA vocale. L'artisan, lui, dicte à son appli au lieu de taper.</td></tr>
-<tr><td class="d">22/11</td><td><b>Un seul système, deux pilotes</b> : le bras droit du dirigeant, ou notre société. On attaque par les conjointes.</td></tr>
+<tr><td class="d">22/11</td><td><b>Un seul système, deux pilotes</b> : le bras droit du dirigeant, ou Timops. On attaque par les conjointes.</td></tr>
 <tr><td class="d">22/11</td><td><b>Le parcours complet</b> : on forme, on accompagne, on suit l'artisan ; et pour ses clients, on s'occupe de tout, <b>de l'acquisition à la fidélisation</b>.</td></tr>
 <tr><td class="d">22/11</td><td>Dès la première étape, le bras droit traite <b>tous les contacts entrants</b> et recueille les avis.</td></tr>
 <tr><td class="d">22/11</td><td>Une <b>communauté des conjointes et des bras droits</b> du BTP.</td></tr>
@@ -222,7 +226,7 @@ body.editing .edit-note{display:block}
 <tr><td class="d">22/11</td><td>Pas de niche des primes énergie (RGE) : terrain occupé, réglementation instable.</td></tr>
 <tr><td class="d">22/11</td><td>Lilian reste partenaire, pas associé.</td></tr>
 <tr><td class="d">23/11</td><td><b>Deux associés : Roland et Romain.</b> Gaëlle devient une ressource, comme Flavien.</td></tr>
-<tr><td class="d">24/11</td><td><b>La société s'appelle Timops</b>, validé par toi parmi les trois finalistes. Tu réserves le .fr sur LWS.</td></tr>
+<tr><td class="d">24/11</td><td><span class="chip ok">validé</span> <b>La société s'appelle Timops</b>, validé par toi parmi les trois finalistes. Tu réserves le .fr sur LWS.</td></tr>
 <tr><td class="d">24/11</td><td>On promet <b>de l'argent rentré et du temps gagné</b> ; et comme son nom l'indique, <b>un travail d'équipe, très opérationnel</b>, où chacun a son rôle et sa place.</td></tr>
 </tbody></table></div>
 
@@ -232,12 +236,13 @@ body.editing .edit-note{display:block}
 <div class="tw"><table>
 <thead><tr><th></th><th>Ce que c'est</th><th>Avec qui</th><th>Statut</th></tr></thead>
 <tbody>
-<tr><td class="k">Offre de base</td><td>Notre système, piloté par le bras droit (formé par nous, ou trouvé par nous)</td><td>notre société</td><td><span class="chip ok">décidé</span></td></tr>
-<tr><td class="k">Option logiciel</td><td>Le logiciel de devis et factures</td><td>Costructor</td><td><span class="chip wait">piste</span></td></tr>
-<tr><td class="k">Option comptable</td><td>L'expert-comptable</td><td>Dougs</td><td><span class="chip wait">piste</span></td></tr>
-<tr><td class="k">Option assurance</td><td>Décennale, RC pro</td><td>un assureur, sans commission</td><td><span class="chip wait">piste</span></td></tr>
-<tr><td class="k">Option visibilité</td><td>Site, réseaux sociaux, media buying</td><td>Com'2</td><td><span class="chip ok">décidé</span></td></tr>
-<tr><td class="k">Option formation</td><td>La formation du dirigeant à la gestion</td><td>BTP Performance</td><td><span class="chip wait">piste</span></td></tr>
+<tr><td class="k">Offre de base</td><td>Notre système, piloté par le bras droit (formé par nous, ou trouvé par nous)</td><td>Timops</td><td><span class="chip rol">OK Roland</span></td></tr>
+<tr><td class="k">Option logiciel</td><td>Le logiciel de devis et factures</td><td>Costructor</td><td><span class="chip na">piste</span></td></tr>
+<tr><td class="k">Option comptable</td><td>L'expert-comptable</td><td>Dougs</td><td><span class="chip na">piste</span></td></tr>
+<tr><td class="k">Option assurance</td><td>Décennale, RC pro</td><td>un assureur, sans commission</td><td><span class="chip na">piste</span></td></tr>
+<tr><td class="k">Option visibilité</td><td>Site, réseaux sociaux, media buying</td><td>Com'2</td><td><span class="chip rol">OK Roland</span></td></tr>
+<tr><td class="k">Option banque</td><td>Le compte professionnel, et l'accompagnement des créateurs</td><td>une banque, à trouver</td><td><span class="chip na">piste</span></td></tr>
+<tr><td class="k">Option formation</td><td>La formation du dirigeant à la gestion</td><td>BTP Performance</td><td><span class="chip na">piste</span></td></tr>
 </tbody></table></div>
 <p class="small">Le tout-en-un n'est pas obligatoire : l'artisan garde son logiciel ou son expert-comptable s'il le veut, et notre système s'y branche.</p>
 
@@ -338,7 +343,7 @@ body.editing .edit-note{display:block}
 
 <!-- 8 -->
 <h2 class="np"><span class="n">08</span>Nouvelle piste : les appels d'offres</h2>
-<p>Idée du 24/11 : le secrétariat pourrait aussi <b>s'occuper des appels d'offres</b> de ses clients, en l'automatisant au maximum. Modèle étudié : <b>RT Connecting</b> (Pérols, 1,2 M€ de chiffre d'affaires en 2025).</p>
+<p>Idée du 24/11 : Timops pourrait aussi <b>s'occuper des appels d'offres</b> de ses clients, en l'automatisant au maximum. Modèle étudié : <b>RT Connecting</b> (Pérols, 1,2 M€ de chiffre d'affaires en 2025).</p>
 <div class="grid2">
 <div class="card"><h3>Ce qu'ils vendent</h3><p class="small">Des packs de 3 à 10 appels d'offres, de 820 à 930 € HT chacun, payés d'avance, plus des primes de réussite de 1&nbsp;000 à 4&nbsp;000 €. Des prestations à la carte (DOE, PPSPS, Chorus, retenue de garantie, Qualibat) et <b>un secrétariat à 62 à 65 € de l'heure, directement concurrent du nôtre</b>.</p></div>
 <div class="card"><h3>Leurs faiblesses, nos angles</h3><p class="small">Cher, payé d'avance, sans garantie. Du travail à la pièce, sans continuité. <b>Plusieurs concurrents accompagnés sur le même lot</b>, écrit dans leurs conditions. Pas de chiffrage : l'artisan fait son prix seul, là où il bloque souvent.</p></div>
@@ -399,7 +404,7 @@ body.editing .edit-note{display:block}
 <tr><td class="k">La formule « bras droit »</td><td>Qui la vend et qui touche quoi ; un prix « parcours à deux » unique au mois ; BTP Performance obligatoire combien de temps (12 mois ?).</td></tr>
 <tr><td class="k">Le positionnement</td><td>Élargir de la conjointe à la « personne de confiance », sans diluer l'attaque par les couples.</td></tr>
 <tr><td class="k">L'offre globale</td><td>Contenu, prix, qui la vend, commissions croisées entre les deux sociétés.</td></tr>
-<tr><td class="k">Les statuts</td><td>Le contrat de Gaëlle ; Flavien et Teddy ; le statut des conjointes prestataires du réseau.</td></tr>
+<tr><td class="k">Les statuts</td><td>Gaëlle et Flavien, déjà salariés d'Option &amp; Solution : sous quel statut pour Timops ; le statut des conjointes prestataires du réseau.</td></tr>
 <tr><td class="k">Le juridique</td><td>Relances et recouvrement amiable, frontière avec la comptabilité, sponsoring, règles CNIL pour les messages aux particuliers.</td></tr>
 <tr><td class="k">Les rendez-vous</td><td><b>Costructor en premier</b> (ordre du jour prêt : partenariat, API, propriété des données, doublons), puis Dougs, l'Ordre des experts-comptables, la CAPEB et la FFB.</td></tr>
 <tr><td class="k">Le nom</td><td>Le dépôt de la marque Timops avec mon avocate ; le rachat éventuel de timops.com ; le logo.</td></tr>
