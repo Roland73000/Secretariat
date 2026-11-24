@@ -97,6 +97,70 @@ chiffre d'affaires annuel du client : 1 000, 2 000, 3 000, 4 000 € HT,
 - Hors périmètre : juridique, saisie comptable, commercial avancé. [lu]
 - Soit environ **62 à 65 € HT de l'heure** de secrétariat.
 
+## Ce que dit le web (recherche du 24/11/2026)
+
+[web] = lu sur la page citée ; [supposé] = déduction.
+
+- **Chiffres** (societe.com) : CA 2024 de 895 800 €, CA 2025 de
+  1 210 900 € (+36 %), résultat net 2025 de 140 700 €. Effectif 10 à 19
+  salariés. Créée en février ou mars 2021. Code NAF : intermédiaire du
+  commerce. [web] https://www.societe.com/societe/rt-connecting-895190866.html
+- Environ 65 à 120 k€ de CA par personne : un modèle de service à forte
+  main-d'œuvre, pas un logiciel. [supposé]
+- **Site** : promet « aucune commission » (alors que les primes de
+  performance existent sur papier). Réservé aux entreprises de plus de 2 ans
+  et de plus de 3 salariés. **Aucun taux de réussite chiffré** (compteurs à
+  zéro sur la page). [web] https://www.rtconnecting.fr/ et
+  http://www.rt-connecting.fr/
+- **Les prix ne sont pas en ligne** : packs, primes et secrétariat ne
+  figurent que dans les plaquettes. [web]
+- **Avis** : 19 avis Google à 5 étoiles choisis par eux sur leur site
+  (peinture, sécurité, sols sportifs). Pas de Trustpilot, aucun article
+  négatif trouvé. [web]
+- **Acquisition : les syndicats.** Soirée CAPEB 84 à Avignon le 13/03/2025
+  avec des « offres tarifaires spécial adhérents ». [web]
+  https://www.capeb.fr/evenements/obtenez-des-marches-publics-clef-en-main
+
+## Automatiser les appels d'offres : ce qu'on sait
+
+**Les sources, gratuites**
+- BOAMP : API ouverte (data.gouv.fr). TED (Europe) : API sans clé. DECP :
+  qui a gagné quel marché, à quel prix, mis à jour presque chaque jour. [web]
+- Marchés Online (Le Moniteur) : gratuit pour 170 000 avis par an, 25 € par
+  mois pour la veille complète, y compris les petits marchés publiés
+  seulement sur les sites des acheteurs. [web]
+
+**Le changement de 2026, capital pour nos artisans**
+- **Travaux : plus de publicité ni de mise en concurrence obligatoire sous
+  100 000 € HT**, définitif depuis le 01/01/2026 (décret 2025-1386). [web]
+  https://www.capeb.fr/actualites/marches-publics-2026-nouveaux-seuils-et-simplification-pour-les-marches-de-travaux
+- Conséquence : la plupart des chantiers d'un artisan se passent de gré à
+  gré. **Il faut se faire connaître des acheteurs (mairies, bailleurs,
+  écoles), pas seulement surveiller les annonces.** Les DECP disent qui
+  achète quoi près de chez l'artisan : c'est une liste de prospection. [supposé]
+
+**Les pièces** : DC1 et DC2 ou DUME ; attestations fiscale et URSSAF (à
+renouveler tous les 6 mois) ; Kbis, décennale, RC pro, Qualibat ou RGE,
+références ; puis acte d'engagement, prix (DPGF, BPU), mémoire technique. [web]
+
+**Les outils IA existent déjà, et pas chers** : Penko (BTP) de 68 à
+230 € HT par mois pour 12 à 96 mémoires par an ; Maître AO dès 39 € ;
+BâtiOffre 99 € par mémoire ; Codito BTP 499 à 799 € par mois ; Tenderbolt,
+Vecteur Plus (partenaire CAPEB) sur devis. [web] Un logiciel fait le premier
+jet pour moins de 20 € le mémoire ; RT Connecting en facture 820 à 930 €.
+Ce qu'ils vendent, c'est le temps humain et le dépôt à la place de
+l'artisan.
+
+**Automatisable à fond** : la veille filtrée (métier, zone, montant), le
+résumé du dossier de consultation, la liste des pièces, le pré-remplissage
+DC1, DC2, DUME, le rappel des attestations qui expirent, le premier jet du
+mémoire, l'analyse de qui gagne et à quel prix.
+
+**Demande un humain** : décider d'y aller, **le prix** (le métier de
+l'artisan, avec notre bibliothèque), l'adaptation du mémoire au chantier,
+la relecture de conformité, le dépôt signé dans les délais (un dépôt
+tardif est rejeté), et la relation avec les acheteurs.
+
 ## Ce qu'on en retient
 
 **Ce qu'ils font bien**
@@ -130,16 +194,20 @@ appel d'offres n'est donc pas un dossier de zéro : c'est une suite.
    à la taille de l'artisan, et vérifie les qualifications demandées. Le
    bras droit les présente une fois par semaine : « trois marchés pour
    vous ».
-2. **La candidature, presque automatique** : les pièces administratives
+2. **Se faire connaître des acheteurs locaux** : sous 100 000 € HT, les
+   mairies et bailleurs achètent sans annonce. Les données publiques (DECP)
+   disent qui achète quoi autour de l'artisan ; le bras droit les contacte
+   et présente l'artisan. Personne ne fait ça aujourd'hui.
+3. **La candidature, presque automatique** : les pièces administratives
    sont déjà dans le coffre du client, tenues à jour par le bras droit
    (alerte avant expiration d'une attestation). Le dossier se remplit seul.
-3. **Le mémoire technique, écrit par l'IA, relu par le bras droit** : à partir
+4. **Le mémoire technique, écrit par l'IA, relu par le bras droit** : à partir
    des références, des photos et des méthodes de l'artisan, adapté à chaque
    marché.
-4. **Le prix, avec la bibliothèque** : c'est notre vraie différence. Le
+5. **Le prix, avec la bibliothèque** : c'est notre vraie différence. Le
    chiffrage s'appuie sur la bibliothèque d'ouvrages et les temps réels ;
    l'artisan valide, comme pour ses devis.
-5. **Après le marché gagné** : situations sur Chorus Pro, DOE, PPSPS, DGD,
+6. **Après le marché gagné** : situations sur Chorus Pro, DOE, PPSPS, DGD,
    relance des 5 % de retenue de garantie. C'est déjà le quotidien du bras
    droit.
 
@@ -156,3 +224,6 @@ C'est l'inverse de RT Connecting, et c'est un argument de vente.
   compter dans le CRM de BTP Performance (lecture seule).
 - Le secrétariat de RT Connecting (62 à 65 € de l'heure) donne un repère de
   prix pour le nôtre.
+- Notre coût de revient : un outil IA du marché (Penko, Maître AO) ou le
+  nôtre ? Avec un outil à 70 à 230 € par mois, on peut offrir la veille et
+  le premier jet à tous les clients.
