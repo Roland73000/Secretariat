@@ -214,5 +214,5 @@ Une ligne par décision : la date, ce qui est décidé, pourquoi.
   Raison : on l'entend « team ops », l'équipe opérationnelle ; le mot
   n'existe pas, aucune marque déposée en France ni en Europe, et le .fr est
   libre. Le .com est pris (réservé depuis 2021, sans site) : on pourra
-  tenter de le racheter. Suite : réserver le .fr sur LWS, puis l'avocate
+  tenter de le racheter. Suite : Romain réserve le .fr sur LWS, puis l'avocate
   spécialisée en dépôt de marque avant le dépôt INPI ; le logo ensuite.
