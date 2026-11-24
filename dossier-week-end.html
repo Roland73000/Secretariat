@@ -1,11 +1,6 @@
-<!doctype html>
-<html lang="fr" data-theme="light">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Le projet Secrétariat</title>
+<title>Timops : où on en est</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@500&display=swap">
-<style>
+<style id="page-style">
 /* Dossier imprimable A4 : même langage que le document du nom (titres condensés, accent orange chantier) */
 :root{
 --bg:#f3f4f2;--paper:#ffffff;--fg:#1f2523;--muted:#5b6461;--line:#d9ddd9;--soft:#f6f7f5;
@@ -93,22 +88,36 @@ td.d{font-family:var(--mono);font-size:12px;color:var(--muted);white-space:nowra
   .foot{font-size:8.5pt}
   a{text-decoration:none}
 }
-</style>
-</head>
-<body>
-<div class="wrap">
 
+/* Modification en ligne */
+.bar{position:fixed;right:16px;bottom:16px;z-index:10;display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end;max-width:calc(100% - 32px)}
+.bar button{font-family:var(--body);font-size:15px;font-weight:600;border-radius:999px;padding:9px 18px;border:1px solid var(--line);background:var(--paper);color:var(--fg);cursor:pointer;box-shadow:0 2px 10px rgba(0,0,0,.12)}
+.bar button.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.bar button:disabled{opacity:.6;cursor:default}
+.bar .msg{font-size:14px;background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:7px 12px;color:var(--fg);box-shadow:0 2px 10px rgba(0,0,0,.12)}
+.bar .msg:empty{display:none}
+body.editing .wrap{outline:2px dashed var(--accent);outline-offset:6px;border-radius:2px}
+body.editing .wrap :focus{outline:none}
+.edit-note{display:none;background:var(--accent-bg);border:1px solid var(--accent);border-radius:6px;padding:8px 12px;margin:0 0 16px;font-size:14px}
+body.editing .edit-note{display:block}
+@media print{
+  .bar,.edit-note{display:none!important}
+  :root,:root:not([data-theme="light"]),:root[data-theme="dark"]{--bg:#fff;--paper:#fff;--fg:#1f2523;--muted:#5b6461;--line:#d9ddd9;--soft:#f6f7f5;--accent:#c2560f;--accent-bg:#fbeee4;--ok:#1f7a45;--ok-bg:#e2f2e8;--wait:#8a5a00;--wait-bg:#fbf0d9;--na:#5b6461;--na-bg:#eceeec;color-scheme:light}
+}
+</style>
+
+<main class="wrap" id="doc">
 <!-- Couverture -->
-<div class="eyebrow">Projet Secrétariat · le travail du week-end · du 21 au 24/11/2026 · pour Romain</div>
-<h1>Le secrétariat des artisans, où on en est</h1>
-<p class="lead">Romain, voici tout ce que j'ai travaillé ce week-end sur notre future société : ce qu'on veut faire, ce qui est décidé, ce qui reste à trancher, et ce que j'attends de toi, en particulier sur la partie technique. Le document sur le nom de la société, avec mes trois finalistes, est à part.</p>
+<div class="eyebrow">Timops · le travail du week-end · du 21 au 24/11/2026 · pour Romain</div>
+<h1>Timops, où on en est</h1>
+<p class="lead">Romain, voici tout ce que j'ai travaillé ce week-end sur notre future société : ce qu'on veut faire, ce qui est décidé, ce qui reste à trancher, et ce que j'attends de toi, en particulier sur la partie technique. Et depuis que tu as validé le nom, notre société en a un : <b>Timops</b>.</p>
 <p class="cover-sign">Roland</p>
 
 <div class="stats">
-<div><b>34</b><span>décisions prises et datées</span></div>
+<div><b>35</b><span>décisions prises et datées</span></div>
 <div><b>20</b><span>veilles et fiches sur la concurrence, en France et à l'étranger</span></div>
 <div><b>12</b><span>briques du système décrites dans le cahier de l'inexistant</span></div>
-<div><b>700</b><span>idées de noms passées au crible</span></div>
+<div><b>700</b><span>idées de noms passées au crible, une seule retenue : Timops</span></div>
 </div>
 
 <ol class="toc">
@@ -120,14 +129,14 @@ td.d{font-family:var(--mono);font-size:12px;color:var(--muted);white-space:nowra
 <li><span class="n">06</span><span>Le système, brique par brique</span></li>
 <li><span class="n">07</span><span>Le marché et les prix</span></li>
 <li><span class="n">08</span><span>Nouvelle piste : les appels d'offres</span></li>
-<li><span class="n">09</span><span>Le nom de la société</span></li>
+<li><span class="n">09</span><span>Le nom : Timops</span></li>
 <li><span class="n">10</span><span>Ce qui reste ouvert, et ce que j'attends de toi</span></li>
 </ol>
-<p class="foot">Tout le détail est dans le dépôt privé du projet sur GitHub : les décisions datées, les questions ouvertes, le cahier de l'inexistant, le tableau des fonctionnalités et une vingtaine de veilles. Je peux te donner l'accès. Document établi le 24/11/2026.</p>
+<p class="foot">Tout le détail est dans le dépôt privé du projet sur GitHub : les décisions datées, les questions ouvertes, le cahier de l'inexistant, le tableau des fonctionnalités et une vingtaine de veilles. Je peux te donner l'accès. Document établi le 24/11/2026, mis à jour après ton accord sur le nom.</p>
 
 <!-- 1 -->
 <h2 class="np"><span class="n">01</span>Le projet en une page</h2>
-<p>Une nouvelle société, distincte de BTP Performance, qui prend en charge <b>tout l'administratif et la relation client des artisans du BTP</b>, pour qu'ils se consacrent à leur métier et à leurs décisions. D'autres métiers (taxis, boulangers) viendront peut-être plus tard, dans d'autres sociétés avec toi.</p>
+<p>Une nouvelle société, <b>Timops</b>, distincte de BTP Performance, qui prend en charge <b>tout l'administratif et la relation client des artisans du BTP</b>, pour qu'ils se consacrent à leur métier et à leurs décisions. D'autres métiers (taxis, boulangers) viendront peut-être plus tard, dans d'autres sociétés avec toi.</p>
 <p class="promise">« Vous décidez, vous œuvrez, on s'occupe du reste. »</p>
 
 <div class="card">
@@ -212,6 +221,7 @@ td.d{font-family:var(--mono);font-size:12px;color:var(--muted);white-space:nowra
 <tr><td class="d">22/11</td><td>Pas de niche des primes énergie (RGE) : terrain occupé, réglementation instable.</td></tr>
 <tr><td class="d">22/11</td><td>Lilian reste partenaire, pas associé.</td></tr>
 <tr><td class="d">23/11</td><td><b>Deux associés : Roland et Romain.</b> Gaëlle devient une ressource, comme Flavien.</td></tr>
+<tr><td class="d">24/11</td><td><b>La société s'appelle Timops</b>, validé par toi parmi les trois finalistes. Tu réserves le .fr sur LWS.</td></tr>
 </tbody></table></div>
 
 <!-- 4 -->
@@ -344,20 +354,33 @@ td.d{font-family:var(--mono);font-size:12px;color:var(--muted);white-space:nowra
 <p class="small">Règle à poser dès le départ : <b>jamais deux clients sur le même lot</b>. Reste à trancher : inclus, en option ou au succès ? RT Connecting partenaire ou concurrent ?</p>
 
 <!-- 9 -->
-<h2 class="np"><span class="n">09</span>Le nom de la société</h2>
-<p>Quatre jours de recherche, plus de 700 idées, une soixantaine de noms vérifiés à l'INPI. Le principe retenu : <b>on écrit TIM, on entend « team »</b>, suivi d'une syllabe qui a du sens. Trois finalistes, sans marque à l'INPI et libres en .fr :</p>
-<div class="grid3">
-<div class="card hot"><span class="eyebrow" style="color:var(--accent)">Mon préféré</span><h3 style="font-size:26px;margin:2px 0 4px">Timops</h3><p class="small">L'équipe, et « ops » pour l'opérationnel : une entreprise où l'on travaille en équipe et où l'on est hyper opérationnel.</p></div>
-<div class="card"><span class="eyebrow">Finaliste</span><h3 style="font-size:26px;margin:2px 0 4px">Timperf</h3><p class="small">La performance, et un clin d'œil à BTP Performance. Le seul libre aussi en .com.</p></div>
-<div class="card"><span class="eyebrow">Finaliste</span><h3 style="font-size:26px;margin:2px 0 4px">Timtac</h3><p class="small">Team tactique, et « tic tac » : il se retient tout seul.</p></div>
+<h2 class="np"><span class="n">09</span>Le nom : Timops</h2>
+<p>Quatre jours de recherche, plus de 700 idées, une soixantaine de noms vérifiés à l'INPI et trois finalistes : Timops, Timperf et Timtac. <b>Tu as validé Timops le 24/11 : c'est le nom de notre société.</b></p>
+<div class="card hot">
+<span class="eyebrow" style="color:var(--accent)">Le nom retenu</span>
+<h3 style="font-size:40px;margin:2px 0 6px">Timops</h3>
+<p>On l'écrit Tim, mais on l'entend « team » : l'équipe. Et « ops », c'est l'opérationnel, comme les opérations des forces spéciales. Le nom dit exactement ce qu'on veut être : <b>une entreprise où l'on travaille en équipe et où l'on est hyper opérationnel.</b></p>
 </div>
-<p class="small" style="margin-top:10px">Tout le parcours et mes questions sont dans le document à part, « Timops, Timperf, Timtac ».</p>
+<div class="tw"><table>
+<thead><tr><th>Vérification</th><th>Résultat</th><th>Ce que ça veut dire</th></tr></thead>
+<tbody>
+<tr><td class="k">Marque à l'INPI</td><td><span class="chip ok">aucune</span></td><td>Aucune marque Timops déposée, ni en France ni en Europe. « TeamOps », une méthode de management de l'éditeur GitLab, n'est pas déposée non plus.</td></tr>
+<tr><td class="k">timops.fr</td><td><span class="chip wait">à réserver</span></td><td>Libre. Tu le réserves sur LWS, au nom de la future société (ou on te le rachète à sa création).</td></tr>
+<tr><td class="k">timops.com</td><td><span class="chip na">pris</span></td><td>Réservé depuis 2021 par quelqu'un, sans aucun site derrière : on pourra tenter de le racheter plus tard. Pas bloquant pour une société française.</td></tr>
+</tbody></table></div>
+<h3>La suite</h3>
+<ol class="steps">
+<li><div><b>Tu réserves timops.fr sur LWS</b>, tout de suite, pour que personne ne le prenne avant nous.</div></li>
+<li><div><b>Mon avocate spécialisée dans le dépôt de marque</b> fait la recherche complète (les noms proches, pas seulement le nom exact), puis on dépose la marque à l'INPI.</div></li>
+<li><div><b>Le logo</b>, moins urgent : à toi si tu as envie de t'en occuper, sinon j'avance dessus.</div></li>
+</ol>
 
 <!-- 10 -->
 <h2><span class="n">10</span>Ce qui reste ouvert, et ce que j'attends de toi</h2>
 <div class="ask">
 <h3 style="margin-top:0">Ce que j'attends de toi</h3>
 <ol>
+<li><b>Réserver timops.fr sur LWS</b>, et me dire si tu prends le logo.</li>
 <li><b>Ton regard sur l'ensemble</b> : ce qui te plaît, ce qui te gêne, ce qui te paraît irréaliste.</li>
 <li><b>La bibliothèque en deux couches</b> : comment l'organiser techniquement, et ce qui te paraît faisable en premier.</li>
 <li><b>L'API Costructor</b> : tester avec un compte pilote ce qu'on peut y écrire (devis en brouillon, lignes d'ouvrage, articles), avant le rendez-vous avec eux.</li>
@@ -377,10 +400,138 @@ td.d{font-family:var(--mono);font-size:12px;color:var(--muted);white-space:nowra
 <tr><td class="k">Les statuts</td><td>Le contrat de Gaëlle ; Flavien et Teddy ; le statut des conjointes prestataires du réseau.</td></tr>
 <tr><td class="k">Le juridique</td><td>Relances et recouvrement amiable, frontière avec la comptabilité, sponsoring, règles CNIL pour les messages aux particuliers.</td></tr>
 <tr><td class="k">Les rendez-vous</td><td><b>Costructor en premier</b> (ordre du jour prêt : partenariat, API, propriété des données, doublons), puis Dougs, l'Ordre des experts-comptables, la CAPEB et la FFB.</td></tr>
+<tr><td class="k">Le nom</td><td>Le dépôt de la marque Timops avec mon avocate ; le rachat éventuel de timops.com ; le logo.</td></tr>
+<tr><td class="k">Les appels d'offres</td><td>Inclus, en option ou au succès ? RT Connecting, partenaire ou concurrent ?</td></tr>
 <tr><td class="k">Les prix</td><td>Forfait mensuel, à l'heure ou à la tâche ; combien d'entreprises par bras droit.</td></tr>
 </tbody></table></div>
+</main>
+<script id="editor-js">
+(function () {
+  // Modification en ligne : le contenu de <main id="doc"> est l'état de la page.
+  // À l'enregistrement, on régénère le document complet à partir de ce contenu
+  // et des parties fixes (titre, style, ce script), puis on le publie.
+  var SKEL = '<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>';
+  var TITLE = 'Timops : où on en est';
+  var FONTS = 'https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@500&display=swap';
+  var STASH = 'timops-dossier-brouillon';
 
+  var doc = document.getElementById('doc');
+  var styleEl = document.getElementById('page-style');
+  var scriptEl = document.getElementById('editor-js');
+  if (!doc || !styleEl || !scriptEl) return;
+  var scriptText = scriptEl.textContent;
 
-</div>
-</body>
-</html>
+  // Barre d'outils et bandeau, ajoutés par le script : jamais enregistrés dans le contenu
+  var note = document.createElement('div');
+  note.className = 'edit-note';
+  note.textContent = 'Mode modification : clique dans le texte pour le changer. Ctrl+S pour enregistrer, Échap pour annuler.';
+  doc.parentNode.insertBefore(note, doc);
+  var bar = document.createElement('div');
+  bar.className = 'bar';
+  bar.hidden = true;
+  var msg = document.createElement('span'); msg.className = 'msg'; msg.setAttribute('role', 'status');
+  var bRestore = mk('Récupérer ma modification', '');
+  var bEdit = mk('Modifier', 'primary');
+  var bCancel = mk('Annuler', '');
+  var bSave = mk('Enregistrer', 'primary');
+  bar.append(msg, bRestore, bCancel, bSave, bEdit);
+  document.body.appendChild(bar);
+  bRestore.hidden = bCancel.hidden = bSave.hidden = true;
+  function mk(t, c) { var b = document.createElement('button'); b.type = 'button'; b.textContent = t; if (c) b.className = c; return b; }
+  function say(t) { msg.textContent = t || ''; }
+
+  var artifact = null, original = null, editing = false, saving = false;
+
+  // Brouillon gardé avant un enregistrement : s'il n'est pas arrivé (conflit), on propose de le récupérer
+  var stash = null;
+  try { stash = sessionStorage.getItem(STASH); } catch (e) {}
+  if (stash !== null) {
+    if (stash === clean(doc)) { try { sessionStorage.removeItem(STASH); } catch (e) {} stash = null; }
+  }
+
+  if (window.claude && claude.use) {
+    claude.use('artifact').then(function (a) {
+      if (!a) return;
+      artifact = a;
+      bar.hidden = false;
+      if (stash !== null) { bRestore.hidden = false; say('Ta dernière modification n\'a pas été enregistrée.'); }
+    }).catch(function () {});
+  }
+
+  function setEditing(on) {
+    editing = on;
+    doc.contentEditable = on ? 'true' : 'false';
+    if (!on) doc.removeAttribute('contenteditable');
+    document.body.classList.toggle('editing', on);
+    bEdit.hidden = on; bSave.hidden = !on; bCancel.hidden = !on;
+    if (on) { bRestore.hidden = true; }
+  }
+
+  bEdit.onclick = function () { original = doc.innerHTML; say(''); setEditing(true); doc.focus(); };
+  bCancel.onclick = function () { if (saving) return; doc.innerHTML = original; setEditing(false); say(''); };
+  bRestore.onclick = function () {
+    original = doc.innerHTML; doc.innerHTML = stash; setEditing(true);
+    try { sessionStorage.removeItem(STASH); } catch (e) {}
+    say('Modification récupérée : relis-la, puis enregistre.');
+  };
+  bSave.onclick = save;
+
+  document.addEventListener('keydown', function (e) {
+    if (!editing) return;
+    if ((e.ctrlKey || e.metaKey) && (e.key === 's' || e.key === 'S')) { e.preventDefault(); save(); }
+    else if (e.key === 'Escape') { bCancel.onclick(); }
+  });
+
+  // Coller en texte simple, pour ne pas importer la mise en forme de Word ou d'un site
+  doc.addEventListener('paste', function (e) {
+    if (!editing) return;
+    e.preventDefault();
+    var t = (e.clipboardData || window.clipboardData).getData('text/plain');
+    document.execCommand('insertText', false, t);
+  });
+
+  function clean(node) {
+    var c = node.cloneNode(true);
+    c.removeAttribute('contenteditable');
+    c.querySelectorAll('[contenteditable],[spellcheck]').forEach(function (el) { el.removeAttribute('contenteditable'); el.removeAttribute('spellcheck'); });
+    return c.innerHTML;
+  }
+
+  function build(content) {
+    return SKEL +
+      '<title>' + TITLE + '</title>\n' +
+      '<link rel="stylesheet" href="' + FONTS + '">\n' +
+      styleEl.outerHTML + '\n' +
+      '<main class="wrap" id="doc">' + content + '</main>\n' +
+      '<script id="editor-js">' + scriptText + '<\/script>\n' +
+      '</body></html>';
+  }
+
+  function save() {
+    if (!editing || saving || !artifact) return;
+    var content = clean(doc);
+    if (content === original) { setEditing(false); say('Rien n\'a changé.'); return; }
+    saving = true; bSave.disabled = bCancel.disabled = true; say('Enregistrement…');
+    try { sessionStorage.setItem(STASH, content); } catch (e) {}
+    artifact.publish(build(content)).then(function () {
+      say('Enregistré.');
+    }, function (err) {
+      saving = false; bSave.disabled = bCancel.disabled = false;
+      var code = err && err.code;
+      if (code === 'conflict') {
+        say('Une autre version a été enregistrée entre-temps : la page se recharge, ta modification sera récupérable.');
+      } else if (code === 'not_writer' || code === 'not_granted' || code === 'consent_required' || code === 'capability_disabled' || code === 'capability_removed' || code === 'not_declared') {
+        try { sessionStorage.removeItem(STASH); } catch (e) {}
+        doc.innerHTML = original; setEditing(false); bar.hidden = false; bEdit.hidden = true;
+        say('Cette page est en lecture seule pour toi.');
+      } else if (code === 'rate_limited') {
+        say('Trop d\'enregistrements d\'affilée : réessaie dans une minute.');
+      } else if (code === 'too_large') {
+        say('La page est devenue trop lourde pour être enregistrée.');
+      } else {
+        say('L\'enregistrement n\'a pas abouti : réessaie.');
+      }
+    });
+  }
+})();
+</script>
