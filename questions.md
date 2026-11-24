@@ -149,10 +149,16 @@
 
 ## À traiter à la prochaine visio avec Romain (noté le 24/11/2026)
 
-La structuration de l'entreprise :
-- le statut (la forme de la société) ;
-- l'immatriculation, et le pays d'immatriculation ;
-- la répartition des parts entre Roland et Romain ;
-- l'activité déclarée de la société ;
-- la banque de Timops ;
-- le reste : les apports, la rémunération des associés.
+Tous les sujets ouverts du dossier Timops, regroupés en quatre pôles
+(détail au chapitre 10 du dossier) :
+
+1. **La société** : statut, immatriculation et pays, répartition des parts,
+   apports et rémunération, activité, banque, marque (dépôt, timops.com,
+   logo).
+2. **Le juridique** : statut de Gaëlle et Flavien pour Timops, statut des
+   conjointes prestataires, relances et recouvrement amiable, frontière
+   avec la comptabilité, sponsoring, CNIL.
+3. **L'offre et les prix** : prix, formule « bras droit », offre globale
+   avec BTP Performance, appels d'offres, positionnement.
+4. **Les partenaires et le logiciel** : rendez-vous (Costructor en
+   premier), plan B du logiciel, assureur (Generali ?).
