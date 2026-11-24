@@ -334,3 +334,44 @@ Max fait penser à « maximum », donc de loin à BTP Performance.
 Bilan : les noms encore possibles sont Proue, Cheville, Piolet, Chaînage,
 Levier, Accalmie, Tiroir, Garvan et Amédée (pas risqués), puis Commode,
 Amarre, Tenac, Pilar, Clément, Maxime et Theam (risqués).
+
+## Méthode 1 : mots inventés, et « Tim + une syllabe » (24/11/2026)
+
+Roland : « on ne va pas rester bloqué sur Tim », mais garder Tim au début
+(on entend team) et ajouter une syllabe pleine de sens : ami, militaire,
+rappel de Citadelle, rappel de la performance.
+
+Mots inventés (recherche du 24/11, avant la consigne Tim + syllabe) : Tiamy
+(team + ami), Tiameo, Tiamea, Tiamio, Timaly, Aliamo, Alliko, Copio,
+Copalo, Timaxo, Perfy, Binomo. INPI : Tiamo, la racine, a 8 marques dont une
+en classe 35 (Medspa, beauté) : risque moyen ; **Tiamy : aucune marque**.
+
+Tim + syllabe : domaines vérifiés le 24/11. .com par le registre Verisign ;
+.fr par le DNS, car le registre AFNIC nous a bloqués (indication fiable à
+confirmer au moment de réserver).
+
+| Sens | Nom | .fr | .com |
+| --- | --- | --- | --- |
+| ami | Timami | libre | pris |
+| ami | **Timamy** | libre | libre |
+| ami | Timpote | libre | libre |
+| allié | **Timally** | libre | libre |
+| allié | Timallie | libre | libre |
+| militaire | **Timgarde** | libre | libre |
+| militaire | Timgard | libre | pris |
+| militaire | Timcorps, Timalpha, Timbravo, Timcap | libre | pris |
+| militaire | Timescorte, Timvigie | libre | libre |
+| Citadelle | **Timfort** (Tim fort, et le fort) | libre | pris |
+| Citadelle | Timforte, Timbastion, Timrempart, Timcastel, Timdonjon, Timbastide | libre | libre |
+| Citadelle | Timcita | libre | libre |
+| Citadelle | Timtour | libre | pris |
+| performance | **Timperf**, Timperfo, Timvic (victoire) | libre | libre |
+| performance | Timmax, Timtop, Timplus, Timboost | libre | pris |
+| performance | Timup, Timgo | pris | pris |
+| chantier | Timbat (le bâtiment, le combat) | libre | pris |
+| chantier | Timbatis, Timchef, Timboss | libre | libre ou pris |
+| pilote | Timpilote, Timcopilote | libre | libre |
+
+Réserve : tous commencent par TIM. Fondu dans un seul mot, le risque
+Telecom Italia baisse, sans disparaître. À faire trancher par un conseil en
+propriété industrielle pour le finaliste.
