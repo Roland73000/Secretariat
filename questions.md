@@ -140,3 +140,9 @@
   la semaine du 30/11/2026 pour un partenariat avec BTP Performance ;
   l'occasion de sonder aussi un partenariat pour Timops (décennale et RC pro
   en option, sans commission). À voir avec Romain.
+- **Plan B de l'idée révolutionnaire (Roland, 24/11)** : si aucun éditeur
+  (Costructor, Interfast ou un autre) n'accepte que l'IA de Timops écrive
+  chez lui, Timops pourra aller jusqu'à créer son propre CRM. À préciser :
+  un CRM seul, ou aussi les devis et factures (voir
+  `notes/creer-notre-logiciel.md`, et la décision du 21/11 « on ne fabrique
+  pas de logiciel de devis et factures ») ?
