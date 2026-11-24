@@ -16,7 +16,8 @@
   secrétariat, on nomme Citadelle ou on la rend invisible ?
 - Quelle place pour Romain Gache : parts, apport (le développement contre
   des parts ?), rémunération ?
-- Quel statut pour Gaëlle : associée, gérante, salariée ?
+- Gaëlle : tranché le 23/11, elle est une ressource (comme Flavien), pas
+  associée. Reste à fixer son contrat (prestataire, salariée ?).
 - Quel lien avec Com'2, l'agence de Lilian : partenaire, apporteur
   d'affaires dans les deux sens, sous-traitant ? Où passe la frontière entre
   la prospection des prescripteurs (secrétariat) et l'acquisition par les
@@ -119,3 +120,11 @@
   (`notes/veille/sponsoring-communaute.md`).
 - Économiste de la construction (indépendant, décidé le 22/11) : qui, à
   quel tarif, et combien de jours pour poser la première base ?
+
+## Nouvelle piste : les appels d'offres (24/11/2026)
+
+- Idée de Roland : le secrétariat pourrait aussi **s'occuper des appels
+  d'offres** de ses clients (veille, candidature, mémoire technique, dépôt),
+  en l'automatisant au maximum. Modèle étudié : RT Connecting, voir
+  `notes/veille/fiche-rt-connecting.md`. À trancher : inclus, en option ou
+  au succès ? Partenaire ou concurrent de RT Connecting ?
