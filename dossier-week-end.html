@@ -111,7 +111,7 @@ body.editing .edit-note{display:block}
 <!-- Couverture -->
 <div class="eyebrow">Timops · le travail du week-end · du 21 au 24/11/2026</div>
 <h1>Timops, où on en est</h1>
-<p class="lead">Le point sur le projet Timops après le week-end du 21 au 24/11 : ce que la société veut faire, ce que Roland a décidé et que Romain doit valider, ce qui reste à trancher, et ce qu'on attend de Romain, en particulier sur la partie technique. Le nom est validé par les deux associés : <b>Timops</b>.</p>
+<p class="lead">Le point sur le projet Timops après le week-end du 21 au 24/11 : ce que la société veut faire, ce que Roland a décidé et que Romain doit valider, et ce qui reste à trancher, à commencer par la structuration de l'entreprise. Le nom est validé par les deux associés : <b>Timops</b>.</p>
 
 <div class="stats">
 <div><b>40</b><span>décisions prises et datées</span></div>
@@ -130,7 +130,7 @@ body.editing .edit-note{display:block}
 <li><span class="n">07</span><span>Le marché et les prix</span></li>
 <li><span class="n">08</span><span>Nouvelle piste : les appels d'offres</span></li>
 <li><span class="n">09</span><span>Le nom : Timops</span></li>
-<li><span class="n">10</span><span>Ce qui reste ouvert, et ce qu'on attend de Romain</span></li>
+<li><span class="n">10</span><span>Ce qui reste ouvert</span></li>
 </ol>
 <p class="legend"><span><span class="chip ok">validé</span> Roland et Romain d'accord</span><span><span class="chip rol">OK Roland</span> en attente de l'avis de Romain</span><span><span class="chip na">piste</span> à étudier</span></p>
 <p class="foot">Tout le détail est dans le dépôt privé du projet sur GitHub : les décisions datées, les questions ouvertes, le cahier de l'inexistant, le tableau des fonctionnalités et une vingtaine de veilles. Accès sur demande. Document établi le 24/11/2026.</p>
@@ -279,7 +279,7 @@ body.editing .edit-note{display:block}
 <p class="small muted">Vérifié par la veille du 22/11 : la correction automatique des temps par les heures réelles n'existe nulle part, ni en France ni à l'étranger. Le plus proche : Obat. À surveiller : CostLib, la bibliothèque partagée de Costructor, et Alobees, qui a toutes les briques pour le faire.</p>
 
 <div class="grid2">
-<div class="card"><h3>La bibliothèque en deux couches</h3><p class="small">Le problème : chez les autres, un ouvrage modifié par l'artisan ne reçoit plus les mises à jour. La solution proposée : <b>on ne copie jamais, on superpose</b>. Une couche commune tenue à jour par Timops, une couche de l'entreprise qui ne garde que ses différences, champ par champ. Pour les temps, on stocke <b>un écart au temps moyen</b>, recalculé avec ses heures réelles. C'est le principe des surcharges : à Romain de dire comment l'organiser.</p></div>
+<div class="card"><h3>La bibliothèque en deux couches</h3><p class="small">Le problème : chez les autres, un ouvrage modifié par l'artisan ne reçoit plus les mises à jour. La solution proposée : <b>on ne copie jamais, on superpose</b>. Une couche commune tenue à jour par Timops, une couche de l'entreprise qui ne garde que ses différences, champ par champ. Pour les temps, on stocke <b>un écart au temps moyen</b>, recalculé avec ses heures réelles. C'est le principe des surcharges : reste à voir comment l'organiser techniquement.</p></div>
 <div class="card"><h3>La page de suivi du chantier</h3><p class="small">Chaque chantier a sa page privée, ouverte d'un simple lien, sans appli ni compte : planning, photos, documents, paiement, messages avec le bras droit. Notifications par le canal le moins cher (e-mail, navigateur, SMS pour l'urgent). Ensuite, <b>l'appli « carnet de la maison »</b> : le client garde factures, garanties et rappels d'entretien, et l'artisan y gagne un outil de fidélisation.</p></div>
 </div>
 
@@ -391,18 +391,18 @@ body.editing .edit-note{display:block}
 </ol>
 
 <!-- 10 -->
-<h2><span class="n">10</span>Ce qui reste ouvert, et ce qu'on attend de Romain</h2>
-<div class="ask">
-<h3 style="margin-top:0">Ce qu'on attend de Romain</h3>
-<ol>
-<li><b>Réserver timops.fr</b>, et faire des propositions de logo, épuré.</li>
-<li><b>Son regard sur l'ensemble</b> : ce qui lui plaît, ce qui le gêne, ce qui lui paraît irréaliste.</li>
-<li><b>La bibliothèque en deux couches</b> : comment l'organiser techniquement, et ce qui lui paraît faisable en premier.</li>
-<li><b>L'API Costructor</b> : tester avec un compte pilote ce qu'on peut y écrire (devis en brouillon, lignes d'ouvrage, articles), avant le rendez-vous avec eux.</li>
-<li><b>La liste des données échangées avec Citadelle</b>, à écrire ensemble pour le contrat de licence.</li>
-<li><b>La page de suivi du chantier</b> : la technique (page installable, notifications) et le coût réel des SMS et de WhatsApp.</li>
-<li><b>Sa place dans la société</b> : parts, apport (le développement contre des parts ?), rémunération. À voir de vive voix.</li>
-</ol>
+<h2><span class="n">10</span>Ce qui reste ouvert</h2>
+<div class="card hot">
+<span class="eyebrow" style="color:var(--accent)">À traiter à la prochaine visio</span>
+<h3 style="margin-top:2px">La structuration de l'entreprise</h3>
+<ul style="margin:6px 0 0;padding-left:18px">
+<li><b>Le statut</b> : la forme de la société.</li>
+<li><b>L'immatriculation</b>, et le pays d'immatriculation.</li>
+<li><b>La répartition des parts</b> entre Roland et Romain.</li>
+<li><b>L'activité</b> déclarée de la société.</li>
+<li><b>La banque</b> de Timops.</li>
+<li><b>Le reste</b> : les apports, la rémunération des associés.</li>
+</ul>
 </div>
 
 <h3>Les autres sujets ouverts</h3>

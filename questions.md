@@ -146,3 +146,13 @@
   un CRM seul, ou aussi les devis et factures (voir
   `notes/creer-notre-logiciel.md`, et la décision du 21/11 « on ne fabrique
   pas de logiciel de devis et factures ») ?
+
+## À traiter à la prochaine visio avec Romain (noté le 24/11/2026)
+
+La structuration de l'entreprise :
+- le statut (la forme de la société) ;
+- l'immatriculation, et le pays d'immatriculation ;
+- la répartition des parts entre Roland et Romain ;
+- l'activité déclarée de la société ;
+- la banque de Timops ;
+- le reste : les apports, la rémunération des associés.
