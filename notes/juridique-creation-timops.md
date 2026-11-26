@@ -138,20 +138,30 @@ dividendes s'il les touche en direct.
 - Roland a **50 ans**.
 - Il détient **100 % d'Option & Solution**, une SARL dont il est l'associé
   unique (une EURL) et le gérant.
+- Option & Solution est **à l'impôt sur les sociétés**.
 - Il s'y verse une **rémunération de gérant** et ne prend **pas de
-  dividendes** : le reste s'accumule en **trésorerie**.
+  dividendes** : le reste reste dans la société.
+- La **trésorerie est aujourd'hui faible** : Option & Solution vient
+  d'acheter l'**usufruit des bureaux**. La **nue-propriété** est détenue par
+  une **SCI familiale** (Roland, sa femme, ses enfants, et Option & Solution
+  pour une part en pleine propriété).
 - Il a **20 %** de la société de Lilian.
-- Il a l'intention de **vendre ou de transmettre** un jour ses sociétés.
+- Il a l'intention de **vendre ou de transmettre un jour toutes les
+  sociétés qu'il détient** : Option & Solution, la part chez Lilian et
+  Timops.
 - Pour Timops, il ne sait pas encore s'il voudra réinvestir l'argent ou en
   vivre, et il n'a pas besoin d'un salaire de Timops pour vivre.
 
 ### Ma recommandation : oui, une holding
 
-Avec ces faits, la holding n'est plus une option de confort : elle répond
-à trois besoins réels.
+La holding répond à trois besoins. Depuis que l'on sait que la trésorerie
+est faible (26/11), le premier pèse moins aujourd'hui : **la holding se
+justifie surtout par la vente et la transmission de toutes les sociétés**.
+Elle reste recommandée, mais elle n'est plus urgente.
 
-**1. Faire travailler la trésorerie d'Option & Solution.** Aujourd'hui, cet
-argent est bloqué : s'il le sort en dividendes à son nom, Roland paie
+**1. Faire travailler les bénéfices futurs d'Option & Solution.** La
+trésorerie est partie dans l'usufruit des bureaux, mais les bénéfices
+suivants s'accumuleront à nouveau. Sortis en dividendes à son nom, Roland paie
 31,4 % d'impôt, et en plus des cotisations sociales de gérant majoritaire
 sur la part qui dépasse 10 % du capital (environ 45 % sur cette part).
 Avec une holding, Option & Solution verse ses dividendes à la holding :
@@ -201,16 +211,44 @@ organiser une transmission qui se fera dans dix ou vingt ans :
 4. **La holding devient présidente de Timops** (et peut le devenir
    d'autres sociétés), ce qui renforce son caractère « animateur ».
 
-**Point à vérifier :** Option & Solution est-elle bien soumise à l'impôt
-sur les sociétés ? Une EURL détenue par une personne est, par défaut, à
-l'impôt sur le revenu, sauf option. Le régime mère-fille suppose une
-filiale à l'IS. Une EURL détenue par une société passe à l'IS, mais il
-faut le savoir avant de monter l'apport.
+**Option & Solution est à l'IS** (confirmé par Roland) : le régime
+mère-fille s'applique, le montage tient.
+
+**Le calendrier.** Puisque la trésorerie est faible, rien n'oblige à
+créer la holding avant Timops. Deux délais comptent en revanche :
+- **au moins trois ans avant une vente** : si la holding revend dans les
+  trois ans des titres qu'on lui a apportés, elle doit réinvestir une
+  large part du prix, sinon l'impôt reporté tombe ;
+- **plusieurs années avant une transmission** : le pacte Dutreil demande
+  des engagements de conservation, et le caractère « animateur » de la
+  holding se prouve sur la durée.
+
+Le bon ordre : Timops se crée sans attendre. La holding la détient dès le
+départ si elle est prête, sinon Roland souscrit à son nom et apporte ses
+parts plus tard, quand Timops vaut encore à peu près son capital.
+
+**Une option écartée : faire détenir Timops par Option & Solution.**
+Option & Solution est déjà à l'IS et pourrait jouer ce rôle. Mais une
+société d'exploitation qui détient une autre activité se vend mal :
+l'acheteur d'Option & Solution ne veut pas forcément de Timops, et
+inversement. La holding garde chaque société vendable seule.
+
+**L'immobilier d'Option & Solution.** L'apport des titres d'Option &
+Solution à la holding ne change pas le démembrement : Option & Solution
+garde l'usufruit des bureaux, la SCI garde la nue-propriété. Trois points
+à faire vérifier par le conseil qui a monté l'opération et par Dougs :
+- l'**évaluation** d'Option & Solution pour l'apport doit compter
+  l'usufruit, qui perd de la valeur chaque année jusqu'à son terme ;
+- la **convention de démembrement** ne doit pas prévoir de conséquence en
+  cas de changement d'associé d'Option & Solution ;
+- pour le **pacte Dutreil**, les bureaux servent à l'activité, donc ils
+  comptent comme un actif professionnel. Ce serait différent s'ils étaient
+  loués à d'autres.
 
 **Le coût :** la création (quelques centaines d'euros), l'évaluation et le
 commissaire aux apports (souvent de l'ordre de 1 500 à 3 000 €), puis la
 comptabilité de la holding chaque année (de l'ordre de 1 000 à 2 000 €).
-Face à la trésorerie accumulée et à une vente future, c'est faible.
+Face à la vente ou à la transmission de trois sociétés, c'est faible.
 
 ### La rémunération de Roland : à garder chez Option & Solution
 
@@ -338,11 +376,17 @@ société ; 20 % chez Lilian ; vente ou transmission envisagée ; 50 ans ; pas
 besoin d'un salaire chez Timops ; grandes décisions aux deux tiers, pour
 ne jamais être bloqué.
 
+**Réponses de Roland (26/11, suite)** : Option & Solution est à l'IS ; sa
+trésorerie est faible, elle vient d'acheter l'usufruit des bureaux (SCI
+familiale en nue-propriété) ; la vente ou la transmission visera un jour
+toutes ses sociétés.
+
 **Reste pour Roland**
-1. Option & Solution est-elle à l'impôt sur les sociétés ?
-2. Quel montant de trésorerie environ dans Option & Solution ?
-3. La vente ou la transmission concerne-t-elle Option & Solution seule, ou
-   aussi la part chez Lilian et Timops ?
+1. Quand créer la holding : avant l'immatriculation de Timops, ou plus
+   tard ? À trancher après le chiffrage de Dougs.
+2. Qui a monté le démembrement des bureaux (notaire, avocat) ? Il faudra
+   lui faire valider l'apport.
+3. L'usufruit des bureaux est-il temporaire, et pour combien d'années ?
 
 **Pour Romain**
 4. A-t-il un certificat de résidence fiscale bulgare, et a-t-il vérifié la
@@ -375,7 +419,9 @@ ne jamais être bloqué.
   la convention France-Bulgarie (25 % ou plus, ou plus de 25 %) ;
 - le pacte d'associés : inclus ou non ;
 - la holding de Roland : création, apport des titres, commissaire aux
-  apports.
+  apports, évaluation d'Option & Solution avec l'usufruit des bureaux ;
+- les dividendes d'Option & Solution versés à la holding : pas de
+  cotisations sociales de gérant.
 
 ---
 
