@@ -152,13 +152,22 @@
 Tous les sujets ouverts du dossier Timops, regroupés en quatre pôles
 (détail au chapitre 10 du dossier) :
 
-1. **La société** : statut, immatriculation et pays, répartition des parts,
-   apports et rémunération, activité, banque, expert-comptable, marque (dépôt, timops.com,
-   logo).
+1. **La société** : statut, répartition des parts, apports et
+   rémunération, activité, marque (devis de l'avocate, timops.com, logo).
+   Réglés le 26/11 (voir decisions.md) : immatriculation en France, Dougs
+   pour l'expert-comptable et les statuts, Revolut Business, timops.fr
+   acheté, dépôt de la marque avant de commercialiser.
 2. **Le juridique** : statut de Gaëlle et Flavien pour Timops, statut des
    conjointes prestataires, relances et recouvrement amiable, frontière
    avec la comptabilité, sponsoring, CNIL.
 3. **L'offre et les prix** : prix, formule « bras droit », offre globale
    avec BTP Performance, appels d'offres, positionnement.
 4. **Les partenaires et le logiciel** : rendez-vous (Costructor en
-   premier), plan B du logiciel, assureur (Generali ?).
+   premier), assureur (Generali ?). Le plan B du logiciel est tranché le
+   26/11 : Timops développe son propre CRM.
+
+## Ouvert après la visio du 26/11/2026
+
+- **Le pacte d'associés** : Dougs sait-il le rédiger ?
+- **Le premier exercice** : du 1er janvier au 31 décembre, ou décalé (13 à
+  15 mois) ? À réfléchir.

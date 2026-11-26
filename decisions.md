@@ -237,3 +237,34 @@ Une ligne par décision : la date, ce qui est décidé, pourquoi.
   concurrents. OK Roland, en attente de l'avis de Romain.
 - **24/11/2026** : **le logo sera épuré ; Romain fait des propositions.**
   Validé par Roland et Romain, d'un commun accord.
+- **26/11/2026** (visio Roland et Romain) : **Timops développe son propre
+  CRM, un écosystème complet et indépendant.** Dans l'offre tout-en-un
+  pilotée par Timops, c'est le CRM de Timops qui gère tout : la signature
+  des devis, le versement de l'acompte, le paiement en ligne, la facture,
+  la mise en forme du devis, la connexion à la banque et la connexion à
+  l'expert-comptable. Si l'artisan tient à son logiciel (Costructor,
+  Citadelle ou un autre), Timops s'y relie par API. Remplace la décision
+  du 21/11 (« on ne fabrique pas de logiciel de devis et de factures ») et
+  sa nuance du 24/11 (le CRM en plan B), ainsi que le partage des doublons
+  du 24/11 (Costructor pour la signature, le paiement, la facture et la
+  mise en forme ; Dougs pour la banque et la comptabilité). Raison : être
+  maître de toute la technologie, ne dépendre de l'évolution d'aucun
+  éditeur, et rendre le même service à tous les clients, quel que soit leur
+  logiciel. Validé par Roland et Romain.
+- **26/11/2026** (visio) : **Timops est immatriculée en France.** Raison :
+  pour salarier Gaëlle et les personnes qui suivront, toutes en France,
+  sans risque juridique. Validé par Roland et Romain.
+- **26/11/2026** (visio) : **Dougs est l'expert-comptable de Timops**, en
+  testant son offre de création d'entreprise ; **les statuts se font aussi
+  avec Dougs**. Roland gère Dougs. Raison : un service digitalisé, autour
+  d'une centaine d'euros par mois au départ, à comparer ensuite avec un
+  cabinet classique. Validé par Roland et Romain.
+- **26/11/2026** (visio) : **la banque de Timops est Revolut Business.**
+  Romain la gère. Raison : Romain l'utilise déjà pour ses autres sociétés,
+  c'est rapide et entièrement en ligne. Validé par Roland et Romain.
+- **26/11/2026** (visio) : **timops.fr est acheté.**
+- **26/11/2026** (visio) : **la marque (nom et logo) est déposée au plus
+  tard avant de commercialiser l'offre.** Roland demande un devis à son
+  avocate. Raison : se protéger des copies et des litiges, après
+  l'expérience vécue avec BTP Performance. Décision commune de Roland et
+  Romain.
