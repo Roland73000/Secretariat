@@ -171,3 +171,5 @@ Tous les sujets ouverts du dossier Timops, regroupés en quatre pôles
 - **Le pacte d'associés** : Dougs sait-il le rédiger ?
 - **Le premier exercice** : du 1er janvier au 31 décembre, ou décalé (13 à
   15 mois) ? À réfléchir.
+- **La création de Timops** (parts, holdings, SAS ou SARL) : analyse et
+  11 questions dans `notes/juridique-creation-timops.md` (26/11/2026).
