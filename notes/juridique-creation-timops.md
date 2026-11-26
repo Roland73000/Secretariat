@@ -76,33 +76,49 @@ feraient passer au-dessus.
 - **Puis Romain** : quand sa holding lui verse des dividendes, la Bulgarie
   retient 5 %. La suite dépend de **son pays de résidence fiscale**.
 
-### La vraie question pour Romain : où est-il résident fiscal ?
+### Romain est résident fiscal bulgare (précisé par Roland le 26/11)
 
-C'est le point qui décide de tout, bien plus que les 25 %.
+C'est la bonne configuration : le schéma est cohérent. Romain vit sous le
+régime bulgare et sa holding est bulgare. Conséquences :
 
-- **S'il n'est pas résident fiscal français** (résidence en Bulgarie ou
-  ailleurs) : le schéma tient, à condition que la holding soit vraiment
-  dirigée depuis la Bulgarie.
-- **S'il est résident fiscal français** (foyer, séjour principal ou
-  activité principale en France) : deux risques sérieux.
-  1. **Le siège de direction effective** : si la holding est en réalité
-     dirigée depuis la France, elle peut être considérée comme française et
-     imposée en France.
-  2. **L'article 123 bis du CGI** : un résident français qui détient au
-     moins 10 % d'une société étrangère à fiscalité privilégiée est imposé
-     sur les bénéfices de cette société. L'IS bulgare (10 %) est inférieur à
-     la moitié de l'IS français (25 %) : la Bulgarie est donc « privilégiée »
-     au sens de la loi. La clause de sauvegarde européenne protège la
-     holding si elle a une implantation réelle (locaux, moyens, activité) et
-     n'est pas un montage artificiel.
+- **L'article 123 bis du CGI ne s'applique pas** : il ne vise que les
+  personnes domiciliées en France. La Bulgarie a beau être un pays à
+  fiscalité « privilégiée » au sens français (IS à 10 %), ce n'est pas un
+  problème pour un résident bulgare.
+- **La holding est dirigée par un résident bulgare** : son siège de
+  direction effective est en Bulgarie, ce qui renforce son caractère
+  « authentique » face à la clause anti-abus de l'article 119 ter.
+- **Le circuit d'un dividende** :
 
-Avec Bali six mois et la France en fin d'année, la résidence de Romain
-mérite d'être posée noir sur blanc avec son conseil.
+| Étape | Impôt |
+| --- | --- |
+| Timops fait un bénéfice | IS français : 15 % jusqu'à 42 500 €, 25 % au-delà |
+| Timops verse un dividende à la holding de Romain | 0 % de retenue française (au moins 10 %, deux ans) |
+| La holding le reçoit | 0 % en Bulgarie (dividende d'une société de l'Union européenne) |
+| La holding le verse à Romain | 5 % d'impôt bulgare, libératoire |
+
+Pour comparer : Roland, résident français, paiera 31,4 % sur ses
+dividendes s'il les touche en direct.
+
+**Trois précautions, pour que ça tienne en cas de contrôle :**
+
+1. **Les papiers d'identité ne font pas la résidence fiscale.** Ce qui
+   compte : où Romain a son foyer, où il passe le plus de temps, où il a
+   son activité et ses intérêts économiques. Il lui faut un **certificat de
+   résidence fiscale bulgare** chaque année : c'est la pièce que Timops
+   et la banque demanderont pour verser les dividendes sans retenue.
+2. **Bali** : de mi-février à juillet, c'est près de six mois. Au-delà de
+   183 jours sur douze mois, l'Indonésie peut considérer Romain comme son
+   résident fiscal. À surveiller avec son conseil bulgare.
+3. **Les séjours en France** (fin d'année, janvier) : pas de problème tant
+   qu'ils restent des séjours. Mais les décisions de la holding bulgare
+   doivent être prises et signées hors de France, et Romain ne doit pas
+   avoir son foyer en France.
 
 ### Ce qu'il en ressort pour les parts
 
-- Entre 24 % et 30 %, **la seule différence fiscale pour Romain est la
-  taxation d'une éventuelle revente**. Les dividendes, eux, sont traités de
+- Romain étant résident bulgare, entre 24 % et 30 %, **la seule différence
+  fiscale pour lui est la taxation d'une éventuelle revente**. Les dividendes, eux, sont traités de
   la même façon à 24 % ou à 30 %.
 - Si Romain veut 30 % de la valeur sans passer 25 % des droits : ce n'est
   pas possible avec de simples parts. La solution simple est **24 %**, ou
@@ -279,8 +295,9 @@ marque peut le rédiger.
    tiers) ou que Romain ait un droit de blocage (trois quarts) ?
 
 **Pour Romain**
-6. Où es-tu **résident fiscal** aujourd'hui, et où le seras-tu en 2027 avec
-   Bali ?
+6. Tu es résident fiscal bulgare (réglé) : as-tu un **certificat de
+   résidence fiscale** bulgare, et as-tu vérifié la règle des 183 jours en
+   Indonésie pour Bali ?
 7. Ta holding bulgare a-t-elle une **substance** : une adresse, des
    comptes, des décisions prises en Bulgarie, d'autres participations ?
 8. D'où vient ton chiffre de 25 % ? Si c'est la revente, c'est confirmé
