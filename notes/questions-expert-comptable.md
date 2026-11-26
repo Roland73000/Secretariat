@@ -59,6 +59,127 @@ Les trois chemins possibles :
 
 ---
 
+## Les trois chemins en détail
+
+Ordres de grandeur, à faire chiffrer. Le coût de création de Timops
+elle-même est le même dans les trois cas : il n'est pas compté ici.
+
+### Chemin A : la holding naît par apport, puis crée Timops
+
+```
+Semaines   0 ──────── 4 ──────── 8 ──────── 10 ─────── 12
+           │ évaluation, commissaire     │ holding     │ TIMOPS
+           │ aux apports, agrément Lilian│ immatriculée│ immatriculée
+           └─────────────────────────────┴─────────────┘
+Roland ── apporte O&S + Lilian (+ un peu d'argent) ──► Holding ── 70 % ──► Timops
+```
+
+| Poste | Coût |
+| --- | --- |
+| Évaluation d'Option & Solution et de Lilian | 1 000 à 3 000 € |
+| Commissaire aux apports | 1 500 à 4 000 € |
+| Statuts de la holding et traité d'apport | 1 000 à 3 000 € |
+| Greffe et annonce de la holding | environ 250 € |
+| Formalités chez Option & Solution et agrément chez Lilian | 200 à 500 € |
+| Droits d'enregistrement (apport à la création) | 0 € |
+| **Total** | **environ 4 000 à 10 000 €** |
+
+**Ce que Roland perd :** 2 à 3 mois avant que Timops existe (compte
+bancaire, contrats, embauche de Gaëlle). Rien sur le plan fiscal.
+**Point pratique :** une holding qui ne reçoit que des titres n'a pas
+d'argent pour souscrire Timops. Il faut ajouter un apport en argent à la
+création, ou que Roland lui prête.
+
+### Chemin B : la holding naît avec de l'argent, les titres arrivent après
+
+```
+Semaines   0 ── 1 ── 2 ── 3 ── 4            quelques mois plus tard
+           │ holding  │ TIMOPS  │           │ augmentation de capital :
+           │ (argent) │         │           │ apport d'O&S + Lilian
+Roland ── argent ──► Holding ── 70 % ──► Timops
+Roland ── apporte O&S + Lilian ──────────► Holding (plus tard)
+```
+
+| Poste | Coût |
+| --- | --- |
+| Création de la holding avec de l'argent (statuts, greffe, annonce) | 500 à 1 000 € |
+| Plus tard : évaluation, commissaire aux apports, traité d'apport | 3 500 à 10 000 € |
+| Droit fixe sur l'augmentation de capital | 375 à 500 € |
+| Greffe et annonce de la modification | environ 250 € |
+| **Total** | **environ 4 600 à 11 000 €**, soit environ 600 à 1 000 € de plus que A |
+
+**Ce que Roland perd :** 1 à 2 semaines de délai et quelques centaines
+d'euros. La holding est associée et présidente de Timops dès le premier
+jour : aucune plus-value gelée, aucun apport de Timops à faire.
+
+### Chemin C : Timops tout de suite à son nom, apport ensuite
+
+```
+Semaines   0 ── 1 ── 2               quelques mois plus tard
+           │ TIMOPS  │               │ holding créée par apport de :
+           │ (Roland │               │ O&S + Lilian + les 70 % de Timops
+           │  70 %)  │               │
+Roland ── 70 % ──► Timops
+Roland ── apporte O&S + Lilian + Timops ──► Holding (plus tard)
+```
+
+| Poste | Coût |
+| --- | --- |
+| Holding créée par apport (comme A) | environ 4 000 à 10 000 € |
+| Évaluation des actions de Timops en plus | faible tant qu'elle vaut son capital |
+| Formalités chez Timops (nouvel associé, nouveau président) | 0 à 300 € |
+| **Total** | **environ 4 000 à 10 300 €** |
+
+**Ce que Roland perd :** aucun délai. Le risque est d'attendre : la
+plus-value prise par Timops avant l'apport reste imposée à 31,4 % au lieu
+d'environ 3 %, et un dividende touché avant l'apport paie 31,4 % au lieu
+d'environ 1,25 %. Il faut une date limite (avant le premier dividende,
+avant tout investisseur, idéalement dans les 12 mois).
+
+### En une ligne
+
+| | A | B | C |
+| --- | --- | --- | --- |
+| Retard pour Timops | 2 à 3 mois | 1 à 2 semaines | aucun |
+| Coût total | 4 000 à 10 000 € | 4 600 à 11 000 € | 4 000 à 10 300 € |
+| Risque | le retard | presque aucun | oublier de faire l'apport à temps |
+
+---
+
+## Les questions propres à chaque chemin
+
+Les questions communes (statut de gérant majoritaire chez Option &
+Solution, valeur des titres, démembrement, règle des trois ans, pacte
+Dutreil) sont plus bas.
+
+**Pour le chemin A**
+- A1. Délai réaliste entre le début et l'immatriculation de Timops ?
+- A2. Les comptes d'Option & Solution à quelle date pour l'évaluation ?
+- A3. Peut-on ajouter un apport en argent à la création de la holding pour
+  financer le capital de Timops ?
+- A4. Combien de temps faut-il pour l'agrément de la société de Lilian ?
+- A5. En attendant, peut-on signer des contrats « au nom de Timops en
+  formation » ?
+
+**Pour le chemin B**
+- B1. Quel capital en argent pour créer la holding ?
+- B2. L'apport à une holding déjà créée (augmentation de capital) a-t-il
+  le même report d'imposition qu'à la création ?
+- B3. Le commissaire aux apports est-il obligatoire aussi pour
+  l'augmentation de capital ? Le droit fixe est-il de 375 ou de 500 € ?
+- B4. Combien de temps entre la création de la holding et l'apport, au
+  plus ?
+
+**Pour le chemin C**
+- C1. Faut-il écrire dans les statuts de Timops que chaque associé peut
+  transférer ses actions à une société qu'il contrôle, sans agrément ?
+- C2. Comment évaluer les actions de Timops au moment de l'apport, et
+  faut-il un commissaire aux apports pour elles ?
+- C3. Passer la présidence de Roland à la holding : quelles formalités ?
+- C4. Jusqu'à quand l'apport reste-t-il quasi gratuit ?
+
+---
+
 ## Les questions
 
 ### Option & Solution
