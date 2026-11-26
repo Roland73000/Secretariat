@@ -142,7 +142,9 @@ avant tout investisseur, idéalement dans les 12 mois).
 | | A | B | C |
 | --- | --- | --- | --- |
 | Retard pour Timops | 2 à 3 mois | 1 à 2 semaines | aucun |
-| Coût total | 3 950 à 10 750 € | 4 800 à 12 250 € | 4 150 à 11 550 € |
+| Coût tout de suite (création de Timops comprise) | 4 150 à 12 250 € | 700 à 2 500 € | 200 à 1 500 € |
+| Coût plus tard | 0 € | 4 325 à 11 250 € | 4 150 à 11 550 € |
+| Coût total | 4 150 à 12 250 € | 5 025 à 13 750 € | 4 350 à 13 050 € |
 | Risque | le retard | presque aucun | oublier de faire l'apport à temps |
 
 ---

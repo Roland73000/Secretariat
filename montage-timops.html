@@ -79,6 +79,19 @@ li{padding-left:.2rem}
   .facts,.cols,.qgrid{grid-template-columns:minmax(0,1fr)}
   h1{font-size:1.6rem}
 }
+.money{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.6rem}
+.m{border-radius:10px;padding:.6rem .8rem;background:var(--step);display:flex;flex-direction:column;gap:.15rem}
+.m span{font-size:.78rem;color:var(--muted)}
+.m b{font-family:var(--display);font-weight:600;font-size:1.05rem;font-variant-numeric:tabular-nums}
+.m.now{background:var(--ok-soft)}.m.now b{color:var(--ok)}
+.m.later{background:var(--warn-soft)}.m.later b{color:var(--warn)}
+.m.tot{background:var(--accent-soft)}.m.tot b{color:var(--accent)}
+.ct{font-size:.8rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;padding:.3rem .6rem;border-radius:6px;display:inline-block;margin-bottom:.4rem}
+.ct.now{background:var(--ok-soft);color:var(--ok)}.ct.later{background:var(--warn-soft);color:var(--warn)}
+.risk{background:var(--step);border-radius:10px;padding:.7rem 1rem;font-size:.9rem}
+.cmp tr.rnow td{color:var(--ok);font-weight:600}.cmp tr.rlater td{color:var(--warn);font-weight:600}.cmp tr.rtot td{color:var(--accent);font-weight:700;border-bottom:2px solid var(--line)}
+.cmp tr td:first-child{color:var(--fg)}
+@media (max-width:720px){.money{grid-template-columns:repeat(2,minmax(0,1fr))}}
 </style>
 
 <div class="wrap">
@@ -119,6 +132,7 @@ li{padding-left:.2rem}
 <section>
   <h2>Les trois options</h2>
   <div class="legend"><i></i>l'étape où Timops existe et peut démarrer (compte bancaire, contrats, embauche de Gaëlle)</div>
+  <p class="foot">Pour chaque option : ce que tu paies <b>tout de suite</b>, pour que Timops démarre, puis ce que tu paies <b>plus tard</b> pour finir le montage, et le <b>total</b>. La création de Timops elle-même est comptée dans le coût immédiat.</p>
 
   <article class="card">
     <div class="head"><div class="letter">A</div><h3>La holding d'abord, créée avec tes titres, puis Timops</h3></div>
@@ -129,14 +143,15 @@ li{padding-left:.2rem}
       <div class="arr" aria-hidden="true">→</div>
       <div class="st tm"><b>La holding crée Timops avec la holding de Romain</b><span>semaines 10 à 12</span></div>
     </div>
-    <div class="facts">
-      <div class="fact"><span>Timops existe dans</span><b>environ 3 mois</b></div>
-      <div class="fact"><span>Coût</span><b>3 950 à 10 750 €</b></div>
-      <div class="fact risk"><span>Ce que tu perds</span><b>3 mois de démarrage</b></div>
+    <div class="money">
+      <div class="m"><span>Timops existe dans</span><b>environ 3 mois</b></div>
+      <div class="m now"><span>Tout de suite</span><b>4 150 à 12 250 €</b></div>
+      <div class="m later"><span>Plus tard</span><b>0 €</b></div>
+      <div class="m tot"><span>Total</span><b>4 150 à 12 250 €</b></div>
     </div>
     <div class="cols">
       <div>
-        <div class="eyebrow" style="margin-bottom:.4rem">Le coût poste par poste</div>
+        <div class="ct now">Tout de suite, avant que Timops existe</div>
         <table>
           <tr><td>Évaluation d'Option &amp; Solution (avec l'usufruit) et de Lilian</td><td>1 000 à 3 000 €</td></tr>
           <tr><td>Commissaire aux apports</td><td>1 500 à 4 000 €</td></tr>
@@ -144,19 +159,28 @@ li{padding-left:.2rem}
           <tr><td>Greffe et annonce légale de la holding</td><td>250 €</td></tr>
           <tr><td>Formalités chez Option &amp; Solution, agrément chez Lilian</td><td>200 à 500 €</td></tr>
           <tr><td>Droits d'enregistrement sur l'apport</td><td>0 €</td></tr>
-          <tr class="tot"><td>Total</td><td>3 950 à 10 750 €</td></tr>
+          <tr><td>Création de Timops</td><td>200 à 1 500 €</td></tr>
+          <tr class="tot"><td>Sous-total immédiat</td><td>4 150 à 12 250 €</td></tr>
         </table>
       </div>
       <div>
-        <div class="eyebrow" style="margin-bottom:.4rem">Les questions pour l'option A</div>
-        <ol>
-          <li>Quel délai réaliste jusqu'à l'immatriculation de Timops ?</li>
-          <li>Les comptes d'Option &amp; Solution à quelle date serviront à l'évaluation ?</li>
-          <li>Peut-on mettre aussi de l'argent dans la holding à sa création, pour qu'elle paie sa part du capital de Timops ?</li>
-          <li>Combien de temps prend l'agrément de la société de Lilian ?</li>
-          <li>En attendant, peut-on signer des contrats au nom de « Timops en formation » ?</li>
-        </ol>
+        <div class="ct later">Plus tard</div>
+        <table>
+          <tr><td>Rien : tout est fait au départ</td><td>0 €</td></tr>
+          <tr class="tot"><td>Sous-total à terme</td><td>0 €</td></tr>
+        </table>
       </div>
+    </div>
+    <div class="risk"><b>Ce que tu perds :</b> 3 mois avant que Timops démarre.</div>
+    <div>
+      <div class="eyebrow" style="margin-bottom:.4rem">Les questions pour l'option A</div>
+      <ol>
+        <li>Quel délai réaliste jusqu'à l'immatriculation de Timops ?</li>
+        <li>Les comptes d'Option &amp; Solution à quelle date serviront à l'évaluation ?</li>
+        <li>Peut-on mettre aussi de l'argent dans la holding à sa création, pour qu'elle paie sa part du capital de Timops ?</li>
+        <li>Combien de temps prend l'agrément de la société de Lilian ?</li>
+        <li>En attendant, peut-on signer des contrats au nom de « Timops en formation » ?</li>
+      </ol>
     </div>
   </article>
 
@@ -169,34 +193,43 @@ li{padding-left:.2rem}
       <div class="arr" aria-hidden="true">→</div>
       <div class="st"><b>Apporter Option &amp; Solution et Lilian à la holding</b><span>dans les mois qui suivent</span></div>
     </div>
-    <div class="facts">
-      <div class="fact"><span>Timops existe dans</span><b>environ 3 semaines</b></div>
-      <div class="fact"><span>Coût</span><b>4 825 à 12 250 €</b></div>
-      <div class="fact risk"><span>Ce que tu perds</span><b>900 à 1 500 € de plus que A</b></div>
+    <div class="money">
+      <div class="m"><span>Timops existe dans</span><b>environ 3 semaines</b></div>
+      <div class="m now"><span>Tout de suite</span><b>700 à 2 500 €</b></div>
+      <div class="m later"><span>Plus tard</span><b>4 325 à 11 250 €</b></div>
+      <div class="m tot"><span>Total</span><b>5 025 à 13 750 €</b></div>
     </div>
     <div class="cols">
       <div>
-        <div class="eyebrow" style="margin-bottom:.4rem">Le coût poste par poste</div>
+        <div class="ct now">Tout de suite, pour que Timops démarre</div>
         <table>
           <tr><td>Création de la holding avec de l'argent (statuts, greffe, annonce)</td><td>500 à 1 000 €</td></tr>
-          <tr><td>Plus tard : évaluation d'Option &amp; Solution et de Lilian</td><td>1 000 à 3 000 €</td></tr>
+          <tr><td>Création de Timops</td><td>200 à 1 500 €</td></tr>
+          <tr class="tot"><td>Sous-total immédiat</td><td>700 à 2 500 €</td></tr>
+        </table>
+      </div>
+      <div>
+        <div class="ct later">Plus tard, à l'apport d'Option &amp; Solution et de Lilian</div>
+        <table>
+          <tr><td>Évaluation d'Option &amp; Solution (avec l'usufruit) et de Lilian</td><td>1 000 à 3 000 €</td></tr>
           <tr><td>Commissaire aux apports</td><td>1 500 à 4 000 €</td></tr>
           <tr><td>Traité d'apport et augmentation de capital</td><td>1 000 à 3 000 €</td></tr>
           <tr><td>Droit fixe sur l'augmentation de capital</td><td>375 à 500 €</td></tr>
           <tr><td>Greffe et annonce de l'augmentation</td><td>250 €</td></tr>
           <tr><td>Formalités chez Option &amp; Solution, agrément chez Lilian</td><td>200 à 500 €</td></tr>
-          <tr class="tot"><td>Total</td><td>4 825 à 12 250 €</td></tr>
+          <tr class="tot"><td>Sous-total à terme</td><td>4 325 à 11 250 €</td></tr>
         </table>
       </div>
-      <div>
-        <div class="eyebrow" style="margin-bottom:.4rem">Les questions pour l'option B</div>
-        <ol>
-          <li>Quel capital en argent pour créer la holding ?</li>
-          <li>L'apport à une holding déjà créée profite-t-il du même report d'imposition qu'un apport à la création ?</li>
-          <li>Le commissaire aux apports est-il obligatoire aussi dans ce cas ? Le droit fixe est-il de 375 ou de 500 € ?</li>
-          <li>Combien de temps peut-on attendre, au plus, entre la création de la holding et l'apport ?</li>
-        </ol>
-      </div>
+    </div>
+    <div class="risk"><b>Ce que tu perds :</b> environ 900 à 1 500 € de plus que A, parce qu'il y a deux opérations au lieu d'une.</div>
+    <div>
+      <div class="eyebrow" style="margin-bottom:.4rem">Les questions pour l'option B</div>
+      <ol>
+        <li>Quel capital en argent pour créer la holding ?</li>
+        <li>L'apport à une holding déjà créée profite-t-il du même report d'imposition qu'un apport à la création ?</li>
+        <li>Le commissaire aux apports est-il obligatoire aussi dans ce cas ? Le droit fixe est-il de 375 ou de 500 € ?</li>
+        <li>Combien de temps peut-on attendre, au plus, entre la création de la holding et l'apport ?</li>
+      </ol>
     </div>
   </article>
 
@@ -209,31 +242,43 @@ li{padding-left:.2rem}
       <div class="arr" aria-hidden="true">→</div>
       <div class="st"><b>Apporter Option &amp; Solution, Lilian et tes actions de Timops</b><span>au plus tard dans les 12 mois</span></div>
     </div>
-    <div class="facts">
-      <div class="fact"><span>Timops existe dans</span><b>environ 2 semaines</b></div>
-      <div class="fact"><span>Coût</span><b>4 150 à 11 550 €</b></div>
-      <div class="fact risk"><span>Ce que tu perds</span><b>rien, si l'apport se fait à temps</b></div>
+    <div class="money">
+      <div class="m"><span>Timops existe dans</span><b>environ 2 semaines</b></div>
+      <div class="m now"><span>Tout de suite</span><b>200 à 1 500 €</b></div>
+      <div class="m later"><span>Plus tard</span><b>4 150 à 11 550 €</b></div>
+      <div class="m tot"><span>Total</span><b>4 350 à 13 050 €</b></div>
     </div>
-    <div class="note"><b>Le coût caché si l'apport tarde :</b> la valeur prise par Timops avant l'apport sera imposée à 31,4 % au lieu d'environ 3 % le jour d'une vente, et un dividende touché avant l'apport paie 31,4 % au lieu d'environ 1,25 %. Il faut fixer la date de l'apport dès le départ.</div>
     <div class="cols">
       <div>
-        <div class="eyebrow" style="margin-bottom:.4rem">Le coût poste par poste</div>
+        <div class="ct now">Tout de suite, pour que Timops démarre</div>
         <table>
-          <tr><td>Holding créée avec tes titres : tous les postes de l'option A</td><td>3 950 à 10 750 €</td></tr>
-          <tr><td>Évaluation de tes actions de Timops, tant qu'elles valent leur capital</td><td>0 à 500 €</td></tr>
-          <tr><td>Formalités chez Timops (la holding devient associée et présidente)</td><td>200 à 300 €</td></tr>
-          <tr class="tot"><td>Total</td><td>4 150 à 11 550 €</td></tr>
+          <tr><td>Création de Timops</td><td>200 à 1 500 €</td></tr>
+          <tr class="tot"><td>Sous-total immédiat</td><td>200 à 1 500 €</td></tr>
         </table>
       </div>
       <div>
-        <div class="eyebrow" style="margin-bottom:.4rem">Les questions pour l'option C</div>
-        <ol>
-          <li>Faut-il écrire dans les statuts de Timops qu'un associé peut transférer ses actions à une société qu'il contrôle, sans agrément ?</li>
-          <li>Comment évaluer les actions de Timops au moment de l'apport ? Faut-il un commissaire aux apports pour elles ?</li>
-          <li>Quelles formalités pour faire passer la présidence de toi à ta holding ?</li>
-          <li>Jusqu'à quand l'apport reste-t-il quasi gratuit ?</li>
-        </ol>
+        <div class="ct later">Plus tard, à la création de la holding</div>
+        <table>
+          <tr><td>Évaluation d'Option &amp; Solution (avec l'usufruit) et de Lilian</td><td>1 000 à 3 000 €</td></tr>
+          <tr><td>Commissaire aux apports</td><td>1 500 à 4 000 €</td></tr>
+          <tr><td>Statuts de la holding et traité d'apport</td><td>1 000 à 3 000 €</td></tr>
+          <tr><td>Greffe et annonce légale de la holding</td><td>250 €</td></tr>
+          <tr><td>Formalités chez Option &amp; Solution, agrément chez Lilian</td><td>200 à 500 €</td></tr>
+          <tr><td>Évaluation de tes actions de Timops, tant qu'elles valent leur capital</td><td>0 à 500 €</td></tr>
+          <tr><td>Formalités chez Timops (la holding devient associée et présidente)</td><td>200 à 300 €</td></tr>
+          <tr class="tot"><td>Sous-total à terme</td><td>4 150 à 11 550 €</td></tr>
+        </table>
       </div>
+    </div>
+    <div class="risk"><b>Le coût caché si l'apport tarde :</b> la valeur prise par Timops avant l'apport sera imposée à 31,4 % au lieu d'environ 3 % le jour d'une vente, et un dividende touché avant l'apport paie 31,4 % au lieu d'environ 1,25 %. Il faut fixer la date de l'apport dès le départ.</div>
+    <div>
+      <div class="eyebrow" style="margin-bottom:.4rem">Les questions pour l'option C</div>
+      <ol>
+        <li>Faut-il écrire dans les statuts de Timops qu'un associé peut transférer ses actions à une société qu'il contrôle, sans agrément ?</li>
+        <li>Comment évaluer les actions de Timops au moment de l'apport ? Faut-il un commissaire aux apports pour elles ?</li>
+        <li>Quelles formalités pour faire passer la présidence de toi à ta holding ?</li>
+        <li>Jusqu'à quand l'apport reste-t-il quasi gratuit ?</li>
+      </ol>
     </div>
   </article>
 </section>
@@ -244,19 +289,20 @@ li{padding-left:.2rem}
     <table>
       <tr><th></th><th>A</th><th>B</th><th>C</th></tr>
       <tr><td>Timops existe dans</td><td>3 mois</td><td>3 semaines</td><td>2 semaines</td></tr>
-      <tr><td>Coût de l'opération</td><td>3 950 à 10 750 €</td><td>4 825 à 12 250 €</td><td>4 150 à 11 550 €</td></tr>
+      <tr class="rnow"><td>Coût tout de suite</td><td>4 150 à 12 250 €</td><td>700 à 2 500 €</td><td>200 à 1 500 €</td></tr>
+      <tr class="rlater"><td>Coût plus tard</td><td>0 €</td><td>4 325 à 11 250 €</td><td>4 150 à 11 550 €</td></tr>
+      <tr class="rtot"><td>Coût total</td><td>4 150 à 12 250 €</td><td>5 025 à 13 750 €</td><td>4 350 à 13 050 €</td></tr>
       <tr><td>Risque</td><td>le retard</td><td>presque aucun</td><td>oublier l'apport</td></tr>
       <tr><td>Holding associée de Timops</td><td>dès le départ</td><td>dès le départ</td><td>après l'apport</td></tr>
     </table>
   </div>
   <div class="card">
-    <div class="eyebrow">Les coûts communs aux trois options</div>
+    <div class="eyebrow">En plus, quelle que soit l'option</div>
     <table>
-      <tr><td>Création de Timops : statuts, greffe, annonce, traduction des documents bulgares</td><td>200 à 1 500 €</td></tr>
-      <tr><td>Comptabilité de la holding, chaque année</td><td>1 000 à 2 000 €</td></tr>
+      <tr><td>Comptabilité de la holding, chaque année, dès qu'elle existe</td><td>1 000 à 2 000 € par an</td></tr>
       <tr><td>Pacte d'associés, s'il n'est pas dans l'offre</td><td>à chiffrer</td></tr>
     </table>
-    <p class="foot">L'évaluation et le commissaire aux apports font les trois quarts de la facture. Entre la moins chère et la plus chère des options, l'écart reste d'environ 1 500 € : le choix se fait sur le délai et le risque.</p>
+    <p class="foot">L'évaluation et le commissaire aux apports font les trois quarts de la facture. Les trois totaux sont proches : le choix se fait sur le délai et sur ce que tu acceptes d'avancer tout de suite.</p>
   </div>
 </section>
 
