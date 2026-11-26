@@ -131,58 +131,109 @@ dividendes s'il les touche en direct.
 
 ---
 
-## 2. Roland : holding ou détention en direct ?
+## 2. Roland : créer une holding, et pourquoi
 
-### Les deux chemins
+### Les faits (donnés par Roland le 26/11)
 
-**En direct** : Roland détient ses 70 % de Timops à son nom.
-- Les dividendes sont taxés au **prélèvement forfaitaire unique de
-  31,4 %** (12,8 % d'impôt et 18,6 % de prélèvements sociaux depuis la
-  hausse de la CSG au 1er janvier 2026).
-- Une revente : plus-value taxée aussi à 31,4 %.
-- Simple, rapide, sans frais en plus.
+- Roland a **50 ans**.
+- Il détient **100 % d'Option & Solution**, une SARL dont il est l'associé
+  unique (une EURL) et le gérant.
+- Il s'y verse une **rémunération de gérant** et ne prend **pas de
+  dividendes** : le reste s'accumule en **trésorerie**.
+- Il a **20 %** de la société de Lilian.
+- Il a l'intention de **vendre ou de transmettre** un jour ses sociétés.
+- Pour Timops, il ne sait pas encore s'il voudra réinvestir l'argent ou en
+  vivre, et il n'a pas besoin d'un salaire de Timops pour vivre.
 
-**Via une holding** soumise à l'IS, détenue par Roland, qui détiendrait
-Option & Solution, les 20 % dans la société de Lilian et les 70 % de
-Timops.
-- **Dividendes remontés à la holding** : régime mère-fille (au moins 5 %
-  détenus depuis deux ans). Seuls 5 % du dividende sont imposés à l'IS, soit
-  environ **1,25 %** d'impôt au lieu de 31,4 %.
-- **Plus-value si la holding revend une filiale** : seuls 12 % sont
-  imposés, soit environ **3 %** au lieu de 31,4 %.
-- L'argent remonté dans la holding peut être **réinvesti** (nouvelle
-  société, immobilier, placement) sans passer par l'impôt personnel. Roland
-  ne paie 31,4 % que sur ce qu'il sort pour lui.
-- La holding peut être présidente de Timops.
+### Ma recommandation : oui, une holding
 
-### Pourquoi la holding n'est pas automatique
+Avec ces faits, la holding n'est plus une option de confort : elle répond
+à trois besoins réels.
 
-La holding est un **outil pour garder et réinvestir de l'argent**, pas pour
-en gagner plus. Elle n'a d'intérêt que si de l'argent restera dans les
-sociétés au lieu d'aller dans la poche de Roland.
+**1. Faire travailler la trésorerie d'Option & Solution.** Aujourd'hui, cet
+argent est bloqué : s'il le sort en dividendes à son nom, Roland paie
+31,4 % d'impôt, et en plus des cotisations sociales de gérant majoritaire
+sur la part qui dépasse 10 % du capital (environ 45 % sur cette part).
+Avec une holding, Option & Solution verse ses dividendes à la holding :
+- seuls 5 % sont imposés (régime mère-fille), soit environ **1,25 %** ;
+- les cotisations sociales des dividendes de gérant visent les dividendes
+  touchés par le gérant lui-même et sa famille, pas ceux d'une holding
+  (point à faire confirmer par Dougs) ;
+- la holding peut alors **financer Timops** (son capital, une avance en
+  compte courant), acheter de l'immobilier ou entrer dans d'autres
+  sociétés, sans que l'argent passe par l'impôt personnel.
 
-- Si Roland a besoin de vivre des dividendes, il paiera 31,4 % à la sortie
-  de la holding : le gain disparaît, et il reste les frais.
-- Coûts : création (quelques centaines d'euros), comptabilité et liasse
-  chaque année (de l'ordre de 1 000 à 2 000 €), une société de plus à
-  tenir.
+**2. Préparer la vente.** Une société qui a beaucoup de trésorerie se vend
+mal : l'acheteur ne veut pas payer cette trésorerie au prix fort. Avec une
+holding, on fait remonter la trésorerie avant la vente, et c'est la
+holding qui vend Option & Solution : la plus-value n'est imposée que sur
+12 %, soit environ **3 %**, au lieu de 31,4 % pour une vente à son nom.
+L'argent reste dans la holding, prêt à être réinvesti.
 
-**Le vrai sujet n'est donc pas Timops, c'est Option & Solution.** Timops
-sera en bootstrap : elle réinvestira ses bénéfices et ne distribuera pas
-beaucoup les premières années. C'est Option & Solution qui, aujourd'hui,
-peut faire remonter de la trésorerie. Si cette trésorerie doit financer
-d'autres projets (Timops, les suivants avec Romain), la holding a tout son
-sens.
+**3. Préparer la transmission.** À 50 ans, c'est le bon moment pour
+organiser une transmission qui se fera dans dix ou vingt ans :
+- le **pacte Dutreil** réduit de 75 % la valeur taxable des titres
+  d'entreprise transmis (donation ou succession), si les héritiers
+  s'engagent à les garder. Il fonctionne avec une **holding animatrice** :
+  une holding qui pilote vraiment ses filiales (décisions, services
+  rendus), pas une simple boîte à titres ;
+- donner des titres de la holding, c'est transmettre d'un coup Option &
+  Solution, la part chez Lilian et Timops ;
+- une donation avant une vente efface la plus-value accumulée jusque-là.
 
-### Comment faire entrer Option & Solution dans la holding
+### Comment la monter
 
-Par un **apport de titres** : Roland apporte ses parts d'Option & Solution
-(et de la société de Lilian) à la holding. La plus-value latente n'est pas
-taxée tout de suite : elle est **mise en report** (article 150-0 B ter du
-CGI), parce que Roland contrôle la holding. Le report tombe si la holding
-revend les titres apportés dans les trois ans, sauf réinvestissement (règle
-aménagée par la loi de finances 2026). Il faut en général une évaluation
-des titres, parfois un commissaire aux apports.
+1. **Créer la holding** (une SAS ou une SARL au nom de Roland, à l'impôt
+   sur les sociétés), avec Dougs.
+2. **Apporter les 100 % d'Option & Solution et les 20 % chez Lilian** à
+   la holding. La plus-value de ces titres n'est pas taxée au moment de
+   l'apport : elle est **mise en report** (article 150-0 B ter du CGI),
+   parce que Roland contrôle la holding. Le report devient une imposition
+   si la holding revend les titres apportés dans les trois ans, sauf si
+   elle réinvestit une large part du prix dans une activité économique
+   (règle revue par la loi de finances 2026, à faire chiffrer au moment
+   voulu). Il faut une **évaluation des titres** et, en général, un
+   **commissaire aux apports**.
+3. **La holding souscrit les 70 % de Timops** dès la création. Si la
+   holding n'est pas prête à temps, Roland souscrit Timops à son nom et
+   apporte ses parts plus tard : tant que Timops vaut son capital, ça ne
+   coûte presque rien.
+4. **La holding devient présidente de Timops** (et peut le devenir
+   d'autres sociétés), ce qui renforce son caractère « animateur ».
+
+**Point à vérifier :** Option & Solution est-elle bien soumise à l'impôt
+sur les sociétés ? Une EURL détenue par une personne est, par défaut, à
+l'impôt sur le revenu, sauf option. Le régime mère-fille suppose une
+filiale à l'IS. Une EURL détenue par une société passe à l'IS, mais il
+faut le savoir avant de monter l'apport.
+
+**Le coût :** la création (quelques centaines d'euros), l'évaluation et le
+commissaire aux apports (souvent de l'ordre de 1 500 à 3 000 €), puis la
+comptabilité de la holding chaque année (de l'ordre de 1 000 à 2 000 €).
+Face à la trésorerie accumulée et à une vente future, c'est faible.
+
+### La rémunération de Roland : à garder chez Option & Solution
+
+Roland peut cumuler deux rémunérations (Option & Solution et Timops), mais
+**ce n'est pas intéressant** :
+- chez Option & Solution, gérant majoritaire, il est **travailleur non
+  salarié** : environ 45 % de cotisations sur sa rémunération ;
+- chez Timops (SAS), président, il serait **assimilé salarié** : de
+  l'ordre de 75 à 80 % de charges sur le net. Chaque euro de rémunération
+  coûte bien plus cher chez Timops ;
+- baisser sa rémunération chez Option & Solution pour en prendre chez
+  Timops ferait donc **payer plus de charges pour le même revenu**.
+
+La bonne répartition :
+- **la rémunération dont Roland a besoin pour vivre** : chez Option &
+  Solution, comme aujourd'hui ;
+- **les bénéfices de Timops** : en dividendes vers la holding (1,25 %),
+  pour réinvestir. Si un jour Roland veut en vivre, la holding lui verse un
+  dividende (31,4 %) au moment où il en a besoin, sans cotisations
+  sociales. La décision « réinvestir ou en vivre » n'a donc **pas besoin
+  d'être prise maintenant** : la holding garde les deux portes ouvertes ;
+- **Roland ne se paie pas chez Timops**, et en SAS un président non payé
+  ne coûte rien.
 
 ### Le taux réduit d'IS de Timops reste acquis avec les deux holdings
 
@@ -193,28 +244,16 @@ physiques** et réalisant moins de 10 M€ de chiffre d'affaires. Le BOFiP
 admet ces sociétés **« quels que soient leur forme, leur régime fiscal ou
 leur nationalité »** : la holding bulgare de Romain compte donc aussi. Une
 seule limite : un seul niveau de société entre Timops et les personnes.
-Avec Roland (holding) et Romain (holding), on est dans les clous.
+La holding de Roland (détenue à 100 % par lui) et celle de Romain sont
+dans les clous.
 
 ### Un point à corriger : les frais de la holding de Roland payés par Timops
 
 Romain a suggéré que Timops paie la création de la holding de Roland.
 **Ce n'est pas possible** : Timops paierait une dépense qui ne la concerne
 pas, au profit d'un associé. C'est un **abus de biens sociaux**, un délit
-pour le dirigeant. La solution : la holding paie ses propres frais, avec un
-apport ou un prêt de Roland (compte courant).
-
-### Ma recommandation, et pourquoi
-
-1. **Ne pas bloquer Timops pour la holding.** Les deux décisions sont
-   indépendantes.
-2. **Si Roland veut de toute façon réorganiser Option & Solution et sa
-   participation chez Lilian** (réinvestir plutôt que consommer), créer la
-   holding maintenant, en même temps que Timops, et faire souscrire les
-   70 % de Timops directement par la holding. On évite ainsi un apport plus
-   tard.
-3. **S'il hésite**, souscrire Timops en direct. Tant que Timops vaut à
-   peu près son capital, apporter ses parts à une holding plus tard ne coûte
-   presque rien en impôt : la plus-value est nulle.
+pour le dirigeant. La holding paie ses propres frais, avec un apport ou un
+prêt de Roland.
 
 ---
 
@@ -230,10 +269,11 @@ apport ou un prêt de Roland (compte courant).
 
 **Pourquoi la SAS ici :**
 
-1. **Roland ne se paiera probablement pas de salaire chez Timops**, au moins
-   au début (bootstrap, et il est déjà rémunéré ailleurs). En SAS, un
-   président non payé ne coûte rien. En SARL, il paierait des cotisations
-   minimales de TNS pour rien.
+1. **Roland ne se paie pas chez Timops** : il est rémunéré par Option &
+   Solution, où son statut social est le moins cher (voir partie 2). En SAS,
+   un président non payé ne coûte rien. En SARL, il paierait des
+   cotisations minimales de TNS pour rien. Et la présidence peut être
+   confiée à sa holding.
 2. **Un associé étranger via une holding** : la SAS permet d'écrire
    précisément ce qui se passe si Romain veut sortir, si sa holding change
    de mains, ou si l'un des deux part (clauses de sortie, de changement de
@@ -253,8 +293,18 @@ main :
 - **décisions importantes aux deux tiers** : Roland décide seul ;
 - **aux trois quarts** : Romain peut bloquer.
 
-Les deux sont défendables. Il faut le choisir consciemment, et l'écrire
-aussi dans le pacte d'associés.
+**Choix de Roland (26/11) : les deux tiers**, pour ne jamais être bloqué.
+Avec 70 % (ou 75 %), Roland décide seul les modifications des statuts,
+l'augmentation de capital, l'entrée d'un associé, la nomination du
+président. Deux limites à connaître :
+- la loi impose **l'unanimité** pour quelques décisions en SAS (par
+  exemple ajouter une clause d'inaliénabilité, ou augmenter les
+  engagements d'un associé) : Romain doit donc les accepter ;
+- il faut garder **au moins 66,7 %** : si Roland descend un jour sous les
+  deux tiers (entrée d'un nouvel associé), il perd ce pouvoir.
+
+Ce choix s'écrit dans les statuts, et Romain doit le connaître avant de
+signer : c'est la contrepartie de sa minorité.
 
 ---
 
@@ -280,38 +330,33 @@ marque peut le rédiger.
 
 ---
 
-## 5. Les questions pour donner le meilleur conseil
+## 5. Les questions : réponses et ce qui reste
 
-**Pour Roland**
-1. Combien détiens-tu d'Option & Solution, et cette société distribue-t-elle
-   des dividendes, ou garde-t-elle sa trésorerie ?
-2. L'argent qu'Option & Solution et Timops gagneront, tu veux surtout le
-   **réinvestir** (nouveaux projets, immobilier) ou en **vivre** ?
-3. Envisages-tu un jour de vendre Option & Solution, ta part chez Lilian
-   ou Timops ? Ou de les transmettre (enfants) ?
-4. Te rémunères-tu déjà par Option & Solution ? Prévois-tu un salaire chez
-   Timops ?
-5. Tu préfères décider seul des grandes décisions (majorité aux deux
-   tiers) ou que Romain ait un droit de blocage (trois quarts) ?
+**Réponses de Roland (26/11)** : 100 % d'Option & Solution (EURL), une
+rémunération de gérant et pas de dividendes, la trésorerie reste dans la
+société ; 20 % chez Lilian ; vente ou transmission envisagée ; 50 ans ; pas
+besoin d'un salaire chez Timops ; grandes décisions aux deux tiers, pour
+ne jamais être bloqué.
+
+**Reste pour Roland**
+1. Option & Solution est-elle à l'impôt sur les sociétés ?
+2. Quel montant de trésorerie environ dans Option & Solution ?
+3. La vente ou la transmission concerne-t-elle Option & Solution seule, ou
+   aussi la part chez Lilian et Timops ?
 
 **Pour Romain**
-6. Tu es résident fiscal bulgare (réglé) : as-tu un **certificat de
-   résidence fiscale** bulgare, et as-tu vérifié la règle des 183 jours en
-   Indonésie pour Bali ?
-7. Ta holding bulgare a-t-elle une **substance** : une adresse, des
-   comptes, des décisions prises en Bulgarie, d'autres participations ?
-8. D'où vient ton chiffre de 25 % ? Si c'est la revente, c'est confirmé
-   (article 244 bis B et protocole de la convention). Ton conseil bulgare
-   doit le confirmer.
-9. Préfères-tu 24 % (plus-value taxée en Bulgarie à la revente) ou 30 %
-   (procédure française à la revente) ?
+4. A-t-il un certificat de résidence fiscale bulgare, et a-t-il vérifié la
+   règle des 183 jours pour Bali ?
+5. Sa holding bulgare a-t-elle une substance (adresse, comptes, décisions
+   prises en Bulgarie, autres participations) ?
+6. Préfère-t-il 24 % (plus-value taxée en Bulgarie) ou 30 % (procédure
+   française à la revente) ?
 
 **Pour les deux**
-10. Quel capital de départ, et qui avance les premiers frais (licences,
-    création, marque) ? En apport au capital ou en compte courant ?
-11. Romain apporte-t-il le développement en échange de ses parts, ou
-    est-il payé pour le développement ? Ça change le pacte et la propriété
-    du code.
+7. Quel capital de départ, et qui avance les premiers frais ? En capital
+   ou en compte courant ?
+8. Romain apporte-t-il le développement contre ses parts, ou est-il payé
+   pour ? Ça change le pacte et la propriété du code.
 
 ---
 
