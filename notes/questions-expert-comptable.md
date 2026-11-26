@@ -40,7 +40,7 @@ lui et Dougs pour Timops. Le détail des raisons est dans
 | Dividende de Timops vers Roland ou sa holding | 31,4 % d'impôt | environ 1,25 % (régime mère-fille) |
 | Vente un jour de Timops ou d'Option & Solution | 31,4 % sur la plus-value | environ 3 % si c'est la holding qui vend |
 | Transmission (pacte Dutreil) | société par société | les trois d'un coup, via la holding animatrice |
-| Coût de mise en place | création de Timops seule | environ 4 000 à 10 000 € en plus, une fois |
+| Coût de mise en place | création de Timops seule | environ 4 000 à 12 000 € en plus, une fois |
 | Coût chaque année | rien de plus | comptabilité de la holding, 1 000 à 2 000 € |
 | Délai pour Timops | aucun | 2 à 3 mois si tout est fait d'un coup ; 1 à 2 semaines si la holding est créée avec de l'argent et les apports faits ensuite |
 
@@ -82,7 +82,7 @@ Roland ── apporte O&S + Lilian (+ un peu d'argent) ──► Holding ── 
 | Greffe et annonce de la holding | environ 250 € |
 | Formalités chez Option & Solution et agrément chez Lilian | 200 à 500 € |
 | Droits d'enregistrement (apport à la création) | 0 € |
-| **Total** | **environ 4 000 à 10 000 €** |
+| **Total** | **environ 3 950 à 10 750 €** |
 
 **Ce que Roland perd :** 2 à 3 mois avant que Timops existe (compte
 bancaire, contrats, embauche de Gaëlle). Rien sur le plan fiscal.
@@ -106,7 +106,8 @@ Roland ── apporte O&S + Lilian ──────────► Holding (pl
 | Plus tard : évaluation, commissaire aux apports, traité d'apport | 3 500 à 10 000 € |
 | Droit fixe sur l'augmentation de capital | 375 à 500 € |
 | Greffe et annonce de la modification | environ 250 € |
-| **Total** | **environ 4 600 à 11 000 €**, soit environ 600 à 1 000 € de plus que A |
+| Formalités chez Option & Solution et agrément chez Lilian | 200 à 500 € |
+| **Total** | **environ 4 800 à 12 250 €**, soit environ 900 à 1 500 € de plus que A |
 
 **Ce que Roland perd :** 1 à 2 semaines de délai et quelques centaines
 d'euros. La holding est associée et présidente de Timops dès le premier
@@ -125,10 +126,10 @@ Roland ── apporte O&S + Lilian + Timops ──► Holding (plus tard)
 
 | Poste | Coût |
 | --- | --- |
-| Holding créée par apport (comme A) | environ 4 000 à 10 000 € |
-| Évaluation des actions de Timops en plus | faible tant qu'elle vaut son capital |
-| Formalités chez Timops (nouvel associé, nouveau président) | 0 à 300 € |
-| **Total** | **environ 4 000 à 10 300 €** |
+| Holding créée par apport (comme A) | environ 3 950 à 10 750 € |
+| Évaluation des actions de Timops en plus | 0 à 500 € tant qu'elle vaut son capital |
+| Formalités chez Timops (nouvel associé, nouveau président) | 200 à 300 € |
+| **Total** | **environ 4 150 à 11 550 €** |
 
 **Ce que Roland perd :** aucun délai. Le risque est d'attendre : la
 plus-value prise par Timops avant l'apport reste imposée à 31,4 % au lieu
@@ -141,7 +142,7 @@ avant tout investisseur, idéalement dans les 12 mois).
 | | A | B | C |
 | --- | --- | --- | --- |
 | Retard pour Timops | 2 à 3 mois | 1 à 2 semaines | aucun |
-| Coût total | 4 000 à 10 000 € | 4 600 à 11 000 € | 4 000 à 10 300 € |
+| Coût total | 3 950 à 10 750 € | 4 800 à 12 250 € | 4 150 à 11 550 € |
 | Risque | le retard | presque aucun | oublier de faire l'apport à temps |
 
 ---
