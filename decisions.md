@@ -268,3 +268,11 @@ Une ligne par décision : la date, ce qui est décidé, pourquoi.
   avocate. Raison : se protéger des copies et des litiges, après
   l'expérience vécue avec BTP Performance. Décision commune de Roland et
   Romain.
+- **27/11/2026** : **la holding de Roland s'appellera JOM FHM**, avec pour
+  signature « les liens du sang ». *Jom* est un mot wolof qui réunit
+  l'honneur, la dignité, le courage et la détermination ; FHM, ce sont
+  Flavien, Héloïse et Marie. Raison : le nom vient du voyage au Sénégal,
+  le seul vécu par toute la famille, et dit à la fois les valeurs et ceux
+  pour qui la holding existe. Sens de *jom* vérifié dans des sources
+  sénégalaises et universitaires (voir `notes/nom-holding.md`). Décision
+  de Roland.
