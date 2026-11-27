@@ -43,6 +43,13 @@ Soit environ 620 € de taxes pour les deux, plus les honoraires.
 - **TeamOps** : Timops se prononce « team ops ». GitLab utilise « TeamOps »
   pour sa méthode de travail. Est-ce une marque déposée, et un risque de
   confusion à l'oreille ? À faire vérifier dans la recherche d'antériorités.
+  Recherche du 27/11/2026 (sites qui recopient les registres, pas les
+  registres eux-mêmes) : TEAMOPS est enregistrée **aux États-Unis** par
+  GitLab depuis le 23/01/2024, en **classe 41** (formation). Sa demande en
+  classe 35 a été abandonnée. Rien trouvé à l'INPI ni à l'EUIPO, comme lors
+  de la vérification du 24/11. Une marque américaine ne protège pas en
+  France : le risque est faible chez nous. Il compte si Timops va aux
+  États-Unis, ou si GitLab étend sa marque en Europe.
 - **timops.com** est réservé depuis 2021 par un tiers, sans site.
 - **Le logo** : il faut que Timops en détienne les droits (cession écrite
   si un graphiste le dessine ; question à poser si l'IA y a contribué).
