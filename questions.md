@@ -156,7 +156,9 @@ Tous les sujets ouverts du dossier Timops, regroupés en quatre pôles
    rémunération, activité, marque (devis de l'avocate, timops.com, logo).
    Réglés le 26/11 (voir decisions.md) : immatriculation en France, Dougs
    pour l'expert-comptable et les statuts, Revolut Business, timops.fr
-   acheté, dépôt de la marque avant de commercialiser.
+   acheté, dépôt de la marque avant de commercialiser. Le 27/11, mail
+   envoyé à Maître Groine (avis sur les classes, le nom et le déposant,
+   et devis) : en attente de sa réponse, voir `notes/depot-marque.md`.
 2. **Le juridique** : statut de Gaëlle et Flavien pour Timops, statut des
    conjointes prestataires, relances et recouvrement amiable, frontière
    avec la comptabilité, sponsoring, CNIL.

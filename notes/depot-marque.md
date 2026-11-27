@@ -58,42 +58,45 @@ Soit environ 620 € de taxes pour les deux, plus les honoraires.
 - **La baseline** « Vous décidez. Vous œuvrez. On s'occupe du reste. » :
   déposable aussi ?
 
-## Le mail
+## Le mail envoyé (27/11/2026)
 
-**Objet :** Dépôt de la marque Timops : votre avis et un devis
+Envoyé par Roland à Maître Margaux Groine. En attente : son avis et son
+devis.
 
 Chère Maître,
 
-Je lance avec un associé, Romain Gache, une nouvelle société, **Timops**,
-en cours de création en France. Après l'expérience vécue avec BTP
-Performance, nous voulons protéger le nom et le logo avant de
-commercialiser quoi que ce soit. J'ai besoin de votre avis et d'un devis.
+Je lance avec un associé, Romain Gache, une nouvelle société, TimOps, en
+cours de création en France.
+Après l'expérience vécue avec BTP Performance, nous voulons protéger le nom
+et le logo avant de commercialiser quoi que ce soit.
+J'ai donc besoin de votre avis et d'un devis.
 
-**L'activité** : un secrétariat à distance pour les artisans du bâtiment
+L'activité : un secrétariat à distance pour les artisans du bâtiment
 (gestion administrative, permanence téléphonique, relances, suivi des
 clients), appuyé sur notre propre logiciel en ligne et une application
-mobile. Nous formerons aussi les conjointes et collaboratrices des
-artisans, et animerons une communauté autour d'elles.
+mobile.
+Nous formerons aussi les conjointes et collaboratrices des artisans, et
+animerons une communauté autour d'elles.
 
-**Votre avis**, sur trois points :
-1. **Les classes** : nous pensons aux classes 35, 42, 9 et 41, peut-être
-   38 pour la communauté en ligne et 36 pour le paiement des acomptes dans
-   notre logiciel. Lesquelles retenir ?
-2. **Le nom** : on le prononce « team ops ». Voyez-vous un risque avec des
-   marques proches, à l'écrit comme à l'oreille ? Je pense à « TeamOps »,
-   déposée par GitLab aux États-Unis seulement, en classe 41 ; je n'ai rien
-   trouvé en France ni en Europe.
-3. **Le déposant** : la société n'étant pas encore immatriculée, faut-il
-   déposer à notre nom puis céder la marque à Timops, ou attendre
-   l'immatriculation ?
+Votre avis, sur trois points :
 
-**Un devis** pour :
+- Les classes : nous pensons aux classes 35, 42, 9 et 41, peut-être 38 pour
+  la communauté en ligne et 36 pour le paiement des acomptes dans notre
+  logiciel. Lesquelles retenir ?
+- Le nom : on le prononce « team ops ». Voyez-vous un risque avec des
+  marques proches, à l'écrit comme à l'oreille ? Je pense à « TeamOps »,
+  déposée par GitLab aux États-Unis seulement, en classe 41 ; je n'ai rien
+  trouvé en France ni en Europe.
+- Le déposant : la société n'étant pas encore immatriculée, faut-il déposer
+  à notre nom, puis céder la marque à Timops, ou attendre l'immatriculation ?
+
+Je souhaite donc un devis pour :
+
 - la recherche d'antériorités sur le nom ;
-- le dépôt INPI du nom (marque verbale) et du logo, taxes comprises ;
+- le dépôt INPI du nom et du logo, taxes comprises ;
 - le suivi jusqu'à l'enregistrement.
 
-Je reste à votre disposition pour en parler de vive voix.
+Nous restons aussi à votre entière disposition pour une visio si vous
+souhaitez que nous échangions ensemble à ce sujet.
 
-Bien cordialement,
-
-Roland Buffet
+Bien à vous,
