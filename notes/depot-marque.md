@@ -53,15 +53,14 @@ Soit environ 620 € de taxes pour les deux, plus les honoraires.
 
 ## Le mail
 
-**Objet :** Demande de devis : dépôt de la marque Timops (nom et logo)
+**Objet :** Dépôt de la marque Timops : votre avis et un devis
 
 Chère Maître,
 
 Je lance avec un associé, Romain Gache, une nouvelle société, **Timops**,
 en cours de création en France. Après l'expérience vécue avec BTP
-Performance, nous voulons protéger la marque avant de commercialiser quoi
-que ce soit. Je souhaiterais donc vous confier le dépôt et vous demander
-un devis.
+Performance, nous voulons protéger le nom et le logo avant de
+commercialiser quoi que ce soit. J'ai besoin de votre avis et d'un devis.
 
 **L'activité** : un secrétariat à distance pour les artisans du bâtiment
 (gestion administrative, permanence téléphonique, relances, suivi des
@@ -69,32 +68,21 @@ clients), appuyé sur notre propre logiciel en ligne et une application
 mobile. Nous formerons aussi les conjointes et collaboratrices des
 artisans, et animerons une communauté autour d'elles.
 
-**Ce que nous souhaitons déposer** :
-1. le nom **TIMOPS**, en marque verbale ;
-2. le logo, en marque semi-figurative, dès qu'il sera arrêté (je vous
-   joins les versions en cours).
+**Votre avis**, sur trois points :
+1. **Les classes** : nous pensons aux classes 35, 42, 9 et 41, peut-être
+   38 pour la communauté en ligne et 36 pour le paiement des acomptes dans
+   notre logiciel. Lesquelles retenir ?
+2. **Le nom** : on le prononce « team ops ». Voyez-vous un risque avec des
+   marques proches, à l'écrit comme à l'oreille (je pense à « TeamOps »,
+   utilisé par GitLab) ?
+3. **Le déposant** : la société n'étant pas encore immatriculée, faut-il
+   déposer à notre nom puis céder la marque à Timops, ou attendre
+   l'immatriculation ?
 
-**Les classes que nous envisageons** : 35, 42, 9 et 41, peut-être 38
-pour la communauté en ligne et 36 pour le paiement des acomptes dans notre
-logiciel. Nous comptons sur votre avis pour ajuster cette liste.
-
-Pourriez-vous m'adresser un devis qui comprenne :
-- la recherche d'antériorités sur le nom (identique et proche, à l'écrit
-  comme à l'oreille : on prononce « team ops », et je pense en particulier
-  à « TeamOps », utilisé par GitLab) ;
-- le dépôt INPI des deux marques, taxes comprises ;
-- le suivi jusqu'à l'enregistrement ;
-- en option, l'extension à l'Union européenne.
-
-Quelques questions, pour lesquelles votre avis nous sera précieux :
-- La société n'étant pas encore immatriculée, faut-il déposer à notre nom
-  puis céder la marque à Timops, ou attendre l'immatriculation ?
-- Notre phrase « Vous décidez. Vous œuvrez. On s'occupe du reste. »
-  mérite-t-elle un dépôt ?
-- Quelles précautions prendre sur les droits du logo ?
-
-Enfin, si cela entre dans votre domaine, nous aurons aussi besoin d'un
-pacte d'associés : je serais heureux d'en avoir un chiffrage à part.
+**Un devis** pour :
+- la recherche d'antériorités sur le nom ;
+- le dépôt INPI du nom (marque verbale) et du logo, taxes comprises ;
+- le suivi jusqu'à l'enregistrement.
 
 Je reste à votre disposition pour en parler de vive voix.
 
