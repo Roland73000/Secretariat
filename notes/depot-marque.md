@@ -80,8 +80,9 @@ artisans, et animerons une communauté autour d'elles.
    38 pour la communauté en ligne et 36 pour le paiement des acomptes dans
    notre logiciel. Lesquelles retenir ?
 2. **Le nom** : on le prononce « team ops ». Voyez-vous un risque avec des
-   marques proches, à l'écrit comme à l'oreille (je pense à « TeamOps »,
-   utilisé par GitLab) ?
+   marques proches, à l'écrit comme à l'oreille ? Je pense à « TeamOps »,
+   déposée par GitLab aux États-Unis seulement, en classe 41 ; je n'ai rien
+   trouvé en France ni en Europe.
 3. **Le déposant** : la société n'étant pas encore immatriculée, faut-il
    déposer à notre nom puis céder la marque à Timops, ou attendre
    l'immatriculation ?
