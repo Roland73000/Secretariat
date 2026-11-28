@@ -282,3 +282,13 @@ Une ligne par décision : la date, ce qui est décidé, pourquoi.
   « les liens du sang » en italique. Fichier :
   `logos/jom-fhm-classique.png`. La légende « Honneur · Dignité · Courage »
   sert d'aide-mémoire et ne fait pas partie du logo. Décision de Roland.
+- **28/11/2026** : **logo de Timops retenu : le tourbillon à trois pales.**
+  Le mot s'écrit avec un T majuscule ; le O fait la hauteur du T et c'est
+  un disque bleu (#2563EB sur fond clair, #3B82F6 sur fond foncé) découpé
+  en trois pales courbes, avec un point central noir sur fond clair et
+  blanc sur fond foncé. Le même tourbillon sert d'icône seul. Fichier :
+  `logos/timops-tourbillon-3pales.pdf` (et `.png`, `-HD.png`), dessiné par
+  `logos/outils/pales.awk`. Les variantes à quatre pales et bleu, blanc,
+  rouge ne sont pas retenues. Raison : choisi par Roland sur les trois planches du 28/11 (quatre pales,
+  trois pales, bleu blanc rouge), une fois les pales redessinées au propre.
+  Validé par Roland.

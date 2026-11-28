@@ -153,7 +153,7 @@ Tous les sujets ouverts du dossier Timops, regroupés en quatre pôles
 (détail au chapitre 10 du dossier) :
 
 1. **La société** : statut, répartition des parts, apports et
-   rémunération, activité, marque (devis de l'avocate, timops.com, logo).
+   rémunération, activité, marque (devis de l'avocate, timops.com ; logo retenu le 28/11).
    Réglés le 26/11 (voir decisions.md) : immatriculation en France, Dougs
    pour l'expert-comptable et les statuts, Revolut Business, timops.fr
    acheté, dépôt de la marque avant de commercialiser. Le 27/11, mail

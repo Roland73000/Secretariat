@@ -30,8 +30,8 @@ Deux dépôts conseillés :
 
 1. **TIMOPS en marque verbale** (le mot seul) : c'est la protection la plus
    large, elle vaut quelle que soit l'écriture. À faire en premier.
-2. **Le logo en marque semi-figurative**, une fois le logo arrêté (il ne
-   l'est pas encore : variantes en cours dans `logos/`).
+2. **Le logo en marque semi-figurative** : logo arrêté le 28/11/2026, le
+   tourbillon à trois pales (`logos/timops-tourbillon-3pales.pdf`).
 
 Soit environ 620 € de taxes pour les deux, plus les honoraires.
 
