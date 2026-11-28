@@ -25,7 +25,9 @@ de bilan ». Les vidéos ne se lisent pas : leur compte rendu suffit.
 
 ## La marche à suivre
 
-1. `git pull`.
+1. `git pull`, puis écrire la date du jour (AAAA-MM-JJ) dans
+   `dernier-scan.txt` : c'est ce fichier que lit le rappel du premier message
+   du jour (`.claude/hooks/rappel-scan.ps1`).
 2. Chercher dans les deux dossiers (`'<id>' in ancestors`, documents Google)
    les fichiers modifiés depuis deux jours ; garder ceux dont l'id n'est pas
    dans `visios-lues.tsv`.
