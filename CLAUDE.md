@@ -34,6 +34,8 @@ accent et « Gaëlle » avec « lle ».
 | `decisions.md` | les décisions prises, datées, avec leur raison |
 | `questions.md` | les questions ouvertes, à trancher |
 | `notes/` | une note par thème (offre, cible, prix, secrétaires, juridique…) |
+| `notes/besoins-visios.md` | les besoins captés dans les visios des membres, et le scan de chaque nuit |
+| `notes/evolutions-timops.md` | les évolutions de Timops proposées à partir des visios, à valider par Roland |
 | Miro | la carte visuelle du projet (tableau « Projet Secrétariat BTP : vision », https://miro.com/app/board/uXjVELM5zVs=/) |
 
 ## Le CRM de BTP Performance : lecture seule
