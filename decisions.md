@@ -276,3 +276,9 @@ Une ligne par décision : la date, ce qui est décidé, pourquoi.
   pour qui la holding existe. Sens de *jom* vérifié dans des sources
   sénégalaises et universitaires (voir `notes/nom-holding.md`). Décision
   de Roland.
+- **28/11/2026** : **logo de JOM FHM retenu** : JOM en lettres à
+  empattements, le O en framboise, le J et le M en blanc sur fond foncé et
+  en noir sur fond clair ; FHM espacé dessous, un trait framboise, puis
+  « les liens du sang » en italique. Fichier :
+  `logos/jom-fhm-classique.png`. La légende « Honneur · Dignité · Courage »
+  sert d'aide-mémoire et ne fait pas partie du logo. Décision de Roland.

@@ -61,3 +61,14 @@ réunit la famille, sans répéter le nom. En wolof, le parent se dit
 - Vérifier qu'aucune marque ne gêne : à demander à Maître Groine ou à
   l'expert-comptable.
 - Donner le nom au moment de rédiger les statuts de la holding.
+
+## Le logo (retenu le 28/11/2026)
+
+- **JOM** en lettres à empattements (Georgia, gras), le **O en framboise**
+  (#d0587f sur fond foncé, #b03a63 sur fond clair), le J et le M en blanc
+  sur fond foncé, en noir sur fond clair.
+- **FHM** dessous, en capitales fines et très espacées.
+- Un trait framboise, puis **« les liens du sang »** en italique.
+- Fichiers : `logos/jom-fhm-classique.html` et `logos/jom-fhm-classique.png`.
+- La légende **Honneur · Dignité · Courage** rappelle les valeurs du jom ;
+  c'est un aide-mémoire pour Roland, pas une partie du logo.
