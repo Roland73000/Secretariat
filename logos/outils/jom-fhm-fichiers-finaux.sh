@@ -38,7 +38,14 @@ body{display:flex;flex-direction:column;align-items:center;justify-content:cente
 .fhm{font-size:48px;font-weight:300;letter-spacing:.9em;margin:22px 0 0 .9em}
 .rule{width:320px;height:3px;background:$3;margin:42px 0 30px}
 .sig{font-family:$SERIF;font-style:italic;font-size:38px;color:$4}
-@media print{html,body{width:200mm;height:120mm}body{zoom:.755}}
+@media print{
+html,body{width:200mm;height:120mm;overflow:hidden}
+body{box-sizing:border-box}
+.jom{font-size:48mm}
+.fhm{font-size:9.6mm;margin:4.4mm 0 0 .9em}
+.rule{width:64mm;height:.6mm;margin:8.4mm 0 6mm}
+.sig{font-size:7.6mm}
+}
 </style></head><body>
 <div class="jom">J<span>O</span>M</div><div class="fhm">FHM</div><div class="rule"></div><div class="sig">les liens du sang</div>
 </body></html>
