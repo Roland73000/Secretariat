@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><title>Logos JOM FHM</title>
+<style>
+html,body{margin:0;width:1800px;height:1000px;font-family:Helvetica,Arial,sans-serif}
+.row{display:grid;grid-template-columns:repeat(3,1fr);height:500px}
+.cell{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:34px;position:relative}
+.sep{border-left:1px solid rgba(128,128,128,.25)}
+.dark{background:#141210;color:#f4efe8;--acc:#d0643f;--sub:#b9b0a5}
+.light{background:#faf7f2;color:#1c1916;--acc:#a8432a;--sub:#6f665c}
+.lab{position:absolute;bottom:26px;font-size:18px;letter-spacing:.03em;opacity:.5}
+/* Piste A : typographique */
+.a{display:flex;flex-direction:column;align-items:center}
+.a .jom{font-family:Georgia,'Times New Roman',serif;font-size:150px;font-weight:700;letter-spacing:.04em;line-height:1}
+.a .fhm{font-size:30px;font-weight:300;letter-spacing:.9em;margin:14px 0 0 .9em}
+.a .rule{width:200px;height:2px;background:var(--acc);margin:26px 0 18px}
+.a .sig{font-family:Georgia,serif;font-style:italic;font-size:24px;color:var(--sub)}
+/* Piste B : l'arbre des cinq */
+.b{display:flex;align-items:center;gap:30px}
+.b svg{width:150px;height:150px}
+.b .txt{display:flex;flex-direction:column}
+.b .jom{font-family:Georgia,serif;font-size:104px;font-weight:700;letter-spacing:.03em;line-height:.95}
+.b .fhm{font-size:26px;font-weight:400;letter-spacing:.62em;margin-top:10px}
+.b .sig{font-family:Georgia,serif;font-style:italic;font-size:21px;color:var(--sub);margin-top:14px}
+/* Piste C : le O en anneaux entrelacés */
+.c{display:flex;flex-direction:column;align-items:center}
+.c .jom{font-size:150px;font-weight:700;line-height:1;white-space:nowrap;letter-spacing:.02em}
+.c .o{height:.74em;width:.76em;vertical-align:-.02em;margin:0 .03em;overflow:visible}
+.c .fhm{font-size:28px;font-weight:500;letter-spacing:.85em;margin:20px 0 0 .85em}
+.c .sig{font-size:17px;letter-spacing:.32em;text-transform:uppercase;color:var(--acc);margin-top:22px;font-weight:600}
+</style></head><body>
+
+<div class="row dark">
+  <div class="cell">
+    <div class="a"><div class="jom">JOM</div><div class="fhm">FHM</div><div class="rule"></div><div class="sig">les liens du sang</div></div>
+    <div class="lab">A · Classique</div>
+  </div>
+  <div class="cell sep">
+    <div class="b">
+      <svg viewBox="0 0 60 60"><g stroke="currentColor" stroke-width="2.2" fill="none" stroke-linecap="round"><path d="M18 14 H42 M30 14 V30 M12 30 H48 M12 30 V44 M30 30 V44 M48 30 V44"/></g><circle cx="18" cy="14" r="6" fill="currentColor"/><circle cx="42" cy="14" r="6" fill="currentColor"/><circle cx="12" cy="47" r="4.6" fill="var(--acc)"/><circle cx="30" cy="47" r="4.6" fill="var(--acc)"/><circle cx="48" cy="47" r="4.6" fill="var(--acc)"/></svg>
+      <div class="txt"><div class="jom">JOM</div><div class="fhm">FHM</div><div class="sig">les liens du sang</div></div>
+    </div>
+    <div class="lab">B · L'arbre des cinq</div>
+  </div>
+  <div class="cell sep">
+    <div class="c"><div class="jom">J<svg class="o" viewBox="0 0 40 40"><circle cx="20" cy="20" r="17.4" fill="none" stroke="currentColor" stroke-width="5.2"/><circle cx="20" cy="20" r="8.6" fill="none" stroke="var(--acc)" stroke-width="4"/></svg>M</div><div class="fhm">FHM</div><div class="sig">Les liens du sang</div></div>
+    <div class="lab">C · Les cercles de la famille</div>
+  </div>
+</div>
+
+<div class="row light">
+  <div class="cell">
+    <div class="a"><div class="jom">JOM</div><div class="fhm">FHM</div><div class="rule"></div><div class="sig">les liens du sang</div></div>
+    <div class="lab">A · Classique</div>
+  </div>
+  <div class="cell sep">
+    <div class="b">
+      <svg viewBox="0 0 60 60"><g stroke="currentColor" stroke-width="2.2" fill="none" stroke-linecap="round"><path d="M18 14 H42 M30 14 V30 M12 30 H48 M12 30 V44 M30 30 V44 M48 30 V44"/></g><circle cx="18" cy="14" r="6" fill="currentColor"/><circle cx="42" cy="14" r="6" fill="currentColor"/><circle cx="12" cy="47" r="4.6" fill="var(--acc)"/><circle cx="30" cy="47" r="4.6" fill="var(--acc)"/><circle cx="48" cy="47" r="4.6" fill="var(--acc)"/></svg>
+      <div class="txt"><div class="jom">JOM</div><div class="fhm">FHM</div><div class="sig">les liens du sang</div></div>
+    </div>
+    <div class="lab">B · L'arbre des cinq</div>
+  </div>
+  <div class="cell sep">
+    <div class="c"><div class="jom">J<svg class="o" viewBox="0 0 40 40"><circle cx="20" cy="20" r="17.4" fill="none" stroke="currentColor" stroke-width="5.2"/><circle cx="20" cy="20" r="8.6" fill="none" stroke="var(--acc)" stroke-width="4"/></svg>M</div><div class="fhm">FHM</div><div class="sig">Les liens du sang</div></div>
+    <div class="lab">C · Les cercles de la famille</div>
+  </div>
+</div>
+</body></html>
