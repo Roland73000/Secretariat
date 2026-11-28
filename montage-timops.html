@@ -6,17 +6,17 @@
 /* Layout : une colonne de lecture, l'arrivée d'abord, puis les trois chemins côte à côte en étapes, puis les questions communes */
 :root{
   --bg:#f6f7f9; --card:#ffffff; --fg:#14171c; --muted:#5b6472; --line:#dde1e7;
-  --accent:#2563eb; --accent-soft:#e6eefc; --ok:#13795b; --ok-soft:#e3f4ec; --warn:#a15c07; --warn-soft:#fbf0dd;
+  --accent:#2563eb; --jom:#b03a63; --accent-soft:#e6eefc; --ok:#13795b; --ok-soft:#e3f4ec; --warn:#a15c07; --warn-soft:#fbf0dd;
   --step:#eef0f4;
   --display:"Space Grotesk",system-ui,sans-serif; --body:"Inter",system-ui,sans-serif;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --bg:#0f1216; --card:#171b21; --fg:#e8ebf0; --muted:#9aa3b1; --line:#2a313b;
-  --accent:#6b9bff; --accent-soft:#1b2a47; --ok:#4cc79b; --ok-soft:#14302a; --warn:#e8a64a; --warn-soft:#33260f;
+  --accent:#6b9bff; --jom:#d0587f; --accent-soft:#1b2a47; --ok:#4cc79b; --ok-soft:#14302a; --warn:#e8a64a; --warn-soft:#33260f;
   --step:#20262e; color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#0f1216; --card:#171b21; --fg:#e8ebf0; --muted:#9aa3b1; --line:#2a313b;
-  --accent:#6b9bff; --accent-soft:#1b2a47; --ok:#4cc79b; --ok-soft:#14302a; --warn:#e8a64a; --warn-soft:#33260f;
+  --accent:#6b9bff; --jom:#d0587f; --accent-soft:#1b2a47; --ok:#4cc79b; --ok-soft:#14302a; --warn:#e8a64a; --warn-soft:#33260f;
   --step:#20262e; color-scheme:dark}
 body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.6;
   padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:2rem 4rem}
@@ -39,6 +39,8 @@ section{display:flex;flex-direction:column;gap:1rem}
 .t{fill:var(--fg);font-family:var(--body);font-size:14px;font-weight:600}
 .ts{fill:var(--muted);font-family:var(--body);font-size:12px}
 .pl{fill:var(--accent-soft);stroke:var(--accent);stroke-width:1}
+.jom{font-family:Georgia,'Times New Roman',serif;font-weight:700;letter-spacing:.04em}
+.jo{fill:var(--jom)}
 .tp{fill:var(--accent);font-family:var(--body);font-size:13px;font-weight:600}
 .e{stroke:var(--muted);stroke-width:1.5;fill:none}
 .head{display:flex;align-items:center;gap:.8rem;flex-wrap:wrap}
@@ -98,34 +100,34 @@ li{padding-left:.2rem}
 <div class="wrap">
 
 <header style="display:flex;flex-direction:column;gap:.6rem">
-  <div class="eyebrow">Timops · préparé le 26/11/2026 · à valider par l'expert-comptable</div>
+  <div class="eyebrow">Timops · mis à jour le 28/11/2026 · à valider par l'expert-comptable</div>
   <h1>Montage de Timops</h1>
-  <p class="lead">Trois façons d'arriver au même montage : Roland passe par une holding, Romain par sa holding bulgare. Ce qui change d'une option à l'autre, c'est l'ordre des étapes, donc le moment où Timops peut démarrer, et un peu le coût. Montants en ordres de grandeur, à faire chiffrer.</p>
+  <p class="lead">Trois façons d'arriver au même montage : Roland passe par sa holding JOM FHM, Romain par sa holding bulgare. Ce qui change d'une option à l'autre, c'est l'ordre des étapes, donc le moment où Timops peut démarrer, et un peu le coût. Montants en ordres de grandeur, à faire chiffrer.</p>
 </header>
 
 <section>
   <h2>Le point d'arrivée, commun aux trois options</h2>
   <div class="card diag">
-    <svg viewBox="0 0 660 300" role="img" aria-labelledby="dt">
-      <title id="dt">Roland détient 100 % de sa holding, qui détient 100 % d'Option et Solution, 20 % de la société de Lilian et 70 % de Timops. Romain détient sa holding bulgare, qui détient 30 % de Timops.</title>
+    <svg viewBox="0 0 660 390" role="img" aria-labelledby="dt">
+      <title id="dt">Roland détient 100 % de sa holding JOM FHM, qui détient 100 % d'Option et Solution et 70 % de Timops. Option et Solution détient 20 % de l'Agence Com'2, la société de Lilian. Romain détient sa holding bulgare, qui détient 30 % de Timops.</title>
       <path class="e" d="M250 64 V110"/>
       <path class="e" d="M550 64 V110"/>
       <path class="e" d="M250 154 C250 182 100 182 100 210"/>
-      <path class="e" d="M250 154 C250 182 290 182 290 210"/>
+      <path class="e" d="M100 266 V316"/>
       <path class="e" d="M250 154 C250 182 470 182 470 210"/>
       <path class="e" d="M550 154 C550 182 530 182 530 210"/>
       <rect class="pl" x="225" y="76" width="50" height="22" rx="11"/><text class="tp" x="250" y="91.5" text-anchor="middle">100 %</text>
       <rect class="pl" x="98" y="182" width="50" height="22" rx="11"/><text class="tp" x="123" y="197.5" text-anchor="middle">100 %</text>
-      <rect class="pl" x="263" y="182" width="42" height="22" rx="11"/><text class="tp" x="284" y="197.5" text-anchor="middle">20 %</text>
+      <rect class="pl" x="79" y="280" width="42" height="22" rx="11"/><text class="tp" x="100" y="295.5" text-anchor="middle">20 %</text>
       <rect class="pl" x="415" y="182" width="42" height="22" rx="11"/><text class="tp" x="436" y="197.5" text-anchor="middle">70 %</text>
       <rect class="pl" x="512" y="182" width="42" height="22" rx="11"/><text class="tp" x="533" y="197.5" text-anchor="middle">30 %</text>
       <rect class="n me" x="170" y="20" width="160" height="44" rx="10"/><text class="t" x="250" y="47" text-anchor="middle">Roland</text>
       <rect class="n me" x="470" y="20" width="160" height="44" rx="10"/><text class="t" x="550" y="47" text-anchor="middle">Romain</text>
-      <rect class="n" x="150" y="110" width="200" height="44" rx="10"/><text class="t" x="250" y="132" text-anchor="middle">Holding de Roland</text><text class="ts" x="250" y="148" text-anchor="middle">SAS, à l'IS, en France</text>
+      <rect class="n" x="150" y="110" width="200" height="44" rx="10"/><text class="t jom" x="250" y="133" text-anchor="middle">J<tspan class="jo">O</tspan>M FHM</text><text class="ts" x="250" y="148" text-anchor="middle">holding de Roland, SAS à l'IS</text>
       <rect class="n" x="450" y="110" width="200" height="44" rx="10"/><text class="t" x="550" y="132" text-anchor="middle">Holding de Romain</text><text class="ts" x="550" y="148" text-anchor="middle">en Bulgarie</text>
       <rect class="n" x="20" y="210" width="160" height="56" rx="10"/><text class="t" x="100" y="234" text-anchor="middle">Option &amp; Solution</text><text class="ts" x="100" y="252" text-anchor="middle">usufruit des bureaux</text>
-      <rect class="n" x="210" y="210" width="160" height="56" rx="10"/><text class="t" x="290" y="234" text-anchor="middle">Société de Lilian</text><text class="ts" x="290" y="252" text-anchor="middle">part de 20 %</text>
-      <rect class="n tm" x="400" y="210" width="200" height="56" rx="10"/><text class="t" x="500" y="234" text-anchor="middle">TIMOPS</text><text class="ts" x="500" y="252" text-anchor="middle">SAS, présidée par la holding</text>
+      <rect class="n" x="20" y="316" width="160" height="56" rx="10"/><text class="t" x="100" y="340" text-anchor="middle">Agence Com'2</text><text class="ts" x="100" y="358" text-anchor="middle">Lilian détient les 80 %</text>
+      <rect class="n tm" x="400" y="210" width="200" height="56" rx="10"/><text class="t" x="500" y="234" text-anchor="middle">TIMOPS</text><text class="ts" x="500" y="252" text-anchor="middle">SAS, présidée par JOM FHM</text>
     </svg>
   </div>
 </section>
@@ -136,32 +138,32 @@ li{padding-left:.2rem}
   <p class="foot">Pour chaque option : ce que tu paies <b>tout de suite</b>, pour que Timops démarre, puis ce que tu paies <b>plus tard</b> pour finir le montage, et le <b>total</b>. La création de Timops elle-même est comptée dans le coût immédiat.</p>
 
   <article class="card">
-    <div class="head"><div class="letter">A</div><h3>La holding d'abord, créée avec tes titres, puis Timops</h3></div>
+    <div class="head"><div class="letter">A</div><h3>JOM FHM d'abord, créée avec tes titres, puis Timops</h3></div>
     <div class="steps">
-      <div class="st"><b>Évaluer Option &amp; Solution et Lilian, nommer le commissaire aux apports</b><span>semaines 1 à 6</span></div>
+      <div class="st"><b>Évaluer Option &amp; Solution (avec sa part dans Com'2), nommer le commissaire aux apports</b><span>semaines 1 à 6</span></div>
       <div class="arr" aria-hidden="true">→</div>
-      <div class="st"><b>Créer la holding avec ces titres et un peu d'argent</b><span>semaines 6 à 10</span></div>
+      <div class="st"><b>Créer JOM FHM avec ces titres et un peu d'argent</b><span>semaines 6 à 10</span></div>
       <div class="arr" aria-hidden="true">→</div>
-      <div class="st tm"><b>La holding crée Timops avec la holding de Romain</b><span>semaines 10 à 12</span></div>
+      <div class="st tm"><b>JOM FHM crée Timops avec la holding de Romain</b><span>semaines 10 à 12</span></div>
     </div>
     <div class="money">
       <div class="m"><span>Timops existe dans</span><b>environ 3 mois</b></div>
-      <div class="m now"><span>Tout de suite</span><b>4 150 à 12 250 €</b></div>
+      <div class="m now"><span>Tout de suite</span><b>4 100 à 12 050 €</b></div>
       <div class="m later"><span>Plus tard</span><b>0 €</b></div>
-      <div class="m tot"><span>Total</span><b>4 150 à 12 250 €</b></div>
+      <div class="m tot"><span>Total</span><b>4 100 à 12 050 €</b></div>
     </div>
     <div class="cols">
       <div>
         <div class="ct now">Tout de suite, avant que Timops existe</div>
         <table>
-          <tr><td>Évaluation d'Option &amp; Solution (avec l'usufruit) et de Lilian</td><td>1 000 à 3 000 €</td></tr>
+          <tr><td>Évaluation d'Option &amp; Solution (avec l'usufruit et sa part de 20 % dans Com'2)</td><td>1 000 à 3 000 €</td></tr>
           <tr><td>Commissaire aux apports</td><td>1 500 à 4 000 €</td></tr>
-          <tr><td>Statuts de la holding et traité d'apport</td><td>1 000 à 3 000 €</td></tr>
-          <tr><td>Greffe et annonce légale de la holding</td><td>250 €</td></tr>
-          <tr><td>Formalités chez Option &amp; Solution, agrément chez Lilian</td><td>200 à 500 €</td></tr>
+          <tr><td>Statuts de JOM FHM et traité d'apport</td><td>1 000 à 3 000 €</td></tr>
+          <tr><td>Greffe et annonce légale de JOM FHM</td><td>250 €</td></tr>
+          <tr><td>Formalités chez Option &amp; Solution (pas d'agrément chez Com'2 : ses parts ne bougent pas)</td><td>150 à 300 €</td></tr>
           <tr><td>Droits d'enregistrement sur l'apport</td><td>0 €</td></tr>
           <tr><td>Création de Timops</td><td>200 à 1 500 €</td></tr>
-          <tr class="tot"><td>Sous-total immédiat</td><td>4 150 à 12 250 €</td></tr>
+          <tr class="tot"><td>Sous-total immédiat</td><td>4 100 à 12 050 €</td></tr>
         </table>
       </div>
       <div>
@@ -178,47 +180,47 @@ li{padding-left:.2rem}
       <ol>
         <li>Quel délai réaliste jusqu'à l'immatriculation de Timops ?</li>
         <li>Les comptes d'Option &amp; Solution à quelle date serviront à l'évaluation ?</li>
-        <li>Peut-on mettre aussi de l'argent dans la holding à sa création, pour qu'elle paie sa part du capital de Timops ?</li>
-        <li>Combien de temps prend l'agrément de la société de Lilian ?</li>
+        <li>Peut-on mettre aussi de l'argent dans JOM FHM à sa création, pour qu'elle paie sa part du capital de Timops ?</li>
+        <li>Combien de temps prend l'évaluation d'Option &amp; Solution ?</li>
         <li>En attendant, peut-on signer des contrats au nom de « Timops en formation » ?</li>
       </ol>
     </div>
   </article>
 
   <article class="card rec">
-    <div class="head"><div class="letter">B</div><h3>La holding d'abord, créée avec de l'argent, les titres ensuite</h3><span class="badge">Recommandée</span></div>
+    <div class="head"><div class="letter">B</div><h3>JOM FHM d'abord, créée avec de l'argent, les titres ensuite</h3><span class="badge">Recommandée</span></div>
     <div class="steps">
-      <div class="st"><b>Créer la holding avec un peu d'argent</b><span>semaines 1 à 2</span></div>
+      <div class="st"><b>Créer JOM FHM avec un peu d'argent</b><span>semaines 1 à 2</span></div>
       <div class="arr" aria-hidden="true">→</div>
-      <div class="st tm"><b>La holding crée Timops avec la holding de Romain</b><span>semaines 2 à 3</span></div>
+      <div class="st tm"><b>JOM FHM crée Timops avec la holding de Romain</b><span>semaines 2 à 3</span></div>
       <div class="arr" aria-hidden="true">→</div>
-      <div class="st"><b>Apporter Option &amp; Solution et Lilian à la holding</b><span>dans les mois qui suivent</span></div>
+      <div class="st"><b>Apporter Option &amp; Solution à JOM FHM, avec sa part dans Com'2</b><span>dans les mois qui suivent</span></div>
     </div>
     <div class="money">
       <div class="m"><span>Timops existe dans</span><b>environ 3 semaines</b></div>
       <div class="m now"><span>Tout de suite</span><b>700 à 2 500 €</b></div>
-      <div class="m later"><span>Plus tard</span><b>4 325 à 11 250 €</b></div>
-      <div class="m tot"><span>Total</span><b>5 025 à 13 750 €</b></div>
+      <div class="m later"><span>Plus tard</span><b>4 275 à 11 050 €</b></div>
+      <div class="m tot"><span>Total</span><b>4 975 à 13 550 €</b></div>
     </div>
     <div class="cols">
       <div>
         <div class="ct now">Tout de suite, pour que Timops démarre</div>
         <table>
-          <tr><td>Création de la holding avec de l'argent (statuts, greffe, annonce)</td><td>500 à 1 000 €</td></tr>
+          <tr><td>Création de JOM FHM avec de l'argent (statuts, greffe, annonce)</td><td>500 à 1 000 €</td></tr>
           <tr><td>Création de Timops</td><td>200 à 1 500 €</td></tr>
           <tr class="tot"><td>Sous-total immédiat</td><td>700 à 2 500 €</td></tr>
         </table>
       </div>
       <div>
-        <div class="ct later">Plus tard, à l'apport d'Option &amp; Solution et de Lilian</div>
+        <div class="ct later">Plus tard, à l'apport d'Option &amp; Solution</div>
         <table>
-          <tr><td>Évaluation d'Option &amp; Solution (avec l'usufruit) et de Lilian</td><td>1 000 à 3 000 €</td></tr>
+          <tr><td>Évaluation d'Option &amp; Solution (avec l'usufruit et sa part de 20 % dans Com'2)</td><td>1 000 à 3 000 €</td></tr>
           <tr><td>Commissaire aux apports</td><td>1 500 à 4 000 €</td></tr>
           <tr><td>Traité d'apport et augmentation de capital</td><td>1 000 à 3 000 €</td></tr>
           <tr><td>Droit fixe sur l'augmentation de capital</td><td>375 à 500 €</td></tr>
           <tr><td>Greffe et annonce de l'augmentation</td><td>250 €</td></tr>
-          <tr><td>Formalités chez Option &amp; Solution, agrément chez Lilian</td><td>200 à 500 €</td></tr>
-          <tr class="tot"><td>Sous-total à terme</td><td>4 325 à 11 250 €</td></tr>
+          <tr><td>Formalités chez Option &amp; Solution (pas d'agrément chez Com'2 : ses parts ne bougent pas)</td><td>150 à 300 €</td></tr>
+          <tr class="tot"><td>Sous-total à terme</td><td>4 275 à 11 050 €</td></tr>
         </table>
       </div>
     </div>
@@ -226,28 +228,28 @@ li{padding-left:.2rem}
     <div>
       <div class="eyebrow" style="margin-bottom:.4rem">Les questions pour l'option B</div>
       <ol>
-        <li>Quel capital en argent pour créer la holding ?</li>
+        <li>Quel capital en argent pour créer JOM FHM ?</li>
         <li>L'apport à une holding déjà créée profite-t-il du même report d'imposition qu'un apport à la création ?</li>
         <li>Le commissaire aux apports est-il obligatoire aussi dans ce cas ? Le droit fixe est-il de 375 ou de 500 € ?</li>
-        <li>Combien de temps peut-on attendre, au plus, entre la création de la holding et l'apport ?</li>
+        <li>Combien de temps peut-on attendre, au plus, entre la création de JOM FHM et l'apport ?</li>
       </ol>
     </div>
   </article>
 
   <article class="card">
-    <div class="head"><div class="letter">C</div><h3>Timops à ton nom tout de suite, la holding ensuite</h3></div>
+    <div class="head"><div class="letter">C</div><h3>Timops à ton nom tout de suite, JOM FHM ensuite</h3></div>
     <div class="steps">
       <div class="st tm"><b>Tu crées Timops à ton nom avec la holding de Romain</b><span>semaines 1 à 2</span></div>
       <div class="arr" aria-hidden="true">→</div>
-      <div class="st"><b>Préparer la holding en parallèle</b><span>mois 1 à 3</span></div>
+      <div class="st"><b>Préparer JOM FHM en parallèle</b><span>mois 1 à 3</span></div>
       <div class="arr" aria-hidden="true">→</div>
-      <div class="st"><b>Apporter Option &amp; Solution, Lilian et tes actions de Timops</b><span>au plus tard dans les 12 mois</span></div>
+      <div class="st"><b>Apporter Option &amp; Solution et tes actions de Timops</b><span>au plus tard dans les 12 mois</span></div>
     </div>
     <div class="money">
       <div class="m"><span>Timops existe dans</span><b>environ 2 semaines</b></div>
       <div class="m now"><span>Tout de suite</span><b>200 à 1 500 €</b></div>
-      <div class="m later"><span>Plus tard</span><b>4 150 à 11 550 €</b></div>
-      <div class="m tot"><span>Total</span><b>4 350 à 13 050 €</b></div>
+      <div class="m later"><span>Plus tard</span><b>4 100 à 11 350 €</b></div>
+      <div class="m tot"><span>Total</span><b>4 300 à 12 850 €</b></div>
     </div>
     <div class="cols">
       <div>
@@ -258,16 +260,16 @@ li{padding-left:.2rem}
         </table>
       </div>
       <div>
-        <div class="ct later">Plus tard, à la création de la holding</div>
+        <div class="ct later">Plus tard, à la création de JOM FHM</div>
         <table>
-          <tr><td>Évaluation d'Option &amp; Solution (avec l'usufruit) et de Lilian</td><td>1 000 à 3 000 €</td></tr>
+          <tr><td>Évaluation d'Option &amp; Solution (avec l'usufruit et sa part de 20 % dans Com'2)</td><td>1 000 à 3 000 €</td></tr>
           <tr><td>Commissaire aux apports</td><td>1 500 à 4 000 €</td></tr>
-          <tr><td>Statuts de la holding et traité d'apport</td><td>1 000 à 3 000 €</td></tr>
-          <tr><td>Greffe et annonce légale de la holding</td><td>250 €</td></tr>
-          <tr><td>Formalités chez Option &amp; Solution, agrément chez Lilian</td><td>200 à 500 €</td></tr>
+          <tr><td>Statuts de JOM FHM et traité d'apport</td><td>1 000 à 3 000 €</td></tr>
+          <tr><td>Greffe et annonce légale de JOM FHM</td><td>250 €</td></tr>
+          <tr><td>Formalités chez Option &amp; Solution (pas d'agrément chez Com'2 : ses parts ne bougent pas)</td><td>150 à 300 €</td></tr>
           <tr><td>Évaluation de tes actions de Timops, tant qu'elles valent leur capital</td><td>0 à 500 €</td></tr>
-          <tr><td>Formalités chez Timops (la holding devient associée et présidente)</td><td>200 à 300 €</td></tr>
-          <tr class="tot"><td>Sous-total à terme</td><td>4 150 à 11 550 €</td></tr>
+          <tr><td>Formalités chez Timops (JOM FHM devient associée et présidente)</td><td>200 à 300 €</td></tr>
+          <tr class="tot"><td>Sous-total à terme</td><td>4 100 à 11 350 €</td></tr>
         </table>
       </div>
     </div>
@@ -277,7 +279,7 @@ li{padding-left:.2rem}
       <ol>
         <li>Faut-il écrire dans les statuts de Timops qu'un associé peut transférer ses actions à une société qu'il contrôle, sans agrément ?</li>
         <li>Comment évaluer les actions de Timops au moment de l'apport ? Faut-il un commissaire aux apports pour elles ?</li>
-        <li>Quelles formalités pour faire passer la présidence de toi à ta holding ?</li>
+        <li>Quelles formalités pour faire passer la présidence de toi à JOM FHM ?</li>
         <li>Jusqu'à quand l'apport reste-t-il quasi gratuit ?</li>
       </ol>
     </div>
@@ -290,17 +292,17 @@ li{padding-left:.2rem}
     <table>
       <tr><th></th><th>A</th><th>B</th><th>C</th></tr>
       <tr><td>Timops existe dans</td><td>3 mois</td><td>3 semaines</td><td>2 semaines</td></tr>
-      <tr class="rnow"><td>Coût tout de suite</td><td>4 150 à 12 250 €</td><td>700 à 2 500 €</td><td>200 à 1 500 €</td></tr>
-      <tr class="rlater"><td>Coût plus tard</td><td>0 €</td><td>4 325 à 11 250 €</td><td>4 150 à 11 550 €</td></tr>
-      <tr class="rtot"><td>Coût total</td><td>4 150 à 12 250 €</td><td>5 025 à 13 750 €</td><td>4 350 à 13 050 €</td></tr>
+      <tr class="rnow"><td>Coût tout de suite</td><td>4 100 à 12 050 €</td><td>700 à 2 500 €</td><td>200 à 1 500 €</td></tr>
+      <tr class="rlater"><td>Coût plus tard</td><td>0 €</td><td>4 275 à 11 050 €</td><td>4 100 à 11 350 €</td></tr>
+      <tr class="rtot"><td>Coût total</td><td>4 100 à 12 050 €</td><td>4 975 à 13 550 €</td><td>4 300 à 12 850 €</td></tr>
       <tr><td>Risque</td><td>le retard</td><td>presque aucun</td><td>oublier l'apport</td></tr>
-      <tr><td>Holding associée de Timops</td><td>dès le départ</td><td>dès le départ</td><td>après l'apport</td></tr>
+      <tr><td>JOM FHM associée de Timops</td><td>dès le départ</td><td>dès le départ</td><td>après l'apport</td></tr>
     </table>
   </div>
   <div class="card">
     <div class="eyebrow">En plus, quelle que soit l'option</div>
     <table>
-      <tr><td>Comptabilité de la holding, chaque année, dès qu'elle existe</td><td>1 000 à 2 000 € par an</td></tr>
+      <tr><td>Comptabilité de JOM FHM, chaque année, dès qu'elle existe</td><td>1 000 à 2 000 € par an</td></tr>
       <tr><td>Pacte d'associés, s'il n'est pas dans l'offre</td><td>à chiffrer</td></tr>
     </table>
     <p class="foot">L'évaluation et le commissaire aux apports font les trois quarts de la facture. Les trois totaux sont proches : le choix se fait sur le délai et sur ce que tu acceptes d'avancer tout de suite.</p>
@@ -313,22 +315,24 @@ li{padding-left:.2rem}
     <div class="card">
       <h3>Option &amp; Solution</h3>
       <ol>
-        <li><b>Si la holding détient Option &amp; Solution, Roland reste-t-il gérant majoritaire, donc TNS ?</b> Enjeu : environ 45 % de charges contre 75 à 80 %.</li>
+        <li><b>Si JOM FHM détient Option &amp; Solution, Roland reste-t-il gérant majoritaire, donc TNS ?</b> Enjeu : environ 45 % de charges contre 75 à 80 %.</li>
         <li>Quelle valeur pour Option &amp; Solution, avec l'usufruit des bureaux ?</li>
         <li>L'usufruit est-il temporaire, pour combien d'années, comment est-il amorti ?</li>
         <li>La convention de démembrement prévoit-elle quelque chose si Option &amp; Solution change d'associé ?</li>
-        <li>Les dividendes d'Option &amp; Solution versés à la holding : régime mère-fille, sans cotisations sociales ?</li>
+        <li>Les dividendes d'Option &amp; Solution versés à JOM FHM : régime mère-fille, sans cotisations sociales ?</li>
         <li>Roland reste payé chez Option &amp; Solution et pas chez Timops : d'accord ?</li>
+        <li><b>Le pacte de Com'2, article 12 :</b> si Option &amp; Solution cesse d'être contrôlée par Roland, Lilian peut racheter ses 20 %. L'apport à JOM FHM le déclenche-t-il, alors que Roland reste le contrôleur final ? Et une transmission future aux enfants ?</li>
+        <li><b>Le pacte de Com'2, article 11 :</b> Lilian peut racheter les 20 % à tout moment, au prix d'expert à défaut d'accord. Comment en tenir compte dans l'évaluation d'Option &amp; Solution ?</li>
       </ol>
     </div>
     <div class="card">
-      <h3>La holding</h3>
+      <h3>JOM FHM, la holding</h3>
       <ol>
         <li>Vaut-elle son coût, avec une trésorerie faible aujourd'hui ?</li>
         <li>En SAS ou en SARL ?</li>
-        <li>La règle des trois ans en cas de vente par la holding, après la loi de finances 2026 : quelle part du prix réinvestir ?</li>
-        <li>Le pacte Dutreil : conditions de la holding animatrice, conventions d'animation, bureaux comptés comme actif professionnel ?</li>
-        <li>Des frais de gestion facturés par la holding à Option &amp; Solution et à Timops : possible, à quel prix ?</li>
+        <li>La règle des trois ans en cas de vente par JOM FHM, après la loi de finances 2026 : quelle part du prix réinvestir ?</li>
+        <li>Le pacte Dutreil : conditions pour que JOM FHM soit une holding animatrice, conventions d'animation, bureaux comptés comme actif professionnel ?</li>
+        <li>Des frais de gestion facturés par JOM FHM à Option &amp; Solution et à Timops : possible, à quel prix ?</li>
       </ol>
     </div>
     <div class="card">
@@ -356,8 +360,8 @@ li{padding-left:.2rem}
   <div class="card">
     <h3>Pour choisir le cabinet</h3>
     <ol>
-      <li>Peut-il faire la création de Timops, de la holding, les apports et le pacte ? Avec quels délais ?</li>
-      <li>Ses tarifs pour Timops et la holding, face à l'offre de création de Dougs.</li>
+      <li>Peut-il faire la création de Timops, de JOM FHM, les apports et le pacte ? Avec quels délais ?</li>
+      <li>Ses tarifs pour Timops et JOM FHM, face à l'offre de création de Dougs.</li>
       <li>A-t-il déjà accompagné un associé étranger passant par une holding européenne ?</li>
       <li>Un même cabinet peut-il faire l'évaluation et le traité d'apport ? Le commissaire aux apports, lui, doit être indépendant.</li>
     </ol>

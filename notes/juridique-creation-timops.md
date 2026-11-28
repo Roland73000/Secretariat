@@ -145,10 +145,15 @@ dividendes s'il les touche en direct.
   d'acheter l'**usufruit des bureaux**. La **nue-propriété** est détenue par
   une **SCI familiale** (Roland, sa femme, ses enfants, et Option & Solution
   pour une part en pleine propriété).
-- Il a **20 %** de la société de Lilian.
+- **Option & Solution** (et non Roland en direct) détient **20 %** de
+  l'Agence Com'2, la société de Lilian : 250 parts sur 1 250 (statuts et
+  pacte d'associés vérifiés dans le Drive le 28/11/2026). Le pacte
+  permet à Lilian de racheter ces 20 % à tout moment, au prix d'expert à
+  défaut d'accord (article 11), et Option & Solution doit les lui vendre, s'il le demande,
+  quand Option & Solution cesse d'être contrôlée par Roland (article 12).
 - Il a l'intention de **vendre ou de transmettre un jour toutes les
-  sociétés qu'il détient** : Option & Solution, la part chez Lilian et
-  Timops.
+  sociétés qu'il détient** : Option & Solution (avec sa part dans Com'2)
+  et Timops.
 - Pour Timops, il ne sait pas encore s'il voudra réinvestir l'argent ou en
   vivre, et il n'a pas besoin d'un salaire de Timops pour vivre.
 
@@ -188,15 +193,19 @@ organiser une transmission qui se fera dans dix ou vingt ans :
   une holding qui pilote vraiment ses filiales (décisions, services
   rendus), pas une simple boîte à titres ;
 - donner des titres de la holding, c'est transmettre d'un coup Option &
-  Solution, la part chez Lilian et Timops ;
+  Solution (avec sa part dans Com'2) et Timops ;
 - une donation avant une vente efface la plus-value accumulée jusque-là.
 
 ### Comment la monter
 
 1. **Créer la holding** (une SAS ou une SARL au nom de Roland, à l'impôt
    sur les sociétés), avec Dougs.
-2. **Apporter les 100 % d'Option & Solution et les 20 % chez Lilian** à
-   la holding. La plus-value de ces titres n'est pas taxée au moment de
+2. **Apporter les 100 % d'Option & Solution** à la holding JOM FHM ;
+   sa part de 20 % dans Com'2 suit, sans agrément à demander à Lilian.
+   Point à vérifier : la clause de changement de contrôle du pacte de
+   Com'2 (article 12) ne devrait pas jouer, puisque Roland reste le
+   contrôleur final, mais une transmission aux enfants pourrait la
+   déclencher. La plus-value de ces titres n'est pas taxée au moment de
    l'apport : elle est **mise en report** (article 150-0 B ter du CGI),
    parce que Roland contrôle la holding. Le report devient une imposition
    si la holding revend les titres apportés dans les trois ans, sauf si
@@ -372,7 +381,8 @@ marque peut le rédiger.
 
 **Réponses de Roland (26/11)** : 100 % d'Option & Solution (EURL), une
 rémunération de gérant et pas de dividendes, la trésorerie reste dans la
-société ; 20 % chez Lilian ; vente ou transmission envisagée ; 50 ans ; pas
+société ; 20 % chez Lilian (détenus par Option & Solution, vérifié le
+28/11) ; vente ou transmission envisagée ; 50 ans ; pas
 besoin d'un salaire chez Timops ; grandes décisions aux deux tiers, pour
 ne jamais être bloqué.
 

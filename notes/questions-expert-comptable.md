@@ -12,25 +12,25 @@ lui et Dougs pour Timops. Le détail des raisons est dans
        │                                         │
        ├── 100 % ── Option & Solution      Holding bulgare
        │            (usufruit des bureaux)       │
-       ├──  20 % ── Société de Lilian            │
+       │                 └── 20 % ── Agence Com'2 (Lilian 80 %)
        │                                         │
        └──  70 % ──────── TIMOPS (SAS) ──── 30 % ┘
                     (Roland président, non payé)
 ```
 
-## Schéma 2 : Roland passe par une holding
+## Schéma 2 : Roland passe par sa holding JOM FHM
 
 ```
      Roland                                   Romain
        │ 100 %                                   │
-  Holding de Roland (SAS, à l'IS)          Holding bulgare
+  JOM FHM, holding de Roland (SAS, à l'IS) Holding bulgare
        │                                         │
        ├── 100 % ── Option & Solution            │
        │            (usufruit des bureaux)       │
-       ├──  20 % ── Société de Lilian            │
+       │                 └── 20 % ── Agence Com'2 (Lilian 80 %)
        │                                         │
        └──  70 % ──────── TIMOPS (SAS) ──── 30 % ┘
-                    (la holding présidente)
+                    (JOM FHM présidente)
 ```
 
 ## Les deux schémas côte à côte
@@ -52,7 +52,7 @@ celui de la holding.
 Les trois chemins possibles :
 - **A.** Créer la holding par apport, puis Timops : Timops attend 2 à 3 mois.
 - **B.** Créer la holding avec de l'argent, elle souscrit Timops, puis
-  apporter Option & Solution et Lilian : 1 à 2 semaines de délai.
+  apporter Option & Solution : 1 à 2 semaines de délai.
 - **C.** Créer Timops au nom de Roland, monter la holding en parallèle,
   apporter les actions de Timops avec Option & Solution dans les mois qui
   suivent : aucun délai.
@@ -69,20 +69,20 @@ elle-même est le même dans les trois cas : il n'est pas compté ici.
 ```
 Semaines   0 ──────── 4 ──────── 8 ──────── 10 ─────── 12
            │ évaluation, commissaire     │ holding     │ TIMOPS
-           │ aux apports, agrément Lilian│ immatriculée│ immatriculée
+           │ aux apports                 │ immatriculée│ immatriculée
            └─────────────────────────────┴─────────────┘
-Roland ── apporte O&S + Lilian (+ un peu d'argent) ──► Holding ── 70 % ──► Timops
+Roland ── apporte O&S (+ un peu d'argent) ──► JOM FHM ── 70 % ──► Timops
 ```
 
 | Poste | Coût |
 | --- | --- |
-| Évaluation d'Option & Solution et de Lilian | 1 000 à 3 000 € |
+| Évaluation d'Option & Solution, avec sa part de 20 % dans Com'2 | 1 000 à 3 000 € |
 | Commissaire aux apports | 1 500 à 4 000 € |
 | Statuts de la holding et traité d'apport | 1 000 à 3 000 € |
 | Greffe et annonce de la holding | environ 250 € |
-| Formalités chez Option & Solution et agrément chez Lilian | 200 à 500 € |
+| Formalités chez Option & Solution (pas d'agrément chez Com'2 : ses parts ne bougent pas) | 150 à 300 € |
 | Droits d'enregistrement (apport à la création) | 0 € |
-| **Total** | **environ 3 950 à 10 750 €** |
+| **Total** | **environ 3 900 à 10 550 €** |
 
 **Ce que Roland perd :** 2 à 3 mois avant que Timops existe (compte
 bancaire, contrats, embauche de Gaëlle). Rien sur le plan fiscal.
@@ -95,9 +95,9 @@ création, ou que Roland lui prête.
 ```
 Semaines   0 ── 1 ── 2 ── 3 ── 4            quelques mois plus tard
            │ holding  │ TIMOPS  │           │ augmentation de capital :
-           │ (argent) │         │           │ apport d'O&S + Lilian
-Roland ── argent ──► Holding ── 70 % ──► Timops
-Roland ── apporte O&S + Lilian ──────────► Holding (plus tard)
+           │ (argent) │         │           │ apport d'O&S
+Roland ── argent ──► JOM FHM ── 70 % ──► Timops
+Roland ── apporte O&S ──────────────────► JOM FHM (plus tard)
 ```
 
 | Poste | Coût |
@@ -106,8 +106,8 @@ Roland ── apporte O&S + Lilian ──────────► Holding (pl
 | Plus tard : évaluation, commissaire aux apports, traité d'apport | 3 500 à 10 000 € |
 | Droit fixe sur l'augmentation de capital | 375 à 500 € |
 | Greffe et annonce de la modification | environ 250 € |
-| Formalités chez Option & Solution et agrément chez Lilian | 200 à 500 € |
-| **Total** | **environ 4 800 à 12 250 €**, soit environ 900 à 1 500 € de plus que A |
+| Formalités chez Option & Solution (pas d'agrément chez Com'2 : ses parts ne bougent pas) | 150 à 300 € |
+| **Total** | **environ 4 750 à 12 050 €**, soit environ 900 à 1 500 € de plus que A |
 
 **Ce que Roland perd :** 1 à 2 semaines de délai et quelques centaines
 d'euros. La holding est associée et présidente de Timops dès le premier
@@ -118,18 +118,18 @@ jour : aucune plus-value gelée, aucun apport de Timops à faire.
 ```
 Semaines   0 ── 1 ── 2               quelques mois plus tard
            │ TIMOPS  │               │ holding créée par apport de :
-           │ (Roland │               │ O&S + Lilian + les 70 % de Timops
+           │ (Roland │               │ O&S + les 70 % de Timops
            │  70 %)  │               │
 Roland ── 70 % ──► Timops
-Roland ── apporte O&S + Lilian + Timops ──► Holding (plus tard)
+Roland ── apporte O&S + Timops ──► JOM FHM (plus tard)
 ```
 
 | Poste | Coût |
 | --- | --- |
-| Holding créée par apport (comme A) | environ 3 950 à 10 750 € |
+| Holding créée par apport (comme A) | environ 3 900 à 10 550 € |
 | Évaluation des actions de Timops en plus | 0 à 500 € tant qu'elle vaut son capital |
 | Formalités chez Timops (nouvel associé, nouveau président) | 200 à 300 € |
-| **Total** | **environ 4 150 à 11 550 €** |
+| **Total** | **environ 4 100 à 11 350 €** |
 
 **Ce que Roland perd :** aucun délai. Le risque est d'attendre : la
 plus-value prise par Timops avant l'apport reste imposée à 31,4 % au lieu
@@ -142,9 +142,9 @@ avant tout investisseur, idéalement dans les 12 mois).
 | | A | B | C |
 | --- | --- | --- | --- |
 | Retard pour Timops | 2 à 3 mois | 1 à 2 semaines | aucun |
-| Coût tout de suite (création de Timops comprise) | 4 150 à 12 250 € | 700 à 2 500 € | 200 à 1 500 € |
-| Coût plus tard | 0 € | 4 325 à 11 250 € | 4 150 à 11 550 € |
-| Coût total | 4 150 à 12 250 € | 5 025 à 13 750 € | 4 350 à 13 050 € |
+| Coût tout de suite (création de Timops comprise) | 4 100 à 12 050 € | 700 à 2 500 € | 200 à 1 500 € |
+| Coût plus tard | 0 € | 4 275 à 11 050 € | 4 100 à 11 350 € |
+| Coût total | 4 100 à 12 050 € | 4 975 à 13 550 € | 4 300 à 12 850 € |
 | Risque | le retard | presque aucun | oublier de faire l'apport à temps |
 
 ---
@@ -160,7 +160,7 @@ Dutreil) sont plus bas.
 - A2. Les comptes d'Option & Solution à quelle date pour l'évaluation ?
 - A3. Peut-on ajouter un apport en argent à la création de la holding pour
   financer le capital de Timops ?
-- A4. Combien de temps faut-il pour l'agrément de la société de Lilian ?
+- A4. Combien de temps faut-il pour évaluer Option & Solution ?
 - A5. En attendant, peut-on signer des contrats « au nom de Timops en
   formation » ?
 
@@ -203,7 +203,7 @@ Dutreil) sont plus bas.
    mère-fille, et pas de cotisations sociales de gérant ?
 7. Roland reste payé chez Option & Solution et pas chez Timops : d'accord ?
 
-### La holding
+### JOM FHM, la holding
 
 8. La holding vaut-elle son coût, avec une trésorerie faible aujourd'hui
    dans Option & Solution ?
@@ -217,8 +217,14 @@ Dutreil) sont plus bas.
 13. Le pacte Dutreil avec une holding animatrice : quelles conditions,
     quelles conventions d'animation, et les bureaux comptent-ils comme un
     actif professionnel ?
-14. L'apport des 20 % chez Lilian : agrément nécessaire dans les statuts
-    de sa société ?
+14. Les 20 % de l'Agence Com'2 sont détenus par Option & Solution, pas
+    par Roland (statuts vérifiés le 28/11/2026). Le pacte d'associés de
+    Com'2 prévoit, article 12, que Lilian peut racheter ces 20 % si Option
+    & Solution cesse d'être contrôlée par Roland : l'apport d'Option &
+    Solution à JOM FHM le déclenche-t-il, alors que Roland reste le
+    contrôleur final ? Et une transmission future aux enfants ? L'article
+    11 permet aussi à Lilian de racheter ces 20 % à tout moment : comment
+    en tenir compte dans l'évaluation ?
 15. Des frais de gestion facturés par la holding à Option & Solution et à
     Timops : possible, à quel prix, avec quels justificatifs ?
 
