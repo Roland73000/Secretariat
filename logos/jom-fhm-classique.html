@@ -3,7 +3,7 @@
 <style>
 html,body{margin:0;width:1600px;height:600px;font-family:Helvetica,Arial,sans-serif}
 .row{display:grid;grid-template-columns:1fr 1fr;height:600px}
-.cell{display:flex;flex-direction:column;align-items:center;justify-content:center}
+.cell{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center}
 .dark{background:#141210;color:#f4efe8;--f:#d0587f;--sub:#b9b0a5}
 .light{background:#faf7f2;color:#1c1916;--f:#b03a63;--sub:#6f665c}
 .jom{font-family:Georgia,'Times New Roman',serif;font-size:150px;font-weight:700;letter-spacing:.04em;line-height:1;white-space:nowrap}
@@ -11,9 +11,10 @@ html,body{margin:0;width:1600px;height:600px;font-family:Helvetica,Arial,sans-se
 .fhm{font-size:30px;font-weight:300;letter-spacing:.9em;margin:14px 0 0 .9em}
 .rule{width:200px;height:2px;background:var(--f);margin:26px 0 18px}
 .sig{font-family:Georgia,serif;font-style:italic;font-size:24px;color:var(--sub)}
+.lab{position:absolute;bottom:34px;font-size:18px;letter-spacing:.06em;opacity:.55}
 </style></head><body>
 <div class="row">
-  <div class="cell dark"><div class="jom">J<span class="o">O</span>M</div><div class="fhm">FHM</div><div class="rule"></div><div class="sig">les liens du sang</div></div>
-  <div class="cell light"><div class="jom">J<span class="o">O</span>M</div><div class="fhm">FHM</div><div class="rule"></div><div class="sig">les liens du sang</div></div>
+  <div class="cell dark"><div class="jom">J<span class="o">O</span>M</div><div class="fhm">FHM</div><div class="rule"></div><div class="sig">les liens du sang</div><div class="lab">Jom : Honneur · Dignité · Courage</div></div>
+  <div class="cell light"><div class="jom">J<span class="o">O</span>M</div><div class="fhm">FHM</div><div class="rule"></div><div class="sig">les liens du sang</div><div class="lab">Jom : Honneur · Dignité · Courage</div></div>
 </div>
 </body></html>
