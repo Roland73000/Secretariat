@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><title>JOM FHM avec définition</title>
+<style>
+html,body{margin:0;width:1800px;height:1000px;font-family:Helvetica,Arial,sans-serif}
+.row{display:grid;grid-template-columns:1fr 1fr;height:500px}
+.cell{display:flex;align-items:center;justify-content:center;position:relative}
+.sep{border-left:1px solid rgba(128,128,128,.25)}
+.dark{background:#141210;color:#f4efe8;--acc:#d0643f;--sub:#b9b0a5}
+.light{background:#faf7f2;color:#1c1916;--acc:#a8432a;--sub:#6f665c}
+.lab{position:absolute;bottom:24px;font-size:18px;letter-spacing:.03em;opacity:.5}
+.mark{width:130px;height:130px}
+.jom{font-family:Georgia,serif;font-size:96px;font-weight:700;letter-spacing:.03em;line-height:.95}
+.fhm{font-size:24px;letter-spacing:.62em;margin-top:10px}
+.sig{font-family:Georgia,serif;font-style:italic;font-size:20px;color:var(--sub);margin-top:12px}
+/* Version 1 : une ligne de valeurs */
+.v1{display:flex;flex-direction:column;align-items:center}
+.v1 .top{display:flex;align-items:center;gap:28px}
+.v1 .vals{margin-top:34px;padding-top:18px;border-top:2px solid var(--acc);font-size:17px;letter-spacing:.34em;text-transform:uppercase;font-weight:600;color:var(--acc)}
+/* Version 2 : l'entrée de dictionnaire */
+.v2{display:flex;align-items:center;gap:44px}
+.v2 .logo{display:flex;align-items:center;gap:26px}
+.v2 .def{border-left:2px solid var(--acc);padding-left:30px;max-width:330px;font-family:Georgia,serif}
+.v2 .w{font-size:30px;font-weight:700}
+.v2 .ph{font-size:18px;color:var(--sub);font-style:italic;margin-left:8px}
+.v2 .t{font-size:15px;letter-spacing:.12em;text-transform:uppercase;color:var(--acc);margin:6px 0 12px;font-family:Helvetica,Arial,sans-serif;font-weight:600}
+.v2 p{margin:0;font-size:19px;line-height:1.5}
+</style></head><body>
+<svg width="0" height="0" style="position:absolute"><defs><symbol id="tree" viewBox="0 0 60 60"><g stroke="currentColor" stroke-width="2.2" fill="none" stroke-linecap="round"><path d="M18 14 H42 M30 14 V30 M12 30 H48 M12 30 V44 M30 30 V44 M48 30 V44"/></g><circle cx="18" cy="14" r="6" fill="currentColor"/><circle cx="42" cy="14" r="6" fill="currentColor"/><circle cx="12" cy="47" r="4.6" fill="var(--acc)"/><circle cx="30" cy="47" r="4.6" fill="var(--acc)"/><circle cx="48" cy="47" r="4.6" fill="var(--acc)"/></symbol></defs></svg>
+
+<div class="row dark">
+  <div class="cell">
+    <div class="v1">
+      <div class="top"><svg class="mark"><use href="#tree"/></svg><div><div class="jom">JOM</div><div class="fhm">FHM</div><div class="sig">les liens du sang</div></div></div>
+      <div class="vals">Honneur · Dignité · Courage</div>
+    </div>
+    <div class="lab">1 · Les valeurs sur une ligne</div>
+  </div>
+  <div class="cell sep">
+    <div class="v2">
+      <div class="logo"><svg class="mark"><use href="#tree"/></svg><div><div class="jom">JOM</div><div class="fhm">FHM</div><div class="sig">les liens du sang</div></div></div>
+      <div class="def"><span class="w">jom</span><span class="ph">[djom]</span><div class="t">nom · wolof</div><p>L'honneur, la dignité, et le courage d'aller au bout de ce qu'on entreprend.</p></div>
+    </div>
+    <div class="lab">2 · La définition, comme dans un dictionnaire</div>
+  </div>
+</div>
+<div class="row light">
+  <div class="cell">
+    <div class="v1">
+      <div class="top"><svg class="mark"><use href="#tree"/></svg><div><div class="jom">JOM</div><div class="fhm">FHM</div><div class="sig">les liens du sang</div></div></div>
+      <div class="vals">Honneur · Dignité · Courage</div>
+    </div>
+    <div class="lab">1 · Les valeurs sur une ligne</div>
+  </div>
+  <div class="cell sep">
+    <div class="v2">
+      <div class="logo"><svg class="mark"><use href="#tree"/></svg><div><div class="jom">JOM</div><div class="fhm">FHM</div><div class="sig">les liens du sang</div></div></div>
+      <div class="def"><span class="w">jom</span><span class="ph">[djom]</span><div class="t">nom · wolof</div><p>L'honneur, la dignité, et le courage d'aller au bout de ce qu'on entreprend.</p></div>
+    </div>
+    <div class="lab">2 · La définition, comme dans un dictionnaire</div>
+  </div>
+</div>
+</body></html>
