@@ -272,20 +272,47 @@ entre sociétés et la preuve de l'animation pour le pacte Dutreil. Chez
 Dougs, Timops serait suivie à part, dans un cabinet en ligne choisi le
 26/11 avec Romain. Les tarifs restent à comparer.
 
-### La SCI Les Trois Sakura (ajouté le 28/11/2026)
+### La SCI Les Trois Sakura (mis à jour le 28/11/2026)
 
-Statuts reçus par Maître Tenoux le 27/11/2026 (dossier « SCI Les 3 SAKURA »
-du Drive) : capital de 2 001 €, Option & Solution détient 1 999 parts
-(une part A, 200 parts B, 1 798 parts C), Roland et son épouse une part C
-chacun. Les parts B ont 9 voix et 9 fois les bénéfices par part, les parts C
-un neuvième. La SCI est à l'IR et porte les bureaux de la Tessonnière, à La
-Motte-Servolex.
+Sources : statuts reçus par Maître Tenoux le 27/11/2026 (Drive, dossier
+« SCI Les 3 SAKURA ») et décompte du notaire du 17/11/2026, envoyé par mail
+le 25/11/2026 (« Démembrement de propriété Immoplus »). Le montage Immoplus
+a été préparé par Emmanuel Ningre et Maître Tenoux.
 
-- La SCI suit Option & Solution dans JOM FHM sans apport séparé : d'accord ?
-- Les catégories de parts préparent un démembrement : comment
-  s'articule-t-il avec JOM FHM et la transmission aux enfants ?
-- SCI à l'IR détenue par une société à l'IS : imposition de la quote-part
-  chez Option & Solution ?
-- Bureaux loués à Option & Solution : actif professionnel pour le pacte
-  Dutreil ?
-- Emmanuel tient-il aussi la comptabilité de la SCI ?
+**Au départ (statuts du 27/11/2026)** : capital de 2 001 €. Option &
+Solution détient 1 999 parts, Roland et son épouse une part chacun.
+
+**Les actes prévus ensuite**, d'après le décompte :
+1. statuts initiaux de la SCI, le 27/11/2026 ;
+2. cession de parts à la société commerciale (Option & Solution), 8 jours
+   plus tard ;
+3. cession de la nue-propriété des parts par Option & Solution, et
+   convention de démembrement, 8 jours plus tard ;
+4. assemblée générale d'augmentation de capital ;
+5. dépôt des pièces du démembrement chez le notaire ;
+6. achat du local d'activité et prêt, au plus tard le 14/12/2026 ;
+7. bail commercial à Option & Solution, à la signature ou juste après.
+
+**À l'arrivée** : 2 001 parts.
+- Option & Solution : 1 part en pleine propriété et l'usufruit des 2 000
+  autres ; elle apporte 384 358 €, dont 350 000 € de prêt du Crédit
+  Agricole des Savoie.
+- Nue-propriété des 2 000 parts : Roland 100 parts (2 632 €), son épouse
+  100 parts (2 632 €), Flavien, Héloïse et Marie 600 parts chacun
+  (15 800 € chacun, donnés par Roland en don manuel, article 790 G).
+- Total des apports : 437 022 €.
+- Le bien : un T4 de 96 m² avec cave, garage et parking, au Parc de la
+  Tessonnière (La Motte-Servolex), acheté 517 000 € TTC en VEFA, affecté
+  en local d'activité et loué à Option & Solution. Option & Solution avance
+  aussi la TVA (86 166,67 €) en attendant son remboursement ; un prêt
+  relais d'environ 87 000 € est à l'étude au Crédit Agricole.
+
+**Questions pour Emmanuel, en lien avec JOM FHM**
+- Faut-il attendre la fin des actes Immoplus (14/12/2026) avant
+  d'apporter Option & Solution à JOM FHM ?
+- L'apport touche-t-il la convention de démembrement, le prêt du Crédit
+  Agricole (clause de changement de contrôle ?) ou le bail commercial ?
+- Comment évaluer Option & Solution avec l'usufruit des parts de la SCI et
+  le prêt de 350 000 € ?
+- Le local loué à Option & Solution compte-t-il comme un actif
+  professionnel pour le pacte Dutreil de JOM FHM ?
