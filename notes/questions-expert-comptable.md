@@ -271,3 +271,21 @@ Timops seraient suivies par le même cabinet, ce qui simplifie les flux
 entre sociétés et la preuve de l'animation pour le pacte Dutreil. Chez
 Dougs, Timops serait suivie à part, dans un cabinet en ligne choisi le
 26/11 avec Romain. Les tarifs restent à comparer.
+
+### La SCI Les Trois Sakura (ajouté le 28/11/2026)
+
+Statuts reçus par Maître Tenoux le 27/11/2026 (dossier « SCI Les 3 SAKURA »
+du Drive) : capital de 2 001 €, Option & Solution détient 1 999 parts
+(une part A, 200 parts B, 1 798 parts C), Roland et son épouse une part C
+chacun. Les parts B ont 9 voix et 9 fois les bénéfices par part, les parts C
+un neuvième. La SCI est à l'IR et porte les bureaux de la Tessonnière, à La
+Motte-Servolex.
+
+- La SCI suit Option & Solution dans JOM FHM sans apport séparé : d'accord ?
+- Les catégories de parts préparent un démembrement : comment
+  s'articule-t-il avec JOM FHM et la transmission aux enfants ?
+- SCI à l'IR détenue par une société à l'IS : imposition de la quote-part
+  chez Option & Solution ?
+- Bureaux loués à Option & Solution : actif professionnel pour le pacte
+  Dutreil ?
+- Emmanuel tient-il aussi la comptabilité de la SCI ?
