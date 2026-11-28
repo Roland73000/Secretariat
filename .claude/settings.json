@@ -1,10 +1,1 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(git push)",
-      "Bash(git push *)",
-      "PowerShell(git push)",
-      "PowerShell(git push *)"
-    ]
-  }
-}
+{"permissions":{"allow":["Bash(git push)","Bash(git push *)","PowerShell(git push)","PowerShell(git push *)"]},"hooks":{"UserPromptSubmit":[{"hooks":[{"type":"command","command":"powershell -NoProfile -ExecutionPolicy Bypass -File \"$CLAUDE_PROJECT_DIR/.claude/hooks/rappel-scan.ps1\" 2>/dev/null || true","timeout":20}]}]}}
