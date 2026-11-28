@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><title>Icônes JOM FHM</title>
+<style>
+html,body{margin:0;width:1600px;height:1000px;font-family:Helvetica,Arial,sans-serif}
+.grid{display:grid;grid-template-columns:1fr 1fr;height:1000px}
+.panel{display:flex;flex-direction:column;justify-content:center;gap:0}
+.light{background:#ffffff;color:#1c1916;--fg:#1c1916;--j:#b03a63;--tile:#1c1916;--tilefg:#f4efe8;--tilej:#d0587f}
+.dark{background:#141210;color:#f4efe8;--fg:#f4efe8;--j:#d0587f;--tile:#f4efe8;--tilefg:#1c1916;--tilej:#b03a63}
+.row{display:flex;align-items:center;gap:34px;height:235px;padding-left:70px;position:relative}
+.lab{position:absolute;left:70px;top:14px;font-size:16px;letter-spacing:.03em;opacity:.55}
+svg{display:block;flex:none}
+</style></head><body>
+<div class="grid"><div class="panel light" id="L"></div><div class="panel dark" id="D"></div></div>
+<script>
+const G="Georgia,'Times New Roman',serif";
+const icons=[
+ {lab:"A · Le O framboise seul",svg:()=>`<text x="50" y="52" text-anchor="middle" dominant-baseline="central" font-family="${G}" font-weight="700" font-size="118" fill="var(--j)">O</text>`},
+ {lab:"B · Le J blanc sur pastille framboise",svg:()=>`<rect x="2" y="2" width="96" height="96" rx="22" fill="var(--j)"/><text x="50" y="53" text-anchor="middle" dominant-baseline="central" font-family="${G}" font-weight="700" font-size="74" fill="#fff">J</text>`},
+ {lab:"C · JOM sur pastille",svg:()=>`<rect x="2" y="2" width="96" height="96" rx="22" fill="var(--tile)"/><text x="50" y="52" text-anchor="middle" dominant-baseline="central" font-family="${G}" font-weight="700" font-size="31" fill="var(--tilefg)">J<tspan fill="var(--tilej)">O</tspan>M</text>`},
+ {lab:"D · Le monogramme JO",svg:()=>`<text x="50" y="52" text-anchor="middle" dominant-baseline="central" font-family="${G}" font-weight="700" font-size="64" fill="var(--fg)">J<tspan fill="var(--j)">O</tspan></text>`},
+];
+const sizes=[170,88,48,28,16];
+for(const id of ["L","D"]){
+  const p=document.getElementById(id);
+  for(const ic of icons){
+    const r=document.createElement("div");r.className="row";
+    r.innerHTML=`<div class="lab">${ic.lab}</div>`+sizes.map(s=>`<svg width="${s}" height="${s}" viewBox="0 0 100 100">${ic.svg()}</svg>`).join("");
+    p.appendChild(r);
+  }
+}
+</script>
+</body></html>
