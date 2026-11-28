@@ -6,17 +6,17 @@
 /* Layout : une colonne de lecture, l'arrivée d'abord, puis les trois chemins côte à côte en étapes, puis les questions communes */
 :root{
   --bg:#f6f7f9; --card:#ffffff; --fg:#14171c; --muted:#5b6472; --line:#dde1e7;
-  --accent:#2563eb; --jom:#b03a63; --accent-soft:#e6eefc; --ok:#13795b; --ok-soft:#e3f4ec; --warn:#a15c07; --warn-soft:#fbf0dd;
+  --accent:#2563eb; --jom:#b03a63; --jom-soft:#f8e6ec; --accent-soft:#e6eefc; --ok:#13795b; --ok-soft:#e3f4ec; --warn:#a15c07; --warn-soft:#fbf0dd;
   --step:#eef0f4;
   --display:"Space Grotesk",system-ui,sans-serif; --body:"Inter",system-ui,sans-serif;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --bg:#0f1216; --card:#171b21; --fg:#e8ebf0; --muted:#9aa3b1; --line:#2a313b;
-  --accent:#6b9bff; --jom:#d0587f; --accent-soft:#1b2a47; --ok:#4cc79b; --ok-soft:#14302a; --warn:#e8a64a; --warn-soft:#33260f;
+  --accent:#6b9bff; --jom:#d0587f; --jom-soft:#3a1a27; --accent-soft:#1b2a47; --ok:#4cc79b; --ok-soft:#14302a; --warn:#e8a64a; --warn-soft:#33260f;
   --step:#20262e; color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#0f1216; --card:#171b21; --fg:#e8ebf0; --muted:#9aa3b1; --line:#2a313b;
-  --accent:#6b9bff; --jom:#d0587f; --accent-soft:#1b2a47; --ok:#4cc79b; --ok-soft:#14302a; --warn:#e8a64a; --warn-soft:#33260f;
+  --accent:#6b9bff; --jom:#d0587f; --jom-soft:#3a1a27; --accent-soft:#1b2a47; --ok:#4cc79b; --ok-soft:#14302a; --warn:#e8a64a; --warn-soft:#33260f;
   --step:#20262e; color-scheme:dark}
 body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.6;
   padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:2rem 4rem}
@@ -35,7 +35,13 @@ section{display:flex;flex-direction:column;gap:1rem}
 .diag svg{display:block;width:100%;min-width:560px;height:auto}
 .n{fill:var(--card);stroke:var(--line);stroke-width:1.5}
 .n.me{fill:var(--step)}
-.n.tm{fill:var(--ok-soft);stroke:var(--ok)}
+.n.tm{fill:var(--ok-soft);stroke:var(--ok);stroke-width:2}
+.n.jh{fill:var(--jom-soft);stroke:var(--jom);stroke-width:2}
+.keys{display:flex;flex-wrap:wrap;gap:.5rem 1.4rem;justify-content:center;font-size:.85rem;color:var(--muted);margin-top:.4rem}
+.keys span{display:flex;align-items:center;gap:.45rem}
+.keys i{display:inline-block;width:.95rem;height:.95rem;border-radius:3px;border:2px solid var(--line);background:var(--card)}
+.keys i.k-jh{background:var(--jom-soft);border-color:var(--jom)}
+.keys i.k-tm{background:var(--ok-soft);border-color:var(--ok)}
 .t{fill:var(--fg);font-family:var(--body);font-size:14px;font-weight:600}
 .ts{fill:var(--muted);font-family:var(--body);font-size:12px}
 .pl{fill:var(--accent-soft);stroke:var(--accent);stroke-width:1}
@@ -123,12 +129,13 @@ li{padding-left:.2rem}
       <rect class="pl" x="512" y="182" width="42" height="22" rx="11"/><text class="tp" x="533" y="197.5" text-anchor="middle">30 %</text>
       <rect class="n me" x="170" y="20" width="160" height="44" rx="10"/><text class="t" x="250" y="47" text-anchor="middle">Roland</text>
       <rect class="n me" x="470" y="20" width="160" height="44" rx="10"/><text class="t" x="550" y="47" text-anchor="middle">Romain</text>
-      <rect class="n" x="150" y="110" width="200" height="44" rx="10"/><text class="t jom" x="250" y="133" text-anchor="middle">J<tspan class="jo">O</tspan>M FHM</text><text class="ts" x="250" y="148" text-anchor="middle">holding de Roland, SAS à l'IS</text>
+      <rect class="n jh" x="150" y="110" width="200" height="44" rx="10"/><text class="t jom" x="250" y="133" text-anchor="middle">J<tspan class="jo">O</tspan>M FHM</text><text class="ts" x="250" y="148" text-anchor="middle">holding de Roland, SAS à l'IS</text>
       <rect class="n" x="450" y="110" width="200" height="44" rx="10"/><text class="t" x="550" y="132" text-anchor="middle">Holding de Romain</text><text class="ts" x="550" y="148" text-anchor="middle">en Bulgarie</text>
       <rect class="n" x="20" y="210" width="160" height="56" rx="10"/><text class="t" x="100" y="234" text-anchor="middle">Option &amp; Solution</text><text class="ts" x="100" y="252" text-anchor="middle">usufruit des bureaux</text>
       <rect class="n" x="20" y="316" width="160" height="56" rx="10"/><text class="t" x="100" y="340" text-anchor="middle">Agence Com'2</text><text class="ts" x="100" y="358" text-anchor="middle">Lilian détient les 80 %</text>
       <rect class="n tm" x="400" y="210" width="200" height="56" rx="10"/><text class="t" x="500" y="234" text-anchor="middle">TIMOPS</text><text class="ts" x="500" y="252" text-anchor="middle">SAS, présidée par JOM FHM</text>
     </svg>
+    <div class="keys"><span><i class="k-jh"></i>JOM FHM : holding à créer</span><span><i class="k-tm"></i>Timops : société à créer</span><span><i></i>existe déjà</span></div>
   </div>
 </section>
 
