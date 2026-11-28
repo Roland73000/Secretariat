@@ -2,6 +2,8 @@
 # Fichiers « haut niveau » du logo JOM FHM retenu (28/11/2026), dans logos/final/ :
 #   jom-fhm-logo-vectoriel.pdf            logo seul, vectoriel, sur fond clair
 #   jom-fhm-logo-vectoriel-fond-noir.pdf  le même, en clair sur fond noir
+#   jom-fhm-logo-vectoriel-valeurs.pdf    le logo avec « Honneur · Dignité · Courage » dessous
+#   jom-fhm-logo-vectoriel-valeurs-fond-noir.pdf  le même, sur fond noir
 #   jom-fhm-icone.svg                     l'icône (O framboise sur pastille noire), pour fond clair
 #   jom-fhm-icone-fond-sombre.svg         l'icône (O framboise sur pastille blanche), pour fond sombre
 #   jom-fhm-logo-transparent-noir.png     logo à fond transparent, lettres noires (fond clair)
@@ -23,7 +25,7 @@ icone_svg() { # $1 fichier, $2 fond de la pastille, $3 framboise
 icone_svg jom-fhm-icone.svg "#141210" "#d0587f"
 icone_svg jom-fhm-icone-fond-sombre.svg "#FFFFFF" "#b03a63"
 
-# Page HTML du logo : $1 fichier, $2 lettres, $3 framboise, $4 signature, $5 fond
+# Page HTML du logo : $1 fichier, $2 lettres, $3 framboise, $4 signature, $5 fond, $6 valeurs (facultatif : on les affiche si non vide)
 logo_html() {
 cat > "$TMP/$1.html" <<EOF
 <!doctype html>
@@ -38,6 +40,7 @@ body{display:flex;flex-direction:column;align-items:center;justify-content:cente
 .fhm{font-size:48px;font-weight:300;letter-spacing:.9em;margin:22px 0 0 .9em}
 .rule{width:320px;height:3px;background:$3;margin:42px 0 30px}
 .sig{font-family:$SERIF;font-style:italic;font-size:38px;color:$4}
+.val{font-size:26px;letter-spacing:.08em;color:$4;margin-top:56px}
 @media print{
 html,body{width:200mm;height:120mm;overflow:hidden}
 body{box-sizing:border-box}
@@ -45,9 +48,10 @@ body{box-sizing:border-box}
 .fhm{font-size:9.6mm;margin:4.4mm 0 0 .9em}
 .rule{width:64mm;height:.6mm;margin:8.4mm 0 6mm}
 .sig{font-size:7.6mm}
+.val{font-size:5.2mm;margin-top:11mm}
 }
 </style></head><body>
-<div class="jom">J<span>O</span>M</div><div class="fhm">FHM</div><div class="rule"></div><div class="sig">les liens du sang</div>
+<div class="jom">J<span>O</span>M</div><div class="fhm">FHM</div><div class="rule"></div><div class="sig">les liens du sang</div>${6:+<div class="val">Honneur · Dignité · Courage</div>}
 </body></html>
 EOF
 }
@@ -61,6 +65,10 @@ logo_html vec-blanc "#1c1916" "#b03a63" "#6f665c" "#fff"
 logo_html vec-noir "#f4efe8" "#d0587f" "#b9b0a5" "#141210"
 pdf vec-blanc.html jom-fhm-logo-vectoriel.pdf
 pdf vec-noir.html jom-fhm-logo-vectoriel-fond-noir.pdf
+logo_html val-blanc "#1c1916" "#b03a63" "#6f665c" "#fff" oui
+logo_html val-noir "#f4efe8" "#d0587f" "#b9b0a5" "#141210" oui
+pdf val-blanc.html jom-fhm-logo-vectoriel-valeurs.pdf
+pdf val-noir.html jom-fhm-logo-vectoriel-valeurs-fond-noir.pdf
 
 # 3. Les PNG transparents, 6000 pixels de large
 logo_html tr-noir "#1c1916" "#b03a63" "#6f665c" "transparent"
